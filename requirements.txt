@@ -114,7 +114,6 @@ MarkupSafe==2.0.1
 matplotlib==3.4.2
 matplotlib-inline==0.1.2
 mccabe==0.6.1
-mfp-converter==0.0.1
 mistune==0.8.4
 multidict==4.7.6
 myFitnessPal-Converter==0.0.1
