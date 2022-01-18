@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 import os, random, sys, time 
-from selenium import webdriver
-from bs4 import BeautifulSoup
 import matplotlib as plt
 import plotly.express as px
 import plotly.graph_objects as go
