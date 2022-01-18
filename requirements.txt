@@ -215,7 +215,6 @@ tqdm==4.61.2
 traitlets==5.0.5
 tweepy==4.4.0
 twine==3.6.0
-twint @ file:///C:/Users/water/hi/twint
 twitter==1.19.3
 twitter-stream.py==0.8.4
 typing-extensions==3.7.4.3
