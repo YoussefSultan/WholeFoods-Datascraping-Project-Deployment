@@ -5,7 +5,8 @@ import os, random, sys, time
 import matplotlib as plt
 import plotly.express as px
 import plotly.graph_objects as go
-
+from data_scrape import wholefoods_scrape
+from data_clean import wholefoods_clean
 #----------------------
 #-----------Title/Header---------------------------------------------------------------#
 st.set_page_config(page_title = "Whole Foods Sale Products Insights", page_icon = 'https://store-images.s-microsoft.com/image/apps.59154.13510798882997587.2b08aa2f-aa3f-4d80-a325-a658dbc1145a.2829662d-e5e1-4fdd-bd00-29895e686f94', layout="wide") 
@@ -37,4 +38,8 @@ st.markdown("""
 </nav>
 """, unsafe_allow_html=True)
 
+store = wholefoods_clean()
+store.cleaner()
+df = store.df 
 
+st.write(df.head(500)) 
