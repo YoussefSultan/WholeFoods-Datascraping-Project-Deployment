@@ -5,7 +5,6 @@ import os, random, sys, time
 import matplotlib as plt
 import plotly.express as px
 import plotly.graph_objects as go
-from wholefoods_scraper import scrape_and_clean
 #----------------------
 #-----------Title/Header---------------------------------------------------------------#
 st.set_page_config(page_title = "Whole Foods Sale Products Insights", page_icon = 'https://store-images.s-microsoft.com/image/apps.59154.13510798882997587.2b08aa2f-aa3f-4d80-a325-a658dbc1145a.2829662d-e5e1-4fdd-bd00-29895e686f94', layout="wide") 
@@ -36,6 +35,17 @@ st.markdown("""
   </div>
 </nav>
 """, unsafe_allow_html=True)
-if st.button('scrape_and_clean'):
-    scrape_and_clean()
-    
+with open(r'C:\Users\water\Desktop\WF\WholeFoods-Datascraping-Project-Deployment\Deployment\scraped products dump\WF_Sales_Jan_27_2022.pkl', 'rb') as handle: # loads our saved .pkl back into a variable
+  df = pickle.load(handle)
+
+
+st.write(df)   
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+  st.write('All items on sale by category')
+  st.write(df['category'].value_counts()) 
+with col2:
+  st.write('All items on sale by category')
+  st.write(df['category'][df['prime_discount'] > .4].value_counts())
