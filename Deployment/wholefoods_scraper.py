@@ -7,17 +7,22 @@ from selenium.webdriver.chrome.options import Options
 options = Options()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
+options.add_argument('--log-level=3')
 try:
     browser = webdriver.Chrome('C:/Users/Water/Desktop/chromedriver.exe', options=options) # Chrome Driver
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
-    print('Please enter your zipcode to find sales at a store near you...')
+    print('Enter the zipcode of your local WholeFoods...')
     browser.find_element_by_xpath("//input[@id='pie-store-finder-modal-search-field']").send_keys(input()) # Zip code
     time.sleep(2.5) # lag for 3 seconds to allow elements to load
+    location = ' '.join(browser.find_elements_by_class_name("wfm-search-bar--list_item")[0].text.split()[-4:])
+    print('Getting items from the WholeFoods in ' + str(location) + '.')
     browser.find_elements_by_class_name("wfm-search-bar--list_item")[0].click()
 except:
     print('invalid zipcode')
+    sys.exit()
 time.sleep(2)
 
+print('Pulling all "on-sale" results from each category...')
 browser.get('https://www.wholefoodsmarket.com/products/produce?featured=on-sale') # Website Link
 #---------------------
 # Continously loads all possible product data until no more data exists
@@ -196,27 +201,28 @@ except:
     print("Results Filled") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 lifestyle = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
-print('There are ' + str(len(lifestyle) + len(produce) + len(dairy_eggs) + len(meat) + len(prepared_foods) + len(pantry_essentials) + len(bread_rolls_bakery) + len(desserts) + len(body_care) + len(supplements) + len(frozen_foods) + len(snacks_chips_salsas_dips) + len(seafood) + len(Beverages) + len(beauty) + len(floral)) + ' products on sale queried.')
+print('There are ' + str(len(lifestyle) + len(produce) + len(dairy_eggs) + len(meat) + len(prepared_foods) + len(pantry_essentials) + len(bread_rolls_bakery) + len(desserts) + len(body_care) + len(supplements) + len(frozen_foods) + len(snacks_chips_salsas_dips) + len(seafood) + len(Beverages) + len(beauty) + len(floral)) + ' products on sale in ' + str(location) + '.')
 list_of_categories = ['lifestyle', 'produce', 'dairy_eggs', 'meat', 'prepared_foods', 'pantry_essentials', 'bread_rolls_bakery', 'desserts', 'body_care', 'supplements', 'frozen_foods', 'snacks_chips_salsas_dips', 'seafood', 'Beverages', 'beauty', 'floral']
 
 d = {"company":[], "product":[], "regular":[], "sale":[], "prime":[], "category":[]} # Create a Dict
 
 
 for category in list_of_categories:
-    for i in range(len(globals()[category])):                        # At the range of the length of all items (will loop i times)
+    for i in range(len(globals()[category])):                    # At the range of the length of all items (will loop i times)
             d["company"].append(globals()[category][i][-5])      # Append respective indexed data in list_of_items[i] for each column
-            d["product"].append(globals()[category][i][-4])      # | -
-            d["regular"].append(globals()[category][i][-3][8:])  # | * 
-            d["sale"].append(globals()[category][i][-2][10:])    # | /
+            d["product"].append(globals()[category][i][-4])      # 
+            d["regular"].append(globals()[category][i][-3][8:])  #  
+            d["sale"].append(globals()[category][i][-2][10:])    # 
             d["prime"].append(globals()[category][i][-1][18:])
-            d["category"].append(str(category))   # | \
-#------------------------------------------------------# | /
+            d["category"].append(str(category))                  # 
+#------------------------------------------------------#
 if len(d['company']) == len(d['product']) == len(d['regular']) == len(d['sale']) == len(d['category']):  # Verify that the length of each column is == to each other, otherwise the dataframe wont be populated   
     print("All column lengths are equal, there are " + str(len(d['company'])) + " products on sale today.")
-else:                                                  # | \        
-    print("Error, column lengths are not equal.")      # | /
-pd.set_option("display.max_rows", 500)                 # | \ Change Pandas option to view more rows of the df
-df = pd.DataFrame.from_dict(d)                         # | / Turn our Dict to a Pandas DataFrame  
+else:                                                  #         
+    print("Error, column lengths are not equal.")      # 
+pd.set_option("display.max_rows", 500)                 # Change Pandas option to view more rows of the df
+
+df = pd.DataFrame.from_dict(d)                         # Turn our Dict to a Pandas DataFrame  
 
 
 if df['product'].str.contains('Original Vegan Bagels, 15.87 oz').any():                         
@@ -311,63 +317,105 @@ if df['company'].str.contains('365').any():
     for i in range(len(ix)):
         df.loc[ix[i], 'company'] = 'Whole Foods Market'
 
-df['sale'] = df['sale'].str.replace(r'$', '', regex=True)
-df['prime'] = df['prime'].str.replace(r'$', '', regex=True)
-df['regular'] = df['regular'].str.replace(r'$', '', regex=True)
-
-if df['regular'].str.contains('/lb').any():
-    ix = df[df['regular'].str.contains('/lb')].index
+if df['product'].str.contains('Chicken Breast Cutlets').any():
+    ix = df[df['product'].str.contains('Chicken Breast Cutlets')].index
     for i in range(len(ix)):
+        df.loc[ix[i], 'company'] = 'Whole Foods Market'
+
+if df['product'].str.contains('Soozy').any():
+    ix = df[df['product'].str.contains('Soozy')].index
+    for i in range(len(ix)):
+        df.loc[ix[i],'company'] = "Soozy's"
+
+if df['product'].str.contains('Superseed Vegan Bread, 22.2 oz').any():
+    ix = df[df['product'].str.contains('Superseed Vegan Bread, 22.2 oz')].index 
+    for i in range(len(ix)):
+        df.loc[ix[i],'company'] = "Soozy's"     
+
+if df['product'].str.contains('Distillery').any():
+    ix = df[df['product'].str.contains('Distillery')].index  
+    print('Dropped' + len(ix) + ' Distillery results.')
+    df = df.drop(ix)
+
+#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#
+if df['product'].str.contains('Whole Foods Market').any():
+    ix = df[df['product'].str.contains('Whole Foods Market')].index
+    for i in range(len(ix)):
+        df.loc[ix[i], 'company'] = df.loc[ix[i], 'product']
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+if df['product'].str.contains('Whole Foods Market').any():
+    ix = df[df['product'].str.contains('Whole Foods Market')].index
+    for i in range(len(ix)):
+        ct = globals()[df.loc[ix[i], 'category']] # points towards our category string which then using globals() points to the actual object which contains the raw scraped data
+        df.loc[ix[i], 'product'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'regular'] in ct[n][-3]][0][-3]
+        df.loc[ix[i], 'regular'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'product'] in ct[n][-3]][0][-2].split('$')[1].replace(r'/lb','')
+        df.loc[ix[i], 'sale'] = 0
+        print('Some products are only on sale for prime members, wrangling data accordingly...')
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+
+#---------------------------------------------------------------------------# 
+#---------------------------------------------------------------------------# 
+df['sale'] = df['sale'].str.replace(r'$', '', regex=True)                   # # # # # # # # # # # # # # # 
+df['prime'] = df['prime'].str.replace(r'$', '', regex=True)                 # Remove "$" from results   #
+df['regular'] = df['regular'].str.replace(r'$', '', regex=True)             # # # # # # # # # # # # # # # 
+#---------------------------------------------------------------------------#                           #
+df = df.fillna(0)                                                           #      Fill NaN with 0      # 
+#---------------------------------------------------------------------------#                           #
+if df['regular'].str.contains('/lb').any():                                 # # # # # # # # # # # # # # #  
+    ix = df[df['regular'].str.contains('/lb')].index                        # Remove "/lb" from results #
+    for i in range(len(ix)):                                                # # # # # # # # # # # # # # # 
         df.loc[ix[i], 'regular'] = df.loc[ix[i], 'regular'].replace(r'/lb','')
-if df['sale'].str.contains('/lb').any():
-    ix = df[df['sale'].str.contains('/lb')].index
-    for i in range(len(ix)):
-        df.loc[ix[i], 'sale'] = df.loc[ix[i], 'sale'].replace(r'/lb','')
-if df['prime'].str.contains('/lb').any():
-    ix = df[df['prime'].str.contains('/lb')].index
-    for i in range(len(ix)):
-        df.loc[ix[i], 'prime'] = df.loc[ix[i], 'prime'].replace(r'/lb','')
-
-d = df.to_dict('list') # Take our cleaned dataframe and convert it to a dictionary for more cleaning
-
-for i in range(len(d['sale'])):                                                
-    if isinstance(d['sale'][i], str) and 'for' in d['sale'][i].split():  
-        d['sale'][i] = float(d['sale'][i].split()[2]) / float(d['sale'][i].split()[0])
-
+if df['sale'].str.contains('/lb').any():                                    #
+    ix = df[df['sale'].str.contains('/lb', na=False)].index                 #
+    for i in range(len(ix)):                                                #
+        df.loc[ix[i], 'sale'] = df.loc[ix[i], 'sale'].replace(r'/lb','')    #
+if df['prime'].str.contains('/lb').any():                                   #
+    ix = df[df['prime'].str.contains('/lb')].index                          #
+    for i in range(len(ix)):                                                #
+        df.loc[ix[i], 'prime'] = df.loc[ix[i], 'prime'].replace(r'/lb','')  #
+#---------------------------------------------------------------------------#
+#---------------------------------------------------------------------------#
+for i in range(len(df[df['sale'].str.contains('¢', na=False)].index)):      # # # # # # # # # # # # # # #
+    ix = df[df['sale'].str.contains('¢', na=False)].index                   # Add '.' to items with '¢' #
+    df.loc[ix[i]][3] = '.' + df.loc[ix[i]][3]                               # # # # # # # # # # # # # # #
+                                                                            #
+for i in range(len(df[df['prime'].str.contains('¢', na=False)].index)):     #
+    ix = df[df['prime'].str.contains('¢', na=False)].index                  #
+    df.loc[ix[i]][4] = '.' + df.loc[ix[i]][4]                               #
+                                                                            #
+try:                                                                        #
+    for i in range(len(df[df['regular'].str.contains('¢', na=False)].index)):
+        ix = df[df['regular'].str.contains('¢', na=False)].index            #
+        df.loc[ix[i]][2] = '.' + df.loc[ix[i]][2]                           #
+except:                                                                     #
+    pass                                                                    #
+#---------------------------------------------------------------------------#
+#---------------------------------------------------------------------------#
+ix = df[df['prime'].str.contains('¢', na=False)].index                      # # # # # # # # # # # # # # #
+for i in range(len(ix)):                                                    # Del items with '¢'        #
+    df.loc[ix[i]][4] = df.loc[ix[i]][4].replace('¢', '')                    # # # # # # # # # # # # # # #
+                                                                            #
+ix = df[df['regular'].str.contains('¢', na=False)].index                    #
+for i in range(len(ix)):                                                    #
+    df.loc[ix[i]][2] = df.loc[ix[i]][2].replace('¢', '')                    #
+                                                                            #
+ix = df[df['sale'].str.contains('¢', na=False)].index                       #
+for i in range(len(ix)):                                                    #
+    df.loc[ix[i]][3] = df.loc[ix[i]][3].replace('¢', '')                    #
+#---------------------------------------------------------------------------#
+#---------------------------------------------------------------------------# # # # # # # # # # # # # # #
+d = df.to_dict('list')                                                      #     Dataframe ---> Dict   #
+#---------------------------------------------------------------------------# # # # # # # # # # # # # # #
+for i in range(len(d['sale'])):                                                               #
+    if isinstance(d['sale'][i], str) and 'for' in d['sale'][i].split():                       #
+        d['sale'][i] = float(d['sale'][i].split()[2]) / float(d['sale'][i].split()[0])        #
+                                                                                              #
 for i in range(len(d['prime'])):                                                
         if isinstance(d['prime'][i], str) and 'for' in d['prime'][i].split():  
             d['prime'][i] = float(d['prime'][i].split()[2]) / float(d['prime'][i].split()[0])
 
 df = pd.DataFrame.from_dict(d) # turn our dict back into a dataframe
 
-
-
-for i in range(len(df[df['sale'].str.contains('¢', na=False)].index)): # Append a '.' to all values that have a cents symbol
-    ix = df[df['sale'].str.contains('¢', na=False)].index
-    df.loc[ix[i]][3] = '.' + df.loc[ix[i]][3]
-
-for i in range(len(ix)):
-    ix = df[df['prime'].str.contains('¢', na=False)].index
-    df.loc[ix[i]][4] = '.' + df.loc[ix[i]][4]
-
-try:
-    for i in range(len(ix)):
-        ix = df[df['regular'].str.contains('¢', na=False)].index
-        df.loc[ix[i]][2] = '.' + df.loc[ix[i]][2]
-except:
-    pass
-
-ix = df[df['prime'].str.contains('¢', na=False)].index
-for i in range(len(ix)):
-    df.loc[ix[i]][4] = df.loc[ix[i]][4].replace('¢', '')
-
-ix = df[df['regular'].str.contains('¢', na=False)].index
-for i in range(len(ix)):
-    df.loc[ix[i]][2] = df.loc[ix[i]][2].replace('¢', '')
-
-ix = df[df['sale'].str.contains('¢', na=False)].index
-for i in range(len(ix)):
-    df.loc[ix[i]][3] = df.loc[ix[i]][3].replace('¢', '')
 df = df.sort_index()  
 df["regular"] = pd.to_numeric(df["regular"]) # change columns to numeric for visualization
 df["sale"] = pd.to_numeric(df["sale"])
@@ -379,7 +427,10 @@ df['discount_bins'] = pd.cut(df.prime_discount, [0,.25,.50,.75, 1], labels=['0% 
 df = df.sort_values(by='prime_discount', ascending=False) # sort by difference
 from datetime import date
 import pickle
-path = (r"C:\Users\water\Desktop\WF\WholeFoods-Datascraping-Project-Deployment\Deployment\scraped products dump\WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + ".pkl")
+path = (r"C:\Users\water\Desktop\WF\WholeFoods-Datascraping-Project-Deployment\Deployment\scraped products dump\WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + '_' + str('_'.join(location.split()).replace(',','')) + ".pkl")
+locpath = (r"C:\Users\water\Desktop\WF\WholeFoods-Datascraping-Project-Deployment\Deployment\scraped products dump\location\WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + '_' + str('_'.join(location.split()).replace(',','')) + ".pkl")
 with open(path, 'wb') as handle:
     pickle.dump(df, handle, protocol=pickle.HIGHEST_PROTOCOL)
-    print("Products saved as WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + ".pkl")
+with open(locpath, 'wb') as handle:
+    pickle.dump(location, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    print("Products saved as WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + '_' + str('_'.join(location.split()).replace(',','')) + ".pkl")
