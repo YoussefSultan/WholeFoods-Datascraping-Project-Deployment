@@ -430,7 +430,7 @@ import pickle
 path = (r"C:\Users\water\Desktop\WF\WholeFoods-Datascraping-Project-Deployment\Deployment\scraped products dump\WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + '_' + str('_'.join(location.split()).replace(',','')) + ".pkl")
 locpath = (r"C:\Users\water\Desktop\WF\WholeFoods-Datascraping-Project-Deployment\Deployment\scraped products dump\location\WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + '_' + str('_'.join(location.split()).replace(',','')) + ".pkl")
 with open(path, 'wb') as handle:
-    pickle.dump(df, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    pickle.dump(df, handle, protocol=4)
 with open(locpath, 'wb') as handle:
-    pickle.dump(location, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    pickle.dump(location, handle, protocol=4)
     print("Products saved as WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + '_' + str('_'.join(location.split()).replace(',','')) + ".pkl")

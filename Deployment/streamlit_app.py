@@ -47,6 +47,8 @@ st.markdown("""
 </nav>
 """, unsafe_allow_html=True)
 
+
+
 with open('Deployment/scraped products dump/WF_Sales_Jan_30_2022_Ave_Wayne_PA_19087.pkl', 'rb') as handle: # loads our saved .pkl back into a variable
   df = pickle.load(handle)
 with open('Deployment/scraped products dump/location/WF_Sales_Jan_30_2022_Ave_Wayne_PA_19087.pkl', 'rb') as handle2: # loads our saved .pkl back into a variable
@@ -78,7 +80,7 @@ def fig3():
   st.plotly_chart(fig, use_container_width=True)
 
 def fig4():
-  fig = px.scatter(df.sort_values(by='category'), x="prime_discount", y="regular", color="company", title="Products: Regular Price vs Prime Discount by Company", hover_data=['product', 'regular', 'sale', 'prime', 'prime_discount'], width=2000, height=900,
+  fig = px.scatter(df.sort_values(by='company'), x="prime_discount", y="regular", color="company", title="Products: Regular Price vs Prime Discount by Company", hover_data=['product', 'regular', 'sale', 'prime', 'prime_discount'], width=2000, height=900,
   labels={
     "regular": "Regular Prices of Products ($)",
     "prime_discount": "Prime Discount by Percent (%)"
