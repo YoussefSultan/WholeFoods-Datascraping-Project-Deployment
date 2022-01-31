@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import pickle5 as pickle
 import os, random, sys, time 
 import matplotlib as plt
 import plotly.express as px
@@ -47,9 +47,9 @@ st.markdown("""
 </nav>
 """, unsafe_allow_html=True)
 
-with open('Deployment/scraped products dump/WF_Sales_Jan_30_2022_Newtown_Square_PA_19073.pkl', 'rb') as handle: # loads our saved .pkl back into a variable
+with open('Deployment/scraped products dump/WF_Sales_Jan_30_2022_Ave_Wayne_PA_19087.pkl', 'rb') as handle: # loads our saved .pkl back into a variable
   df = pickle.load(handle)
-with open('Deployment/scraped products dump/location/WF_Sales_Jan_30_2022_Newtown_Square_PA_19073.pkl', 'rb') as handle2: # loads our saved .pkl back into a variable
+with open('Deployment/scraped products dump/location/WF_Sales_Jan_30_2022_Ave_Wayne_PA_19087.pkl', 'rb') as handle2: # loads our saved .pkl back into a variable
   location = pickle.load(handle2)
 st.markdown('There are ' + str(len(df)) + ' items "on-sale" in ' + str(location) + '. ***For a larger view hover over the dataset and click full screen icon at the top right to filter by feature.***')   
 
