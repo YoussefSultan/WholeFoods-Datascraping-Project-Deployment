@@ -1,13 +1,23 @@
+########################################################
+# This WholeFoods scraper is created by Youssef Sultan
+# This Data is utilized for noncommercial use via Whole Foods Market L.P. 
+# @ www.wholefoodsmarket.com                  
+########################################################
 import os, random, sys, time 
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
-
+from datetime import date
+import pickle
+import pathlib
 from selenium.webdriver.chrome.options import Options
+########################################################
+
 options = Options()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 options.add_argument('--log-level=3')
+#########################################################
 try:
     browser = webdriver.Chrome('C:/Users/Water/Desktop/chromedriver.exe', options=options) # Chrome Driver
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
@@ -21,12 +31,9 @@ except:
     print('invalid zipcode')
     sys.exit()
 time.sleep(2)
-
 print('Pulling all "on-sale" results from each category...')
+
 browser.get('https://www.wholefoodsmarket.com/products/produce?featured=on-sale') # Website Link
-#---------------------
-# Continously loads all possible product data until no more data exists
-# Sometimes may take some time if there are many products on sale
 try:
     load = browser.find_element_by_xpath("//span[contains(text(),'Load more')]") 
     while True:
@@ -201,30 +208,31 @@ except:
     print("Results Filled") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 lifestyle = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
+#############################################################################
 print('There are ' + str(len(lifestyle) + len(produce) + len(dairy_eggs) + len(meat) + len(prepared_foods) + len(pantry_essentials) + len(bread_rolls_bakery) + len(desserts) + len(body_care) + len(supplements) + len(frozen_foods) + len(snacks_chips_salsas_dips) + len(seafood) + len(Beverages) + len(beauty) + len(floral)) + ' products on sale in ' + str(location) + '.')
+#############################################################################
 list_of_categories = ['lifestyle', 'produce', 'dairy_eggs', 'meat', 'prepared_foods', 'pantry_essentials', 'bread_rolls_bakery', 'desserts', 'body_care', 'supplements', 'frozen_foods', 'snacks_chips_salsas_dips', 'seafood', 'Beverages', 'beauty', 'floral']
-
 d = {"company":[], "product":[], "regular":[], "sale":[], "prime":[], "category":[]} # Create a Dict
-
-
-for category in list_of_categories:
-    for i in range(len(globals()[category])):                    # At the range of the length of all items (will loop i times)
-            d["company"].append(globals()[category][i][-5])      # Append respective indexed data in list_of_items[i] for each column
-            d["product"].append(globals()[category][i][-4])      # 
-            d["regular"].append(globals()[category][i][-3][8:])  #  
-            d["sale"].append(globals()[category][i][-2][10:])    # 
-            d["prime"].append(globals()[category][i][-1][18:])
-            d["category"].append(str(category))                  # 
-#------------------------------------------------------#
+#############################################################################
+for category in list_of_categories:                                         #
+    for i in range(len(globals()[category])):                               # At the range of the length of all items (will loop i times)
+            d["company"].append(globals()[category][i][-5])                 # Append respective indexed data in list_of_items[i] for each column
+            d["product"].append(globals()[category][i][-4])                 # 
+            d["regular"].append(globals()[category][i][-3][8:])             #  
+            d["sale"].append(globals()[category][i][-2][10:])               # 
+            d["prime"].append(globals()[category][i][-1][18:])              #
+            d["category"].append(str(category))                             # 
+#############################################################################
+#############################################################################
 if len(d['company']) == len(d['product']) == len(d['regular']) == len(d['sale']) == len(d['category']):  # Verify that the length of each column is == to each other, otherwise the dataframe wont be populated   
     print("All column lengths are equal, there are " + str(len(d['company'])) + " products on sale today.")
-else:                                                  #         
-    print("Error, column lengths are not equal.")      # 
-pd.set_option("display.max_rows", 500)                 # Change Pandas option to view more rows of the df
-
-df = pd.DataFrame.from_dict(d)                         # Turn our Dict to a Pandas DataFrame  
-
-
+else:                                                                       #         
+    print("Error, column lengths are not equal.")                           # 
+#############################################################################
+df = pd.DataFrame.from_dict(d)                                              # Turn our Dict to a Pandas DataFrame  
+#############################################################################
+#           Data Cleaning for Products with missing company names           #
+#############################################################################
 if df['product'].str.contains('Original Vegan Bagels, 15.87 oz').any():                         
     ix = df[df['product'].str.contains('Original Vegan Bagels, 15.87 oz')].index
     for i in range(len(ix)):
@@ -336,24 +344,25 @@ if df['product'].str.contains('Distillery').any():
     ix = df[df['product'].str.contains('Distillery')].index  
     print('Dropped' + len(ix) + ' Distillery results.')
     df = df.drop(ix)
-
+#############################################################################   
+#---------------------------------------------------------------------------#
+#                             Data Wrangling                                #
+#---------------------------------------------------------------------------# 
 #@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#
-if df['product'].str.contains('Whole Foods Market').any():
-    ix = df[df['product'].str.contains('Whole Foods Market')].index
-    for i in range(len(ix)):
-        df.loc[ix[i], 'company'] = df.loc[ix[i], 'product']
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
-if df['product'].str.contains('Whole Foods Market').any():
-    ix = df[df['product'].str.contains('Whole Foods Market')].index
-    for i in range(len(ix)):
-        ct = globals()[df.loc[ix[i], 'category']] # points towards our category string which then using globals() points to the actual object which contains the raw scraped data
+if df['product'].str.contains('Whole Foods Market').any():                  #----------------------------------------------------------------------------|
+    ix = df[df['product'].str.contains('Whole Foods Market')].index         # If the product column contains 'Whole Foods Market' then the item doesn't have a sale price, which shifts the 
+    for i in range(len(ix)):                                                # appended information to the left once. Because of this the company category will be shifted as a different text value
+        df.loc[ix[i], 'company'] = df.loc[ix[i], 'product']                 # Solution: Apply the text in the 'product' column to the 'company' column |
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@# ------------------------------------------------------------------------|
+if df['product'].str.contains('Whole Foods Market').any():                  # Furthermore, this means that the other columns containing pricing have shifted values of information
+    ix = df[df['product'].str.contains('Whole Foods Market')].index         # To apply proper values to each column we iterate where 'Prime member deal' exists at position [n][0]
+    for i in range(len(ix)):                                                # globals() is used to iterate through our list of categories which points to the actual objects containing the scraped data
+        ct = globals()[df.loc[ix[i], 'category']]                           # -----------------------------------------------------------------------|
         df.loc[ix[i], 'product'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'regular'] in ct[n][-3]][0][-3]
         df.loc[ix[i], 'regular'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'product'] in ct[n][-3]][0][-2].split('$')[1].replace(r'/lb','')
-        df.loc[ix[i], 'sale'] = 0
+        df.loc[ix[i], 'sale'] = 0                                           # If 'Prime Member Deal' exists in position [n][0] of each category object, that means there is no sale price as it is for prime members only
         print('Some products are only on sale for prime members, wrangling data accordingly...')
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
-
-#---------------------------------------------------------------------------# 
 #---------------------------------------------------------------------------# 
 df['sale'] = df['sale'].str.replace(r'$', '', regex=True)                   # # # # # # # # # # # # # # # 
 df['prime'] = df['prime'].str.replace(r'$', '', regex=True)                 # Remove "$" from results   #
@@ -405,32 +414,44 @@ for i in range(len(ix)):                                                    #
 #---------------------------------------------------------------------------#
 #---------------------------------------------------------------------------# # # # # # # # # # # # # # #
 d = df.to_dict('list')                                                      #     Dataframe ---> Dict   #
-#---------------------------------------------------------------------------# # # # # # # # # # # # # # #
-for i in range(len(d['sale'])):                                                               #
-    if isinstance(d['sale'][i], str) and 'for' in d['sale'][i].split():                       #
-        d['sale'][i] = float(d['sale'][i].split()[2]) / float(d['sale'][i].split()[0])        #
-                                                                                              #
-for i in range(len(d['prime'])):                                                
-        if isinstance(d['prime'][i], str) and 'for' in d['prime'][i].split():  
-            d['prime'][i] = float(d['prime'][i].split()[2]) / float(d['prime'][i].split()[0])
+#---------------------------------------------------------------------------# # # # # # # # # # # # # # # 
+for i in range(len(d['sale'])):                                                               # 
+    if isinstance(d['sale'][i], str) and 'for' in d['sale'][i].split():                       # 
+        d['sale'][i] = float(d['sale'][i].split()[2]) / float(d['sale'][i].split()[0])        # # # # # # # # # # # # # # # # #
+                                                                                              # str '2 for 5' ---> int '2.50' #
+for i in range(len(d['prime'])):                                                              # # # # # # # # # # # # # # # # # 
+        if isinstance(d['prime'][i], str) and 'for' in d['prime'][i].split():                 #
+            d['prime'][i] = float(d['prime'][i].split()[2]) / float(d['prime'][i].split()[0]) #      
+#---------------------------------------------------------------------------------------------# # # # # # # # # # # # # # # 
+df = pd.DataFrame.from_dict(d)                                                                #     Dict ---> Dataframe   #
+#---------------------------------------------------------------------------------------------# # # # # # # # # # # # # # #                                                                                              # # # # # # # # # # # # # # # 
+df = df.sort_index()                                                                          #
+df["regular"] = pd.to_numeric(df["regular"])                                                  # # # # # # # # # # # # # # # # # # #
+df["sale"] = pd.to_numeric(df["sale"])                                                        # Str ---> float, Feature Creation  #
+df["prime"] = pd.to_numeric(df["prime"])                                                      # # # # # # # # # # # # # # # # # # #
+df['sale_discount'] = 1-df['sale']/df['regular']                                              # 
+df['prime_discount'] = 1-df['prime']/df['regular']                                            #
+df['prime_sale_difference'] = df['prime_discount'] - df['sale_discount']                      # # # # # # # # # # # # # # # # # # # # |------------------------------------|
+df['discount_bins'] = pd.cut(df.prime_discount, [0,.25,.50,.75, 1], labels=['0% to 25%', '25% to 50%', '50% to 75%', '75% or more'])# |Discount Bins I.E. 0% Off to 25% off|
+df = df.sort_values(by='prime_discount', ascending=False)                                     # # # # # # # # # # # # # # # # # # # # |------------------------------------|
+#---------------------------------------------------------------------------------------------#
 
-df = pd.DataFrame.from_dict(d) # turn our dict back into a dataframe
+# Paths to dump location of Wholefoods and Cleaned DataFrame as .pkl files
+# pkl files are dumped with protocol 4 for deployment purposes as streamlit is not compatible with the highest protocol (5) of serialization
 
-df = df.sort_index()  
-df["regular"] = pd.to_numeric(df["regular"]) # change columns to numeric for visualization
-df["sale"] = pd.to_numeric(df["sale"])
-df["prime"] = pd.to_numeric(df["prime"])
-df['sale_discount'] = 1-df['sale']/df['regular'] # create new feature to show percentage discount of sale price
-df['prime_discount'] = 1-df['prime']/df['regular'] # create new feature to show percentage discount of prime price
-df['prime_sale_difference'] = df['prime_discount'] - df['sale_discount'] # create new feature to show the difference between sale discount and prime discount
-df['discount_bins'] = pd.cut(df.prime_discount, [0,.25,.50,.75, 1], labels=['0% to 25%', '25% to 50%', '50% to 75%', '75% or more'])
-df = df.sort_values(by='prime_discount', ascending=False) # sort by difference
-from datetime import date
-import pickle
-path = (r"C:\Users\water\Desktop\WF\WholeFoods-Datascraping-Project-Deployment\Deployment\scraped products dump\WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + '_' + str('_'.join(location.split()).replace(',','')) + ".pkl")
-locpath = (r"C:\Users\water\Desktop\WF\WholeFoods-Datascraping-Project-Deployment\Deployment\scraped products dump\location\WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + '_' + str('_'.join(location.split()).replace(',','')) + ".pkl")
-with open(path, 'wb') as handle:
-    pickle.dump(df, handle, protocol=4)
-with open(locpath, 'wb') as handle:
-    pickle.dump(location, handle, protocol=4)
+#--------------------------------------------#
+try:                                         #
+  MY_DIR = pathlib.Path(__file__).parent     #
+except NameError:                            #
+  MY_DIR = pathlib.Path(r"C:\Users\water\Desktop\WF\WholeFoods-Datascraping-Project-Deployment\Deployment") # if not running as .py the directory is hardcoded locally
+#--------------------------------------------# 
+filename = "WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + '_' + str('_'.join(location.split()).replace(',','')) + ".pkl"
+path = MY_DIR / 'scraped products dump' / filename
+locpath = MY_DIR / 'scraped products dump' / 'location' / filename
+#--------------DUMPS-------------------------#
+with open(path, 'wb') as handle:             #                           
+    pickle.dump(df, handle, protocol=4)      # Both .pkl files are saved as the same name however the location info of the store is under the location folder
+with open(locpath, 'wb') as handle:          # The Dataframe file is in the 'scraped products dump' folder
+    pickle.dump(location, handle, protocol=4)#
     print("Products saved as WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + '_' + str('_'.join(location.split()).replace(',','')) + ".pkl")
+#--------------------------------------------#
