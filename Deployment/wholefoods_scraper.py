@@ -3,6 +3,7 @@
 # This Data is utilized for noncommercial use via Whole Foods Market L.P. 
 # @ www.wholefoodsmarket.com                  
 ########################################################
+import argparse
 import os, random, sys, time 
 from selenium import webdriver
 from bs4 import BeautifulSoup
@@ -12,17 +13,21 @@ import pickle
 import pathlib
 from selenium.webdriver.chrome.options import Options
 ########################################################
-
 options = Options()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 options.add_argument('--log-level=3')
 #########################################################
+parser = argparse.ArgumentParser()
+parser.add_argument("zipcode")
+args = parser.parse_args()
+zipcode = str(args.zipcode)
+#########################################################
 try:
     browser = webdriver.Chrome('C:/Users/Water/Desktop/chromedriver.exe', options=options) # Chrome Driver
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
-    browser.find_element_by_xpath("//input[@id='pie-store-finder-modal-search-field']").send_keys(input()) # Zip code
+    browser.find_element_by_xpath("//input[@id='pie-store-finder-modal-search-field']").send_keys(zipcode) # Zip code
     time.sleep(2.5) # lag for 3 seconds to allow elements to load
     location = ' '.join(browser.find_elements_by_class_name("wfm-search-bar--list_item")[0].text.split()[-4:])
     print('Getting items from the WholeFoods in ' + str(location) + '.')
@@ -342,7 +347,7 @@ if df['product'].str.contains('Superseed Vegan Bread, 22.2 oz').any():
 
 if df['product'].str.contains('Distillery').any():
     ix = df[df['product'].str.contains('Distillery')].index  
-    print('Dropped' + len(ix) + ' Distillery results.')
+    print('Dropped' + str(len(ix)) + ' Distillery results.')
     df = df.drop(ix)
 #############################################################################   
 #---------------------------------------------------------------------------#
