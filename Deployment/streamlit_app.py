@@ -64,9 +64,9 @@ if __name__=='__main__':
   locpath = sorted([f for f in pathlib.Path('scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True)
 
   try:     # Tries to open through streamlit ('Deployment/' string is required for streamlits path)
-    with open(pathlib.Path(__file__) / 'Deployment' / 'scraped products dump' / 'WF_Sales_Feb_02_2022_Newtown_Square_PA_19073.pkl', 'rb') as handle: # loads our saved .pkl back into a variable 
+    with open(pathlib.Path(__file__).parent / 'scraped products dump' / 'WF_Sales_Feb_02_2022_Newtown_Square_PA_19073.pkl', 'rb') as handle: # loads our saved .pkl back into a variable 
       df = pickle.load(handle)
-    with open(pathlib.Path(__file__) / 'Deployment' / 'scraped products dump' / 'location' / 'WF_Sales_Feb_02_2022_Newtown_Square_PA_19073.pkl', 'rb') as handle2: # loads our saved .pkl back into a variable
+    with open(pathlib.Path(__file__).parent / 'scraped products dump' / 'location' / 'WF_Sales_Feb_02_2022_Newtown_Square_PA_19073.pkl', 'rb') as handle2: # loads our saved .pkl back into a variable
       location = pickle.load(handle2)
   except: # if working on local the path is without the 'Deployment/' string
     with open(str(path[0]), 'rb') as handle: # loads our saved .pkl back into a variable
