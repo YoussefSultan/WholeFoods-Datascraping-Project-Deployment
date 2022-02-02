@@ -68,9 +68,9 @@ if __name__=='__main__':
 
 
   try:     # Tries to open through streamlit ('Deployment/' string is required for streamlits path)
-    with open(path_deployment, 'rb') as handle: # loads our saved .pkl back into a variable 
+    with open(str(path_deployment[0]), 'rb') as handle: # loads our saved .pkl back into a variable 
       df = pickle.load(handle)
-    with open(locpath_deployment, 'rb') as handle2: # loads our saved .pkl back into a variable
+    with open(str(locpath_deployment[0]), 'rb') as handle2: # loads our saved .pkl back into a variable
       location = pickle.load(handle2)
   except: # if working on local the path is without the 'Deployment/' string
     with open(str(path[0]), 'rb') as handle: # loads our saved .pkl back into a variable
