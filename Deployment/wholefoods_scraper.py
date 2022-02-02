@@ -18,16 +18,20 @@ options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 options.add_argument('--log-level=3')
 #########################################################
-parser = argparse.ArgumentParser()
-parser.add_argument("zipcode")
-args = parser.parse_args()
-zipcode = str(args.zipcode)
+
 #########################################################
 try:
     browser = webdriver.Chrome('C:/Users/Water/Desktop/chromedriver.exe', options=options) # Chrome Driver
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
-    browser.find_element_by_xpath("//input[@id='pie-store-finder-modal-search-field']").send_keys(zipcode) # Zip code
+    try:
+        parser = argparse.ArgumentParser()
+        parser.add_argument("zipcode")
+        args = parser.parse_args()
+        zipcode = str(args.zipcode)
+        browser.find_element_by_xpath("//input[@id='pie-store-finder-modal-search-field']").send_keys(zipcode) # Zip code
+    except:
+        browser.find_element_by_xpath("//input[@id='pie-store-finder-modal-search-field']").send_keys(input()) # Zip code
     time.sleep(2.5) # lag for 3 seconds to allow elements to load
     location = ' '.join(browser.find_elements_by_class_name("wfm-search-bar--list_item")[0].text.split()[-4:])
     print('Getting items from the WholeFoods in ' + str(location) + '.')
@@ -347,7 +351,7 @@ if df['product'].str.contains('Superseed Vegan Bread, 22.2 oz').any():
 
 if df['product'].str.contains('Distillery').any():
     ix = df[df['product'].str.contains('Distillery')].index  
-    print('Dropped' + str(len(ix)) + ' Distillery results.')
+    print('Dropped ' + str(len(ix)) + ' Distillery results.')
     df = df.drop(ix)
 #############################################################################   
 #---------------------------------------------------------------------------#
@@ -359,8 +363,8 @@ if df['product'].str.contains('Whole Foods Market').any():                  #---
     for i in range(len(ix)):                                                # appended information to the left once. Because of this the company category will be shifted as a different text value
         df.loc[ix[i], 'company'] = df.loc[ix[i], 'product']                 # Solution: Apply the text in the 'product' column to the 'company' column |
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@# ------------------------------------------------------------------------|
-if df['product'].str.contains('Whole Foods Market').any():                  # Furthermore, this means that the other columns containing pricing have shifted values of information
-    ix = df[df['product'].str.contains('Whole Foods Market')].index         # To apply proper values to each column we iterate where 'Prime member deal' exists at position [n][0]
+if df['regular'].str.contains('a|e|i|o|u', regex=True).any():               # Furthermore, this means that the other columns containing pricing have shifted values of information
+    ix = df[df['regular'].str.contains('a|e|i|o|u', regex=True)].index      # To apply proper values to each column we iterate where 'Prime member deal' exists at position [n][0]
     for i in range(len(ix)):                                                # globals() is used to iterate through our list of categories which points to the actual objects containing the scraped data
         ct = globals()[df.loc[ix[i], 'category']]                           # -----------------------------------------------------------------------|
         df.loc[ix[i], 'product'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'regular'] in ct[n][-3]][0][-3]
