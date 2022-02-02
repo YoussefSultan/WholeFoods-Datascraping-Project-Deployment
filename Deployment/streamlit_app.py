@@ -54,7 +54,10 @@ if __name__=='__main__':
       if zipcode:
           #@st.cache
           def scrape():
-            os.system('python wholefoods_scraper.py ' + str(zipcode))
+            try:
+              os.system('python wholefoods_scraper.py ' + str(zipcode))
+            except:
+              os.system('python ' + pathlib.Path('Deployment/wholefoods_scraper.py') + str(zipcode))
           scrape()
           st.write('Getting results, make take up to two minutes')
       else:
