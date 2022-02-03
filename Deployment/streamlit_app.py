@@ -49,7 +49,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 cwd = os.getcwd()
-deploy = cwd + '/Deployment/wholefoods_scraper.py '
+scraper_dir = cwd + '/Deployment/wholefoods_scraper.py '
 
 
 if __name__=='__main__':
@@ -59,7 +59,7 @@ if __name__=='__main__':
           #@st.cache
           def scrape():
             try:
-              os.system('python ' + deploy + str(zipcode))
+              os.system('python ' + scraper_dir + str(zipcode))
             except:
               os.system('python wholefoods_scraper.py ' + str(zipcode))
           scrape()
