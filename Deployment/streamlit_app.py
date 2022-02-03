@@ -48,6 +48,10 @@ st.markdown("""
 </nav>
 """, unsafe_allow_html=True)
 
+cwd = os.getcwd()
+deploy = cwd + '\wholefoods_scraper.py '
+
+
 if __name__=='__main__':
   with st.expander("Click to receive insights of your WholeFoods"):
       zipcode = st.number_input('Enter your zipcode:', step=1) 
@@ -55,7 +59,7 @@ if __name__=='__main__':
           #@st.cache
           def scrape():
             try:
-              os.system('python ' + pathlib.Path('Deployment/wholefoods_scraper.py ') + str(zipcode))
+              os.system('python ' + deploy + str(zipcode))
             except:
               os.system('python wholefoods_scraper.py ' + str(zipcode))
           scrape()
