@@ -55,7 +55,7 @@ if __name__=='__main__':
           #@st.cache
           def scrape():
             try:
-              os.system('python Deployment/wholefoods_scraper.py' + str(zipcode))
+              os.system('python /Deployment/wholefoods_scraper.py' + str(zipcode))
             except:
               os.system('python wholefoods_scraper.py ' + str(zipcode))
           scrape()
