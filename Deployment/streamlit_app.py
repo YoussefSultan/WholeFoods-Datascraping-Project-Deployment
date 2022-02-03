@@ -49,7 +49,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 cwd = os.getcwd()
-deploy = cwd + '\wholefoods_scraper.py '
+deploy = cwd + '/Deployment/wholefoods_scraper.py '
 
 
 if __name__=='__main__':
