@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import pathlib
+import subprocess
 import os, random, sys, time 
 import matplotlib as plt
 import plotly.express as px
@@ -57,9 +58,9 @@ if __name__=='__main__':
           #@st.cache
           def scrape():
             try:
-              os.system('python ' + scraper_dir + str(zipcode))
+              subprocess.run(["python", "wholefoods_scraper.py", str(zipcode)]) 
             except:
-              os.system('python wholefoods_scraper.py ' + str(zipcode))
+              subprocess.run(["python", scraper_dir, str(zipcode)])
           scrape()
           st.write('Getting results, make take up to two minutes')
       else:
