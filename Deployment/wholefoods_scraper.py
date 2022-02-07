@@ -19,7 +19,7 @@ options.add_argument('--disable-gpu')
 options.add_argument('--log-level=3')
 #########################################################
 cwd = os.getcwd()
-driver_dir = cwd + "chromedriver.exe"
+driver_dir = cwd + "/chromedriver.exe"
 #########################################################
 try:
     try:
