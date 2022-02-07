@@ -24,10 +24,7 @@ from selenium.webdriver.chrome.service import Service
 s = Service(driver_dir)
 #########################################################
 try:
-    try:
-        browser = webdriver.Chrome('C:/Users/Water/Desktop/chromedriver.exe', options=options) # Chrome Driver
-    except:
-        browser = webdriver.Chrome(service=s, options=options) # Chrome Driver
+    browser = webdriver.Chrome(service=s, options=options) # Chrome Driver
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
     try:
