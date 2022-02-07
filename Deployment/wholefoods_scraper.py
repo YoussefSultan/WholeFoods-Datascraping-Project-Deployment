@@ -21,7 +21,10 @@ options.add_argument('--log-level=3')
 
 #########################################################
 try:
-    browser = webdriver.Chrome('C:/Users/Water/Desktop/chromedriver.exe', options=options) # Chrome Driver
+    try:
+        browser = webdriver.Chrome('C:/Users/Water/Desktop/chromedriver.exe', options=options) # Chrome Driver
+    except:
+        browser = webdriver.Chrome(pathlib.Path(__file__).parent / 'chromedriver.exe', options=options) # Chrome Driver
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
     try:
