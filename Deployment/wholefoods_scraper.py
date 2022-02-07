@@ -22,7 +22,7 @@ cwd = os.getcwd()
 driver_dir = cwd + "\chromedriver.exe"
 #########################################################
 try:
-    browser = webdriver.Chrome(pathlib.Path(__file__).parent / '/Deployment/chromedriver.exe', options=options) # Chrome Driver
+    browser = webdriver.Chrome(pathlib.Path(__file__).parent / 'chromedriver.exe', options=options) # Chrome Driver
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
     try:

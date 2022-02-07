@@ -50,7 +50,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 ###################################################################
 cwd = os.getcwd()
-scraper_dir = cwd + '/Deployment/wholefoods_scraper.py'
+scraper_dir = cwd + '\wholefoods_scraper.py'
 if __name__=='__main__':
   with st.expander("Click to receive insights of your WholeFoods"):
       zipcode = st.number_input('Enter your zipcode:', step=1) 
