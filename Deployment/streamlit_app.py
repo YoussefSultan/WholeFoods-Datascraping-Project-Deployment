@@ -50,17 +50,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 ###################################################################
 cwd = os.getcwd()
-scraper_dir = cwd + '/Deployment/wholefoods_scraper.py '
+scraper_dir = cwd + '\wholefoods_scraper.py'
 if __name__=='__main__':
   with st.expander("Click to receive insights of your WholeFoods"):
       zipcode = st.number_input('Enter your zipcode:', step=1) 
       if zipcode:
           #@st.cache
           def scrape():
-            try:
-              subprocess.run(["python", "wholefoods_scraper.py", str(zipcode)]) 
-            except:
-              subprocess.run(["python", scraper_dir, str(zipcode)])
+              subprocess.run(["python", scraper_dir, str(zipcode)]) 
           scrape()
           st.write('Getting results, make take up to two minutes')
       else:
