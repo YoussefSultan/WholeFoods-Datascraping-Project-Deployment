@@ -19,12 +19,10 @@ options.add_argument('--disable-gpu')
 options.add_argument('--log-level=3')
 #########################################################
 cwd = os.getcwd()
-driver_dir = cwd + "/chromedriver.exe"
-from selenium.webdriver.chrome.service import Service
-s = Service(driver_dir)
+driver_dir = cwd + "\chromedriver.exe"
 #########################################################
 try:
-    browser = webdriver.Chrome(service=s, options=options) # Chrome Driver
+    browser = webdriver.Chrome(pathlib.Path(__file__).parent / '/Deployment/chromedriver.exe', options=options) # Chrome Driver
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
     try:
