@@ -57,7 +57,7 @@ if __name__=='__main__':
       if zipcode:
           #@st.cache
           def scrape():
-              subprocess.run(["python", scraper_dir, str(zipcode)]) 
+              subprocess.run([f"{sys.executable}", scraper_dir, str(zipcode)]) 
           scrape()
           st.write('Getting results, make take up to two minutes')
       else:
