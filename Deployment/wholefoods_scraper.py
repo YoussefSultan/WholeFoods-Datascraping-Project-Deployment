@@ -12,6 +12,8 @@ from datetime import date
 import pickle
 import pathlib
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service 
+from webdriver_manager.chrome import ChromeDriverManager
 ########################################################
 options = Options()
 options.add_argument('--headless')
@@ -20,9 +22,11 @@ options.add_argument('--log-level=3')
 #########################################################
 cwd = os.getcwd()
 driver_dir = cwd + "\chromedriver.exe"
+path = pathlib.Path(__file__).parent / 'chromedriver.exe'
 #########################################################
 try:
-    browser = webdriver.Chrome(pathlib.Path(__file__).parent / 'chromedriver.exe', options=options) # Chrome Driver
+    browser = webdriver.Chrome(path, options=options) # Chrome Driver
+#   browser = webdriver.Chrome(service=path, options=options)
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
     try:
