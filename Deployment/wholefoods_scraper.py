@@ -21,9 +21,14 @@ options.add_argument('--log-level=3')
 cwd = os.getcwd()
 driver_dir = cwd + "\chromedriver.exe"
 path = pathlib.Path(__file__).parent / 'chromedriver.exe'
+linuxpath = pathlib.Path(__file__).parent / 'chromedriver'
 #########################################################
 try:
-    browser = webdriver.Chrome(path, options=options) # Chrome Driver
+    try:
+        browser = webdriver.Chrome(path, options=options) # Chrome Driver Windows Path --if running on windows
+    except Exception as e:
+        print(e)
+        browser = webdriver.Chrome(linuxpath, options=options) # Chrome Driver Linux Path --if running on linux (Streamlit Debian Deployment)
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
     try:
