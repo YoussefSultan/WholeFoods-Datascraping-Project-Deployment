@@ -58,9 +58,9 @@ if __name__=='__main__':
       if zipcode:
           #@st.cache
           def scrape():
-            try:  
+            if os.path.isfile(scraper_dir): # if path exists  
               subprocess.run([f"{sys.executable}", scraper_dir, str(zipcode)]) 
-            except subprocess.CalledProcessError:
+            if os.path.isfile(scraper_dir_deployment): # if path exists
               subprocess.run([f"{sys.executable}", scraper_dir_deployment, str(zipcode)]) 
           scrape()
           st.write('Getting results, make take up to two minutes')
