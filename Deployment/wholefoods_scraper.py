@@ -38,12 +38,14 @@ try:
     location = ' '.join(browser.find_elements_by_class_name("wfm-search-bar--list_item")[0].text.split()[-4:])
     print('Getting items from the WholeFoods in ' + str(location) + '.')
     browser.find_elements_by_class_name("wfm-search-bar--list_item")[0].click()
-except:
+except Exception as e:
+    print(e)
     print('invalid zipcode')
     sys.exit()
 time.sleep(2)
+#########################################################
 print('Pulling all "on-sale" results from each category...')
-
+#########################################################
 browser.get('https://www.wholefoodsmarket.com/products/produce?featured=on-sale') # Website Link
 try:
     load = browser.find_element_by_xpath("//span[contains(text(),'Load more')]") 
