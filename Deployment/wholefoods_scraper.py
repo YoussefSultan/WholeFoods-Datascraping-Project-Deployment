@@ -11,6 +11,7 @@ import pandas as pd
 from datetime import date
 import pickle
 import pathlib
+import platform
 from selenium.webdriver.chrome.options import Options
 ########################################################
 options = Options()
@@ -24,10 +25,9 @@ path = pathlib.Path(__file__).parent / 'chromedriver.exe'
 linuxpath = pathlib.Path(__file__).parent / 'chromedriver'
 #########################################################
 try:
-    try:
+    if platform.system()=='Windows':
         browser = webdriver.Chrome(path, options=options) # Chrome Driver Windows Path --if running on windows
-    except Exception as e:
-        print(e)
+    else:
         browser = webdriver.Chrome(linuxpath, options=options) # Chrome Driver Linux Path --if running on linux (Streamlit Debian Deployment)
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
