@@ -28,6 +28,10 @@ try:
     if platform.system()=='Windows':
         browser = webdriver.Chrome(path, options=options) # Chrome Driver Windows Path --if running on windows
     else:
+        try:
+            os.system("chmod 755 " + str(linuxpath))
+        except Exception as e:
+            print(e)
         browser = webdriver.Chrome(linuxpath, options=options) # Chrome Driver Linux Path --if running on linux (Streamlit Debian Deployment)
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
