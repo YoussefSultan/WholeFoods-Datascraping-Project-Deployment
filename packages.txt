@@ -13,7 +13,6 @@ libnspr4
 libpango-1.0-0 
 libxss1 
 fonts-liberation 
-libappindicator1 
 libnss3 
 lsb-release 
 xdg-utils
