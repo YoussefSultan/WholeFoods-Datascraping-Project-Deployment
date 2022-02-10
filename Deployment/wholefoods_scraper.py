@@ -29,6 +29,7 @@ try:
         browser = webdriver.Chrome(path, options=options) # Chrome Driver Windows Path --if running on windows
     else:
         try:
+            options.binary_location = linuxpath
             os.system("chmod 755 " + str(linuxpath)) # Allow permissions for chrome driver to run on linux server (Streamlit)
         except Exception as e:
             print(e)
