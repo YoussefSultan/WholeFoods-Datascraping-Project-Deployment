@@ -16,7 +16,6 @@ from selenium.webdriver.chrome.options import Options
 ########################################################
 options = Options()
 options.add_argument('--headless')
-options.add_argument('--disable-gpu')
 options.add_argument('--log-level=3')
 #########################################################
 cwd = os.getcwd()
@@ -26,10 +25,13 @@ linuxpath = pathlib.Path(__file__).parent / 'chromedriver'
 #########################################################
 try:
     if platform.system()=='Windows':
+        options.add_argument('--disable-gpu')
         browser = webdriver.Chrome(path, options=options) # Chrome Driver Windows Path --if running on windows
     else:
         try:
-            options.binary_location = str(linuxpath)
+            options.add_argument('--no-sandbox')
+            options.add_argument('--disable-dev-shm-usage')
+            options.binary_location = str(linuxpath) # Fixes failed to find binary location error
             os.system("chmod 755 " + str(linuxpath)) # Allow permissions for chrome driver to run on linux server (Streamlit)
         except Exception as e:
             print(e)
