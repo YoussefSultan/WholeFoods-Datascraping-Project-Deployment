@@ -85,7 +85,7 @@ if __name__=='__main__':
     with open(str(locpath[0]), 'rb') as handle2:                    
       location = pickle.load(handle2)
 ####################################################################
-with st.expander("Click to show insights of the last user's query at " + str(location)):
+with st.expander("Click to show insights of the last user's query in " + str(location)):
 
   try:
     st.markdown('There are ' + str(len(df)) + ' items "on-sale" in ' + str(location) + '. ***For a larger view hover over the dataset and click full screen icon at the top right to filter by feature.***')   
