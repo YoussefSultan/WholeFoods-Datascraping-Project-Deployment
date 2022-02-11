@@ -19,5 +19,3 @@ xdg-utils
 xvfb 
 libxi6 
 libgconf-2-4
-sudo
-wget
