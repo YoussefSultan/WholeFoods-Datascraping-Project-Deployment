@@ -29,9 +29,9 @@ try:
         browser = webdriver.Chrome(path, options=options) # Chrome Driver Windows Path --if running on windows
     else:
         try:
-            options.add_argument("--remote-debugging-port=9222")
-            options.add_argument('--no-sandbox')
-            options.add_argument('--disable-dev-shm-usage')
+            options.add_argument("--remote-debugging-port=9222") # fixes (unknown error: DevToolsActivePort file doesn't exist)
+            options.add_argument('--no-sandbox') # fixes (unknown error: DevToolsActivePort file doesn't exist)
+            options.add_argument('--disable-dev-shm-usage') # fixes (unknown error: DevToolsActivePort file doesn't exist)
             options.binary_location = str(linuxpath) # Fixes failed to find binary location error
             os.system("chmod 755 " + str(linuxpath)) # Allow permissions for chrome driver to run on linux server (Streamlit)
         except Exception as e:
@@ -380,14 +380,17 @@ if df['product'].str.contains('Whole Foods Market').any():                  #---
     for i in range(len(ix)):                                                # appended information to the left once. Because of this the company category will be shifted as a different text value
         df.loc[ix[i], 'company'] = df.loc[ix[i], 'product']                 # Solution: Apply the text in the 'product' column to the 'company' column |
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@# ------------------------------------------------------------------------|
-if df['regular'].str.contains('a|e|i|o|u', regex=True).any():               # Furthermore, this means that the other columns containing pricing have shifted values of information
-    ix = df[df['regular'].str.contains('a|e|i|o|u', regex=True)].index      # To apply proper values to each column we iterate where 'Prime member deal' exists at position [n][0]
-    for i in range(len(ix)):                                                # globals() is used to iterate through our list of categories which points to the actual objects containing the scraped data
-        ct = globals()[df.loc[ix[i], 'category']]                           # -----------------------------------------------------------------------|
-        df.loc[ix[i], 'product'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'regular'] in ct[n][-3]][0][-3]
-        df.loc[ix[i], 'regular'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'product'] in ct[n][-3]][0][-2].split('$')[1].replace(r'/lb','')
-        df.loc[ix[i], 'sale'] = 0                                           # If 'Prime Member Deal' exists in position [n][0] of each category object, that means there is no sale price as it is for prime members only
-        print('Some products are only on sale for prime members, wrangling data accordingly...')
+try:
+    if df['regular'].str.contains('a|e|i|o|u', regex=True).any():               # Furthermore, this means that the other columns containing pricing have shifted values of information
+        ix = df[df['regular'].str.contains('a|e|i|o|u', regex=True)].index      # To apply proper values to each column we iterate where 'Prime member deal' exists at position [n][0]
+        for i in range(len(ix)):                                                # globals() is used to iterate through our list of categories which points to the actual objects containing the scraped data
+            ct = globals()[df.loc[ix[i], 'category']]                           # -----------------------------------------------------------------------|
+            df.loc[ix[i], 'product'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'regular'] in ct[n][-3]][0][-3]
+            df.loc[ix[i], 'regular'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'product'] in ct[n][-3]][0][-2].split('$')[1].replace(r'/lb','')
+            df.loc[ix[i], 'sale'] = 0                                           # If 'Prime Member Deal' exists in position [n][0] of each category object, that means there is no sale price as it is for prime members only
+            print('Some products are only on sale for prime members, wrangling data accordingly...')
+except Exception as e:
+    print(e)
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
 #---------------------------------------------------------------------------# 
 df['sale'] = df['sale'].str.replace(r'$', '', regex=True)                   # # # # # # # # # # # # # # # 
@@ -458,7 +461,7 @@ df["prime"] = pd.to_numeric(df["prime"])                                        
 df['sale_discount'] = 1-df['sale']/df['regular']                                              # 
 df['prime_discount'] = 1-df['prime']/df['regular']                                            #
 df['prime_sale_difference'] = df['prime_discount'] - df['sale_discount']                      # # # # # # # # # # # # # # # # # # # # |------------------------------------|
-df['discount_bins'] = pd.cut(df.prime_discount, [0,.25,.50,.75, 1], labels=['0% to 25%', '25% to 50%', '50% to 75%', '75% or more'])# |Discount Bins I.E. 0% Off to 25% off|
+df['discount_bins'] = pd.cut(df.prime_discount, [0,.10,.20,.30, .40, .50, .9], labels=['0% to 10%','10% to 20%','20% to 30%','30% to 40%','40% to 50%','50% or more'])   # |Discount Bins I.E. 0% Off to 10% off|
 df = df.sort_values(by='prime_discount', ascending=False)                                     # # # # # # # # # # # # # # # # # # # # |------------------------------------|
 #---------------------------------------------------------------------------------------------#
 

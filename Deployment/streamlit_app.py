@@ -69,21 +69,24 @@ if __name__=='__main__':
 ####################################################################  
   path = sorted([f for f in pathlib.Path('scraped products dump').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True)
   locpath = sorted([f for f in pathlib.Path('scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True)
-
+####################################################################
   path_deployment = sorted([f for f in pathlib.Path('Deployment/scraped products dump').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True)
   locpath_deployment = sorted([f for f in pathlib.Path('Deployment/scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True)
-
-
-  try:     # Tries to open through streamlit ('Deployment/' string is required for streamlits path)
-    with open(str(path_deployment[0]), 'rb') as handle: # loads our saved .pkl back into a variable 
+####################################################################
+# Load dataframe
+  try:                                                              # Tries to open through streamlit (using 'Deployment/' string addition)
+    with open(str(path_deployment[0]), 'rb') as handle:             # loads .pkl back into variable
       df = pickle.load(handle)
-    with open(str(locpath_deployment[0]), 'rb') as handle2: # loads our saved .pkl back into a variable
+    with open(str(locpath_deployment[0]), 'rb') as handle2:         # loads location data of dataframe
       location = pickle.load(handle2)
-  except: # if working on local the path is without the 'Deployment/' string
-    with open(str(path[0]), 'rb') as handle: # loads our saved .pkl back into a variable
+  except:                                                           # Opens using local path if not using streamlit deployment
+    with open(str(path[0]), 'rb') as handle:                        
       df = pickle.load(handle)
-    with open(str(locpath[0]), 'rb') as handle2: # loads our saved .pkl back into a variable
+    with open(str(locpath[0]), 'rb') as handle2:                    
       location = pickle.load(handle2)
+####################################################################
+with st.expander("Click to show insights of the last user's query at " + str(location)):
+
   try:
     st.markdown('There are ' + str(len(df)) + ' items "on-sale" in ' + str(location) + '. ***For a larger view hover over the dataset and click full screen icon at the top right to filter by feature.***')   
 
@@ -137,3 +140,5 @@ if __name__=='__main__':
     fig4()
   except:
     st.write('Debug Mode') 
+with st.expander("Click here to generate a shopping cart from " + str(location) + " or enter your zipcode"):
+  st.write('debug')
