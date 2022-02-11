@@ -32,6 +32,7 @@ try:
         browser = webdriver.Chrome(path, options=options) # Chrome Driver Windows Path --if running on windows
     else: #'Debian/linux'
         try:
+            os.system('sudo apt-get install wget')
             os.system('wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb')
             options.add_argument("--remote-debugging-port=9515") # fixes (unknown error: DevToolsActivePort file doesn't exist)
             options.add_argument('--disable-dev-shm-usage') # fixes (unknown error: DevToolsActivePort file doesn't exist)
