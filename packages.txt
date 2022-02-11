@@ -19,4 +19,4 @@ xdg-utils
 xvfb 
 libxi6 
 libgconf-2-4
-chromium-browser
+-y google-chrome-stable
