@@ -24,7 +24,7 @@ cwd = os.getcwd()
 driver_dir = cwd + "\chromedriver.exe"
 path = pathlib.Path(__file__).parent / 'chromedriver.exe'
 linuxpath = pathlib.Path(__file__).parent / 'chromedriver'
-linuxbinarypath = pathlib.Path(__file__).parent / 'chromedriverbinary'
+linuxbinarypath = '/usr/bin/chromium'
 #########################################################
 try:
     if platform.system()=='Windows':
