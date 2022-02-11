@@ -15,6 +15,7 @@ import platform
 from selenium.webdriver.chrome.options import Options
 ########################################################
 options = Options()
+options.add_argument('--no-sandbox') # fixes (unknown error: DevToolsActivePort file doesn't exist)
 options.add_argument('--headless')
 options.add_argument('--log-level=3')
 #########################################################
@@ -31,7 +32,7 @@ try:
     else:
         try:
             options.add_argument("--remote-debugging-port=9222") # fixes (unknown error: DevToolsActivePort file doesn't exist)
-            options.add_argument('--no-sandbox') # fixes (unknown error: DevToolsActivePort file doesn't exist)
+            
             options.add_argument('--disable-dev-shm-usage') # fixes (unknown error: DevToolsActivePort file doesn't exist)
             options.binary_location = str(linuxbinarypath) # Fixes failed to find binary location error
             os.system("chmod 755 " + str(linuxpath)) # Allow permissions for chrome driver to run on linux server (Streamlit)
