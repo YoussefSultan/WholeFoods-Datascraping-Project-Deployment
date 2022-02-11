@@ -19,4 +19,4 @@ xdg-utils
 xvfb 
 libxi6 
 libgconf-2-4
-google-chrome-stable_current_amd64.deb
+chromium-browser
