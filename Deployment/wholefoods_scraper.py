@@ -32,6 +32,7 @@ try:
         browser = webdriver.Chrome(path, options=options) # Chrome Driver Windows Path --if running on windows
     else: #'Debian/linux'
         try:         
+            os.system('which chromium')
             options.add_argument("--remote-debugging-port=9515") # fixes (unknown error: DevToolsActivePort file doesn't exist)
             options.add_argument('--disable-dev-shm-usage') # fixes (unknown error: DevToolsActivePort file doesn't exist)
             options.binary_location = str(linuxpath) # Fixes failed to find binary location error
