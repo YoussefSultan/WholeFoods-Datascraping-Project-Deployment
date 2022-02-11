@@ -22,6 +22,7 @@ cwd = os.getcwd()
 driver_dir = cwd + "\chromedriver.exe"
 path = pathlib.Path(__file__).parent / 'chromedriver.exe'
 linuxpath = pathlib.Path(__file__).parent / 'chromedriver'
+linuxbinarypath = pathlib.Path(__file__).parent / 'headless-chromium'
 #########################################################
 try:
     if platform.system()=='Windows':
@@ -32,7 +33,7 @@ try:
             options.add_argument("--remote-debugging-port=9222") # fixes (unknown error: DevToolsActivePort file doesn't exist)
             options.add_argument('--no-sandbox') # fixes (unknown error: DevToolsActivePort file doesn't exist)
             options.add_argument('--disable-dev-shm-usage') # fixes (unknown error: DevToolsActivePort file doesn't exist)
-            options.binary_location = str(linuxpath) # Fixes failed to find binary location error
+            options.binary_location = str(linuxbinarypath) # Fixes failed to find binary location error
             os.system("chmod 755 " + str(linuxpath)) # Allow permissions for chrome driver to run on linux server (Streamlit)
         except Exception as e:
             print(e)
