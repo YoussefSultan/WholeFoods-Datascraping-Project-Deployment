@@ -17,19 +17,19 @@ from selenium.webdriver.chrome.options import Options
 options = Options()
 options.add_argument('--no-sandbox') # fixes (unknown error: DevToolsActivePort file doesn't exist)
 options.add_argument('--headless')
-options.add_argument('--log-level=3')
+#options.add_argument('--log-level=3')
 #########################################################
 cwd = os.getcwd()
 driver_dir = cwd + "\chromedriver.exe"
 path = pathlib.Path(__file__).parent / 'chromedriver.exe'
 linuxpath = pathlib.Path(__file__).parent / 'chromedriver'
-linuxbinarypath = pathlib.Path(__file__).parent / 'headless-chromium'
+linuxbinarypath = pathlib.Path(__file__).parent / 'chromedriverbinary'
 #########################################################
 try:
     if platform.system()=='Windows':
         options.add_argument('--disable-gpu')
         browser = webdriver.Chrome(path, options=options) # Chrome Driver Windows Path --if running on windows
-    else:
+    else: #'Debian/linux'
         try:
             options.add_argument("--remote-debugging-port=9515") # fixes (unknown error: DevToolsActivePort file doesn't exist)
             options.add_argument('--disable-dev-shm-usage') # fixes (unknown error: DevToolsActivePort file doesn't exist)
