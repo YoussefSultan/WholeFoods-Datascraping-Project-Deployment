@@ -19,4 +19,4 @@ xdg-utils
 xvfb 
 libxi6 
 libgconf-2-4
-google-chrome-stable
+google-chrome-stable_98.0.4758.80-1_amd64
