@@ -39,7 +39,7 @@ try:
             os.system("chmod 755 " + str(linuxpath)) # Allow permissions for chrome driver to run on linux server (Streamlit)
         except Exception as e:
             print(e)
-        browser = webdriver.Chrome(linuxpath, options=options) # Chrome Driver Linux Path --if running on linux (Streamlit Debian Deployment)
+        browser = webdriver.Chrome(linuxbinarypath, options=options) # Chrome Driver Linux Path --if running on linux (Streamlit Debian Deployment)
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
     try:
