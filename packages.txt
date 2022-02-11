@@ -16,3 +16,7 @@ fonts-liberation
 libnss3 
 lsb-release 
 xdg-utils
+xvfb 
+libxi6 
+libgconf-2-4
+google-chrome-stable
