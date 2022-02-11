@@ -16,7 +16,7 @@ from selenium.webdriver.chrome.options import Options
 ########################################################
 options = Options()
 options.add_argument('--no-sandbox') # fixes (unknown error: DevToolsActivePort file doesn't exist)
-options.add_argument('--headless')
+#options.add_argument('--headless')
 options.add_argument('--disable-extensions')
 #options.add_argument('--log-level=3')
 #########################################################
