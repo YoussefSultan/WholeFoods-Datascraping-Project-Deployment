@@ -19,5 +19,5 @@ xdg-utils
 xvfb 
 libxi6 
 libgconf-2-4
-https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-google-chrome-stable
+Get:https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+google-chrome-stable_current_amd64.deb
