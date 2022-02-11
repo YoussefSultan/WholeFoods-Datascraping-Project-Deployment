@@ -35,8 +35,8 @@ try:
             os.system('which chromium')
             options.add_argument("--remote-debugging-port=9515") # fixes (unknown error: DevToolsActivePort file doesn't exist)
             options.add_argument('--disable-dev-shm-usage') # fixes (unknown error: DevToolsActivePort file doesn't exist)
-            options.binary_location = str(linuxpath) # Fixes failed to find binary location error
-            os.system("chmod 755 " + str(linuxpath)) # Allow permissions for chrome driver to run on linux server (Streamlit)
+            options.binary_location = str(linuxbinarypath) # Fixes failed to find binary location error
+            os.system("chmod 755 " + str(linuxbinarypath)) # Allow permissions for chrome driver to run on linux server (Streamlit)
         except Exception as e:
             print(e)
         browser = webdriver.Chrome(linuxbinarypath, options=options) # Chrome Driver Linux Path --if running on linux (Streamlit Debian Deployment)
