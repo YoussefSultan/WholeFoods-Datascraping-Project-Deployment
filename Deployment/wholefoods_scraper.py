@@ -13,12 +13,6 @@ import pickle
 import pathlib
 import platform
 from selenium.webdriver.chrome.options import Options
-########################################################
-options = Options()
-#options.add_argument('--no-sandbox') # fixes (unknown error: DevToolsActivePort file doesn't exist)
-options.add_argument('--headless')
-#options.add_argument('--disable-extensions')
-#options.add_argument('--log-level=3')
 #########################################################
 cwd = os.getcwd()
 driver_dir = cwd + "\chromedriver.exe"
@@ -26,13 +20,18 @@ path = pathlib.Path(__file__).parent / 'chromedriver.exe'
 linuxpath = pathlib.Path(__file__).parent / 'chromedriver'
 linuxbinarypath = '/usr/bin/chromium'
 #########################################################
+options = Options()
+#options.add_argument('--no-sandbox') # fixes (unknown error: DevToolsActivePort file doesn't exist)
+options.add_argument('--headless')
+#options.add_argument('--disable-extensions')
+#options.add_argument('--log-level=3')
+#########################################################
 try:
-    if platform.system()=='Windows':
+    if platform.system()=='Windows': # when running locally
         options.add_argument('--disable-gpu')
         browser = webdriver.Chrome(path, options=options) # Chrome Driver Windows Path --if running on windows
     else: #'Debian/linux'
         try:         
-            os.system('which chromium')
 #            options.add_argument("--remote-debugging-port=9515") # fixes (unknown error: DevToolsActivePort file doesn't exist)
 #            options.add_argument('--disable-dev-shm-usage') # fixes (unknown error: DevToolsActivePort file doesn't exist)
             options.binary_location = str(linuxbinarypath) # Fixes failed to find binary location error
