@@ -24,7 +24,7 @@ options = Options()
 #options.add_argument('--no-sandbox') # fixes (unknown error: DevToolsActivePort file doesn't exist)
 options.add_argument('--headless')
 #options.add_argument('--disable-extensions')
-#options.add_argument('--log-level=3')
+options.add_argument('--log-level=3')
 #########################################################
 try:
     if platform.system()=='Windows': # when running locally
@@ -465,7 +465,9 @@ df['prime_discount'] = 1-df['prime']/df['regular']                              
 df['prime_sale_difference'] = df['prime_discount'] - df['sale_discount']                      # # # # # # # # # # # # # # # # # # # # |------------------------------------|
 df['discount_bins'] = pd.cut(df.prime_discount, [0,.10,.20,.30, .40, .50, .9], labels=['0% to 10%','10% to 20%','20% to 30%','30% to 40%','40% to 50%','50% or more'])   # |Discount Bins I.E. 0% Off to 10% off|
 df = df.sort_values(by='prime_discount', ascending=False)                                     # # # # # # # # # # # # # # # # # # # # |------------------------------------|
-#---------------------------------------------------------------------------------------------#
+df['prime_sale_difference'] = df['prime_sale_difference'].clip(lower=0)                       # sets prime_sale_difference as 0 if lower than 0 to fix distribution 
+#---------------------------------------------------------------------------------------------# This occurs if items are on sale for prime members only
+
 
 # Paths to dump location of Wholefoods and Cleaned DataFrame as .pkl files
 # pkl files are dumped with protocol 4 for deployment purposes as streamlit is not compatible with the highest protocol (5) of serialization
