@@ -256,6 +256,8 @@ else:                                                                       #
 #############################################################################
 df = pd.DataFrame.from_dict(d)                                              # Turn our Dict to a Pandas DataFrame  
 #############################################################################
+browser.close()
+#############################################################################
 #           Data Cleaning for Products with missing company names           #
 #############################################################################
 if df['product'].str.contains('Original Vegan Bagels, 15.87 oz').any():                         
