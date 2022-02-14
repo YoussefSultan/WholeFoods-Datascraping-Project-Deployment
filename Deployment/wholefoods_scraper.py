@@ -388,6 +388,7 @@ try:
             df.loc[ix[i], 'product'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'regular'] in ct[n][-3]][0][-3]
             df.loc[ix[i], 'regular'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'product'] in ct[n][-3]][0][-2].split('$')[1].replace(r'/lb','')
             df.loc[ix[i], 'sale'] = 0                                           # If 'Prime Member Deal' exists in position [n][0] of each category object, that means there is no sale price as it is for prime members only
+            df.loc[ix[i], 'prime'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'product'] in ct[n][-3]][0][-1].split('$')[1].replace(r'/lb','')
             print('Some products are only on sale for prime members, wrangling data accordingly...')
 except Exception as e:
     print(e)
