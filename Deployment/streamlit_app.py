@@ -16,7 +16,7 @@ else:
   os.system('df -h')
   os.system('sbase install chromedriver')
   os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromedriver')
-        
+  os.system('sudo mount -o remount,size=41M /dev/shm')
 #----------------------
 templates = [
     "bootstrap",
