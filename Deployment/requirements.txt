@@ -4,7 +4,7 @@ beautifulsoup4==4.9.3
 cufflinks==0.17.3
 dash==2.0.0
 dash-bootstrap-components==1.0.2
-'''dash-bootstrap-templates==1.0.4'''
+#dash-bootstrap-templates==1.0.4
 dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-table==5.0.0
