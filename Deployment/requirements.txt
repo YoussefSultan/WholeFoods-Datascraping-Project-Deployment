@@ -1,6 +1,5 @@
 aiohttp==3.6.3
 aiohttp-socks==0.4.1
-beautifulsoup4==4.9.3
 cufflinks==0.17.3
 dash==2.0.0
 dash-bootstrap-components==1.0.2

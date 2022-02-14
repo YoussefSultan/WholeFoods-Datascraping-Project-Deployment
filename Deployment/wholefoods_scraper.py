@@ -4,9 +4,8 @@
 # @ www.wholefoodsmarket.com                  
 ########################################################
 import argparse
-import os, random, sys, time 
+import os, sys, time 
 from selenium import webdriver
-from bs4 import BeautifulSoup
 import pandas as pd
 from datetime import date
 import pickle
