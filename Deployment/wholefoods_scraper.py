@@ -29,12 +29,12 @@ try:
         options.add_argument('--disable-gpu')
         browser = webdriver.Chrome(path, options=options) # Chrome Driver Windows Path --if running on windows
     else: #'Debian/linux'
-        os.system('sbase install chromium')
-        os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromium')
+        os.system('sbase install chromedriver')
+        os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromedriver')
         options = Options()
         options.add_argument('--headless')
         options.add_argument('--log-level=3')
-        browser = webdriver.Chrome(linuxbinarypath, options=options) # Chrome Driver Linux Path --if running on linux (Streamlit Debian Deployment)
+        browser = webdriver.Chrome(options=options) # Chrome Driver Linux Path --if running on linux (Streamlit Debian Deployment)
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
     try:
