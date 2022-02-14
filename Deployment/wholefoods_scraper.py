@@ -20,24 +20,21 @@ path = pathlib.Path(__file__).parent / 'chromedriver.exe'
 linuxpath = pathlib.Path(__file__).parent / 'chromedriver'
 linuxbinarypath = '/usr/bin/chromium'
 #########################################################
-options = Options()
-#options.add_argument('--no-sandbox') # fixes (unknown error: DevToolsActivePort file doesn't exist)
-options.add_argument('--headless')
-#options.add_argument('--disable-extensions')
-options.add_argument('--log-level=3')
+
 #########################################################
 try:
-    if platform.system()=='Windows': # when running locally
+    if platform.system()=='Windows':
+        options = Options()
+        options.add_argument('--headless')
+        options.add_argument('--log-level=3') # when running locally
         options.add_argument('--disable-gpu')
         browser = webdriver.Chrome(path, options=options) # Chrome Driver Windows Path --if running on windows
     else: #'Debian/linux'
-        try:         
-#            options.add_argument("--remote-debugging-port=9515") # fixes (unknown error: DevToolsActivePort file doesn't exist)
-#            options.add_argument('--disable-dev-shm-usage') # fixes (unknown error: DevToolsActivePort file doesn't exist)
-            options.binary_location = str(linuxbinarypath) # Fixes failed to find binary location error
-#            os.system("chmod 755 " + str(linuxbinarypath)) # Allow permissions for chrome driver to run on linux server (Streamlit)
-        except Exception as e:
-            print(e)
+        os.system('sbase install chromium')
+        os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromium')
+        options = Options()
+        options.add_argument('--headless')
+        options.add_argument('--log-level=3')
         browser = webdriver.Chrome(linuxbinarypath, options=options) # Chrome Driver Linux Path --if running on linux (Streamlit Debian Deployment)
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
     print('Enter the zipcode of your local WholeFoods...')
