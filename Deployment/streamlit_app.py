@@ -8,6 +8,15 @@ import matplotlib as plt
 import plotly.express as px
 import plotly.graph_objects as go
 from dash_bootstrap_templates import load_figure_template
+import platform
+################################
+if platform.system()=='Windows':
+  pass
+else:
+  os.system('df -h')
+  os.system('sbase install chromedriver')
+  os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromedriver')
+        
 #----------------------
 templates = [
     "bootstrap",
