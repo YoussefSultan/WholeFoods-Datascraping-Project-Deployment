@@ -385,6 +385,7 @@ try:
         ix = df[df['regular'].str.contains('a|e|i|o|u', regex=True)].index      # To apply proper values to each column we iterate where 'Prime member deal' exists at position [n][0]
         for i in range(len(ix)):                                                # globals() is used to iterate through our list of categories which points to the actual objects containing the scraped data
             ct = globals()[df.loc[ix[i], 'category']]                           # -----------------------------------------------------------------------|
+            df.loc[ix[i], 'company'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'regular'] in ct[n][-3]][0][-4]
             df.loc[ix[i], 'product'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'regular'] in ct[n][-3]][0][-3]
             df.loc[ix[i], 'regular'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'product'] in ct[n][-3]][0][-2].split('$')[1].replace(r'/lb','')
             df.loc[ix[i], 'sale'] = 0                                           # If 'Prime Member Deal' exists in position [n][0] of each category object, that means there is no sale price as it is for prime members only

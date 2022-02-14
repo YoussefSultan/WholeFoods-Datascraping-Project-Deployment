@@ -65,14 +65,13 @@ if __name__=='__main__':
   with st.expander("Click to receive insights of your WholeFoods"):
       zipcode = st.number_input('Enter your zipcode:', step=1) 
       if zipcode:
-          #@st.cache
+          st.write('Getting results, make take up to two minutes')
           def scrape():
             if os.path.isfile(scraper_dir): # if local path exists run wholefoods_scraper.py from the local directory
               subprocess.run([f"{sys.executable}", scraper_dir, str(zipcode)]) 
             if os.path.isfile(scraper_dir_deployment): # if the deployment path run wholefoods_scraper.py from the streamlit path
               subprocess.run([f"{sys.executable}", scraper_dir_deployment, str(zipcode)]) 
           scrape()
-          st.write('Getting results, make take up to two minutes')
       else:
         pass
 ####################################################################  
