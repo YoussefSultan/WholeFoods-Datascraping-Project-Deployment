@@ -32,6 +32,7 @@ try:
         os.system('sbase install chromedriver')
         os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromedriver')
         options = Options()
+        options.add_argument('--no-sandbox') 
         options.add_argument('--headless')
         options.add_argument('--log-level=3')
         browser = webdriver.Chrome(options=options) # Chrome Driver Linux Path --if running on linux (Streamlit Debian Deployment)
