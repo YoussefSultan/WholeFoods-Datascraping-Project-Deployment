@@ -9,6 +9,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from dash_bootstrap_templates import load_figure_template
 import platform
+from datetime import date
 ################################
 if platform.system()=='Windows':
   pass
@@ -16,7 +17,6 @@ else:
   os.system('df -h')
   os.system('sbase install chromedriver')
   os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromedriver')
-  os.system('mount -o remount,size=41M /dev/shm')
 #----------------------
 templates = [
     "bootstrap",
@@ -151,3 +151,12 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
     st.write('Debug Mode') 
 with st.expander("Click here to generate a shopping cart from " + str(location) + " or enter your zipcode"):
   st.write('debug')
+with st.expander("Click see the most recent queries "):
+  try:                                         #
+    MY_DIR = pathlib.Path(__file__).parent     #
+  except NameError:                            #
+    MY_DIR = pathlib.Path(r"C:\Users\water\Desktop\WF\WholeFoods-Datascraping-Project-Deployment\Deployment") # if not running as .py the directory is hardcoded locally
+  #--------------------------------------------# 
+  path = MY_DIR / 'scraped products dump' 
+  locpath = MY_DIR / 'scraped products dump' / 'location' 
+  st.write(str(path))
