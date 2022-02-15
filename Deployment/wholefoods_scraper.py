@@ -446,13 +446,16 @@ for i in range(len(ix)):                                                    #
 #---------------------------------------------------------------------------# # # # # # # # # # # # # # #
 d = df.to_dict('list')                                                      #     Dataframe ---> Dict   #
 #---------------------------------------------------------------------------# # # # # # # # # # # # # # # 
-for i in range(len(d['sale'])):                                                               # 
-    if isinstance(d['sale'][i], str) and 'for' in d['sale'][i].split():                       # 
-        d['sale'][i] = float(d['sale'][i].split()[2]) / float(d['sale'][i].split()[0])        # # # # # # # # # # # # # # # # #
-                                                                                              # str '2 for 5' ---> int '2.50' #
-for i in range(len(d['prime'])):                                                              # # # # # # # # # # # # # # # # # 
-        if isinstance(d['prime'][i], str) and 'for' in d['prime'][i].split():                 #
-            d['prime'][i] = float(d['prime'][i].split()[2]) / float(d['prime'][i].split()[0]) #      
+try:                                                                                              #
+    for i in range(len(d['sale'])):                                                               # 
+        if isinstance(d['sale'][i], str) and 'for' in d['sale'][i].split():                       # 
+            d['sale'][i] = float(d['sale'][i].split()[2]) / float(d['sale'][i].split()[0])        # # # # # # # # # # # # # # # # #
+                                                                                                  # str '2 for 5' ---> int '2.50' #
+    for i in range(len(d['prime'])):                                                              # # # # # # # # # # # # # # # # # 
+            if isinstance(d['prime'][i], str) and 'for' in d['prime'][i].split():                 #
+                d['prime'][i] = float(d['prime'][i].split()[2]) / float(d['prime'][i].split()[0]) # 
+except Exception as e:                                                                            #
+    print(e)                                                                                      #
 #---------------------------------------------------------------------------------------------# # # # # # # # # # # # # # # 
 df = pd.DataFrame.from_dict(d)                                                                #     Dict ---> Dataframe   #
 #---------------------------------------------------------------------------------------------# # # # # # # # # # # # # # #                                                                                              # # # # # # # # # # # # # # # 
