@@ -11,15 +11,18 @@ from datetime import date
 import pickle
 import pathlib
 import platform
+import warnings
 from selenium.webdriver.chrome.options import Options
 #########################################################
-cwd = os.getcwd()
-driver_dir = cwd + "\chromedriver.exe"
-path = pathlib.Path(__file__).parent / 'chromedriver.exe'
-linuxpath = pathlib.Path(__file__).parent / 'chromedriver'
-linuxbinarypath = '/usr/bin/chromium'
+cwd = os.getcwd() # Current Path
+driver_dir = cwd + "\chromedriver.exe" # chrome driver for running script locally
+try:
+    path = pathlib.Path(__file__).parent / 'chromedriver.exe' # try to pull chrome driver from local
+except Exception as e:
+    print(e)
+    path=driver_dir
 #########################################################
-
+warnings.filterwarnings("ignore", category=DeprecationWarning) 
 #########################################################
 try:
     if platform.system()=='Windows':
