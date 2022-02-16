@@ -152,10 +152,10 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
 with st.expander("Click see the most recent queries "):
   try:                                         #
     MY_DIR = pathlib.Path(__file__).parent     #
-  except NameError:                            #
+  except NameError as e:  
+    print(e)                          #
     MY_DIR = pathlib.Path(os.getcwd()) # if not running as .py the directory is hardcoded locally
   #--------------------------------------------# 
   path = MY_DIR / 'scraped products dump' 
   locpath = MY_DIR / 'scraped products dump' / 'location' 
-  st.write(sorted([f for f in pathlib.Path('scraped products dump\location').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True))
-  
+  st.write(sorted([f for f in pathlib.Path('scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True))
