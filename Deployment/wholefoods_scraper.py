@@ -243,12 +243,20 @@ d = {"company":[], "product":[], "regular":[], "sale":[], "prime":[], "category"
 #############################################################################
 for category in list_of_categories:                                         #
     for i in range(len(globals()[category])):                               # At the range of the length of all items (will loop i times)
-            d["company"].append(globals()[category][i][-5])                 # Append respective indexed data in list_of_items[i] for each column
-            d["product"].append(globals()[category][i][-4])                 # 
-            d["regular"].append(globals()[category][i][-3][8:])             #  
-            d["sale"].append(globals()[category][i][-2][10:])               # 
-            d["prime"].append(globals()[category][i][-1][18:])              #
-            d["category"].append(str(category))                             # 
+            if 'Add to list' in globals()[category][i][-1]:
+                d["company"].append(globals()[category][i][-6])                 # Append respective indexed data in list_of_items[i] for each column
+                d["product"].append(globals()[category][i][-5])                 # 
+                d["regular"].append(globals()[category][i][-4][8:])             #  
+                d["sale"].append(globals()[category][i][-3][10:])               # 
+                d["prime"].append(globals()[category][i][-2][18:])              #
+                d["category"].append(str(category))  
+            else:
+                d["company"].append(globals()[category][i][-5])                 # Append respective indexed data in list_of_items[i] for each column
+                d["product"].append(globals()[category][i][-4])                 # 
+                d["regular"].append(globals()[category][i][-3][8:])             #  
+                d["sale"].append(globals()[category][i][-2][10:])               # 
+                d["prime"].append(globals()[category][i][-1][18:])              #
+                d["category"].append(str(category))                             # 
 #############################################################################
 #############################################################################
 if len(d['company']) == len(d['product']) == len(d['regular']) == len(d['sale']) == len(d['category']):  # Verify that the length of each column is == to each other, otherwise the dataframe wont be populated   
