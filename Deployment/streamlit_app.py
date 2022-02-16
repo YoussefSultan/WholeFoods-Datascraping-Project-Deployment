@@ -150,12 +150,7 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
 with st.expander("Click here to generate a shopping cart from " + str(location) + " or enter your zipcode"):
   st.write('debug')
 with st.expander("Click see the most recent queries "):
-  try:                                         #
-    MY_DIR = pathlib.Path(__file__).parent     #
-  except NameError as e:  
-    print(e)                          #
-    MY_DIR = pathlib.Path(os.getcwd()) # if not running as .py the directory is hardcoded locally
-  #--------------------------------------------# 
-  path = MY_DIR / 'scraped products dump' 
-  locpath = MY_DIR / 'scraped products dump' / 'location' 
-  st.write(sorted([f for f in pathlib.Path('scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True))
+  if len(locpath_deployment) == 0:
+    st.write(locpath)
+  else:
+    st.write(locpath_deployment)
