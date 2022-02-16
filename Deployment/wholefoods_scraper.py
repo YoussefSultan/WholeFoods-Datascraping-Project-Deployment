@@ -22,7 +22,7 @@ except Exception as e:
     print(e)
     path=driver_dir
 #########################################################
-warnings.filterwarnings("ignore", category=DeprecationWarning) 
+warnings.filterwarnings("ignore", category=DeprecationWarning) # ignore selenium 4.x deprecation warnings
 #########################################################
 try:
     if platform.system()=='Windows':
@@ -490,7 +490,7 @@ df['prime_sale_difference'] = df['prime_sale_difference'].clip(lower=0)         
 try:                                         #
   MY_DIR = pathlib.Path(__file__).parent     #
 except NameError:                            #
-  MY_DIR = pathlib.Path(r"C:\Users\water\Desktop\WF\WholeFoods-Datascraping-Project-Deployment\Deployment") # if not running as .py the directory is hardcoded locally
+  MY_DIR = pathlib.Path(os.getcwd()) # if not running as .py the directory is hardcoded locally
 #--------------------------------------------# 
 filename = "WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + '_' + str('_'.join(location.split()).replace(',','')) + ".pkl"
 path = MY_DIR / 'scraped products dump' / filename
