@@ -146,7 +146,7 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
     st.write('Debug Mode') 
 with st.expander("Click here to generate a shopping cart from " + str(location) + " or enter your zipcode"):
   st.write('debug')
-with st.expander("Click see the most recent queries "):
+with st.expander("Click to see the most recent queries "):
   if len(locpath_deployment) == 0:
     st.write(locpath)
   else:
