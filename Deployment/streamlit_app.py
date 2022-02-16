@@ -29,7 +29,7 @@ templates = [
 ]
 load_figure_template(templates)
 #-----------Title/Header---------------------------------------------------------------#
-st.set_page_config(page_title = "WholeFoods 'On-Sale' Product Insights", page_icon = 'https://www.theartof.com/assets/images/book-images/Whole-Foods-Market-Logo-white-background.png', layout="wide") 
+st.set_page_config(page_title = "WholeFoods 'On-Sale' Product Insights", page_icon = 'https://youssefsultan.github.io/images/LOGOW.png', layout="wide") 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 st.title("Live WholeFoods 'On-Sale' Product Insights") 
 st.markdown("""
@@ -54,6 +54,7 @@ st.markdown("""
 </nav>
 """, unsafe_allow_html=True)
 ###################################################################
+###################################################################
 cwd = os.getcwd()
 scraper_dir = cwd + '\wholefoods_scraper.py' # local deployment path
 scraper_dir_deployment = cwd + '/Deployment/wholefoods_scraper.py' # streamlit path
@@ -70,13 +71,16 @@ if __name__=='__main__':
           scrape()
       else:
         pass
-####################################################################  
+###################################################################
+###################################################################
   path = sorted([f for f in pathlib.Path('scraped products dump').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True) # sorted path of scraped dataframes
   locpath = sorted([f for f in pathlib.Path('scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True) # sorted path of of scraped dataframes' locations
-####################################################################
+###################################################################
+###################################################################
   path_deployment = sorted([f for f in pathlib.Path('Deployment/scraped products dump').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True) # path adjusted for streamlit cloud deployment
   locpath_deployment = sorted([f for f in pathlib.Path('Deployment/scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True) # path adjusted for streamlit cloud deployment
-####################################################################
+###################################################################
+###################################################################
 # Load latest scraped dataframe                                   # Tries to open most recent df using streamlit path
 try:  
   with open(str(path_deployment[0]), 'rb') as handle:             
@@ -89,7 +93,7 @@ except:                                                           # Opens most r
   with open(str(locpath[0]), 'rb') as handle2:                    # Tries to open location of most recent df
     location = pickle.load(handle2)
         
-####################################################################
+###################################################################
 with st.expander("Click to show insights of the last user's query in " + str(location) + " or select a previous query."):
   if len(locpath_deployment) == 0:                                # if streamlit's deployment path is empty that means were on local path 
     selections = []                                 
@@ -103,8 +107,8 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
     queryselection = st.selectbox('Select a previous query', tuple(selections))
 
   if queryselection:
-    if len(locpath_deployment) == 0:                                              # if a selection from the select box is selected
-      try:                                                          # try opening dataframe and location using the selected path
+    if len(locpath_deployment) == 0:                              # if a selection from the select box is selected
+      try:                                                        # try opening dataframe and location using the selected path
         with open(str(pathlib.Path(queryselection)).replace('\\location',''), 'rb') as handle:             
           df = pickle.load(handle)
         with open(str(queryselection), 'rb') as handle2:         
