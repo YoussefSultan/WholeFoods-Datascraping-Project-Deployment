@@ -102,14 +102,23 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
       selections.append(x)
     queryselection = st.selectbox('Select a previous query', tuple(selections))
 
-  if queryselection:                                              # if a selection from the select box is selected
-    try:                                                          # try opening dataframe and location using the selected path
-      with open(str(pathlib.Path(queryselection)).replace('\\location',''), 'rb') as handle:             
-        df = pickle.load(handle)
-      with open(str(queryselection), 'rb') as handle2:         
-        location = pickle.load(handle2)
-    except Exception as e:
-      st.write(Exception)
+  if queryselection:
+    if len(locpath_deployment) == 0:                                              # if a selection from the select box is selected
+      try:                                                          # try opening dataframe and location using the selected path
+        with open(str(pathlib.Path(queryselection)).replace('\\location',''), 'rb') as handle:             
+          df = pickle.load(handle)
+        with open(str(queryselection), 'rb') as handle2:         
+          location = pickle.load(handle2)
+      except Exception as e:
+        st.write(Exception)
+    else:
+      try:
+        with open(str(pathlib.Path(queryselection)).replace('/location',''), 'rb') as handle:             
+          df = pickle.load(handle)
+        with open(str(queryselection), 'rb') as handle2:         
+          location = pickle.load(handle2)
+      except Exception as e:
+        st.write(Exception)
   else:                                                           # if no selection has been picked
     try:                                                          # re run our code from lines 81-90
       with open(str(path_deployment[0]), 'rb') as handle:         
