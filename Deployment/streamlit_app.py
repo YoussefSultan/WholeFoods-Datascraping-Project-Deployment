@@ -71,26 +71,57 @@ if __name__=='__main__':
       else:
         pass
 ####################################################################  
-  path = sorted([f for f in pathlib.Path('scraped products dump').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True)
-  locpath = sorted([f for f in pathlib.Path('scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True)
+  path = sorted([f for f in pathlib.Path('scraped products dump').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True) # sorted path of scraped dataframes
+  locpath = sorted([f for f in pathlib.Path('scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True) # sorted path of of scraped dataframes' locations
 ####################################################################
-  path_deployment = sorted([f for f in pathlib.Path('Deployment/scraped products dump').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True)
-  locpath_deployment = sorted([f for f in pathlib.Path('Deployment/scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True)
+  path_deployment = sorted([f for f in pathlib.Path('Deployment/scraped products dump').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True) # path adjusted for streamlit cloud deployment
+  locpath_deployment = sorted([f for f in pathlib.Path('Deployment/scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True) # path adjusted for streamlit cloud deployment
 ####################################################################
-# Load dataframe
-  try:                                                              # Tries to open through streamlit (using 'Deployment/' string addition)
-    with open(str(path_deployment[0]), 'rb') as handle:             # loads .pkl back into variable
-      df = pickle.load(handle)
-    with open(str(locpath_deployment[0]), 'rb') as handle2:         # loads location data of dataframe
-      location = pickle.load(handle2)
-  except:                                                           # Opens using local path if not using streamlit deployment
-    with open(str(path[0]), 'rb') as handle:                        
-      df = pickle.load(handle)
-    with open(str(locpath[0]), 'rb') as handle2:                    
-      location = pickle.load(handle2)
+# Load latest scraped dataframe                                   # Tries to open most recent df using streamlit path
+try:  
+  with open(str(path_deployment[0]), 'rb') as handle:             
+    df = pickle.load(handle)
+  with open(str(locpath_deployment[0]), 'rb') as handle2:         # Tries to open location of most recent df
+    location = pickle.load(handle2)
+except:                                                           # Opens most recent df using local path 
+  with open(str(path[0]), 'rb') as handle:                        
+    df = pickle.load(handle)
+  with open(str(locpath[0]), 'rb') as handle2:                    # Tries to open location of most recent df
+    location = pickle.load(handle2)
+        
 ####################################################################
-with st.expander("Click to show insights of the last user's query in " + str(location)):
+with st.expander("Click to show insights of the last user's query in " + str(location) + " or select a previous query."):
+  if len(locpath_deployment) == 0:                                # if streamlit's deployment path is empty that means were on local path 
+    selections = []                                 
+    for x in locpath:                                             # iterate through local path of scraped data and append each item path to a list
+      selections.append(x)                                         
+    queryselection = st.selectbox('Select a previous query', tuple(selections))      # create our streamlit selectbox with each selection being a tuple of our 'selections' list
+  else:                                                           # if streamlit's deployment path is not 0, that means were on streamlit path
+    selections = []
+    for x in locpath_deployment:                              
+      selections.append(x)
+    queryselection = st.selectbox('Select a previous query', tuple(selections))
 
+  if queryselection:                                              # if a selection from the select box is selected
+    try:                                                          # try opening dataframe and location using the selected path
+      with open(str(pathlib.Path(queryselection)).replace('\\location',''), 'rb') as handle:             
+        df = pickle.load(handle)
+      with open(str(queryselection), 'rb') as handle2:         
+        location = pickle.load(handle2)
+    except Exception as e:
+      st.write(Exception)
+  else:                                                           # if no selection has been picked
+    try:                                                          # re run our code from lines 81-90
+      with open(str(path_deployment[0]), 'rb') as handle:         
+        df = pickle.load(handle)
+      with open(str(locpath_deployment[0]), 'rb') as handle2:     
+        location = pickle.load(handle2)
+    except:                                                       
+      with open(str(path[0]), 'rb') as handle:                        
+        df = pickle.load(handle)
+      with open(str(locpath[0]), 'rb') as handle2:                    
+        location = pickle.load(handle2)
+  # initiate graphs
   try:
     st.markdown('There are ' + str(len(df)) + ' items "on-sale" in ' + str(location) + '. ***For a larger view hover over the dataset and click full screen icon at the top right to filter by feature.***')   
 
@@ -144,10 +175,40 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
     fig4()
   except:
     st.write('Debug Mode') 
-with st.expander("Click here to generate a shopping cart from " + str(location) + " or enter your zipcode"):
-  st.write('debug')
-with st.expander("Click to see the most recent queries "):
-  if len(locpath_deployment) == 0:
-    st.write(locpath)
-  else:
-    st.write(locpath_deployment)
+
+
+
+# with st.expander("Click here to generate a shopping cart from " + str(location) + " or enter your zipcode"):
+#   st.write('debug')
+
+
+
+# with st.expander("Click to select the most recent queries "):
+#   if len(locpath_deployment) == 0:
+#     selections = []
+#     for x in locpath:
+#       selections.append(x)
+#     queryselection = st.selectbox('test', tuple(selections))
+#   else:
+#     selections = []
+#     for x in locpath_deployment:
+#       selections.append(x)
+#     queryselection = st.selectbox('test', tuple(selections))
+#   if queryselection:
+#     st.write(str(pathlib.Path(queryselection)).replace('\\location',''))
+  
+#   try:                                                          # Tries to open through streamlit (using 'Deployment/' string addition)
+#     with open(str(pathlib.Path(queryselection)).replace('\\location',''), 'rb') as handle:             # loads .pkl back into variable
+#       df = pickle.load(handle)
+#     with open(str(queryselection), 'rb') as handle2:         # loads location data of dataframe
+#       location = pickle.load(handle2)
+#   except Exception as e:
+#     st.write(Exception)
+
+
+
+# with st.expander("Click to see the most recent queries "):
+#   if len(locpath_deployment) == 0:
+#     st.write(locpath)
+#   else:
+#     st.write(locpath_deployment)
