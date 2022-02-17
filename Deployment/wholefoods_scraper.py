@@ -491,6 +491,12 @@ try:                                                                            
                 d['prime'][i] = float(d['prime'][i].split()[2]) / float(d['prime'][i].split()[0]) # 
 except Exception as e:                                                                            #
     print(e)                                                                                      #
+
+if df['regular'].str.contains('a|e|i|o|u', regex=True).any():               
+    ix = df[df['regular'].str.contains('a|e|i|o|u', regex=True)].index
+    df.drop(ix)
+    print('Dropping ' + str(len(ix)) + ' rows that failed to parse')
+
 #---------------------------------------------------------------------------------------------# # # # # # # # # # # # # # # 
 df = pd.DataFrame.from_dict(d)                                                                #     Dict ---> Dataframe   #
 #---------------------------------------------------------------------------------------------# # # # # # # # # # # # # # #                                                                                              # # # # # # # # # # # # # # # 
