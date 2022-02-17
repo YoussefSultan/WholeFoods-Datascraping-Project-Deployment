@@ -29,9 +29,9 @@ templates = [
 ]
 load_figure_template(templates)
 #-----------Title/Header---------------------------------------------------------------#
-st.set_page_config(page_title = "WholeFoods 'On-Sale' Product Insights", page_icon = 'https://youssefsultan.github.io/images/LOGOW.png', layout="wide") 
+st.set_page_config(page_title = "Whole Foods 'On-Sale' Product Insights", page_icon = 'https://youssefsultan.github.io/images/LOGOW.png', layout="wide") 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
-st.title("Live WholeFoods 'On-Sale' Product Insights") 
+st.title("Live Whole Foods 'On-Sale' Product Insights") 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #00674b;">
   <a class="navbar-brand" target="_blank">Youssef Sultan</a>
@@ -59,7 +59,7 @@ cwd = os.getcwd()
 scraper_dir = cwd + '\wholefoods_scraper.py' # local deployment path
 scraper_dir_deployment = cwd + '/Deployment/wholefoods_scraper.py' # streamlit path
 if __name__=='__main__':
-  with st.expander("Click to receive insights of your WholeFoods"):
+  with st.expander("Click to receive insights of your Whole Foods"):
       zipcode = st.text_input('Enter your zipcode:', max_chars=5) 
       if zipcode:
           st.write('Getting results, make take up to two minutes')

@@ -39,7 +39,7 @@ try:
         options.add_argument('--log-level=3')
         browser = webdriver.Chrome(options=options) # Chrome Driver Linux Path --if running on linux (Streamlit Debian Deployment)
     browser.get('https://www.wholefoodsmarket.com/products/all-products?featured=on-sale') # Website Link
-    print('Enter the zipcode of your local WholeFoods...')
+    print('Checking zipcode...')
     try:
         parser = argparse.ArgumentParser()
         parser.add_argument("zipcode")
@@ -49,7 +49,7 @@ try:
     except:
         browser.find_element_by_xpath("//input[@id='pie-store-finder-modal-search-field']").send_keys(input()) # Zip code
     time.sleep(2.5) # lag for 3 seconds to allow elements to load
-    location = ' '.join(browser.find_elements_by_class_name("wfm-search-bar--list_item")[0].text.split()[-4:])
+    location = ', '.join(browser.find_elements_by_class_name("wfm-search-bar--list_item")[0].text.split(', ')[-2:])
     print('Getting items from the WholeFoods in ' + str(location) + '.')
     browser.find_elements_by_class_name("wfm-search-bar--list_item")[0].click()
 except Exception as e:
@@ -67,7 +67,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching produce") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 produce = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -78,7 +78,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching dairy") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 dairy_eggs = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -89,7 +89,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching meat") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 meat = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -100,7 +100,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching prepared foods") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 prepared_foods = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -111,7 +111,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching pantry essentials") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 pantry_essentials = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -122,7 +122,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching bread rolls & bakery") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 bread_rolls_bakery = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -133,7 +133,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching desserts") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 desserts = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -144,7 +144,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching body care") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 body_care = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -155,7 +155,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching supplements") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 supplements = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -166,7 +166,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching frozen foods") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 frozen_foods = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -177,7 +177,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching snacks and chips") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 snacks_chips_salsas_dips = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -188,7 +188,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching seafood") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 seafood = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -199,7 +199,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching beverages") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 Beverages = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -210,7 +210,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching beauty") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 beauty = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -221,7 +221,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching floral") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 floral = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 
@@ -232,7 +232,7 @@ try:
         load.click()
         time.sleep(2.5) # Must have a 2 sec time lag so the 'load more' button can reappear
 except:
-    print("Results Filled") # If all possible data is populated
+    print("Fetching lifestyle") # If all possible data is populated
 all_items = browser.find_elements_by_xpath("//div[@data-testid='product-tile']") # Pull all product elements by xpath
 lifestyle = [items.text.splitlines() for items in all_items] # Create a list comprehension of all product elements with text shown and lines split
 #############################################################################
@@ -425,6 +425,30 @@ if df['prime'].str.contains('/lb').any():                                   #
     for i in range(len(ix)):                                                #
         df.loc[ix[i], 'prime'] = df.loc[ix[i], 'prime'].replace(r'/lb','')  #
 #---------------------------------------------------------------------------#
+if df['regular'].str.contains('/ounce').any():                              # # # # # # # # # #
+    ix = df[df['regular'].str.contains('/ounce')].index                     # Remove "/ounce" #
+    for i in range(len(ix)):                                                # # # # # # # # # # 
+        df.loc[ix[i], 'regular'] = df.loc[ix[i], 'regular'].replace(r'/ounce','')
+if df['regular'].str.contains('/fluid ounce').any():                        # # # # # # # # # # # # # 
+    ix = df[df['regular'].str.contains('/fluid ounce')].index               # Remove "/fluid ounce" #     
+    for i in range(len(ix)):                                                # # # # # # # # # # # # #   
+        df.loc[ix[i], 'regular'] = df.loc[ix[i], 'regular'].replace(r'/fluid ounce','')
+if df['sale'].str.contains('/ounce').any():                                 #    
+    ix = df[df['sale'].str.contains('/ounce')].index                        #
+    for i in range(len(ix)):                                                #
+        df.loc[ix[i], 'sale'] = df.loc[ix[i], 'sale'].replace(r'/ounce','') #
+if df['sale'].str.contains('/fluid ounce').any():                           #
+    ix = df[df['sale'].str.contains('/fluid ounce')].index                  #
+    for i in range(len(ix)):                                                #
+        df.loc[ix[i], 'sale'] = df.loc[ix[i], 'sale'].replace(r'/fluid ounce','')
+if df['prime'].str.contains('/ounce').any():                                #
+    ix = df[df['prime'].str.contains('/ounce')].index                       #
+    for i in range(len(ix)):                                                #
+        df.loc[ix[i], 'prime'] = df.loc[ix[i], 'prime'].replace(r'/ounce','')
+if df['prime'].str.contains('/fluid ounce').any():                          #
+    ix = df[df['prime'].str.contains('/fluid ounce')].index                 #
+    for i in range(len(ix)):                                                #
+        df.loc[ix[i], 'prime'] = df.loc[ix[i], 'prime'].replace(r'/fluid ounce','')
 #---------------------------------------------------------------------------#
 for i in range(len(df[df['sale'].str.contains('¢', na=False)].index)):      # # # # # # # # # # # # # # #
     ix = df[df['sale'].str.contains('¢', na=False)].index                   # Add '.' to items with '¢' #
