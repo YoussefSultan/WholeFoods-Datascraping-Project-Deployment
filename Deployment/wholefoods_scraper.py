@@ -491,14 +491,15 @@ try:                                                                            
                 d['prime'][i] = float(d['prime'][i].split()[2]) / float(d['prime'][i].split()[0]) # 
 except Exception as e:                                                                            #
     print(e)                                                                                      #
-#-------------------------------------------------------------------------------------------------# # # # # # # # # # # # # #      
-if df['regular'].str.contains('a|e|i|o|u', regex=True).any():                                     # Fail to parse exception #
-    ix = df[df['regular'].str.contains('a|e|i|o|u', regex=True)].index                            # # # # # # # # # # # # # #
-    df.drop(ix, inplace=True)                                                                                   #
-    print('Dropping ' + str(len(ix)) + ' rows that failed to parse')                              #
 #---------------------------------------------------------------------------------------------# # # # # # # # # # # # # # # 
 df = pd.DataFrame.from_dict(d)                                                                #     Dict ---> Dataframe   #
-#---------------------------------------------------------------------------------------------# # # # # # # # # # # # # # #                                                                                              # # # # # # # # # # # # # # # 
+#---------------------------------------------------------------------------------------------# # # # # # # # # # # # # # #    
+#-------------------------------------------------------------------------------------------------# # # # # # # # # # # # # # # # # #     
+if df['regular'].str.contains('a|e|i|o|u', regex=True).any():                                     # Drop columns that fail to parse #
+    ix = df[df['regular'].str.contains('a|e|i|o|u', regex=True)].index                            # # # # # # # # # # # # # # # # # #
+    df.drop(ix, inplace=True)                                                                     #              
+    print('Dropping ' + str(len(ix)) + ' rows that failed to parse')                              #
+#-------------------------------------------------------------------------------------------------#  
 df = df.sort_index()                                                                          #
 df["regular"] = pd.to_numeric(df["regular"])                                                  # # # # # # # # # # # # # # # # # # #
 df["sale"] = pd.to_numeric(df["sale"])                                                        # Str ---> float, Feature Creation  #
