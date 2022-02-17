@@ -136,7 +136,7 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
         location = pickle.load(handle2)
   # initiate graphs
   try:
-    st.markdown('There are ' + str(len(df)) + ' items "on-sale" in ' + str(location) + '. ***For a larger view hover over the dataset and click full screen icon at the top right to filter by feature.***')   
+    st.markdown('There are ' + str(len(df)) + ' items "on-sale" in ' + str(location) + '. ***For a larger view hover over the dataset and click the full screen icon at the top right to filter by feature.***')   
 
     def fig1():
       orders = list(df.category.value_counts().sort_values(ascending=True).index)
