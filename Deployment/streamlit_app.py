@@ -95,6 +95,7 @@ except:                                                           # Opens most r
     location = pickle.load(handle2)
         
 ###################################################################
+######    DATA FRAME SELECTION FROM SELECT BOX ####################
 with st.expander("Click to show insights of the last user's query in " + str(location) + " or select a previous query."):
   if len(locpath_deployment) == 0:                                # if streamlit's deployment path is empty that means were on local path 
     selections = []                                 
@@ -106,7 +107,8 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
     for x in locpath_deployment:                              
       selections.append(x)
     queryselection = st.selectbox('Select a previous query', tuple(selections))
-
+###################################################################
+#  
   if queryselection:
     if len(locpath_deployment) == 0:                              # if a selection from the select box is selected
       try:                                                        # try opening dataframe and location using the selected path
@@ -191,38 +193,91 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
     st.write('Debug Mode') 
 
 
-
-# with st.expander("Click here to generate a shopping cart from " + str(location) + " or enter your zipcode"):
-#   st.write('debug')
-
-
-
-# with st.expander("Click to select the most recent queries "):
-#   if len(locpath_deployment) == 0:
-#     selections = []
-#     for x in locpath:
-#       selections.append(x)
-#     queryselection = st.selectbox('test', tuple(selections))
-#   else:
-#     selections = []
-#     for x in locpath_deployment:
-#       selections.append(x)
-#     queryselection = st.selectbox('test', tuple(selections))
-#   if queryselection:
-#     st.write(str(pathlib.Path(queryselection)).replace('\\location',''))
+################## Shopping cart Generator
+with st.expander("Click here to generate a shopping cart from " + str(location) + " or a previous query"):
+  price_optimizer = st.checkbox('Optimize for price')
   
-#   try:                                                          # Tries to open through streamlit (using 'Deployment/' string addition)
-#     with open(str(pathlib.Path(queryselection)).replace('\\location',''), 'rb') as handle:             # loads .pkl back into variable
-#       df = pickle.load(handle)
-#     with open(str(queryselection), 'rb') as handle2:         # loads location data of dataframe
-#       location = pickle.load(handle2)
-#   except Exception as e:
-#     st.write(Exception)
+  if price_optimizer:
+    highest_discount_optimizer = st.checkbox('Optimize for highest discount')
+
+    if highest_discount_optimizer:
+      # if highest discount optimizer is on
+      st.markdown('***Note: highest discount items may not always be the lowest priced due to the type of product...***')
+      input = st.text_input('Enter items as ("item1, item2") format')
+      
+      if input:
+        input_items = (input.split(', '))
+        original_df = df.copy()
+        # Optimized Cart Generator with default sorted values (prime_discount Descending)
+        shopping_cart = pd.DataFrame(columns=original_df.columns)
+        for i in range(len(input_items)):
+            try:        
+                try:
+                    shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i],case=False)].head(1)], join='inner')
+                except Exception as e:
+                    print(e)
+                    shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i].replace(' ','-'),case=False)].head(1)], join='inner')
+            except Exception as p:
+                print(p)
+        st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum()));print("Your total cart: $" + str(shopping_cart.sale.sum()))
+        st.write(shopping_cart)
+        st.button('Search')
+
+    else:
+      # if highest discount optimizer is off
+      input = st.text_input('Enter items as ("item1, item2") format')
+      if input:
+        input_items = (input.split(', '))
+        original_df = df.copy()
+        # Optimized Cart Generator with sort_values 
+        shopping_cart = pd.DataFrame(columns=original_df.columns)
+        for i in range(len(input_items)):
+            try:        
+                try:
+                    shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i],case=False)].sort_values(['prime', 'prime_discount'], ascending = ('True', 'False')).head(1)], join='inner')
+                except Exception as e:
+                    print(e)
+                    shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i].replace(' ','-'),case=False)].sort_values(['prime', 'prime_discount'], ascending = ('True', 'False')).head(1)], join='inner')
+            except Exception as p:
+                print(p)
+        st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum()));print("Your total cart: $" + str(shopping_cart.sale.sum()))
+        st.write(shopping_cart)
+        st.button('Search')
+############################################################################################################################################
+# RANDOMIZED CART  
+  else:
+    # use randomized cart feature
+    input = st.text_input('Enter items as ("item1, item2") format')
+    if input:
+      input_items = (input.split(', '))
+      original_df = df.copy()
+      # Random Cart Generator
+      shopping_cart = pd.DataFrame(columns=original_df.columns) # shopping cart dataframe
+      for i in range(len(input_items)):
+          try:        
+              try:
+                  shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i],case=False)].sample(1)], join='inner')
+              except Exception as e:
+                  print(e)
+                  shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i].replace(' ','-'),case=False)].sample(1)], join='inner')
+          except Exception as p:
+              print(p)
+      st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum()));print("Your total cart: $" + str(shopping_cart.sale.sum()))
+      st.write(shopping_cart)
+      randomize = st.button('Randomize')
 
 
 
-# with st.expander("Click to see the most recent queries "):
-#   if len(locpath_deployment) == 0:
-#     st.write(locpath)
-#   else:
-#     st.write(locpath_deployment)
+
+
+
+
+with st.expander("Search 'on-sale data at " + str(location) + " or from a previous query"):
+  search_input = st.text_input('Enter items as ("item1, item2") format', key=2)
+  if search_input:
+    original_df = df.copy()
+    search_input.split(', ')
+    r = search_input.replace(', ','|')
+    st.write(original_df.loc[original_df['product'].str.contains(r,case=False)])
+    st.button('Search', key=3)
+  
