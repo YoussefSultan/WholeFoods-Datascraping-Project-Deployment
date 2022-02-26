@@ -81,7 +81,8 @@ Features in progress:
     - Recommends products in your generated shopping cart based on other customers purchases and associations
 """)
 ###################################################################
-###################################################################
+
+#########Click to receive insights of your Whole Foods#############
 cwd = os.getcwd()
 scraper_dir = cwd + '\wholefoods_scraper.py' # local deployment path
 scraper_dir_deployment = cwd + '/Deployment/wholefoods_scraper.py' # streamlit path
@@ -99,30 +100,27 @@ if __name__=='__main__':
           scrape()
       else:
         pass
-###################################################################
-###################################################################
+#----------Path for most recent scraped dataset (.pkl) on local path by date time-----------------------
   path = sorted([f for f in pathlib.Path('scraped products dump').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True) # sorted path of scraped dataframes
   locpath = sorted([f for f in pathlib.Path('scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True) # sorted path of of scraped dataframes' locations
-###################################################################
-###################################################################
+#----------Path for most recent scraped dataset (.pkl) on deployment path by date time------------------
   path_deployment = sorted([f for f in pathlib.Path('Deployment/scraped products dump').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True) # path adjusted for streamlit cloud deployment
   locpath_deployment = sorted([f for f in pathlib.Path('Deployment/scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True) # path adjusted for streamlit cloud deployment
-###################################################################
-###################################################################
-# Load latest scraped dataframe                                   # Tries to open most recent df using streamlit path
+#-------------------------------------------------------------------------------------------------------
+# Load latest most recent dataframe and its location              
 try:  
-  with open(str(path_deployment[0]), 'rb') as handle:             
+  with open(str(path_deployment[0]), 'rb') as handle:             # Tries to open most recent df using streamlit path
     df = pickle.load(handle)
   with open(str(locpath_deployment[0]), 'rb') as handle2:         # Tries to open location of most recent df
     location = pickle.load(handle2)
-except:                                                           # Opens most recent df using local path 
-  with open(str(path[0]), 'rb') as handle:                        
+except:                                                           # If exception error due to not being on streamlit path  
+  with open(str(path[0]), 'rb') as handle:                        # Opens most recent df using local path
     df = pickle.load(handle)
   with open(str(locpath[0]), 'rb') as handle2:                    # Tries to open location of most recent df
     location = pickle.load(handle2)
-        
-###################################################################
-######    DATA FRAME SELECTION FROM SELECT BOX ####################
+########################################################################################################      
+
+######  Click to show insights of the last user's query in #############################################
 with st.expander("Click to show insights of the last user's query in " + str(location) + " or select a previous query."):
   if len(locpath_deployment) == 0:                                # if streamlit's deployment path is empty that means were on local path 
     selections = []                                 
@@ -219,12 +217,12 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
     fig4()
   except:
     st.write('Debug Mode') 
+########################################################################################################
 
-
-################## Shopping cart Generator
+################## Shopping cart Generator #############################################################
 with st.expander("Click here to generate a shopping cart from " + str(location) + " or a previous query"):
   price_optimizer = st.checkbox('Optimize for price')
-  
+# cart generation by lowest price     
   if price_optimizer:
     highest_discount_optimizer = st.checkbox('Optimize for highest discount')
 
@@ -247,7 +245,11 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
                     shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i].replace(' ','-'),case=False)].head(1)], join='inner')
             except Exception as p:
                 print(p)
-        st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum()));print("Your total cart: $" + str(shopping_cart.sale.sum()))
+        not_prime = st.checkbox('Not a prime member')
+        if not_prime:
+          st.write("Your total cart as a normal shopper: $" + str(shopping_cart.sale.sum().round(2)))
+        else: 
+          st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum().round(2)))
         st.write(shopping_cart)
         st.button('Search')
 
@@ -268,10 +270,13 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
                     shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i].replace(' ','-'),case=False)].sort_values(['prime', 'prime_discount'], ascending = ('True', 'False')).head(1)], join='inner')
             except Exception as p:
                 print(p)
-        st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum()));print("Your total cart: $" + str(shopping_cart.sale.sum()))
+        not_prime = st.checkbox('Not a prime member')
+        if not_prime:
+          st.write("Your total cart as a normal shopper: $" + str(shopping_cart.sale.sum().round(2)))
+        else: 
+          st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum().round(2)))
         st.write(shopping_cart)
         st.button('Search')
-############################################################################################################################################
 # RANDOMIZED CART  
   else:
     # use randomized cart feature
@@ -290,13 +295,17 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
                   shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i].replace(' ','-'),case=False)].sample(1)], join='inner')
           except Exception as p:
               print(p)
-      st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum()));print("Your total cart: $" + str(shopping_cart.sale.sum()))
+      not_prime = st.checkbox('Not a prime member')
+      if not_prime:
+        st.write("Your total cart as a normal shopper: $" + str(shopping_cart.sale.sum().round(2)))
+      else: 
+        st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum().round(2)))
       st.write(shopping_cart)
       randomize = st.button('Randomize')
+########################################################################################################
 
 
-
-
+########################################################################################################
 with st.expander("Search 'on-sale' data at " + str(location) + " or from a previous query"):
   search_input = st.text_input('Enter items as ("item1, item2") format', key=2)
   if search_input:
@@ -305,7 +314,7 @@ with st.expander("Search 'on-sale' data at " + str(location) + " or from a previ
     r = search_input.replace(', ','|')
     st.write(original_df.loc[original_df['product'].str.contains(r,case=False)])
     st.button('Search', key=3)
-
+########################################################################################################
 with st.expander("Download 'on-sale' data at " + str(location) + " as a CSV File/Excel Spreadsheet"):
     
   #### Download Parsed Data Frame Button 
@@ -332,4 +341,4 @@ with st.expander("Download 'on-sale' data at " + str(location) + " as a CSV File
     "text/csv",
     key='download-csv'
   )
-  ###
+########################################################################################################
