@@ -138,6 +138,7 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
       with open(str(locpath[0]), 'rb') as handle2:                    
         location = pickle.load(handle2)
   # initiate graphs
+  
   try:
     st.markdown('There are ' + str(len(df)) + ' items "on-sale" in ' + str(location) + '. ***For a larger view hover over the dataset and click the full screen icon at the top right to filter by feature.***')   
 
@@ -269,10 +270,7 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
 
 
 
-
-
-
-with st.expander("Search 'on-sale data at " + str(location) + " or from a previous query"):
+with st.expander("Search 'on-sale' data at " + str(location) + " or from a previous query"):
   search_input = st.text_input('Enter items as ("item1, item2") format', key=2)
   if search_input:
     original_df = df.copy()
@@ -280,4 +278,26 @@ with st.expander("Search 'on-sale data at " + str(location) + " or from a previo
     r = search_input.replace(', ','|')
     st.write(original_df.loc[original_df['product'].str.contains(r,case=False)])
     st.button('Search', key=3)
-  
+
+with st.expander("Download 'on-sale' data at " + str(location) + " as a .CSV"):
+    
+  #### Download Parsed Data Frame Button 
+  excel_download_string = str(pathlib.Path(queryselection)).replace('scraped products dump\location', '')
+  excel_download_string = excel_download_string[1:]
+  excel_download_string = excel_download_string.replace('.pkl', '') + '.csv'
+
+  @st.cache
+  def convert_df(df):
+    return df.to_csv().encode('utf-8')
+
+
+  csv = convert_df(df)
+
+  st.download_button(
+    "Download as CSV",
+    csv,
+    excel_download_string,
+    "text/csv",
+    key='download-csv'
+  )
+  ###
