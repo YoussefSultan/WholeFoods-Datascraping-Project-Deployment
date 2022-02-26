@@ -329,7 +329,7 @@ if df['product'].str.contains("Soozys Chocolate Chip Cookies").any():
 
 # Data cleaning/shifting for products by Whole Foods Market
 if df['product'].str.contains('Whole Foods Market').any():
-    print('data error check product name containing "whole foods market"')
+    print('data error checking product name containing "whole foods market"')
 
 #---------------Any of these are definitely under the lifestyle category//all waterbottles------#
 
