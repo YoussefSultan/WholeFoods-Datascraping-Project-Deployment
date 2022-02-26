@@ -282,9 +282,14 @@ with st.expander("Search 'on-sale' data at " + str(location) + " or from a previ
 with st.expander("Download 'on-sale' data at " + str(location) + " as a CSV File/Excel Spreadsheet"):
     
   #### Download Parsed Data Frame Button 
-  excel_download_string = str(pathlib.Path(queryselection)).replace('scraped products dump\location', '')
-  excel_download_string = excel_download_string[1:]
-  excel_download_string = excel_download_string.replace('.pkl', '') + '.csv'
+  if platform.system()=='Windows':
+    excel_download_string = str(pathlib.Path(queryselection)).replace('scraped products dump\location', '')
+    excel_download_string = excel_download_string[1:]
+    excel_download_string = excel_download_string.replace('.pkl', '') + '.csv'
+  else:
+    excel_download_string = str(pathlib.Path(queryselection)).replace('deployment\scraped products dump\location', '')
+    excel_download_string = excel_download_string[1:]
+    excel_download_string = excel_download_string.replace('.pkl', '') + '.csv'    
 
   @st.cache
   def convert_df(df):
