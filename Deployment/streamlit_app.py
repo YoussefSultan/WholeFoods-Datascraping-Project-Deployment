@@ -306,3 +306,4 @@ with st.expander("Download 'on-sale' data at " + str(location) + " as a CSV File
     key='download-csv'
   )
   ###
+st.write(str(pathlib.Path(queryselection)))
