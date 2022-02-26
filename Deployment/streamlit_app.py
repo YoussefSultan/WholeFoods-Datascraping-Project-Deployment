@@ -53,6 +53,33 @@ st.markdown("""
   </div>
 </nav>
 """, unsafe_allow_html=True)
+st.caption("""
+This is an app that gives Whole Foods shoppers and Amazon Prime Members the ability to make the most out of their spending and Prime membership when shopping by understanding what is 'on-sale' at their 
+local Whole Foods.  Click 'About this app' to learn more.
+""")
+with st.expander('About this app'):
+  st.caption("""
+This app scrapes unstructured data from each category on the Whole Foods website pertaining to the user's zipcode and structures all of the data in a 
+DataFrame (similar to an Excel spreadsheet) with added features (columns) such as discounts for normal shoppers, prime members, the difference between the prime discounts and sale discounts
+as well as bins (i.e. items in the 40% off to 50% off range).
+
+Current app features:
+- Query a structured dataset of your Local Whole Foods
+- Select other previous users queries
+- Visualize dataset(s) insights {Total items on sale, by category, discount range etc.}
+- Generate a personalized shopping cart of on-sale items based on word inputs (i.e. 'Avocado, Pasta') with 3 different modes:
+    - Optimize shopping cart for the lowest prices
+    or
+    - Optimize shopping cart for highest discounts
+    or
+    - Randomize shopping cart simply based on user input
+- Search 'on-sale' data of selected dataset based on keyword (i.e. 'Avocado, Pasta')
+- Download structured dataset(s) as CSV
+
+Features in progress:
+- Recommendation system using machine learning
+    - Recommends products in your generated shopping cart based on other customers purchases and associations
+""")
 ###################################################################
 ###################################################################
 cwd = os.getcwd()
