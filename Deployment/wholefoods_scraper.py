@@ -13,6 +13,7 @@ import pathlib
 import platform
 import warnings
 from selenium.webdriver.chrome.options import Options
+t1 = time.monotonic() # start timer to calculate elapsed time
 #########################################################
 cwd = os.getcwd() # Current Path
 driver_dir = cwd + "\chromedriver.exe" # chrome driver for running script locally
@@ -334,23 +335,23 @@ if df['product'].str.contains('Whole Foods Market').any():
 
 # Data cleaning/shifting for products by CAMELBAK
 if df['product'].str.contains('CAMELBAK').any():
-    print('data error check product name containing "CAMELBAK"')
+    print('data error, checking product name "CAMELBAK"')
 
 # Data cleaning/shifting for products by NEW WAVE
 if df['product'].str.contains('NEW WAVE').any():
-    print('data error check product name containing "NEW WAVE"')
+    print('data error, checking product name containing "NEW WAVE"')
 
 # Data cleaning/shifting for products by Enviro
 if df['product'].str.contains('Enviro').any():
-    print('data error check product name containing "Enviro"')
+    print('data error, checking product name containing "Enviro"')
 
 # Data cleaning/shifting for products by HYDRO FLASK
 if df['product'].str.contains('HYDRO FLASK').any():
-    print('data error check product name containing "HYDRO FLASK"')
+    print('data error, checking product name "HYDRO FLASK"')
 
 # Data cleaning/shifting for products by SUNDESA
 if df['product'].str.contains('SUNDESA').any():
-    print('data error check product name containing "SUNDESA"')
+    print('data error, checking product name "SUNDESA"')
 
 if df['regular'].str.contains('9¢').any():
     ix = df[df['regular'].str.contains('9¢')].index
@@ -377,6 +378,11 @@ if df['product'].str.contains('Superseed Vegan Bread, 22.2 oz').any():
     for i in range(len(ix)):
         df.loc[ix[i],'company'] = "Soozy's"     
 
+if df['company'].str.contains('CAVA MEZZE').any():
+    ix = df[df['company'].str.contains('CAVA MEZZE')].index 
+    for i in range(len(ix)):
+        df.loc[ix[i],'company'] = "Cava"
+
 if df['product'].str.contains('Distillery').any():
     ix = df[df['product'].str.contains('Distillery')].index  
     print('Dropped ' + str(len(ix)) + ' Distillery results.')
@@ -391,7 +397,8 @@ if df['product'].str.contains('Whole Foods Market').any():                  #---
     for i in range(len(ix)):                                                # appended information to the left once. Because of this the company category will be shifted as a different text value
         df.loc[ix[i], 'company'] = df.loc[ix[i], 'product']                 # Solution: Apply the text in the 'product' column to the 'company' column |
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@# ------------------------------------------------------------------------|
-try:
+# Try fix column positioning using solution 1 if the product title exists in position [-3] of the list of the dictionary of each item in each category 
+try:                                                                            # ------------------------------------------------------------------------|
     if df['regular'].str.contains('a|e|i|o|u', regex=True).any():               # Furthermore, this means that the other columns containing pricing have shifted values of information
         ix = df[df['regular'].str.contains('a|e|i|o|u', regex=True)].index      # To apply proper values to each column we iterate where 'Prime member deal' exists at position [n][0]
         for i in range(len(ix)):                                                # globals() is used to iterate through our list of categories which points to the actual objects containing the scraped data
@@ -403,7 +410,18 @@ try:
             df.loc[ix[i], 'prime'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'product'] in ct[n][-3]][0][-1].split('$')[1].replace(r'/lb','')
             print('Some products are only on sale for prime members, wrangling data accordingly...')
 except Exception as e:
-    print(e)
+# if error fix column positioning using solution 2 if the product title exists in position [-4] of the list of the dictionary of each item in each category 
+    print(str(e) + " due to online element structure change, wrangling using solution #2")
+    try:
+        for i in range(len(ix)):                                                # globals() is used to iterate through our list of categories which points to the actual objects containing the scraped data
+            ct = globals()[df.loc[ix[i], 'category']]                           # -----------------------------------------------------------------------|
+            df.loc[ix[i], 'company'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'regular'] in ct[n][-4]][0][-5]
+            df.loc[ix[i], 'product'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'regular'] in ct[n][-4]][0][-4]
+            df.loc[ix[i], 'regular'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'product'] in ct[n][-4]][0][-3].split('$')[1].replace(r'/lb','')
+            df.loc[ix[i], 'sale'] = 0                                           # If 'Prime Member Deal' exists in position [n][0] of each category object, that means there is no sale price as it is for prime members only
+            df.loc[ix[i], 'prime'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'product'] in ct[n][-4]][0][-2].split('$')[1].replace(r'/lb','')
+    except Exception as e:
+        print(e)
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
 #---------------------------------------------------------------------------# 
 df['sale'] = df['sale'].str.replace(r'$', '', regex=True)                   # # # # # # # # # # # # # # # 
@@ -501,13 +519,13 @@ if df['regular'].str.contains('a|e|i|o|u', regex=True).any():                   
     print('Dropping ' + str(len(ix)) + ' rows that failed to parse')                              #
 #-------------------------------------------------------------------------------------------------#  
 df = df.sort_index()                                                                          #
-df["regular"] = pd.to_numeric(df["regular"])                                                  # # # # # # # # # # # # # # # # # # #
-df["sale"] = pd.to_numeric(df["sale"])                                                        # Str ---> float, Feature Creation  #
-df["prime"] = pd.to_numeric(df["prime"])                                                      # # # # # # # # # # # # # # # # # # #
-df['sale_discount'] = 1-df['sale']/df['regular']                                              # 
-df['prime_discount'] = 1-df['prime']/df['regular']                                            #
-df['prime_sale_difference'] = df['prime_discount'] - df['sale_discount']                      # # # # # # # # # # # # # # # # # # # # |------------------------------------|
-df['discount_bins'] = pd.cut(df.prime_discount, [0,.10,.20,.30, .40, .50, .9], labels=['0% to 10%','10% to 20%','20% to 30%','30% to 40%','40% to 50%','50% or more'])   # |Discount Bins I.E. 0% Off to 10% off|
+df["regular"] = pd.to_numeric(df["regular"]).round(2)                                         # # # # # # # # # # # # # # # # # # #
+df["sale"] = pd.to_numeric(df["sale"]).round(2)                                               # Str ---> float, Feature Creation  #
+df["prime"] = pd.to_numeric(df["prime"]).round(2)                                             # # # # # # # # # # # # # # # # # # #
+df['sale_discount'] = (1-df['sale']/df['regular']).round(3)                                   # 
+df['prime_discount'] = (1-df['prime']/df['regular']).round(3)                                 #
+df['prime_sale_difference'] = (df['prime_discount'] - df['sale_discount']).round(3)           # # # # # # # # # # # # # # # # # # # # |------------------------------------|
+df['discount_bins'] = pd.cut(df.prime_discount, [0,.10,.20,.30, .40, .50, .9], labels=['0% to 10%','10% to 20%','20% to 30%','30% to 40%','40% to 50%','50% or more'])    #|Discount Bins I.E. 0% Off to 10% off|
 df = df.sort_values(by='prime_discount', ascending=False)                                     # # # # # # # # # # # # # # # # # # # # |------------------------------------|
 df['prime_sale_difference'] = df['prime_sale_difference'].clip(lower=0)                       # sets prime_sale_difference as 0 if lower than 0 to fix distribution 
 #---------------------------------------------------------------------------------------------# This occurs if items are on sale for prime members only
@@ -532,3 +550,6 @@ with open(locpath, 'wb') as handle:          # The Dataframe file is in the 'scr
     pickle.dump(location, handle, protocol=4)#
     print("Products saved as WF_Sales_" + str(date.today().strftime("%b_%d_%Y")) + '_' + str('_'.join(location.split()).replace(',','')) + ".pkl")
 #--------------------------------------------#
+t2 = time.monotonic() # end time
+elapsed = t2 - t1
+print('Elapsed time is %f seconds.' % elapsed)
