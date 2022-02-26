@@ -279,7 +279,7 @@ with st.expander("Search 'on-sale' data at " + str(location) + " or from a previ
     st.write(original_df.loc[original_df['product'].str.contains(r,case=False)])
     st.button('Search', key=3)
 
-with st.expander("Download 'on-sale' data at " + str(location) + " as a .CSV"):
+with st.expander("Download 'on-sale' data at " + str(location) + " as a CSV File/Excel Spreadsheet"):
     
   #### Download Parsed Data Frame Button 
   excel_download_string = str(pathlib.Path(queryselection)).replace('scraped products dump\location', '')
