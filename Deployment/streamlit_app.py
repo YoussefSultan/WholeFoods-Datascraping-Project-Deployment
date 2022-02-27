@@ -125,29 +125,29 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
   if len(locpath_deployment) == 0:                                # if streamlit's deployment path is empty that means were on local path 
     selections = []                                 
     for x in locpath:                                             # iterate through local path of scraped data and append each item path to a list
-      selections.append(x)                                         
+      selections.append(str(x)[31:]) # indexed to hide path from app                                        
     queryselection = st.selectbox('Select a previous query', tuple(selections))      # create our streamlit selectbox with each selection being a tuple of our 'selections' list
   else:                                                           # if streamlit's deployment path is not 0, that means were on streamlit path
     selections = []
     for x in locpath_deployment:                              
-      selections.append(x)
+      selections.append(str(x)[42:])
     queryselection = st.selectbox('Select a previous query', tuple(selections))
 ###################################################################
 #  
   if queryselection:
     if len(locpath_deployment) == 0:                              # if a selection from the select box is selected
       try:                                                        # try opening dataframe and location using the selected path
-        with open(str(pathlib.Path(queryselection)).replace('\\location',''), 'rb') as handle:             
+        with open(str(pathlib.Path('scraped products dump\\'+queryselection)), 'rb') as handle:             
           df = pickle.load(handle)
-        with open(str(queryselection), 'rb') as handle2:         
+        with open(str('scraped products dump\\location\\'+queryselection), 'rb') as handle2:         
           location = pickle.load(handle2)
       except Exception as e:
         st.write(Exception)
     else:
       try:
-        with open(str(pathlib.Path(queryselection)).replace('/location',''), 'rb') as handle:             
+        with open(str(pathlib.Path('Deployment/scraped products dump/'+queryselection)), 'rb') as handle:             
           df = pickle.load(handle)
-        with open(str(queryselection), 'rb') as handle2:         
+        with open(str('Deployment/scraped products dump/location'+queryselection), 'rb') as handle2:         
           location = pickle.load(handle2)
       except Exception as e:
         st.write(Exception)
