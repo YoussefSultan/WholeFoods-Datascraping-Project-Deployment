@@ -142,15 +142,15 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
         with open(str('scraped products dump\\location\\'+queryselection), 'rb') as handle2:         
           location = pickle.load(handle2)
       except Exception as e:
-        st.write(Exception)
+        st.write(e)
     else:
       try:
         with open(str(pathlib.Path('Deployment/scraped products dump/'+queryselection)), 'rb') as handle:             
           df = pickle.load(handle)
-        with open(str('Deployment/scraped products dump/location'+queryselection), 'rb') as handle2:         
+        with open(str('Deployment/scraped products dump/location/'+queryselection), 'rb') as handle2:         
           location = pickle.load(handle2)
       except Exception as e:
-        st.write(Exception)
+        st.write(e)
   else:                                                           # if no selection has been picked
     try:                                                          # re run our code from lines 81-90
       with open(str(path_deployment[0]), 'rb') as handle:         
