@@ -320,11 +320,11 @@ with st.expander("Download 'on-sale' data at " + str(location) + " as a CSV File
   #### Download Parsed Data Frame Button 
   if platform.system()=='Windows':
     excel_download_string = str(pathlib.Path(queryselection)).replace('scraped products dump\location', '')
-    excel_download_string = excel_download_string[1:]
+    excel_download_string = excel_download_string
     excel_download_string = excel_download_string.replace('.pkl', '') + '.csv'
   else:
     excel_download_string = str(pathlib.Path(queryselection)).replace('Deployment/scraped products dump/location', '')
-    excel_download_string = excel_download_string[1:]
+    excel_download_string = excel_download_string
     excel_download_string = excel_download_string.replace('.pkl', '') + '.csv'    
 
   @st.cache
