@@ -1,0 +1,1658 @@
+company,product,regular,sale,prime,category,sale_discount,prime_discount,prime_sale_difference,discount_bins,parsed_product
+MAD HIPPIE,"Mad Hip Normal/dry Cream Cleanser, 4 fl oz",16.99,14.49,13.04,beauty,0.147,0.232,0.085,20% to 30%,Cleanser
+ALBA BOTANICA,"Pineapple Enzyme Facial Cleanser, 8 fl oz",13.49,10.79,9.71,beauty,0.2,0.28,0.08,20% to 30%,Cleanser
+Dr. Bronner's,"Organic Naked Lip Balm, 0.15 oz",3.49,2.69,2.42,beauty,0.229,0.307,0.078,30% to 40%,Balm
+Dr. Bronner's,"Organic Peppermint Lip Balm, 0.15 oz",3.49,2.69,2.42,beauty,0.229,0.307,0.078,30% to 40%,Balm
+Dr. Bronner's,"Organic Lemon Lime Lip Balm, 0.15 oz",3.49,2.69,2.42,beauty,0.229,0.307,0.078,30% to 40%,Balm
+ALAFFIA,"Purely Coconut Lip Balm, 0.15 oz",2.99,2.49,2.24,beauty,0.167,0.251,0.084,20% to 30%,Balm
+ALAFFIA,"Coconut Pineapple Lip Balm, 0.15 oz",2.99,2.49,2.24,beauty,0.167,0.251,0.084,20% to 30%,Balm
+ALAFFIA,"Coconut Mint Lip Balm, 1 stick",2.99,2.49,2.24,beauty,0.167,0.251,0.084,20% to 30%,Balm
+ALBA BOTANICA,"Nourishing Coconut Cream Hawaiian Lip Balm, 0.15 oz",3.49,2.79,2.51,beauty,0.201,0.281,0.08,20% to 30%,Balm
+ALBA BOTANICA,"Coconut Milk Rich Hair Wash, 12 fl oz",10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Milk
+PUREZERO,"Coconut Milk Conditioner, 12 fl oz",6.99,5.99,5.39,beauty,0.143,0.229,0.086,20% to 30%,Milk
+PUREZERO,"Coconut Milk Shampoo, 12 fl oz",6.99,5.99,5.39,beauty,0.143,0.229,0.086,20% to 30%,Milk
+ALBA BOTANICA,"Coconut Milk Rich Hair Conditioner, 12 oz",10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Milk
+Jason Natural Products,"Thin To Thick Conditioner, 8 oz",9.49,5.49,4.94,beauty,0.421,0.479,0.058,40% to 50%,Conditioner
+ALBA BOTANICA,"Mango Body Builder Conditioner, 12 oz",10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Conditioner
+ALBA BOTANICA,"Hawaiian Gardenia Conditioner, 12 oz",10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Conditioner
+AVALON ORGANICS,"Nourishing Lavender Conditioner, 32 oz",22.49,18.99,17.09,beauty,0.156,0.24,0.084,20% to 30%,Conditioner
+AVALON ORGANICS,"Organic Biotin B Complx Thick Conditioner, 32 oz",22.49,18.99,17.09,beauty,0.156,0.24,0.084,20% to 30%,Conditioner
+AVALON ORGANICS,"Rosemary Conditioner, 11 oz",10.29,8.79,7.91,beauty,0.146,0.231,0.085,20% to 30%,Conditioner
+AVALON ORGANICS,"Nourishing Lavender Conditioner, 11 oz",10.29,8.79,7.91,beauty,0.146,0.231,0.085,20% to 30%,Conditioner
+AVALON ORGANICS,"Organic Biotin Thickening Conditioner, 14 oz",9.69,8.29,7.46,beauty,0.144,0.23,0.086,20% to 30%,Conditioner
+ALBA BOTANICA,"Plumria Replenishing Hair Conditioner, 12 oz",10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Conditioner
+AVALON ORGANICS,"Organic Tea Tree Conditioner, 11 oz",9.29,7.99,7.19,beauty,0.14,0.226,0.086,20% to 30%,Conditioner
+Jason Natural Products,"Dandruff Relief Shampoo, 12 fl oz",13.79,8.79,7.91,beauty,0.363,0.426,0.063,40% to 50%,Shampoo
+ALBA BOTANICA,"Mango Body Builder Shampoo, 12 fl oz",10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Shampoo
+Jason Natural Products,"Thin To Thick Shampoo, 8 fl oz",9.49,7.99,7.19,beauty,0.158,0.242,0.084,20% to 30%,Shampoo
+ALAFFIA,"Curl Enhancing Shampoo, 12 fl oz",12.79,10.79,9.71,beauty,0.156,0.241,0.085,20% to 30%,Shampoo
+AVALON ORGANICS,"Organic Biotin Shampoo, 32 fl oz",22.49,18.99,17.09,beauty,0.156,0.24,0.084,20% to 30%,Shampoo
+AVALON ORGANICS,"Organic Biotin Shampoo, 14 fl oz",12.99,10.99,9.89,beauty,0.154,0.239,0.085,20% to 30%,Shampoo
+ALAFFIA,"Lavender Moisturizing Shampoo, 32 fl oz",16.79,14.29,12.86,beauty,0.149,0.234,0.085,20% to 30%,Shampoo
+PUREZERO,"Moroccan Argan Oil Shampoo, 12 fl oz",6.99,5.99,5.39,beauty,0.143,0.229,0.086,20% to 30%,Shampoo
+PUREZERO,"Biotin Shampoo, 12 fl oz",6.99,5.99,5.39,beauty,0.143,0.229,0.086,20% to 30%,Shampoo
+AVALON ORGANICS,"Organic Volumizing Rosemary Shampoo, 11 fl oz",10.79,9.29,8.36,beauty,0.139,0.225,0.086,20% to 30%,Shampoo
+AVALON ORGANICS,"Nourishing Lavender Shampoo, 11 fl oz",10.79,9.29,8.36,beauty,0.139,0.225,0.086,20% to 30%,Shampoo
+ALBA BOTANICA,"Hawaiian Plumeria Shampoo, 12 fl oz",10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Shampoo
+ALAFFIA,"Coconut Shampoo, 32 fl oz",14.79,12.49,11.24,beauty,0.156,0.24,0.084,20% to 30%,Shampoo
+AVALON ORGANICS,"Organic Lavender Shampoo, 32 fl oz",20.99,18.79,16.91,beauty,0.105,0.194,0.089,10% to 20%,Shampoo
+AVALON ORGANICS,"Scalp Treatment Tea Tree Shampoo, 11 fl oz",8.69,8.49,7.64,beauty,0.023,0.121,0.098,10% to 20%,Shampoo
+MAD HIPPIE,"Antioxidant Facial Oil, 1 each",25.99,14.49,13.04,beauty,0.442,0.498,0.056,40% to 50%,Wash
+EARTH THERAPEUTICS,"4 Sided Filing Block, 1 each",2.99,2.39,2.15,beauty,0.201,0.281,0.08,20% to 30%,Wash
+ALBA BOTANICA,"Gardenia Hydrating Hair Wash, 12 fl oz",10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Wash
+ALBA BOTANICA,"Hawaiian 3 In 1 Clean Towelettes, 30 wet towelettes",5.99,4.79,4.31,beauty,0.2,0.28,0.08,20% to 30%,Wash
+AVALON ORGANICS,"Radiant C Daily Gel Cream Moisturizer, 1.7 oz",28.99,24.49,22.04,beauty,0.155,0.24,0.085,20% to 30%,Wash
+MAD HIPPIE,"Mad Hip Eye Cream, 0.5 fl oz",25.99,21.99,19.79,beauty,0.154,0.239,0.085,20% to 30%,Wash
+Jason Natural Products,"Hi Shine Style Gel, 6 oz",9.79,8.29,7.46,beauty,0.153,0.238,0.085,20% to 30%,Wash
+MAD HIPPIE,"Vitamin A Serum, 1 each",32.99,27.99,25.19,beauty,0.152,0.236,0.084,20% to 30%,Wash
+MAD HIPPIE,"Mad Hip Vitamin C Serum, 1 each",36.49,30.99,27.89,beauty,0.151,0.236,0.085,20% to 30%,Wash
+MAD HIPPIE,"Face Cream, 1 each",26.99,22.99,20.69,beauty,0.148,0.233,0.085,20% to 30%,Wash
+ALAFFIA,"Curl Activating Cream, 8 fl oz",13.79,11.79,10.61,beauty,0.145,0.231,0.086,20% to 30%,Wash
+ALAFFIA,"Curl Activating Leave In Conditioner, 12 fl oz",13.79,11.79,10.61,beauty,0.145,0.231,0.086,20% to 30%,Wash
+ALAFFIA,"Curl Defining Gel, 8 fl oz",13.79,11.79,10.61,beauty,0.145,0.231,0.086,20% to 30%,Wash
+Jason Natural Products,"Tea Tree Nail Saver, 0.5 fl oz",8.99,7.69,6.92,beauty,0.145,0.23,0.085,20% to 30%,Wash
+ALAFFIA,"Pure African Coconut Oil For Hair & Skin, 11 oz",13.99,11.99,10.79,beauty,0.143,0.229,0.086,20% to 30%,Wash
+PUREZERO,"Moroccan Argan Oil Conditioner, 12 fl oz",6.99,5.99,5.39,beauty,0.143,0.229,0.086,20% to 30%,Wash
+PUREZERO,"Biotin Conditioner, 12 fl oz",6.99,5.99,5.39,beauty,0.143,0.229,0.086,20% to 30%,Wash
+EARTH THERAPEUTICS,"Deluxe Nail Brush, 1 each",3.99,3.19,2.87,beauty,0.201,0.281,0.08,20% to 30%,Wash
+ALBA BOTANICA,"Cannabis Sativa Seed Oil Smooth & Soothe Conditioner, 12 oz",10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Wash
+EARTH THERAPEUTICS,"Curling Hair Brush, 1 each",8.69,6.69,6.02,beauty,0.23,0.307,0.077,30% to 40%,Wash
+ALBA BOTANICA,"Moisture Jasmine Vitamin E Cream, 3 oz",20.99,16.79,15.11,beauty,0.2,0.28,0.08,20% to 30%,Wash
+EARTH THERAPEUTICS,"Natural Bamboo Hair Brush, 1 each",10.79,8.69,7.82,beauty,0.195,0.275,0.08,20% to 30%,Wash
+ALAFFIA,"Moisturizing Conditioner Vanilla Mint, 32 fl oz",14.79,12.49,11.24,beauty,0.156,0.24,0.084,20% to 30%,Wash
+MAD HIPPIE,"Cleansing Oil, 2 fl oz",17.99,15.29,13.76,beauty,0.15,0.235,0.085,20% to 30%,Wash
+ALAFFIA,"Curl Enhancing Leave In Conditioner, 12 fl oz",10.79,9.29,8.36,beauty,0.139,0.225,0.086,20% to 30%,Wash
+Me & The Bees,"Classic Lemonade, 12 fl oz",3.19,2.5,2.25,Beverages,0.216,0.295,0.079,20% to 30%,Lemonade
+Me & The Bees,"Prickly Pear Lemonade, 12 fl oz",3.19,2.5,2.25,Beverages,0.216,0.295,0.079,20% to 30%,Lemonade
+Me & The Bees,"Ginger Lemonade, 12 fl oz",3.19,2.5,2.25,Beverages,0.216,0.295,0.079,20% to 30%,Lemonade
+Orgain,"Organic Sweet Vanilla Bean Vegan Nutritional Shake, 11 fl oz",2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Shake
+Orgain,"Strawberry & Cream Organic Nutrition Complete Protein Shake (4 Pk), 11 fl oz cartons",11.89,9.99,8.99,Beverages,0.16,0.244,0.084,20% to 30%,Shake
+Orgain,"Sweet Vanilla Bean Organic Nutrition Complete Protein Shake, 44 fl oz",11.89,9.99,8.99,Beverages,0.16,0.244,0.084,20% to 30%,Shake
+Orgain,"Organic Vanilla Bean Plant Based Shake, 4 cartons",11.89,10.99,9.89,Beverages,0.076,0.168,0.092,10% to 20%,Shake
+Koia,"Straw-nana Dream Smoothie, 12 fl oz",3.29,2,1.8,Beverages,0.392,0.453,0.061,40% to 50%,Smoothie
+Koia,"Glowing Greens Smoothie, 12 fl oz",3.29,2,1.8,Beverages,0.392,0.453,0.061,40% to 50%,Smoothie
+Koia,"Magic Mango Smoothie, 12 fl oz",3.29,2,1.8,Beverages,0.392,0.453,0.061,40% to 50%,Smoothie
+Koia,"Rise & Shine Smoothie, 12 fl oz",3.29,2,1.8,Beverages,0.392,0.453,0.061,40% to 50%,Smoothie
+Koia,"Tropical Passion Smoothie, 12 fl oz",3.29,2,1.8,Beverages,0.392,0.453,0.061,40% to 50%,Smoothie
+Hawaiian Springs,Artesian Spring Water,3.99,2.5,2.25,Beverages,0.373,0.436,0.063,40% to 50%,Water
+Essentia,20oz Single,1.49,1,0.9,Beverages,0.329,0.396,0.067,30% to 40%,Water
+Liquid Death,"Mountain Spring Water, 16.9 fl oz",1.69,1.25,1.12,Beverages,0.26,0.337,0.077,30% to 40%,Water
+1907 Water,"Natural Alkaline Artesian Water, 1 litre",1.99,1.5,1.35,Beverages,0.246,0.322,0.076,30% to 40%,Water
+Essentia Water,"Essentia Ionized Alkaline Water (6 Pk), 1.6 gal",12.99,9.99,8.99,Beverages,0.231,0.308,0.077,30% to 40%,Water
+Liquid Death,"Mountain Spring Water 12 Pack, 16.9 oz tallboys",14.99,12.99,11.69,Beverages,0.133,0.22,0.087,20% to 30%,Water
+Fiji,Natural Artesian Water (1 L),2.79,2.49,2.24,Beverages,0.108,0.197,0.089,10% to 20%,Water
+Vita Coco,"Pure Coconut Water, 16.9 fl oz",2.79,2.49,2.24,Beverages,0.108,0.197,0.089,10% to 20%,Water
+FLOW WATER,"Blood Orange Collagen Alkaline Spring Water, 16.9 fl oz",2.99,2.69,2.42,Beverages,0.1,0.191,0.091,10% to 20%,Water
+FLOW WATER,"Pomegranate Collagen Alkaline Spring Water, 16.9 fl oz",2.99,2.69,2.42,Beverages,0.1,0.191,0.091,10% to 20%,Water
+Fiji,"Natural Artesian Water (1.5 L), 1.58 qt",3.29,2.99,2.69,Beverages,0.091,0.182,0.091,10% to 20%,Water
+Flow Alkaline Spring Water,"Natural Alkaline Spring Water, 16.9 fl oz",1.49,1.39,1.25,Beverages,0.067,0.161,0.094,10% to 20%,Water
+Icelandic Glacial Water,"Glacial Natural Spring Water, 50.7 fl oz",2.99,2.79,2.51,Beverages,0.067,0.161,0.094,10% to 20%,Water
+Essentia Water,"Bottled Water, 24 bottles",34.49,22.99,20.69,Beverages,0.333,0.4,0.067,30% to 40%,Water
+Santa Cruz Organic,"Organic Radiant Rose Sparkling Juice Mocktail, 25.4 fl oz",4.49,2.67,2.4,Beverages,0.405,0.465,0.06,40% to 50%,Seltzer
+Liquid Death,"Sparkling Water, 16.9 fl oz",1.69,1.25,1.12,Beverages,0.26,0.337,0.077,30% to 40%,Seltzer
+Spindrift,"Lemon Sparkling Water 8 Pack, 12 fl oz",6.69,4.99,4.49,Beverages,0.254,0.329,0.075,30% to 40%,Seltzer
+Spindrift,"Raspberry Lime Sparkling Water 8 Pack, 96 fl oz",6.69,4.99,4.49,Beverages,0.254,0.329,0.075,30% to 40%,Seltzer
+Spindrift,"Pineapple Sparkling Water 8pk, 12 fl oz",6.69,4.99,4.49,Beverages,0.254,0.329,0.075,30% to 40%,Seltzer
+Spindrift,"Grapefruit Sparkling Water 8pk, 12 fl oz",6.69,4.99,4.49,Beverages,0.254,0.329,0.075,30% to 40%,Seltzer
+Spindrift,"Half Tea Half Lemonade Sparkling Water, 96 fl oz",6.69,4.99,4.49,Beverages,0.254,0.329,0.075,30% to 40%,Seltzer
+Nixie Sparkling Water,"Peach Black Tea Sparkling Water 8pk, 96 fl oz",6.49,4.99,4.49,Beverages,0.231,0.308,0.077,30% to 40%,Seltzer
+Nixie Sparkling Water,Watermelon Mint Sparkling Water 8pk,6.49,4.99,4.49,Beverages,0.231,0.308,0.077,30% to 40%,Seltzer
+Nixie Sparkling Water,Lime Ginger Sparkling Water 8pk,6.49,4.99,4.49,Beverages,0.231,0.308,0.077,30% to 40%,Seltzer
+Culture Pop Soda,"Orange Mange Chili & Lime Sparkling Soda 4pk, 12 fl oz",7.29,5.99,5.39,Beverages,0.178,0.261,0.083,20% to 30%,Seltzer
+Culture Pop Soda,"Ginger Lemon & Turmeric Sparkling Soda 4pk, 12 fl oz",7.29,5.99,5.39,Beverages,0.178,0.261,0.083,20% to 30%,Seltzer
+Culture Pop Soda,"Watermelon Lime & Rosemary Sparkling Soda 4pk, 12 fl oz",7.29,5.99,5.39,Beverages,0.178,0.261,0.083,20% to 30%,Seltzer
+CLEAN CAUSE,"Organic Sparkling Orange Ginger Yerba Mate, 16 fl oz",2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Seltzer
+CLEAN CAUSE,"Organic Sparkling Cherry Lime Yerba Mate, 16 fl oz",2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Seltzer
+Liquid Death,"Sparkling Mountain Spring Water 12 Pack, 16.9 oz tallboys",14.99,12.99,11.69,Beverages,0.133,0.22,0.087,20% to 30%,Seltzer
+DRY Botanical Bubbly,"Sparkling Cranberry Soda, 25.4 fl oz",5.69,5.09,4.58,Beverages,0.105,0.195,0.09,10% to 20%,Seltzer
+Nixie Sparkling Water,"Watermelon Mint Sparkling Water, 12 fl oz",0.99,0.89,0.8,Beverages,0.101,0.192,0.091,10% to 20%,Seltzer
+Nixie Sparkling Water,"Lime Ginger Sparkling Water, 12 fl oz",0.99,0.89,0.8,Beverages,0.101,0.192,0.091,10% to 20%,Seltzer
+Waterloo,"Pineapple Sparkling Water, 12 cans",6.29,5.69,5.12,Beverages,0.095,0.186,0.091,10% to 20%,Seltzer
+Waterloo,"Watermelon Sparkling Water, 144 fl oz",6.29,5.69,5.12,Beverages,0.095,0.186,0.091,10% to 20%,Seltzer
+DRY Botanical Bubbly,"Dry Sparkling Blood Orange Soda, 25.4 fl oz",5.39,4.89,4.4,Beverages,0.093,0.184,0.091,10% to 20%,Seltzer
+Spindrift,"Raspberry Lime Seltzer, 12 fl oz",1.19,0.99,0.89,Beverages,0.168,0.252,0.084,20% to 30%,Seltzer
+Health-Ade,"Spicy Margarita Kombucha Cocktail Mixer, 16 fl oz",5.49,4.49,4.04,Beverages,0.182,0.264,0.082,20% to 30%,Kombucha
+Health-Ade,"Moscow Mule Kombucha Cocktail Mixer, 16 fl oz",5.49,4.49,4.04,Beverages,0.182,0.264,0.082,20% to 30%,Kombucha
+Health-Ade,"Organic Mint Mojito Kombucha Cocktail Mixer, 16 fl oz",5.49,4.49,4.04,Beverages,0.182,0.264,0.082,20% to 30%,Kombucha
+Wild Tonic,"Organic Lavender Love Jun Kombucha, 16 fl oz",4.49,3.69,3.32,Beverages,0.178,0.261,0.083,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Gingerade 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Pomegranate Power 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Sacred Life 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Tantric Turmeric 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Guava Goddess 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Mystic Mango 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Multi-Green 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Golden Pineapple 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,"Gingerberry 16oz, 473 ml",3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Original 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Watermelon Wonder 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Strawberry Serenity 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Seasonal 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Lemon Berry 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+Yogi®,"Green Tea Kombucha, 1.12 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Trilogy 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic California Citrus 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+GT's Synergy Kombucha,Organic Hibiscus Ginger 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+Health-Ade,"Whiskey Sour Kombucha Cocktail Mix, 16 fl oz",5.49,4.49,4.04,Beverages,0.182,0.264,0.082,20% to 30%,Kombucha
+Baba’s Bucha,"Flower Power Kombucha Flower Power, 12 fluid ounce",4.79,3.69,3.32,Beverages,0.23,0.307,0.077,30% to 40%,Kombucha
+Baba’s Bucha,"Purple Rain Kombucha Blueberry, 12 fluid ounce",4.79,3.69,3.32,Beverages,0.23,0.307,0.077,30% to 40%,Kombucha
+Baba’s Bucha,"Ruby Sipper Kombucha Hibiscus, 12 fluid ounce",4.79,3.69,3.32,Beverages,0.23,0.307,0.077,30% to 40%,Kombucha
+Baba’s Bucha,"Believe Kombucha, 12 fluid ounce",4.79,3.69,3.32,Beverages,0.23,0.307,0.077,30% to 40%,Kombucha
+GT's Synergy Kombucha,Organic Lavender Love 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha
+Yogi®,"Mango Ginger, 1.12 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Relaxed Mind, 1.12 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Green Tea Super Antioxidant, 1.12 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Soothing Caramel Bedtime, 1.07 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Throat Comfort, 1.27 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Egyptian Licorice, 1.27 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Stomach Ease, 1.02 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Chai Rooibos, 1.27 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Breath Deep, 1.12 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"DeTox, 1.02 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Honey Chai Turmeric Vitality, 1.12 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Green Tea Pure Green, 1.09 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Echinacea Immune Support, 0.85 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,Green Tea Blueberry Slim Life,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Egyptian Licorice Mint, 1.12 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Woman's Raspberry Leaf, 1.02 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Soothing Rose Hibiscus Skin DeTox, 1.12 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Kava Stress Relief, 1.27 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Bedtime, 0.85 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Lemon Ginger, 1.27 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Ginger, 1.12 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Comforting Chamomile, 0.85 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Honey Lavender Stress Relief, 1.02 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Yogi®,"Sweet Tangerine Positive Energy, 1.02 oz",4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea
+Celestial Seasonings,"Caffeine Free Extra Sleepytime Herbal Supplement Tea, 1.2 oz",3.69,3.29,2.96,Beverages,0.108,0.198,0.09,10% to 20%,Tea
+Celestial Seasonings,"Sleepytime Lavender Herbal Tea, 1.1 oz",3.49,3.29,2.96,Beverages,0.057,0.152,0.095,10% to 20%,Tea
+Celestial Seasonings,"Caffeine Free Classic Sleepytime Herbal Tea, 1 oz",3.39,3.29,2.96,Beverages,0.029,0.127,0.098,10% to 20%,Tea
+Celestial Seasonings,"Organic Teawell Matcha Green, 0.6 oz",5.99,3.99,3.59,Beverages,0.334,0.401,0.067,40% to 50%,Tea
+Celestial Seasonings,"Organic Teawell Ginger Mint, 0.6 oz",5.99,3.99,3.59,Beverages,0.334,0.401,0.067,40% to 50%,Tea
+Celestial Seasonings,"Teawell Sleep, 0.5 oz",4.99,3.99,3.59,Beverages,0.2,0.281,0.081,20% to 30%,Tea
+Celestial Seasonings,"Organic Teawell Laxative, 1 oz",4.99,3.99,3.59,Beverages,0.2,0.281,0.081,20% to 30%,Tea
+Celestial Seasonings,"Vermont Maple Ginger Herbal Tea, 1.1 oz",3.49,3.29,2.96,Beverages,0.057,0.152,0.095,10% to 20%,Tea
+Celestial Seasonings,"Caffeine Free Country Peach Passion Herbal Tea, 20 tea bags",3.49,3.29,2.96,Beverages,0.057,0.152,0.095,10% to 20%,Tea
+Celestial Seasonings,"Caffeine Free Lemon Zinger Tea, 1.7 oz",3.49,3.29,2.96,Beverages,0.057,0.152,0.095,10% to 20%,Tea
+Celestial Seasonings,"Bengal Spice Tea, 1.7 oz",3.49,3.29,2.96,Beverages,0.057,0.152,0.095,10% to 20%,Tea
+Celestial Seasonings,"Peppermint Tea, 1.1 oz",3.49,3.29,2.96,Beverages,0.057,0.152,0.095,10% to 20%,Tea
+Yogi®,"Purely Peppermint, 0.85 oz",4.49,4.29,3.86,Beverages,0.045,0.14,0.095,10% to 20%,Tea
+Yogi®,"Peach DeTox, 16 tea bags",4.49,4.29,3.86,Beverages,0.045,0.14,0.095,10% to 20%,Tea
+Celestial Seasonings,"Organic Teawell Mood, 0.6 oz",5.49,3.99,3.59,Beverages,0.273,0.346,0.073,30% to 40%,Tea
+Celestial Seasonings,"Organic Teawell Turmeric Spice, 0.9 oz",5.49,3.99,3.59,Beverages,0.273,0.346,0.073,30% to 40%,Tea
+Celestial Seasonings,"Echinacea Complete Care Tea Bag, 1.3 oz",3.69,3.29,2.96,Beverages,0.108,0.198,0.09,10% to 20%,Tea
+Whole Foods Market,"Organic Dark Roast Steeped Coffee, 0.42 oz",11.99,5.99,5.39,Beverages,0.5,0.55,0.05,50% or more,Coffee
+Groundwork Coffee,"Organic Cold Brew Coffee, 12 fl oz",4.99,3,2.7,Beverages,0.399,0.459,0.06,40% to 50%,Coffee
+Groundwork Coffee,"Organic Bitches Brew Cold Brew, 12 fl oz",4.99,3,2.7,Beverages,0.399,0.459,0.06,40% to 50%,Coffee
+GROUNDWORK COFFEE CO,"Organic Classic Cold Brew Coffee, 10.1 fl oz",3.69,2.5,2.25,Beverages,0.322,0.39,0.068,30% to 40%,Coffee
+Lucky Jack,"Cold Brew Coffee Concentrate - Black, 32 fl oz",11.99,8.99,8.09,Beverages,0.25,0.325,0.075,30% to 40%,Coffee
+Lucky Jack,"Organic Mocha Cole Brew Coffee Concentrate, 32 fl oz",11.99,8.99,8.09,Beverages,0.25,0.325,0.075,30% to 40%,Coffee
+Lucky Jack,"Organic Caramel Concentrate Cold Brew Coffee, 32 fl oz",11.99,8.99,8.09,Beverages,0.25,0.325,0.075,30% to 40%,Coffee
+Koia,"Cold Brew Coffee, 12 fl oz",3.99,3,2.7,Beverages,0.248,0.323,0.075,30% to 40%,Coffee
+Peet's Coffee,"Ground Cafe Domingo Blend Coffee, 12 oz",11.99,9.99,8.99,Beverages,0.167,0.25,0.083,20% to 30%,Coffee
+Peet's Coffee,"House Blend Ground Coffee, 12 oz",11.99,9.99,8.99,Beverages,0.167,0.25,0.083,20% to 30%,Coffee
+Peet's Coffee,"French Roast Ground Coffee, 12 oz",11.99,9.99,8.99,Beverages,0.167,0.25,0.083,20% to 30%,Coffee
+Lucky Jack,"Cold Brew Coffee Old School, 10.5 fluid ounce",4.19,3.5,3.15,Beverages,0.165,0.248,0.083,20% to 30%,Coffee
+Lucky Jack,"Cold Brew Coffee Triple Jack, 10.5 fl oz",4.19,3.5,3.15,Beverages,0.165,0.248,0.083,20% to 30%,Coffee
+Lucky Jack,"Sweet Thing Nitro Cold Brew Coffee, 10.5 fl oz",4.19,3.5,3.15,Beverages,0.165,0.248,0.083,20% to 30%,Coffee
+Counter Culture Coffee,"Gradient Whole Bean Coffee, 12 oz",12.99,10.99,9.89,Beverages,0.154,0.239,0.085,20% to 30%,Coffee
+Counter Culture Coffee,"Fast Forward Coffee, 12 oz",12.99,10.99,9.89,Beverages,0.154,0.239,0.085,20% to 30%,Coffee
+Copper Cow Coffee,"Vietnamese Vanilla Pour Over Coffee Kit, 7.4 oz",10.99,9.49,8.54,Beverages,0.136,0.223,0.087,20% to 30%,Coffee
+Copper Cow Coffee,"Vietnamese Portable Pour Over Coffee, 7.4 oz",10.99,9.49,8.54,Beverages,0.136,0.223,0.087,20% to 30%,Coffee
+Groundwork Coffee,"Organic Black Gold Dark Roast Whole Bean Coffee, 16 oz",17.29,14.99,13.49,Beverages,0.133,0.22,0.087,20% to 30%,Coffee
+Groundwork Coffee,"Organic Cold Brew Coffee Concentrate, 32 fl oz",14.99,12.99,11.69,Beverages,0.133,0.22,0.087,20% to 30%,Coffee
+Groundwork Coffee,"Organic Brazil Light Roast Whole Bean Coffee, 16 oz",17.29,14.99,13.49,Beverages,0.133,0.22,0.087,20% to 30%,Coffee
+Groundwork Coffee,"Organic Angel City Light Roast Whole Bean Coffee, 16 oz",17.29,14.99,13.49,Beverages,0.133,0.22,0.087,20% to 30%,Coffee
+Groundwork Coffee,"Organic Sumatra Medium Roast Whole Bean Coffee, 16 oz",17.29,14.99,13.49,Beverages,0.133,0.22,0.087,20% to 30%,Coffee
+Groundwork Coffee,"Organic Big Easy Medium Roast Ground Coffee, 16 oz",17.29,14.99,13.49,Beverages,0.133,0.22,0.087,20% to 30%,Coffee
+Groundwork Coffee,"Organic Black Magic Medium Roast Whole Bean Coffee, 16 oz",17.29,14.99,13.49,Beverages,0.133,0.22,0.087,20% to 30%,Coffee
+MODERN TIMES,"Cold Brew Nitro Black House Single Coffee, 12 fl oz",4.49,3.99,3.59,Beverages,0.111,0.2,0.089,10% to 20%,Coffee
+Modern Times Beer,"Black House Blend Cold Brew, 12 fl oz",4.49,3.99,3.59,Beverages,0.111,0.2,0.089,10% to 20%,Coffee
+Peet's Coffee,"Organic French Ground Coffee, 10.5 oz",10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Coffee
+Peet's Coffee,"Major Dickasons Blend Ground Coffee, 10.5 oz",10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Coffee
+Teeccino,"Vanilla Nut Chicory Herbal Coffee, 11 oz",10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Coffee
+MODERN TIMES,"Guatemala San Emiliano Cold Brew, 12 fl oz",5.69,5.19,4.67,Beverages,0.088,0.179,0.091,10% to 20%,Coffee
+Later Days Coffee Co.,"Cold Brew Coffee, 8.5 fl oz",3.49,2.5,2.25,Beverages,0.284,0.355,0.071,30% to 40%,Coffee
+Peet's Coffee & Tea,"Organic Alameda Morning Blend Medium Roast Coffee, 10.5 oz",12.99,9.99,8.99,Beverages,0.231,0.308,0.077,30% to 40%,Coffee
+Peet's Coffee,"Kcup Decaf Especial Medium Roast Coffee, 0.41 oz",10.99,8.69,7.82,Beverages,0.209,0.288,0.079,20% to 30%,Coffee
+Peet's Coffee,"Big Bang Medium Roast K-cup, 0.42 oz",10.99,8.69,7.82,Beverages,0.209,0.288,0.079,20% to 30%,Coffee
+VERVE COFFEE ROASTERS,"African Coffee, 12 oz",16.99,14.99,13.49,Beverages,0.118,0.206,0.088,20% to 30%,Coffee
+VERVE COFFEE ROASTERS,"Latin American Coffee, 12 oz",16.99,14.99,13.49,Beverages,0.118,0.206,0.088,20% to 30%,Coffee
+VERVE COFFEE ROASTERS,"Moka Java Blend Coffee, 12 oz",16.79,14.99,13.49,Beverages,0.107,0.197,0.09,10% to 20%,Coffee
+VERVE COFFEE ROASTERS,"House Blend Coffee, 12 oz",16.79,14.99,13.49,Beverages,0.107,0.197,0.09,10% to 20%,Coffee
+Peet's Coffee,"Organic Alma De La Tierra Gd Coffee, 10.5 oz",10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Coffee
+Whole Foods Market,"Organic Medium Roast Steeped Coffee, 0.42 oz",11.99,5.99,5.39,Beverages,0.5,0.55,0.05,50% or more,Coffee
+Peet's Coffee,"Single Origin Sumatra Dark Roast Coffee, 10.5 oz",11.99,9.99,8.99,Beverages,0.167,0.25,0.083,20% to 30%,Coffee
+Counter Culture Coffee,"Big Trouble Coffee, 24 oz",23.99,19.99,17.99,Beverages,0.167,0.25,0.083,20% to 30%,Coffee
+Peet's Coffee,"Organic Decaf Terrena Coffee, 10.5 oz",11.99,9.99,8.99,Beverages,0.167,0.25,0.083,20% to 30%,Coffee
+Teeccino,"Vanilla Nut Herbal Coffee, 2.12 oz",4.49,4.19,3.77,Beverages,0.067,0.16,0.093,10% to 20%,Coffee
+Evolution Fresh,"Cold Pressed Organic Carrot Citrus Radiance, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Cold Pressed Organic Essential Greens®, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Cold Pressed Organic Green Devotion, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Cold Pressed Organic Super Fruit Greens, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Cold Pressed Organic Greens & Ginger, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Cold Pressed Organic Defense Up®, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Cold Pressed Mighty Watermelon, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Organic Tropical Passion, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Cold Pressed Organic Cucumber Glow, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Cold Pressed Organic Ruby Roots™, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Cold Pressed Organic Vital Berry, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Cold Pressed Organic Celery Glow™, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Organic Raspberry Renewal, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Organic Citrus Ginger Zest, 15.2 fl oz",5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice
+Evolution Fresh,"Cold Pressed Organic Green Devotion, 32 fl oz",9.79,7.99,7.19,Beverages,0.184,0.266,0.082,20% to 30%,Juice
+R.W. Knudsen Family,"Pineapple Coconut Juice, 32 fl oz",4.49,3.69,3.32,Beverages,0.178,0.261,0.083,20% to 30%,Juice
+R.W. Knudsen Family,"Organic Pear Juice, 32 fl oz",5.69,4.69,4.22,Beverages,0.176,0.258,0.082,20% to 30%,Juice
+R.W. Knudsen Family,Organic Tomato Juice (32 Fl Oz),4.19,3.49,3.14,Beverages,0.167,0.251,0.084,20% to 30%,Juice
+WTRMLN WTR,"Hydration/OG 1L, 33.8 fl oz",8.99,7.49,6.74,Beverages,0.167,0.25,0.083,20% to 30%,Juice
+Evolution Fresh,"Cold Pressed Organic Strawberry Lemonade, 15.2 fl oz",4.19,3.5,3.15,Beverages,0.165,0.248,0.083,20% to 30%,Juice
+Evolution Fresh,"Cold Pressed Organic Pure Orange, 15.2 fl oz",4.19,3.5,3.15,Beverages,0.165,0.248,0.083,20% to 30%,Juice
+R.W. Knudsen Family,"Organic Blueberry Pomegranate Juice, 32 fl oz",4.99,4.19,3.77,Beverages,0.16,0.244,0.084,20% to 30%,Juice
+R.W. Knudsen Family,"Organic Grape Concord Juice, 32 fl oz",4.99,4.19,3.77,Beverages,0.16,0.244,0.084,20% to 30%,Juice
+Kor Shots,"Immune +, 1.7 fl oz",3.79,3.19,2.87,Beverages,0.158,0.243,0.085,20% to 30%,Juice
+Kor Shots,"Focus Fuel, 1.7 fl oz",3.79,3.19,2.87,Beverages,0.158,0.243,0.085,20% to 30%,Juice
+Kor Shots,"Potent-C, 1.7 fl oz",3.79,3.19,2.87,Beverages,0.158,0.243,0.085,20% to 30%,Juice
+Kor Shots,"WELLNESS, 1.7 fl oz",3.79,3.19,2.87,Beverages,0.158,0.243,0.085,20% to 30%,Juice
+R.W. Knudsen Family,"Organic Apple Juice, 32 fl oz",4.69,3.99,3.59,Beverages,0.149,0.235,0.086,20% to 30%,Juice
+Evolution Fresh,"Cold Pressed Organic Apple, 59 fl oz",9.99,8.49,7.64,Beverages,0.15,0.235,0.085,20% to 30%,Juice
+R.W. Knudsen Family,"Rw Knudsen Organic Grapefruit Juice, 32 fl oz",5.99,5.29,4.76,Beverages,0.117,0.205,0.088,20% to 30%,Juice
+R.W. Knudsen Family,"Just Black Cherry Juice, 32 fl oz",5.99,5.29,4.76,Beverages,0.117,0.205,0.088,20% to 30%,Juice
+R.W. Knudsen Family,"Organic Pineapple Juice, 32 fl oz",5.99,5.29,4.76,Beverages,0.117,0.205,0.088,20% to 30%,Juice
+R.W. Knudsen Family,"Organic Very Veggie Juice, 32 fl oz",4.49,3.99,3.59,Beverages,0.111,0.2,0.089,10% to 20%,Juice
+Evolution Fresh,"Cold Pressed Tangerine, 59 fl oz",9.99,8.99,8.09,Beverages,0.1,0.19,0.09,10% to 20%,Juice
+Lakewood,"Organic Pure Pomegrante Biodynamic Juice, 32 fl oz",11.99,10.79,9.71,Beverages,0.1,0.19,0.09,10% to 20%,Juice
+R.W. Knudsen Family,"Rw Knudsen Organic Just Cranberry Juice, 32 fl oz",10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Juice
+Evolution Fresh,"Cold Pressed Organic Grapefruit, 59 fl oz",9.49,8.99,8.09,Beverages,0.053,0.148,0.095,10% to 20%,Juice
+Evolution Fresh,"Cold Pressed Organic Defense Up®, 32 fl oz",7.99,7.69,6.92,Beverages,0.038,0.134,0.096,10% to 20%,Juice
+R.W. Knudsen Family,"Organic Apple Juice, 96 fl oz",10.29,9.99,8.99,Beverages,0.029,0.126,0.097,10% to 20%,Juice
+R.W. Knudsen Family,"Organic Cranberry Pomegranate Juice, 32 fl oz",4.99,4.19,3.77,Beverages,0.16,0.244,0.084,20% to 30%,Juice
+R.W. Knudsen Family,"Organic Celery Pear Ginger Juice, 32 fl oz",7.49,6.69,6.02,Beverages,0.107,0.196,0.089,10% to 20%,Juice
+R.W. Knudsen Family,"Organic Just Tart Cherry Juice, 32 fl oz",7.99,7.29,6.56,Beverages,0.088,0.179,0.091,10% to 20%,Juice
+R.W. Knudsen Family,"Organic Just Prune Juice, 32 fl oz",7.99,7.29,6.56,Beverages,0.088,0.179,0.091,10% to 20%,Juice
+R.W. Knudsen Family,"Organic Just Concord Grape Juice, 32 fl oz",5.79,5.29,4.76,Beverages,0.086,0.178,0.092,10% to 20%,Juice
+Kor Shots,"Turmeric, 1.7 fl oz",22.99,18.49,16.64,Beverages,0.196,0.276,0.08,20% to 30%,Juice
+Garden of Flavor,"Green Harmony Organic Cold-Pressed Juice with Probiotics, 16 fl oz",6.99,6,5.4,Beverages,0.142,0.227,0.085,20% to 30%,Juice
+Garden of Flavor,"Shoots & Sprouts Organic Cold-Pressed Juice, 16 fl oz",6.99,6,5.4,Beverages,0.142,0.227,0.085,20% to 30%,Juice
+Garden of Flavor,"Mean Greens Organic Cold-Pressed Juice, 16 fl oz",6.99,6,5.4,Beverages,0.142,0.227,0.085,20% to 30%,Juice
+Garden of Flavor,"Grasshopper Organic Cold-Pressed Juice, 16 fl oz",6.99,6,5.4,Beverages,0.142,0.227,0.085,20% to 30%,Juice
+Garden of Flavor,"Turmeric Tonic Organic Cold-Pressed Juice with Probiotics, 16 fl oz",6.99,6,5.4,Beverages,0.142,0.227,0.085,20% to 30%,Juice
+Garden of Flavor,"Appleade Organic Cold-Pressed Juice with Probiotics, 16 fl oz",6.99,6,5.4,Beverages,0.142,0.227,0.085,20% to 30%,Juice
+R.W. Knudsen Family,"Simply Nutritious Mega Antioxidant Juice, 32 fl oz",3.79,3.29,2.96,Beverages,0.132,0.219,0.087,20% to 30%,Juice
+Garden of Flavor,"1-Day Organic Cold-Pressed Juice Cleanse, 16 fl oz",40.99,35.99,32.39,Beverages,0.122,0.21,0.088,20% to 30%,Juice
+R.W. Knudsen Family,Organic Just Tart Cherry Juice (32 Fl Oz),7.99,7.29,6.56,Beverages,0.088,0.179,0.091,10% to 20%,Juice
+R.W. Knudsen Family,"Low Sodium Very Veggie Juice, 32 fl oz",4.29,3.99,3.59,Beverages,0.07,0.163,0.093,10% to 20%,Juice
+Santa Cruz Organic,"Organic Sangria Spritzer, 25.4 fl oz",4.49,2.67,2.4,Beverages,0.405,0.465,0.06,40% to 50%,Beverage
+Liquid IV,"Hydration Multiplier Electrolyte Mix Strawberry Single, 0.56 oz",2.99,2,1.8,Beverages,0.331,0.398,0.067,30% to 40%,Beverage
+GoodBelly,"Strawberry Plusshot Probiotic Juice Drink, 2.7 fl oz",4.49,3.19,2.87,Beverages,0.29,0.361,0.071,30% to 40%,Beverage
+GoodBelly,"Straightshot Probiotic Oat Drink, 4 bottles",3.79,2.79,2.51,Beverages,0.264,0.338,0.074,30% to 40%,Beverage
+PURELY SEDONA,Water Artesian Spring Still 1lt,2.69,2,1.8,Beverages,0.257,0.331,0.074,30% to 40%,Beverage
+Shroomi,"Mandarin Turmeric Adaptogenic Mushroom Shot, 2 fl oz",3.99,2.99,2.69,Beverages,0.251,0.326,0.075,30% to 40%,Beverage
+Shroomi,"Yuzu Honey Adaptogenic Mushroom Shot, 2 fl oz",3.99,2.99,2.69,Beverages,0.251,0.326,0.075,30% to 40%,Beverage
+Shroomi,"Pomegranate Mint Adaptogenic Mushroom Shot, 2 fl oz",3.99,2.99,2.69,Beverages,0.251,0.326,0.075,30% to 40%,Beverage
+Koia,"Keto Cookies N' Cream Beverage, 12 fl oz",3.99,3,2.7,Beverages,0.248,0.323,0.075,30% to 40%,Beverage
+Koia,"Chocolate Peanut Butter Beverage, 12 fl oz",3.99,3,2.7,Beverages,0.248,0.323,0.075,30% to 40%,Beverage
+Koia,"Vanilla Bean Protein Beverage, 12 fl oz",3.99,3,2.7,Beverages,0.248,0.323,0.075,30% to 40%,Beverage
+Koia,"Cocoa Bean Plant Powered Protein Drink, 12 fl oz",3.99,3,2.7,Beverages,0.248,0.323,0.075,30% to 40%,Beverage
+Steaz,"Organic Blueberry Pomegranate Acai Iced Green Tea, 16 fl oz",1.99,1.5,1.35,Beverages,0.246,0.322,0.076,30% to 40%,Beverage
+Steaz,"Peach Mango Iced Green Tea, 16 fl oz",1.99,1.5,1.35,Beverages,0.246,0.322,0.076,30% to 40%,Beverage
+Steaz,"Raspberry Iced Green Tea, 16 fl oz",1.99,1.5,1.35,Beverages,0.246,0.322,0.076,30% to 40%,Beverage
+GoodBelly,"Mango Plusshot Probiotic Juice Drink, 2.7 fl oz",4.49,3.39,3.05,Beverages,0.245,0.321,0.076,30% to 40%,Beverage
+Counter Culture Coffee,"Organic Apollo Single Origin Espresso, 12 oz",12.99,9.99,8.99,Beverages,0.231,0.308,0.077,30% to 40%,Beverage
+Taza Chocolate,"Organic Chocolate Coffee Mexicano Disc, 2.7 oz",4.49,3.49,3.14,Beverages,0.223,0.301,0.078,30% to 40%,Beverage
+PURELY SEDONA,"Water Artesian Spring Still 500ml, 16.9 fl oz",1.59,1.25,1.12,Beverages,0.214,0.296,0.082,20% to 30%,Beverage
+Ripple Foods,"Chocolate Non-dairy Beverage, 48 fl oz",4.99,3.99,3.59,Beverages,0.2,0.281,0.081,20% to 30%,Beverage
+Remedy Organics,"Organic Cacao Essentials, 12 fl oz",4.99,3.99,3.59,Beverages,0.2,0.281,0.081,20% to 30%,Beverage
+Remedy Organics,"Organic Blue Oxidants, 12 fl oz",4.99,3.99,3.59,Beverages,0.2,0.281,0.081,20% to 30%,Beverage
+Liquid IV,"Lemon Lime Hydration Multiplier 10 Count, 5.65 oz",19.99,15.99,14.39,Beverages,0.2,0.28,0.08,20% to 30%,Beverage
+Liquid IV,"Strawberry Hydration Multiplier Electrolyte Drink Mix, 5.65 oz",19.99,15.99,14.39,Beverages,0.2,0.28,0.08,20% to 30%,Beverage
+Culture Pop Soda,"Pink Grapefruit Probiotic Soda 4pk, 12 fl oz",7.29,5.99,5.39,Beverages,0.178,0.261,0.083,20% to 30%,Beverage
+Ripple Foods,"Original Plant Based Milk, 48 fl oz",5.99,4.99,4.49,Beverages,0.167,0.25,0.083,20% to 30%,Beverage
+Orgain,"Creamy Chocolate Fudge Protein Shake, 11 fl oz",2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Beverage
+CLEAN CAUSE,"Peach Yerba Mate, 16 fl oz",2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Beverage
+CLEAN CAUSE,"Blackberry Yerba Mate, 16 fl oz",2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Beverage
+CLEAN CAUSE,"Raspberry Yerba Mate, 16 fl oz",2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Beverage
+Orgain,"Creamy Chocolate Fudge Organic Nutritional Shake, 44 fl oz",11.89,9.99,8.99,Beverages,0.16,0.244,0.084,20% to 30%,Beverage
+Counter Culture Coffee,Organic Number 46 12ozcoffee,12.99,10.99,9.89,Beverages,0.154,0.239,0.085,20% to 30%,Beverage
+Counter Culture Coffee,"Hologram, 12 oz",12.99,10.99,9.89,Beverages,0.154,0.239,0.085,20% to 30%,Beverage
+Counter Culture Coffee,"Big Trouble, 12 oz",12.99,10.99,9.89,Beverages,0.154,0.239,0.085,20% to 30%,Beverage
+GT's Alive,Ancient Mushroom Elixir Root Beer 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Beverage
+GT's Alive,Ancient Mushroom Elixir Cascara Cider 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Beverage
+GT's Alive,Ancient Mushroom Elixir Matcha Vanilla 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Beverage
+Lakewood,"Pure Aloe Organic, 32 fl oz",8.99,7.99,7.19,Beverages,0.111,0.2,0.089,10% to 20%,Beverage
+Riot Energy,"Mango Plant Powered Energy Drink, 16 fl oz",2.99,2.69,2.42,Beverages,0.1,0.191,0.091,10% to 20%,Beverage
+ALO Drink,"Allure Aloe Vera Juice Drink, 16.9 fl oz",1.99,1.79,1.61,Beverages,0.101,0.191,0.09,10% to 20%,Beverage
+Riot Energy,"Citrus Plant Powered Energy Drink, 16 fl oz",2.99,2.69,2.42,Beverages,0.1,0.191,0.091,10% to 20%,Beverage
+Riot Energy,"Berry Plant Powered Energy Drink, 16 fl oz",2.99,2.69,2.42,Beverages,0.1,0.191,0.091,10% to 20%,Beverage
+Riot Energy,"Cherry Watermelon Plant Powered Energy Drink, 16 fl oz",2.99,2.69,2.42,Beverages,0.1,0.191,0.091,10% to 20%,Beverage
+Vita Coco,"Coconut Water 4pk, 16.9 fl oz",9.99,8.99,8.09,Beverages,0.1,0.19,0.09,10% to 20%,Beverage
+Navitas Organics,"Organic Keto Cacao Powder, 8 oz",16.49,14.89,13.4,Beverages,0.097,0.187,0.09,10% to 20%,Beverage
+Whole Foods Market,"Organic Hot Cocoa Rich Chocolate Mix, 12 oz",4.19,3.79,3.41,Beverages,0.095,0.186,0.091,10% to 20%,Beverage
+Powell & Mahoney,"Classic Bloody Mary Handcrafted Cocktail Mixer, 25.36 fl oz",9.49,8.59,7.73,Beverages,0.095,0.185,0.09,10% to 20%,Beverage
+Peet's Coffee,"Big Bang Ground Beans, 10.5 oz",10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Beverage
+Peet's Coffee,"Major Dickasons Blend Whole Beans, 10.5 oz",10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Beverage
+Teeccino,"Hazelnut herbal coffee, 11 oz",10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Beverage
+Counter Culture Coffee,"Organic Slow Motion Decaf, 12 oz",12.99,11.99,10.79,Beverages,0.077,0.169,0.092,10% to 20%,Beverage
+Orgain,"Organic Chocolate Plant Based Shake, 44 fl oz",11.89,10.99,9.89,Beverages,0.076,0.168,0.092,10% to 20%,Beverage
+GoodBelly,"Vanilla Chamomile Supershot Oatdrink, 4 bottles",7.29,6.79,6.11,Beverages,0.069,0.162,0.093,10% to 20%,Beverage
+Fiji,"Artesian Water 12 Pk, 405.6 fl oz",29.99,28.99,26.09,Beverages,0.033,0.13,0.097,10% to 20%,Beverage
+Steaz,"Organic Peach Iced Green Tea, 16 fl oz",1.99,1.5,1.35,Beverages,0.246,0.322,0.076,30% to 40%,Beverage
+Peet's Coffee,"Organic Alma De La Tierra Kcup, 4.5 oz",10.99,8.69,7.82,Beverages,0.209,0.288,0.079,20% to 30%,Beverage
+Peet's Coffee,"Major Dickason's Blend K-cup, 0.44 oz",10.99,8.69,7.82,Beverages,0.209,0.288,0.079,20% to 30%,Beverage
+Liquid IV,"Hydration Box, 4.52 oz",21.49,17.29,15.56,Beverages,0.195,0.276,0.081,20% to 30%,Beverage
+Santa Cruz Organic,"Organic Cran Fizz, 25.4 fl oz",4.49,2.67,2.4,Beverages,0.405,0.465,0.06,40% to 50%,Beverage
+Steaz,"Zero Calorie Half & Half Green Tea And Lemonade, 16 fl oz",1.89,1.5,1.35,Beverages,0.206,0.286,0.08,20% to 30%,Beverage
+Orgain,"Creamy Chocolate Fudge Nutritional Protein Shake, 11 fl oz",2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Beverage
+R.W. Knudsen Family,"Rw Knudsen Simply Nutritious Morning Blend, 32 fl oz",3.79,3.29,2.96,Beverages,0.132,0.219,0.087,20% to 30%,Beverage
+Remedy Organics,"Berry Power Beverage, 12 fl oz",4.49,3.99,3.59,Beverages,0.111,0.2,0.089,10% to 20%,Beverage
+Orgain,"Organic Creamy Chocolate Protein Shake, 14 fl oz",3.39,3.19,2.87,Beverages,0.059,0.153,0.094,10% to 20%,Beverage
+Dr. Bronner's,"Organic Lavender Hand Sanitizing Spray, 2 fl oz",5.29,3.99,3.59,body_care,0.246,0.321,0.075,30% to 40%,Spray
+EO,"Organic Lavender Echinacea Hand Sanitizing Spray, 2 fl oz",5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Spray
+Everyone,"Ruby Grapefruit Hand Sanitizer Spray, 2 fl oz",2.99,2.39,2.15,body_care,0.201,0.281,0.08,20% to 30%,Spray
+EO,"Peppermint & Citrus Hand Sanitizer Spray, 2 fl oz",2.99,2.39,2.15,body_care,0.201,0.281,0.08,20% to 30%,Spray
+ALBA BOTANICA,"Deet-free Anti Bug Spray, 4 oz",15.99,12.79,11.51,body_care,0.2,0.28,0.08,20% to 30%,Spray
+EO Products,"Coconut Lemon Hand Sanitizer Spray, 2 fl oz",3.29,2.69,2.42,body_care,0.182,0.264,0.082,20% to 30%,Spray
+Tom's of Maine,"Unscented Deodorant, 2.25 oz",5.79,4.69,4.22,body_care,0.19,0.271,0.081,20% to 30%,Deodorant
+Tom's of Maine,"Lavender Deodorant, 2.25 oz",5.79,4.69,4.22,body_care,0.19,0.271,0.081,20% to 30%,Deodorant
+HERBAN COWBOY,"Dry Dusk Spray Deodorant, 2.8 oz",8.49,6.99,6.29,body_care,0.177,0.259,0.082,20% to 30%,Deodorant
+HERBAN COWBOY,"Stick Dusk Deodorant, 2.8 oz",8.49,6.99,6.29,body_care,0.177,0.259,0.082,20% to 30%,Deodorant
+Jason Natural Products,"Tea Tree Oil Stick Deodorant, 2.5 oz",5.99,4.99,4.49,body_care,0.167,0.25,0.083,20% to 30%,Deodorant
+Tom's of Maine,"Northwoods Men's Deodorant, 2.8 oz",6.99,5.89,5.3,body_care,0.157,0.242,0.085,20% to 30%,Deodorant
+ALAFFIA,"Coconut Reishi Deodorant, 2.65 oz",6.49,5.49,4.94,body_care,0.154,0.239,0.085,20% to 30%,Deodorant
+ALAFFIA,"Lavender Deodorant, 2.65 oz",6.49,5.49,4.94,body_care,0.154,0.239,0.085,20% to 30%,Deodorant
+Jason Natural Products,"Soft Rose Dry Spray Deodorant, 3.2 oz",7.99,6.79,6.11,body_care,0.15,0.235,0.085,20% to 30%,Deodorant
+ALAFFIA,"Everyday Shea Dry Finish Deodorant, 3 oz",6.99,5.99,5.39,body_care,0.143,0.229,0.086,20% to 30%,Deodorant
+Jason Natural Products,"Men's Forest Fresh Stick Deodorant, 2.5 oz",5.99,5.09,4.58,body_care,0.15,0.235,0.085,20% to 30%,Deodorant
+Tom's of Maine,"Refreshing Lemongrass Deodorant, 2.25 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Deodorant
+NUBIAN HERITAGE,"Goat's Milk & Chai Body Lotion, 13 fl oz",13.49,9.99,8.99,body_care,0.259,0.334,0.075,30% to 40%,Lotion
+NUBIAN HERITAGE,"Coconut Papaya Body Lotion, 13 fl oz",13.49,9.99,8.99,body_care,0.259,0.334,0.075,30% to 40%,Lotion
+NUBIAN HERITAGE,"Raw Shea Butter Body Lotion, 13 fl oz",13.49,9.99,8.99,body_care,0.259,0.334,0.075,30% to 40%,Lotion
+SHIKAI,"CBD+ Body Lotion, 0.8 fl oz",10.49,7.79,7.01,body_care,0.257,0.332,0.075,30% to 40%,Lotion
+SHIKAI,"Borage Advanced Therapy Lotion, 16 fl oz",21.99,16.49,14.84,body_care,0.25,0.325,0.075,30% to 40%,Lotion
+SHIKAI,"Original Unscented Borage Therapy Dry Skin Lotion, 16 fl oz",21.99,16.49,14.84,body_care,0.25,0.325,0.075,30% to 40%,Lotion
+SHIKAI,"CBD+ Body Lotion, 6 oz",41.99,33.49,30.14,body_care,0.202,0.282,0.08,20% to 30%,Lotion
+ALBA BOTANICA,"Very Emollient Scented Lotion, 32 oz",13.99,11.29,10.16,body_care,0.193,0.274,0.081,20% to 30%,Lotion
+ALBA BOTANICA,"Very Emollient Body Lotion, 32 oz",13.99,11.29,10.16,body_care,0.193,0.274,0.081,20% to 30%,Lotion
+ALBA BOTANICA,"Very Emollient Unscented Lotion, 32 oz",13.99,11.29,10.16,body_care,0.193,0.274,0.081,20% to 30%,Lotion
+A LA MAISON,"Honeysuckle Hand & Body Lotion, 5 fl oz",8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Lotion
+Burt's Bees,"Baby Bee Nourishing Lotion, 6 oz",7.79,6.39,5.75,body_care,0.18,0.262,0.082,20% to 30%,Lotion
+ALAFFIA,"Lavender Body Lotion, 32 fl oz",11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Lotion
+ALAFFIA,"Unscented Body Lotion, 32 fl oz",11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Lotion
+ALAFFIA,"Coconut Body Lotion, 32 fl oz",11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Lotion
+ALAFFIA,"Coconut Lime Body Lotion, 32 fl oz",11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Lotion
+Burt's Bees,"Baby Bee Shampoo And Wash, 21 fl oz",15.99,12.39,11.15,body_care,0.225,0.303,0.078,30% to 40%,Shampoo
+ALAFFIA,"Lemon Lavender Shampoo & Body Wash, 16 fl oz",10.49,9.39,8.45,body_care,0.105,0.194,0.089,10% to 20%,Shampoo
+Burt's Bees,"Baby Bee Shampoo & Wash, 12 fl oz",9.49,7.39,6.65,body_care,0.221,0.299,0.078,20% to 30%,Shampoo
+ALAFFIA,"Babies Coconut Shampoo, 16 fl oz",8.69,7.69,6.92,body_care,0.115,0.204,0.089,20% to 30%,Shampoo
+ALAFFIA,"Coconut Strawberry Shampoo Body Wash, 16 fl oz",8.69,7.69,6.92,body_care,0.115,0.204,0.089,20% to 30%,Shampoo
+Tom's of Maine,"Silly Strawberry Children's Anticavity Toothpaste, 5.1 oz",5.49,4.29,3.86,body_care,0.219,0.297,0.078,20% to 30%,Toothpaste
+Hello,"Hemp Seed & Coconut Oil Fluoride Free Toothpaste, 4 oz",6.99,5.49,4.94,body_care,0.215,0.293,0.078,20% to 30%,Toothpaste
+Tom's of Maine,"Fresh Mint Toothpaste With Floride, 3 oz",3.29,2.69,2.42,body_care,0.182,0.264,0.082,20% to 30%,Toothpaste
+Tom's of Maine,"Floride Free Fresh Mint Toothpaste, 3 oz",3.29,2.69,2.42,body_care,0.182,0.264,0.082,20% to 30%,Toothpaste
+Tom's of Maine,"Antiplaque Whitening Spearmint Toothpaste, 5.5 oz",5.39,4.59,4.13,body_care,0.148,0.234,0.086,20% to 30%,Toothpaste
+Tom's of Maine,"Peppermint Tartar Control Whitening Toothpaste, 5.5 oz",5.39,4.59,4.13,body_care,0.148,0.234,0.086,20% to 30%,Toothpaste
+Tom's of Maine,"Fennel Whitening Anti Plaque Toothpaste, 5.5 oz",5.39,4.59,4.13,body_care,0.148,0.234,0.086,20% to 30%,Toothpaste
+Jason Natural Products,"Powersmile Plus Coq10 Gel Toothpaste, 6 oz",4.99,4.25,3.82,body_care,0.148,0.234,0.086,20% to 30%,Toothpaste
+Tom's of Maine,"Wintermint Whole Care Toothpaste, 4 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste
+Tom's of Maine,"Sweet Mint White Gel Toothpaste, 4.7 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste
+Tom's of Maine,"Mint Rapid Relief Sensitive Toothpaste, 4 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste
+Tom's of Maine,"Simply White Clean Mint Toothpaste, 4.7 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste
+Tom's of Maine,"Peppermint Whole Care Toothpaste, 4 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste
+Tom's of Maine,"Whole Care Anticavity Toothpaste with flouride, 4 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste
+Tom's of Maine,"Spearmint Anti Plaque Gel Toothpaste, 4.7 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste
+Jason Natural Products,"Powersmile Peppermint Toothpaste, 6 oz",4.99,4.29,3.86,body_care,0.14,0.226,0.086,20% to 30%,Toothpaste
+KISS MY FACE,"Cool Mint Gel Whitening Toothpaste, 4.5 oz",5.99,4.59,4.13,body_care,0.234,0.311,0.077,30% to 40%,Toothpaste
+Hello,"Kids Fluoride Free Watermelon Toothpaste, 4.2 oz",4.79,3.99,3.59,body_care,0.167,0.251,0.084,20% to 30%,Toothpaste
+Tom's of Maine,"Fennel Propolis Myrrh Toothpaste, 5.5 oz",5.99,4.99,4.49,body_care,0.167,0.25,0.083,20% to 30%,Toothpaste
+Tom's of Maine,"Cinnamint Propolis Myrrh Toothpaste, 5.5 oz",5.99,4.99,4.49,body_care,0.167,0.25,0.083,20% to 30%,Toothpaste
+Jason Natural Products,"Sea Fresh Plus Coq10 Gel Toothpaste, 6 oz",4.99,4.25,3.82,body_care,0.148,0.234,0.086,20% to 30%,Toothpaste
+Tom's of Maine,"Cinnamon Clove Whole Care Toothpaste, 4 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste
+Tom's of Maine,"Tom's Clean Mint Luminous White Toothpaste, 4 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste
+Tom's of Maine,"Peppermint Wicked Fresh Toothpaste, 4.7 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste
+Tom's of Maine,"Spearmint Ice Wicked Fresh Toothpaste, 4.7 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste
+Tom's of Maine,"Peppermint Botanically Bright Toothpaste, 4.7 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste
+Tom's of Maine,"Silly Strawberry Children's Fluoride Free Toothpaste, 5.1 oz",4.99,4.29,3.86,body_care,0.14,0.226,0.086,20% to 30%,Toothpaste
+Tom's of Maine,"Orange Mango Children's Anticavity Toothpaste, 5.1 oz",4.69,4.29,3.86,body_care,0.085,0.177,0.092,10% to 20%,Toothpaste
+Tom's of Maine,"Toddler Mild Fruit Training Toothpaste, 1 each",3.49,3.39,3.05,body_care,0.029,0.126,0.097,10% to 20%,Toothpaste
+Dr. Bronner's,"Organic Lavender Shaving Soap, 7 fl oz",10.49,7.89,7.1,body_care,0.248,0.323,0.075,30% to 40%,Soap
+NUBIAN HERITAGE,"African Black Soap Bar, 5 oz",4.99,3.79,3.41,body_care,0.24,0.317,0.077,30% to 40%,Soap
+NUBIAN HERITAGE,"Raw Shea Soap Bar, 5 oz",4.99,3.79,3.41,body_care,0.24,0.317,0.077,30% to 40%,Soap
+NUBIAN HERITAGE,"Goats Milk & Chai Soap Bar, 5 oz",4.99,3.79,3.41,body_care,0.24,0.317,0.077,30% to 40%,Soap
+A LA MAISON,"Lilac Soap Bar, 8.8 oz",5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Soap
+A LA MAISON,"Coconut Charcoal Bar Soap, 8.8 oz",5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Soap
+A LA MAISON,"Coconut Creme Soap Bar, 8.8 oz",5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Soap
+A LA MAISON,"Cherry.Blossom Hand & Body Soap, 8.8 oz",5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Soap
+A LA MAISON,"Oat Milk Bar Soap, 8.8 oz",5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Soap
+A LA MAISON,"Sea Salt Soap Bar, 8.8 oz",5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Soap
+Pacha Soap Co.,"Variety Pack Bar Soap Pacha Peaces, 7 oz",9.99,7.99,7.19,body_care,0.2,0.28,0.08,20% to 30%,Soap
+Pacha Soap Co.,"CBD Bar Soap, 4 oz",9.99,7.99,7.19,body_care,0.2,0.28,0.08,20% to 30%,Soap
+A LA MAISON,"Lavender Flowers Bar Soap, 14 oz",8.69,6.99,6.29,body_care,0.196,0.276,0.08,20% to 30%,Soap
+A LA MAISON,"Unscented Bar Soap, 14 oz",8.69,6.99,6.29,body_care,0.196,0.276,0.08,20% to 30%,Soap
+Valid 2/2 - 3/1,PACHA SOAP,25.99,20.99,18.89,body_care,0.192,0.273,0.081,20% to 30%,Soap
+A LA MAISON,"Sea Salt Liquid Hand Soap, 16.9 fl oz",8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Soap
+A LA MAISON,"Lavender Aloe Liquid Soap, 16.9 fl oz",8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Soap
+A LA MAISON,"Rosemary Mint Liquid Soap, 16.9 fl oz",8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Soap
+A LA MAISON,"Honeysuckle Liquid Soap, 16.9 fl oz",8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Soap
+ALAFFIA,"Authentic African Black Soap All-in-One Wild Lavender, 32 fl oz",15.99,13.49,12.14,body_care,0.156,0.241,0.085,20% to 30%,Soap
+Tom's of Maine,"Lavender Tea Tree Bar Soap, 5 oz",5.29,4.49,4.04,body_care,0.151,0.236,0.085,20% to 30%,Soap
+ALAFFIA,"Authentic African Black Soap Charcoal Reishi, 5 oz",5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Soap
+Hand In Hand Soap,"Sea Salt Bar Soap, 5 oz",5.79,4.99,4.49,body_care,0.138,0.225,0.087,20% to 30%,Soap
+ALAFFIA,"Eucalypt Tea Tree Black Soap, 32 fl oz",16.99,14.49,13.04,body_care,0.147,0.232,0.085,20% to 30%,Soap
+NUBIAN HERITAGE,"Indian Hemp Vetiver Soap Bar, 5 oz",4.49,3.39,3.05,body_care,0.245,0.321,0.076,30% to 40%,Soap
+NUBIAN HERITAGE,"Coconut And Papaya Soap Bar, 5 oz",4.49,3.39,3.05,body_care,0.245,0.321,0.076,30% to 40%,Soap
+Dr. Bronner's,"Fairtrade Organic Rose M/w Oils Liquid Soap, 32 fl oz",16.99,13.59,12.23,body_care,0.2,0.28,0.08,20% to 30%,Soap
+A LA MAISON,"Rosemary Mint Bar Soap, 4 bars",7.49,5.99,5.39,body_care,0.2,0.28,0.08,20% to 30%,Soap
+A LA MAISON,"Unscented Olive Oil Soaps, 14.1 oz",7.99,6.39,5.75,body_care,0.2,0.28,0.08,20% to 30%,Soap
+Dr. Bronner's,"Organic Castile Almond Liquid Soap, 32 fl oz",16.99,13.59,12.23,body_care,0.2,0.28,0.08,20% to 30%,Soap
+A LA MAISON,"Coconut Liquid Hand Soap, 16.9 fl oz",8.29,6.69,6.02,body_care,0.193,0.274,0.081,20% to 30%,Soap
+A LA MAISON,"Sweet Almond Bar Soap, 8.8 oz",4.69,3.79,3.41,body_care,0.192,0.273,0.081,20% to 30%,Soap
+A LA MAISON,"Lavender Flower Bar Soap, 8.8 oz",4.69,3.79,3.41,body_care,0.192,0.273,0.081,20% to 30%,Soap
+A LA MAISON,Oat Milk 4 Pack Soap,6.99,5.69,5.12,body_care,0.186,0.268,0.082,20% to 30%,Soap
+A LA MAISON,"Unscented Olive Oil Soap, 7 oz",4.49,3.69,3.32,body_care,0.178,0.261,0.083,20% to 30%,Soap
+Hand In Hand Soap,Fragrance Free Bar Soap,5.99,4.99,4.49,body_care,0.167,0.25,0.083,20% to 30%,Soap
+ALAFFIA,"Unscented African Black Soap, 32 fl oz",15.79,13.49,12.14,body_care,0.146,0.231,0.085,20% to 30%,Soap
+AURA CACIA,"Clary Sage Essential Oil, 0.5 fl oz",14.49,11.49,10.34,body_care,0.207,0.286,0.079,20% to 30%,Essential Oil
+AURA CACIA,"Jojoba Skin Care Oil, 4 fl oz",14.79,11.79,10.61,body_care,0.203,0.283,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Ylang Ylang Essential Oil, 0.5 fl oz",16.29,12.99,11.69,body_care,0.203,0.282,0.079,20% to 30%,Essential Oil
+AURA CACIA,"Organic Eucalyptus Essential Oil, 0.25 fl oz",10.99,8.79,7.91,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Rosemary Essential Oil, 0.5 fl oz",7.49,5.99,5.39,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Organic Peppermint Essential Oil, 0.25 fl oz",9.99,7.99,7.19,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Organic Blood Orange Essential Oil, 0.25 fl oz",7.99,6.39,5.75,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Organic Lemongrass Essential Oil, 0.25 fl oz",5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Neroli In Jojoba Oil, 0.5 fl oz",20.99,16.79,15.11,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Organic Bergamot Essential Oil, 0.25 fl oz",12.79,10.29,9.26,body_care,0.195,0.276,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Lavender Essential Oil, 0.5 fl oz",12.79,10.29,9.26,body_care,0.195,0.276,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Frankincense In Jojoba Oil, 0.5 fl oz",14.29,11.49,10.34,body_care,0.196,0.276,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Juniper Berry Essential Oil, 0.5 fl oz",22.99,18.49,16.64,body_care,0.196,0.276,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Organic Jojoba Skin Care Oil, 4 fl oz",17.99,14.49,13.04,body_care,0.195,0.275,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Sweet Almond Oil, 4 fl oz",6.69,5.39,4.85,body_care,0.194,0.275,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Blue Tansy Essential Oil in Jojoba Oil, 0.5 fl oz",16.49,13.29,11.96,body_care,0.194,0.275,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Organic Lavender Essential Oil, 0.25 fl oz",16.49,13.29,11.96,body_care,0.194,0.275,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Love Potion Essential Oil, 5 fl oz",11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Essential Oil Pillow Potion, 0.5 fl oz",12.99,10.49,9.44,body_care,0.192,0.273,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Mind Guide Essential Oil Blend, 0.5 fl oz",12.99,10.49,9.44,body_care,0.192,0.273,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Organic Hemp Seed Oil, 4 fl oz",9.49,7.69,6.92,body_care,0.19,0.271,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Eucalyptus Essential Oil, 0.5 fl oz",7.39,5.99,5.39,body_care,0.189,0.271,0.082,20% to 30%,Essential Oil
+AURA CACIA,"Organic Clove Bud Essential Oil, 0.25 fl oz",8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Oregano Essential Oil, 0.5 fl oz",15.49,11.49,10.34,body_care,0.258,0.332,0.074,30% to 40%,Essential Oil
+AURA CACIA,"Frankincense Essential Oil, 0.5 fl oz",31.99,24.99,22.49,body_care,0.219,0.297,0.078,20% to 30%,Essential Oil
+AURA CACIA,"Grapeseed Skin Care Oil, 4 fl oz",5.49,4.39,3.95,body_care,0.2,0.281,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Lavender Harvest Massage Oil, 8 fl oz",14.99,11.99,10.79,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Organic Rosehip Oil, 1 each",15.99,12.79,11.51,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Organic Patchouli Essential Oil, 0.25 fl oz",17.79,14.29,12.86,body_care,0.197,0.277,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Lavender Harvest Essential Oil, 0.5 fl oz",11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Pine Essential Oil, 0.5 fl oz",7.99,6.69,6.02,body_care,0.163,0.247,0.084,20% to 30%,Essential Oil
+AURA CACIA,"Red Thyme Essential Oil, 0.5 fl oz",17.79,15.99,14.39,body_care,0.101,0.191,0.09,10% to 20%,Essential Oil
+AURA CACIA,"Eucalyptus Essential Oil, 2 fl oz",19.49,15.49,13.94,body_care,0.205,0.285,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Sweet Orange Essential Oil, 2 fl oz",13.79,10.99,9.89,body_care,0.203,0.283,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Atlas Cedarwood Essential Oil, 0.5 fl oz",9.99,7.99,7.19,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Sweet Orange Certified Organic Essential Oil, 0.25 fl oz",5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Breezeway Essential Oil Blend, 0.5 fl oz",12.79,10.29,9.26,body_care,0.195,0.276,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Black Seed Skin Care Oil, 4 fl oz",18.99,15.29,13.76,body_care,0.195,0.275,0.08,20% to 30%,Essential Oil
+AURA CACIA,"Grapeseed Skin Care Oil, 16 fl oz",12.99,10.49,9.44,body_care,0.192,0.273,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Peppermint Essential Oil, 0.5 fl oz",8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Essential Oil
+AURA CACIA,"Tea Tree Essential Oil, 0.5 fl oz",8.29,7.29,6.56,body_care,0.121,0.209,0.088,20% to 30%,Essential Oil
+NUBIAN HERITAGE,"Patchouli & Buriti Body Wash, 13 fl oz",13.99,10.49,9.44,body_care,0.25,0.325,0.075,30% to 40%,Wash
+NUBIAN HERITAGE,"African Black Body Wash, 13 fl oz",13.99,10.49,9.44,body_care,0.25,0.325,0.075,30% to 40%,Wash
+NUBIAN HERITAGE,"Goat Milk Butter Body Wash, 13 fl oz",13.99,10.49,9.44,body_care,0.25,0.325,0.075,30% to 40%,Wash
+NUBIAN HERITAGE,"Raw Shea Butter Body Wash, 13 fl oz",13.99,10.49,9.44,body_care,0.25,0.325,0.075,30% to 40%,Wash
+Tom's of Maine,"Cool Mountain Mint Mouthwash, 16 fl oz",5.79,4.49,4.04,body_care,0.225,0.302,0.077,30% to 40%,Wash
+Tom's of Maine,"Mint Sea Salt Mouthwash, 16 fl oz",5.79,4.49,4.04,body_care,0.225,0.302,0.077,30% to 40%,Wash
+ALBA BOTANICA,"Cannabis Sativa Seed Oil Hempquility Bath Soak & Body Wash, 32 fl oz",14.49,11.49,10.34,body_care,0.207,0.286,0.079,20% to 30%,Wash
+Jason Natural Products,"Lavender Body Wash, 30 fl oz",11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Wash
+Jason Natural Products,"Glycerin Rosewater Body Wash, 30 fl oz",11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Wash
+Jason Natural Products,"Smoothing Coconut Body Wash, 30 fl oz",11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Wash
+Jason Natural Products,"Citrus Satin Body Wash, 30 fl oz",11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Wash
+Jason Natural Products,"Aloe Vera Body Wash, 30 fl oz",11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Wash
+Jason Natural Products,"Tea Tree Body Wash, 30 fl oz",11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Wash
+Jason Natural Products,"Kids Bubblegum Foaming Wash, 2 fl oz",14.49,12.39,11.15,body_care,0.145,0.231,0.086,20% to 30%,Wash
+ALAFFIA,"Vanilla Moisturizing Body Wash, 32 fl oz",11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Wash
+ALAFFIA,"Unscented Moisturizing Body Wash, 32 fl oz",11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Wash
+ALAFFIA,"Coconut Body Wash, 32 fl oz",11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Wash
+ALAFFIA,"Lavender Moisturizing Body Wash, 32 fl oz",11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Wash
+ALAFFIA,"Coconut Body Wash Coconut Lime, 32 fl oz",11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Wash
+Tom's of Maine,"Fresh Mint Whole Care Mouthwash, 16 fl oz",5.99,4.49,4.04,body_care,0.25,0.326,0.076,30% to 40%,Wash
+Jason Natural Products,"Body Wash Cannabis Sativa Seed Oil, 30 fl oz",9.99,7.99,7.19,body_care,0.2,0.28,0.08,20% to 30%,Wash
+ALAFFIA,"Shea Passionfruit Body Wash, 32 fl oz",10.99,9.39,8.45,body_care,0.146,0.231,0.085,20% to 30%,Wash
+AURA CACIA,"Clearing Eucalyptus Aromatherapy Mist Clearing Eucalyptus, 4 fl oz",7.99,4.79,4.31,body_care,0.401,0.461,0.06,40% to 50%,body_care
+Jason Natural Products,Moisturizing Vitamin E 25000iu Creme,12.49,7.99,7.19,body_care,0.36,0.424,0.064,40% to 50%,body_care
+DIVACUP,Diva Cup Model 1,47.99,32.69,29.42,body_care,0.319,0.387,0.068,30% to 40%,body_care
+DIVACUP,"Model 2 Menstrual Cup, 1 each",47.99,32.69,29.42,body_care,0.319,0.387,0.068,30% to 40%,body_care
+SHIKAI,"Cbd+ Mentholated Cream With Menthol & Camphor, 3 oz",26.99,18.79,16.91,body_care,0.304,0.373,0.069,30% to 40%,body_care
+SHIKAI,"Borage Therapy Unscentedhand Cream, 2.5 fl oz",8.99,6.29,5.66,body_care,0.3,0.37,0.07,30% to 40%,body_care
+SHIKAI,"CBD Cooling Formula Cream with Menthol, 1 fl oz",10.49,7.49,6.74,body_care,0.286,0.357,0.071,30% to 40%,body_care
+SHIKAI,"CBD+ Skin Cream with Borage Oil, 1 fl oz",10.49,7.49,6.74,body_care,0.286,0.357,0.071,30% to 40%,body_care
+KISS MY FACE,"Fragrance Free Moisture Shave, 11 fl oz",7.99,5.99,5.39,body_care,0.25,0.325,0.075,30% to 40%,body_care
+KISS MY FACE,"Cool Mint Moisture Shave, 11 fl oz",7.99,5.99,5.39,body_care,0.25,0.325,0.075,30% to 40%,body_care
+NUBIAN HERITAGE,"Lavender & Wildflowers Hand Cream, 4 fl oz",6.99,5.29,4.76,body_care,0.243,0.319,0.076,30% to 40%,body_care
+ALBA BOTANICA,"Honey Mango Bath Gel, 32 fl oz",14.49,11.49,10.34,body_care,0.207,0.286,0.079,20% to 30%,body_care
+ALBA BOTANICA,"Midnight Tuberose Shower Gel, 32 fl oz",14.49,11.49,10.34,body_care,0.207,0.286,0.079,20% to 30%,body_care
+ALBA BOTANICA,"French Lavender Shower Gel, 32 fl oz",14.49,11.49,10.34,body_care,0.207,0.286,0.079,20% to 30%,body_care
+ALBA BOTANICA,"Coconut Rescue Bath & Shower Gel, 32 fl oz",14.49,11.49,10.34,body_care,0.207,0.286,0.079,20% to 30%,body_care
+ALBA BOTANICA,"Facial Sheer Shield Sunscreen Spf 45, 2 oz",16.99,13.49,12.14,body_care,0.206,0.285,0.079,20% to 30%,body_care
+EO,"Hand Sanitizer, 8 fl oz",9.79,7.79,7.01,body_care,0.204,0.284,0.08,20% to 30%,body_care
+Jason Natural Products,"Cannabis Sativa Seed Oil Moisturizing Crème, 4 oz",9.79,7.79,7.01,body_care,0.204,0.284,0.08,20% to 30%,body_care
+AURA CACIA,"Relaxing Lavender Mineral Bath, 2.5 oz",3.99,3.19,2.87,body_care,0.201,0.281,0.08,20% to 30%,body_care
+EARTH THERAPEUTICS,"Blue Hydro Body Sponge, 1 each",4.99,3.99,3.59,body_care,0.2,0.281,0.081,20% to 30%,body_care
+ALBA BOTANICA,"Very Emollient Dry Skin Formula, 32 oz",14.99,11.99,10.79,body_care,0.2,0.28,0.08,20% to 30%,body_care
+Pacha Soap Co.,"Sweet Almond Honeycomb Froth Bomb, 5 oz",5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,body_care
+Pacha Soap Co.,"Bath Salts Muscle Salt Block, 5 oz",5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,body_care
+Pacha Soap Co.,Rosewater Froth Bomb 5oz,5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,body_care
+AURA CACIA,"Lavender Body Mist, 4 fl oz",7.99,6.39,5.75,body_care,0.2,0.28,0.08,20% to 30%,body_care
+ALBA BOTANICA,"Leave In Detangler, 3.5 oz",7.49,5.99,5.39,body_care,0.2,0.28,0.08,20% to 30%,body_care
+Pacha Soap Co.,"French Lavender Round Froth Bomb, 5 oz",5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,body_care
+ALBA BOTANICA,"Kukui Nut Body Oil, 8.5 fl oz",10.99,8.79,7.91,body_care,0.2,0.28,0.08,20% to 30%,body_care
+Burt's Bees,"Baby Dusting Powder, 7.5 oz",9.49,7.59,6.83,body_care,0.2,0.28,0.08,20% to 30%,body_care
+Pacha Soap Co.,"Bath Salts Detox Salt Block, 5 oz",5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,body_care
+AURA CACIA,"Neroli Hydrosol Mist, 3 fl oz",10.99,8.79,7.91,body_care,0.2,0.28,0.08,20% to 30%,body_care
+AURA CACIA,"Rose Hydrosol Mist, 3 fl oz",10.99,8.79,7.91,body_care,0.2,0.28,0.08,20% to 30%,body_care
+AURA CACIA,"Lavender Hydrosol Mist, 3 fl oz",10.99,8.79,7.91,body_care,0.2,0.28,0.08,20% to 30%,body_care
+ALBA BOTANICA,"Baby Clear Mineral Sunscreen Spf 50, 3 oz",14.99,11.99,10.79,body_care,0.2,0.28,0.08,20% to 30%,body_care
+Pacha Soap Co.,"Bath Crayons, Kids Warm 3 Pack, 2.25 oz",10.49,8.39,7.55,body_care,0.2,0.28,0.08,20% to 30%,body_care
+Jason Natural Products,"Himalayan Pink Salt, 30 fl oz",11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,body_care
+AURA CACIA,"Organic Ylang Ylang, 0.25 fl oz",12.99,10.49,9.44,body_care,0.192,0.273,0.081,20% to 30%,body_care
+AURA CACIA,"Chill Pill Essential Solution, 0.5 fl oz",12.99,10.49,9.44,body_care,0.192,0.273,0.081,20% to 30%,body_care
+EO,"Cleansing Lavender Hand Wipes, 10 ct",4.19,3.39,3.05,body_care,0.191,0.272,0.081,20% to 30%,body_care
+Burt's Bees,Baby Bee Face And Hand Cloths,5.79,4.69,4.22,body_care,0.19,0.271,0.081,20% to 30%,body_care
+EARTH THERAPEUTICS,"Exfoliating Hydro Towel, 1 each",5.79,4.69,4.22,body_care,0.19,0.271,0.081,20% to 30%,body_care
+SEVENTH GENERATION,"Maxi Pads Overnight Withwings, 14 pads",6.99,5.69,5.12,body_care,0.186,0.268,0.082,20% to 30%,body_care
+ALBA BOTANICA,"Mango Vanilla Cream Shave, 8 oz",6.99,5.69,5.12,body_care,0.186,0.268,0.082,20% to 30%,body_care
+SEVENTH GENERATION,"Maxi Pads Regular, 24 pads",6.99,5.69,5.12,body_care,0.186,0.268,0.082,20% to 30%,body_care
+SEVENTH GENERATION,Pantiliners,6.29,5.19,4.67,body_care,0.175,0.258,0.083,20% to 30%,body_care
+Tom's of Maine,"Toothbrush Whole Care, 1 toothbrush",4.29,3.59,3.23,body_care,0.163,0.247,0.084,20% to 30%,body_care
+Tom's of Maine,Anti Plaque Sprearmint Flat Floss 32yd,3.79,3.19,2.87,body_care,0.158,0.243,0.085,20% to 30%,body_care
+Tom's of Maine,"Men Mountain Spring Deodorant Stick, 2.8 oz",6.99,5.89,5.3,body_care,0.157,0.242,0.085,20% to 30%,body_care
+ALAFFIA,"Bubble Bath Coconut Chamomile, 32 fl oz",15.99,13.49,12.14,body_care,0.156,0.241,0.085,20% to 30%,body_care
+Jason Natural Products,"Aloe Vera Gel Tube, 4 oz",5.29,4.49,4.04,body_care,0.151,0.236,0.085,20% to 30%,body_care
+Tom's of Maine,"Medium Adult Toothbrush, 1 each",3.99,3.39,3.05,body_care,0.15,0.236,0.086,20% to 30%,body_care
+Jason Natural Products,"Vitamin E Oil 5000 Iu, 4 fl oz",9.39,7.99,7.19,body_care,0.149,0.234,0.085,20% to 30%,body_care
+ALAFFIA,"Lavender Shea Bubble Bath, 32 fl oz",11.49,9.79,8.81,body_care,0.148,0.233,0.085,20% to 30%,body_care
+ALAFFIA,"Unscented Whipped Shea Butter and Coconut Oil, 4 oz",13.79,11.79,10.61,body_care,0.145,0.231,0.086,20% to 30%,body_care
+ALAFFIA,"Unscented Shave Cream, 8 fl oz",8.99,7.69,6.92,body_care,0.145,0.23,0.085,20% to 30%,body_care
+ALAFFIA,"Unrefined Neem Oil, 0.8 fl oz",8.99,7.69,6.92,body_care,0.145,0.23,0.085,20% to 30%,body_care
+ALAFFIA,"Unscented Shea Butter, 11 oz",13.99,11.99,10.79,body_care,0.143,0.229,0.086,20% to 30%,body_care
+Jason Natural Products,"Vitamin E Oil 32,000 Iu, 1 each",9.99,8.49,7.64,body_care,0.15,0.235,0.085,20% to 30%,body_care
+ALAFFIA,"Wild Lavender Whipped Shea Butter & Coconut Oil, 4 oz",13.79,11.79,10.61,body_care,0.145,0.231,0.086,20% to 30%,body_care
+Forces Of Nature,"Organic Rollerball Scar Control Medicine, 0.14 fl oz",13.99,11.99,10.79,body_care,0.143,0.229,0.086,20% to 30%,body_care
+SHIKAI,"CBD+ Cream, 2 fl oz",31.49,22.49,20.24,body_care,0.286,0.357,0.071,30% to 40%,body_care
+EARTH THERAPEUTICS,"White Hydro Body Sponge, 1 each",3.19,2.49,2.24,body_care,0.219,0.298,0.079,20% to 30%,body_care
+EARTH THERAPEUTICS,"Pink Hydro Body Sponge, 1 each",3.19,2.49,2.24,body_care,0.219,0.298,0.079,20% to 30%,body_care
+EARTH THERAPEUTICS,"Peach Hydro Body Sponge, 1 each",3.19,2.49,2.24,body_care,0.219,0.298,0.079,20% to 30%,body_care
+A LA MAISON,"Honeysuckle Hand Cream, 1.7 fl oz",6.39,4.99,4.49,body_care,0.219,0.297,0.078,20% to 30%,body_care
+AURA CACIA,"Organic Opening Heart Roll On, 0.31 fl oz",13.29,10.49,9.44,body_care,0.211,0.29,0.079,20% to 30%,body_care
+AURA CACIA,"Organic Empowering Solar Plexus Roll On, 0.31 fl oz",13.29,10.49,9.44,body_care,0.211,0.29,0.079,20% to 30%,body_care
+AURA CACIA,"Organic Insightful Third Eye Roll On, 0.31 fl oz",13.29,10.49,9.44,body_care,0.211,0.29,0.079,20% to 30%,body_care
+EARTH THERAPEUTICS,"Loofah Sisal Bath Mitt, 1 each",6.79,5.39,4.85,body_care,0.206,0.286,0.08,20% to 30%,body_care
+EARTH THERAPEUTICS,"Loofah Blown Up, 1 each",3.39,2.69,2.42,body_care,0.206,0.286,0.08,20% to 30%,body_care
+ALBA BOTANICA,"Island Citrus Bath Gel, 32 fl oz",14.79,11.79,10.61,body_care,0.203,0.283,0.08,20% to 30%,body_care
+AURA CACIA,"Lavender Foaming Bath, 2.5 oz",3.49,2.79,2.51,body_care,0.201,0.281,0.08,20% to 30%,body_care
+Pacha Soap Co.,Sleep Salt Block 5oz,5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,body_care
+EO,"Lavender Sanitizing Wipes Tub, 210 towelettes",29.99,23.99,21.59,body_care,0.2,0.28,0.08,20% to 30%,body_care
+EARTH THERAPEUTICS,"Gray Aloe Infused Socks, 1 each",9.99,7.99,7.19,body_care,0.2,0.28,0.08,20% to 30%,body_care
+EARTH THERAPEUTICS,"Wooden Foot File, 1 each",4.19,3.39,3.05,body_care,0.191,0.272,0.081,20% to 30%,body_care
+Jason Natural Products,"Power Smile Powerful Peppermint Whitening Paste, 3 oz",2.99,2.55,2.29,body_care,0.147,0.234,0.087,20% to 30%,body_care
+ALAFFIA,"Lavender Shave Cream, 8 fl oz",8.99,7.69,6.92,body_care,0.145,0.23,0.085,20% to 30%,body_care
+Tom's of Maine,Naturally Clean Toothbrush Twin Pack,5.79,4.99,4.49,body_care,0.138,0.225,0.087,20% to 30%,body_care
+Hello,"Kids Watermelon Fluoride Free Rinse, 16 fl oz",5.39,4.79,4.31,body_care,0.111,0.2,0.089,10% to 20%,body_care
+SEVENTH GENERATION,"Ultra Thin Pads Spr Long With win, 16 pads",5.49,5.19,4.67,body_care,0.055,0.149,0.094,10% to 20%,body_care
+Against the Grain,"Gluten Free Original Baguettes, 15 oz",8.29,5.99,5.39,bread_rolls_bakery,0.277,0.35,0.073,30% to 40%,Baguettes
+Outer Aisle Gourmet,"Italian Cauliflower Pizza Crust, 5 oz",6.99,5.99,5.39,bread_rolls_bakery,0.143,0.229,0.086,20% to 30%,Crust
+Greyston Bakery,"Vegan Fudge Brownie, 2.5 oz",2.39,1.67,1.5,bread_rolls_bakery,0.301,0.372,0.071,30% to 40%,Brownie
+Outer Aisle Gourmet,"Plantpower Sandwich Thins, 6.75 oz",6.99,5.99,5.39,bread_rolls_bakery,0.143,0.229,0.086,20% to 30%,Sandwich
+Greyston Bakery,"Birthday Cake Blondie, 2.5 oz",1.99,1.67,1.5,bread_rolls_bakery,0.161,0.246,0.085,20% to 30%,Blondie
+Greyston Bakery,"Brown Sugar Blondie, 2.5 oz",1.99,1.67,1.5,bread_rolls_bakery,0.161,0.246,0.085,20% to 30%,Blondie
+Whole Foods Market,"Seeduction Bread, 20 oz",5.49,4.99,4.49,bread_rolls_bakery,0.091,0.182,0.091,10% to 20%,Bread
+Nancy's Fancy,"Whiskey And Cake Gelato, 1 pint",7.99,6.19,5.57,bread_rolls_bakery,0.225,0.303,0.078,30% to 40%,Gelato
+Rustic Bakery,"Herbs De Provence Flatbread, 6 oz",7.49,6.49,5.84,bread_rolls_bakery,0.134,0.22,0.086,20% to 30%,Flatbread
+Rustic Bakery,"Rosemary & Olive Oil Sourdough Flatbread, 6 oz",7.49,6.49,5.84,bread_rolls_bakery,0.134,0.22,0.086,20% to 30%,Flatbread
+Rustic Bakery,"Olive Oil & Sel Gris Sourdough Flatbread, 6 oz",7.49,6.49,5.84,bread_rolls_bakery,0.134,0.22,0.086,20% to 30%,Flatbread
+Mitica,"Rosemary Toketti Di Pane Carasau Crackers, 7 oz",6.99,5.74,5.17,bread_rolls_bakery,0.179,0.26,0.081,20% to 30%,Crackers
+Lenny & Larry's,"The Complete Crunchy Chocolate Chip Cookies, 4.25 oz",3.99,3,2.7,bread_rolls_bakery,0.248,0.323,0.075,30% to 40%,Cookies
+Tate's Bake Shop,"Chocolate Chip Walnut Cookies, 7 oz",5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Cookies
+Tate's Bake Shop,"Gluten Free Chocolate Chip Cookies, 7 oz",5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Cookies
+Tate's Bake Shop,Chocolate Chip Cookies (7 oz),5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Cookies
+Tate's Bake Shop,"Oatmeal Raisin Cookies, 7 oz",5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Cookies
+Tate's Bake Shop,"White Chocolate Macadamia Nut Cookies, 7 oz",5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Cookies
+Tate's Bake Shop,"Butter Crunch Cookies, 7 oz",5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Cookies
+Tate's Bake Shop,"Coconut Crisp Cookies, 7 oz",5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Cookies
+Enjoy Life Foods,"Mini Chocolate Chip Soft Cookies 6 Pack, 1 each",4.19,3.99,3.59,bread_rolls_bakery,0.048,0.143,0.095,10% to 20%,Cookies
+Cappello's,"Butternut Squash Ravioli, 9.9 oz",9.99,8.99,8.09,bread_rolls_bakery,0.1,0.19,0.09,10% to 20%,Pasta
+Orgain,"Unsweetened Vanilla Organic Protein Almondmilk, 32 fl oz",5.79,4.69,4.22,dairy_eggs,0.19,0.271,0.081,20% to 30%,Almondmilk
+Blue Diamond,"Unsweetened Chocolate Almond Breeze Almondmilk, 32 fl oz",2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Almondmilk
+Blue Diamond,"Unsweetened Original Almond Breeze Almondmilk (1 Qt), 32 fl oz",2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Almondmilk
+Blue Diamond,Chocolate Almond Breeze Almondmilk (32 Fl Oz),2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Almondmilk
+Blue Diamond,"Original Almond Breeze Almondmilk, 32 fl oz",2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Almondmilk
+Blue Diamond,"Vanilla Almond Breeze Almondmilk, 32 fl oz",2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Almondmilk
+Blue Diamond,"Unsweetened Vanilla Almond Breeze Almondmilk (1 Qt), 32 fl oz",2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Almondmilk
+Orgain,"Vanilla Organic Protein Almondmilk, 32 fl oz",5.29,4.69,4.22,dairy_eggs,0.113,0.202,0.089,20% to 30%,Almondmilk
+Kite Hill,"European Style Plant Based Butter, 8 oz",5.99,4.49,4.04,dairy_eggs,0.25,0.326,0.076,30% to 40%,Butter
+Clover Sonoma,Lactose Free Vitamin D Whole Milk,3.79,3.29,2.96,dairy_eggs,0.132,0.219,0.087,20% to 30%,Milk
+Blue Diamond,"Almond Breeze Almond Coconut Blend Unsweetened Vanilla Coconut Milk, 32 fl oz",2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Milk
+Lifeway,"Chocolate Kefir, 32 fl oz",4.59,2.67,2.4,dairy_eggs,0.418,0.477,0.059,40% to 50%,Dairy
+Lifeway,"Lowfat Cherry Kefir, 32 fl oz",4.59,2.67,2.4,dairy_eggs,0.418,0.477,0.059,40% to 50%,Dairy
+Straus Family Creamery,"Organic Sour Cream, 16 oz",5.29,3.99,3.59,dairy_eggs,0.246,0.321,0.075,30% to 40%,Dairy
+Remedy Organics,"Organic Matcha Oxidants, 12 fl oz",4.99,3.99,3.59,dairy_eggs,0.2,0.281,0.081,20% to 30%,Dairy
+Remedy Organics,"Organic Super Chai Fuel, 12 fl oz",4.99,3.99,3.59,dairy_eggs,0.2,0.281,0.081,20% to 30%,Dairy
+GT's Cocoyo,Organic Pure 8oz,5.99,4.99,4.49,dairy_eggs,0.167,0.25,0.083,20% to 30%,Dairy
+GT's Cocoyo,Organic Vanilla 8oz,5.99,4.99,4.49,dairy_eggs,0.167,0.25,0.083,20% to 30%,Dairy
+Organic Valley,"Organic Jack, 8 oz",7.29,6.29,5.66,dairy_eggs,0.137,0.224,0.087,20% to 30%,Dairy
+Cypress Grove,Truffle Tremor,29.99,25.99,23.39,dairy_eggs,0.133,0.22,0.087,20% to 30%,Dairy
+Clover Sonoma,Lactose Free Vitamin A & D 2% Milk,3.79,3.29,2.96,dairy_eggs,0.132,0.219,0.087,20% to 30%,Dairy
+Blue Diamond,"Unsweetened Original Almond Coconut Blend, 32 fl oz",2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Dairy
+Navitas Organics,"Organic Cacao Powder, 16 oz",21.99,19.79,17.81,dairy_eggs,0.1,0.19,0.09,10% to 20%,Dairy
+Hervé Mons,1924 Bleu,26.99,24.99,22.49,dairy_eggs,0.074,0.167,0.093,10% to 20%,Dairy
+ROGUE CREAMERY,Organic Enraptured Blue,29.99,27.99,25.19,dairy_eggs,0.067,0.16,0.093,10% to 20%,Dairy
+Vital Farms,"Pasture Raised Large Grade A Eggs, 36 oz",7.99,7.49,6.74,dairy_eggs,0.063,0.156,0.093,10% to 20%,Dairy
+Sown,"Organic Sweet & Creamy Oat Creamer, 32 fl oz",4.99,4.69,4.22,dairy_eggs,0.06,0.154,0.094,10% to 20%,Dairy
+Sown,"Organic Unsweetened Oat Creamer, 32 fl oz",4.99,4.69,4.22,dairy_eggs,0.06,0.154,0.094,10% to 20%,Dairy
+Emmi,"Swiss Raclette, 0.28 lb",19.99,18.99,17.09,dairy_eggs,0.05,0.145,0.095,10% to 20%,Dairy
+siggi's,"Plant-Based Probiotics Coconut Vanilla Kefir, 8 fl oz",2.49,2.39,2.15,dairy_eggs,0.04,0.137,0.097,10% to 20%,Dairy
+Green Valley Creamery,"Lactose Free Sour Cream, 12 oz",3.79,3.69,3.32,dairy_eggs,0.026,0.124,0.098,10% to 20%,Dairy
+Rumiano Cheese,"Organic Sliced Monterey Jack, 6 ounce",5.29,4.29,3.86,dairy_eggs,0.189,0.27,0.081,20% to 30%,Dairy
+Vermont Creamery,"St. Albans, 2.82 oz",8.99,6.99,6.29,dairy_eggs,0.222,0.3,0.078,20% to 30%,Dairy
+JASPER HILL,Bayley Hazen Blue,27.99,25.99,23.39,dairy_eggs,0.071,0.164,0.093,10% to 20%,Dairy
+Emmi,Swiss Raclette,17.99,16.99,15.29,dairy_eggs,0.056,0.15,0.094,10% to 20%,Dairy
+Chobani,"Mixed Berry Vanilla Greek Yogurt Shake, 10 fl oz",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt
+Icelandic Provisions,"Key Lime Skyr, 5.3 oz",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt
+Icelandic Provisions,"Peach, Apricot Skyr, 4.4 ounce",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt
+Icelandic Provisions,"Blueberry Walnut Skyr, 4.4 ounce",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt
+Icelandic Provisions,"Strawberry Almond Skyr, 4.4 ounce",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt
+Icelandic Provisions,"Peach Cloudberry Skyr, 5.3 oz",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt
+Chobani,"Strawberry Cream Greek Yogurt Shake, 10 fl oz",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt
+Icelandic Provisions,"Coconut Skyr, 5.3 oz",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt
+Chobani,"Vanilla Greek Yogurt Shake, 10 fl oz",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt
+Icelandic Provisions,"Strawberry Lingonberry Thick & Creamy Skyr, 5.3 oz",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt
+Koia,"Carmel Créme Keto Beverage, 12 fl oz",4.49,3,2.7,dairy_eggs,0.332,0.399,0.067,30% to 40%,Beverage
+Koia,"Cake Batter Keto Beverage, 12 fl oz",4.49,3,2.7,dairy_eggs,0.332,0.399,0.067,30% to 40%,Beverage
+Koia,"Chocolate Brownie Keto Beverage, 12 fl oz",4.49,3,2.7,dairy_eggs,0.332,0.399,0.067,30% to 40%,Beverage
+Koia,"Cinnamon Horchata Protein Beverage, 12 fl oz",3.99,3,2.7,dairy_eggs,0.248,0.323,0.075,30% to 40%,Beverage
+Koia,"Coconut Almond Plant Powered Protein Drink, 12 fl oz",3.99,3,2.7,dairy_eggs,0.248,0.323,0.075,30% to 40%,Beverage
+Koia,"Chocolate Banana Plant Protein Drink, 12 fl oz",3.99,3,2.7,dairy_eggs,0.248,0.323,0.075,30% to 40%,Beverage
+So Delicious,"Strawberry Coconutmilk Yogurt, 5.3 oz",1.99,1.5,1.35,dairy_eggs,0.246,0.322,0.076,30% to 40%,Yogurt
+So Delicious,"Mixed Berry Coconutmilk Yogurt, 5.3 oz",1.99,1.5,1.35,dairy_eggs,0.246,0.322,0.076,30% to 40%,Yogurt
+So Delicious,"Mango Coconutmilk Yogurt, 5.3 oz",1.99,1.5,1.35,dairy_eggs,0.246,0.322,0.076,30% to 40%,Yogurt
+Ripple Foods,"Unsweetened Non-dairy Beverage, 48 fl oz",4.99,3.99,3.59,dairy_eggs,0.2,0.281,0.081,20% to 30%,Beverage
+siggi's,"Vanilla Plant Based Yogurt, 24 oz",7.49,5.99,5.39,dairy_eggs,0.2,0.28,0.08,20% to 30%,Yogurt
+siggi's,"Plain Plant Based Yogurt, 24 oz",7.49,5.99,5.39,dairy_eggs,0.2,0.28,0.08,20% to 30%,Yogurt
+Ellenos,"Greek Yogurt Lemon Curd, 5.3 oz",2.69,2.19,1.97,dairy_eggs,0.186,0.268,0.082,20% to 30%,Yogurt
+Ellenos,"Real Greek Yogurt Marionberry, 5.3 oz",2.69,2.19,1.97,dairy_eggs,0.186,0.268,0.082,20% to 30%,Yogurt
+Ellenos,"Mango Greek Yogurt, 5.3 oz",2.69,2.19,1.97,dairy_eggs,0.186,0.268,0.082,20% to 30%,Yogurt
+Ellenos,"Real Greek Yogurt Passionfruit, 5.3 oz",2.69,2.19,1.97,dairy_eggs,0.186,0.268,0.082,20% to 30%,Yogurt
+siggi's,"Strawberry Yogurt 4 Pack, 5.3 oz",5.49,4.5,4.05,dairy_eggs,0.18,0.262,0.082,20% to 30%,Yogurt
+siggi's,"Vanilla Yogurt 4 Count, 5.3 oz",5.49,4.5,4.05,dairy_eggs,0.18,0.262,0.082,20% to 30%,Yogurt
+Straus Family Creamery,"Organic Plain Greek Yogurt, 32 oz",8.99,7.49,6.74,dairy_eggs,0.167,0.25,0.083,20% to 30%,Yogurt
+GT's Cocoyo,"Living Coconut Yogurt Raspberry, 8 oz",5.99,4.99,4.49,dairy_eggs,0.167,0.25,0.083,20% to 30%,Yogurt
+Kite Hill,"Vanilla Unsweetened Greek Syle Yogurt, 16 oz",5.39,4.49,4.04,dairy_eggs,0.167,0.25,0.083,20% to 30%,Yogurt
+Straus Family Creamery,"Organic Plain Nonfat Greek Yogurt, 32 oz",8.99,7.49,6.74,dairy_eggs,0.167,0.25,0.083,20% to 30%,Yogurt
+GT's Cocoyo,"Living Coconut Yogurt Cacao, 8 oz",5.99,4.99,4.49,dairy_eggs,0.167,0.25,0.083,20% to 30%,Yogurt
+So Delicious,"Yogurt Blueberry, 5.3 oz",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Yogurt
+So Delicious,"Dairy Free Coconut Milk Yogurt Alternative, Strawberry Banana, Vegan, Non-GMO Project Verified, 5.3 oz",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Yogurt
+So Delicious,"Dairy Free Coconut Milk Yogurt Alternative, Peach, Vegan, Non-GMO Project Verified, 5.3 oz",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Yogurt
+So Delicious,"Dairy Free Coconut Milk Yogurt Alternative, Chocolate, Vegan, Non-GMO Project Verified, 5.3 oz",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Yogurt
+So Delicious,"Dairy Free Coconut Milk Yogurt Alternative, Strawberry, Vegan, Non-GMO Project Verified, 5.3 oz",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Yogurt
+So Delicious,"Dairy Free Coconut Milk Yogurt Alternative, Key Lime, Vegan, Non-GMO Project Verified, 5.3 oz",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Yogurt
+So Delicious,"Yogurt Raspberry, 5.3 oz",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Yogurt
+GoodBelly,"Straightshot Yumberry Oat Drink, 2.7 fl oz",3.29,2.79,2.51,dairy_eggs,0.152,0.237,0.085,20% to 30%,Beverage
+Oatly,"Plain Plant Based Yogurt, 5.3 oz",1.99,1.69,1.52,dairy_eggs,0.151,0.236,0.085,20% to 30%,Yogurt
+Oatly,"Strawberry Plant Based Yogurt, 5.3 oz",1.99,1.69,1.52,dairy_eggs,0.151,0.236,0.085,20% to 30%,Yogurt
+Oatly,"Mixed Berry Plant Based Yogurt, 5.3 oz",1.99,1.69,1.52,dairy_eggs,0.151,0.236,0.085,20% to 30%,Yogurt
+Wallaby,"Yogurt Greek Plain Organic, 32 oz",6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Yogurt
+Wallaby,"Organic Whole Milk Greek Yogurt, Blended Vanilla Bean, 32 oz",6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Yogurt
+Wallaby,"Organic Aussie Greek Whole Milk Yogurt, Strawberry, Organic, 32 ounce",6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Yogurt
+Wallaby,"Yogurt Greek Plain Low Fat Organic, 32 oz",6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Yogurt
+Wallaby,"Yogurt Greek Plain Non Fat Organic, 32 oz",6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Yogurt
+Sproud™,"Beverage, 33.8 fl oz",3.49,3,2.7,dairy_eggs,0.14,0.226,0.086,20% to 30%,Beverage
+Green Valley Creamery,"Lactose Free Whole Milk Plain Yogurt, 24 oz",5.69,4.99,4.49,dairy_eggs,0.123,0.211,0.088,20% to 30%,Yogurt
+Green Valley Creamery,"Lactose Free Organic Plain Lowfat Yogurt, 24 oz",5.69,4.99,4.49,dairy_eggs,0.123,0.211,0.088,20% to 30%,Yogurt
+Wallaby,"Yogurt Aussie Smooth Whole Milk Plain, 32 ounce",4.49,3.99,3.59,dairy_eggs,0.111,0.2,0.089,10% to 20%,Yogurt
+Wallaby,"Organic Aussie Smooth Whole Milk Yogurt, Vanilla, USDA Organic, 32 oz",4.49,3.99,3.59,dairy_eggs,0.111,0.2,0.089,10% to 20%,Yogurt
+Chobani,"Flip Almond Coco Loco Greek Yogurt, 5.3 oz",1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt
+Chobani,"Strawberry Complete Yogurt, 5.3 oz",1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt
+Chobani,"Wild Blueberry Greek Yogurt, 5.3 oz",1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt
+Chobani,"Mixed Berry Complete Yogurt, 5.3 oz",1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt
+Chobani,"Peach Complete Yogurt, 5.3 oz",1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt
+Chobani,"Vanilla Complete Yogurt, 5.3 oz",1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt
+Chobani,"Madagascar Vanilla And Cinnamon Greek Yogurt, 5.3 oz",1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt
+Chobani,"Monterey Strawberry Less Sugar Greek Yogurt, 5.3 oz",1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt
+Chobani,"Flip S'more S'mores Greek Yogurt, 5.3 oz",1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt
+Stonyfield,Organic Strawberry Kidstoppers Yogurt,5.99,5.49,4.94,dairy_eggs,0.083,0.175,0.092,10% to 20%,Yogurt
+GoodBelly,"Supershot Extra Boost Lemon Ginger Oatdrink, 2.7 fl oz",7.29,6.79,6.11,dairy_eggs,0.069,0.162,0.093,10% to 20%,Beverage
+Stonyfield,"Organic Blueberry Yogurt Pouches, 3.5 oz",1.49,1.39,1.25,dairy_eggs,0.067,0.161,0.094,10% to 20%,Yogurt
+Stonyfield,"Organic Organic Whole Milk Strawberry Beet Berry Yogurt Pouch, 3.5 oz",1.49,1.39,1.25,dairy_eggs,0.067,0.161,0.094,10% to 20%,Yogurt
+Stonyfield,"Organic Organic Vanilla Whole Milk Yogurt, 3.5 oz",1.49,1.39,1.25,dairy_eggs,0.067,0.161,0.094,10% to 20%,Yogurt
+Stonyfield,"Organic Yogurt Tod Pear Spinach Mango, 3.5 oz",1.49,1.39,1.25,dairy_eggs,0.067,0.161,0.094,10% to 20%,Yogurt
+Stonyfield,"Organic Low Fat Strawberry Yogurt Pouch, 3.5 oz",1.49,1.39,1.25,dairy_eggs,0.067,0.161,0.094,10% to 20%,Yogurt
+Stonyfield,"Organic Blueberry Whole Milk Yogurt Pouch, 3.5 oz",1.49,1.39,1.25,dairy_eggs,0.067,0.161,0.094,10% to 20%,Yogurt
+siggi's,"Strawberry Plant Based Yogurt Drink, 8 fl oz",2.49,2.39,2.15,dairy_eggs,0.04,0.137,0.097,10% to 20%,Yogurt
+Kite Hill,"Vanilla Unsweetened Greek Syle Yogurt, 5.3 oz",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt
+Wallaby,"Organic Aussie Greek Honey Low Fat Yogurt, Sweetened with Honey, Organic, 5.3 oz",1.79,1.25,1.12,dairy_eggs,0.302,0.374,0.072,30% to 40%,Yogurt
+Icelandic Provisions,"Blueberry Bilberry Skyr, 5.3 oz",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt
+Wallaby,"Organic Aussie Greek Peach Low Fat Yogurt, Sweetened with Honey, 5.3 oz, USDA Organic",1.79,1.25,1.12,dairy_eggs,0.302,0.374,0.072,30% to 40%,Yogurt
+Wallaby,"Organic Aussie Greek Mixed Berry Low Fat Yogurt, Sweetened with Honey, Organic, 5.3 oz",1.79,1.25,1.12,dairy_eggs,0.302,0.374,0.072,30% to 40%,Yogurt
+Chobani,"Blueberry Pomegranate Oat Yogurt, 5.3 oz",1.69,1.25,1.12,dairy_eggs,0.26,0.337,0.077,30% to 40%,Yogurt
+NOUNOS CREAMERY,"Peach Passion Fruit Greek Lowfat Yogurt, 5.3 oz",2.49,2,1.8,dairy_eggs,0.197,0.277,0.08,20% to 30%,Yogurt
+So Delicious,"Yogurt Vanilla, 5.3 oz",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Yogurt
+NOUNOS CREAMERY,"Mixed Berry Greek Yogurt, 5.3 oz",2.29,2,1.8,dairy_eggs,0.127,0.214,0.087,20% to 30%,Yogurt
+NOUNOS CREAMERY,"Vanilla Bean Greek Yogurt, 5.3 oz",2.29,2,1.8,dairy_eggs,0.127,0.214,0.087,20% to 30%,Yogurt
+NOUNOS CREAMERY,"Coconut Mango Greek Yogurt, 5.3 oz",2.29,2,1.8,dairy_eggs,0.127,0.214,0.087,20% to 30%,Yogurt
+Tillamook,"Kosher Medium Cheddar Cheese, 8 oz",5.49,3.79,3.41,dairy_eggs,0.31,0.379,0.069,30% to 40%,Cheese
+Tillamook,"Sharp Cheddar Cheese, 8 oz",5.49,3.79,3.41,dairy_eggs,0.31,0.379,0.069,30% to 40%,Cheese
+Tillamook,"Extra Sharp Cheddar Cheese, 8 oz",5.49,3.79,3.41,dairy_eggs,0.31,0.379,0.069,30% to 40%,Cheese
+MYTHREESONS,"Emmy's Original Pimento Cheese, 10 oz",8.99,6.99,6.29,dairy_eggs,0.222,0.3,0.078,20% to 30%,Cheese
+MYTHREESONS,"Spicy White Cheddar Pimento Cheese, 10 oz",8.99,6.99,6.29,dairy_eggs,0.222,0.3,0.078,20% to 30%,Cheese
+Good Culture,"Organic Double Cream Classic Cottage Cheese, 6% Milk Fat, 16 oz",5.49,4.49,4.04,dairy_eggs,0.182,0.264,0.082,20% to 30%,Cheese
+Good Culture,"Organic Whole Milk Classic Cottage Cheese, 4% Milk Fat, 16 oz",5.49,4.49,4.04,dairy_eggs,0.182,0.264,0.082,20% to 30%,Cheese
+Vermont Creamery,"Bijou Aged Goat Cheese ""Crottin"", 4 oz",10.99,8.99,8.09,dairy_eggs,0.182,0.264,0.082,20% to 30%,Cheese
+BUF CREAME,Mozzarella,10.99,8.99,8.09,dairy_eggs,0.182,0.264,0.082,20% to 30%,Cheese
+Fondueand More,"Cheese Fondue Box, 14 oz",10.99,8.99,8.09,dairy_eggs,0.182,0.264,0.082,20% to 30%,Cheese
+Good Culture,"Organic Low-Fat Classic Cottage Cheese, 2% Milk Fat, 16 oz",5.49,4.49,4.04,dairy_eggs,0.182,0.264,0.082,20% to 30%,Cheese
+Klare Melk,Truffle Gouda,27.99,22.99,20.69,dairy_eggs,0.179,0.261,0.082,20% to 30%,Cheese
+Organic Valley,"Organic Mozzarella Cheese Stringles, 1 each",5.99,4.99,4.49,dairy_eggs,0.167,0.25,0.083,20% to 30%,Cheese
+Good Culture,"Organic Blueberry Acai Chia Cottage Cheese, 4% Milk Fat, 5.3 oz",1.99,1.67,1.5,dairy_eggs,0.161,0.246,0.085,20% to 30%,Cheese
+Good Culture,"Organic Whole Milk Classic Cottage Cheese, 4% Milk Fat, 5.3 oz",1.99,1.67,1.5,dairy_eggs,0.161,0.246,0.085,20% to 30%,Cheese
+Good Culture,"Organic Low-Fat Classic Cottage Cheese, 2% Milk Fat, 5.3 oz",1.99,1.67,1.5,dairy_eggs,0.161,0.246,0.085,20% to 30%,Cheese
+Good Culture,"Organic 4% Milk Fat Strawberry Chia Cottage Cheese, 4% Milk Fat, 5.3 oz",1.99,1.67,1.5,dairy_eggs,0.161,0.246,0.085,20% to 30%,Cheese
+Good Culture,"Organic Double Cream Classic Cottage Cheese, 6% Milk Fat, 5 oz",1.99,1.67,1.5,dairy_eggs,0.161,0.246,0.085,20% to 30%,Cheese
+Whole Foods Market,Jarlsberg Light Cheese,9.99,8.49,7.64,dairy_eggs,0.15,0.235,0.085,20% to 30%,Cheese
+Rumiano Cheese,"Organic Pepper Jack Cheddar Cheese Bar, 8 oz",6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Cheese
+Rumiano Cheese,"Organic Monterey Jack Cheese Bar, 8 oz",6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Cheese
+Rumiano Cheese,"Organic Gouda, 8 oz",6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Cheese
+Ca de Ambros,Taleggio,13.99,11.99,10.79,dairy_eggs,0.143,0.229,0.086,20% to 30%,Cheese
+Organic Valley,"Raw Sharp Cheddar Cheese, 8 oz",7.29,6.29,5.66,dairy_eggs,0.137,0.224,0.087,20% to 30%,Cheese
+Sweet Grass Dairy,"Pimento Cheese, 6 oz",8.99,7.99,7.19,dairy_eggs,0.111,0.2,0.089,10% to 20%,Cheese
+FROMAGER D AFFINOIS,Saint Angel,17.99,15.99,14.39,dairy_eggs,0.111,0.2,0.089,10% to 20%,Cheese
+Kite Hill,"Cracked Pepper Cheese Spread Plant Based, 8 oz",9.99,8.99,8.09,dairy_eggs,0.1,0.19,0.09,10% to 20%,Cheese
+Kite Hill,"Garlic And Herb Cheese Spread Plant Based, 8 oz",9.99,8.99,8.09,dairy_eggs,0.1,0.19,0.09,10% to 20%,Cheese
+Green Valley Creamery,"Organic Lactose Free Cottage Cheese, 12 oz",4.99,4.49,4.04,dairy_eggs,0.1,0.19,0.09,10% to 20%,Cheese
+Mitica,The Drunken Goat Cheese,19.99,17.99,16.19,dairy_eggs,0.1,0.19,0.09,10% to 20%,Cheese
+Whole Foods Market,"Farmer Cheese, 16 oz",5.49,4.99,4.49,dairy_eggs,0.091,0.182,0.091,10% to 20%,Cheese
+NEALS YARD,Keens Farmhouse Cheddar,23.99,21.99,19.79,dairy_eggs,0.083,0.175,0.092,10% to 20%,Cheese
+BARBERS,Sweet Red Grass Fed Cheddar,12.99,11.99,10.79,dairy_eggs,0.077,0.169,0.092,10% to 20%,Cheese
+Organic Valley,"Organic Shredded Parmesan Cheese, 4 oz",6.49,5.99,5.39,dairy_eggs,0.077,0.169,0.092,10% to 20%,Cheese
+BARBERS,"Sweet Red Cheddar Cubes, 0.28 lb",13.99,12.99,11.69,dairy_eggs,0.071,0.164,0.093,10% to 20%,Cheese
+KAASAGGIO,Robusto Gouda,18.99,17.99,16.19,dairy_eggs,0.053,0.147,0.094,10% to 20%,Cheese
+KAASAGGIO,"Robusto Cubes, 0.34 lb",20.99,19.99,17.99,dairy_eggs,0.048,0.143,0.095,10% to 20%,Cheese
+Emmi,Ages Kaltbatch La Cremeux,21.99,20.99,18.89,dairy_eggs,0.045,0.141,0.096,10% to 20%,Cheese
+Whole Foods Market,"Cheddar Mild Cubes, 8 oz",3.99,2.99,2.69,dairy_eggs,0.251,0.326,0.075,30% to 40%,Cheese
+Whole Foods Market,"Colby Jack Cubes, 8 oz",3.99,2.99,2.69,dairy_eggs,0.251,0.326,0.075,30% to 40%,Cheese
+Rumiano Cheese,"Sliced Sharp Cheddar Cheese, 6 oz",5.29,4.29,3.86,dairy_eggs,0.189,0.27,0.081,20% to 30%,Cheese
+Kourella's,"Organic Barrel Feta, 5.3 oz",5.99,4.99,4.49,dairy_eggs,0.167,0.25,0.083,20% to 30%,Cheese
+Organic Valley,"Organic Grated Parmesan Cheese, 4 oz",6.49,5.99,5.39,dairy_eggs,0.077,0.169,0.092,10% to 20%,Cheese
+Freak Flag Organics,"Organic Broccoli & Cheese Mac & Freak, 6 oz",2.99,2,1.8,dairy_eggs,0.331,0.398,0.067,30% to 40%,Cheese
+Freak Flag Organics,"Organic Four Cheese Mac & Freak, 6 oz",2.99,2,1.8,dairy_eggs,0.331,0.398,0.067,30% to 40%,Cheese
+Lactalis,Brie De Paris,12.99,8.99,8.09,dairy_eggs,0.308,0.377,0.069,30% to 40%,Cheese
+Lactalis,Le Petit Brie,15.99,11.99,10.79,dairy_eggs,0.25,0.325,0.075,30% to 40%,Cheese
+Whole Foods Market,Part-skim Mozzarella Cheese,2.99,2.49,2.24,dairy_eggs,0.167,0.251,0.084,20% to 30%,Cheese
+Whole Foods Market,"Mild Cheddar Cheese Bar, 8 oz",2.99,2.49,2.24,dairy_eggs,0.167,0.251,0.084,20% to 30%,Cheese
+Whole Foods Market,"Medium Cheddar Cheese, 8 oz",2.99,2.49,2.24,dairy_eggs,0.167,0.251,0.084,20% to 30%,Cheese
+Whole Foods Market,"Colby Jack Cheese, 8 oz",2.99,2.49,2.24,dairy_eggs,0.167,0.251,0.084,20% to 30%,Cheese
+Whole Foods Market,"Monterey Jack Cheese, 8 oz",2.99,2.49,2.24,dairy_eggs,0.167,0.251,0.084,20% to 30%,Cheese
+Organic Valley,Organic Mozzarella Cheese,6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Cheese
+Organic Valley,"Organic Raw Mild Cheddar Cheese, 8 oz",6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Cheese
+Cabot Creamery,"Vermont Extra Sharp Cheddar Cheese, 8 oz",3.99,3.49,3.14,dairy_eggs,0.125,0.213,0.088,20% to 30%,Cheese
+Cabot Creamery,"Habanero Cheddar Cheese, 8 oz",3.99,3.49,3.14,dairy_eggs,0.125,0.213,0.088,20% to 30%,Cheese
+Ca de Ambros,"Taleggio, 0.3 lb",15.99,13.99,12.59,dairy_eggs,0.125,0.213,0.088,20% to 30%,Cheese
+Cabot Creamery,"Seriously Sharp Cheddar Cheese, 8 oz",3.99,3.49,3.14,dairy_eggs,0.125,0.213,0.088,20% to 30%,Cheese
+BARBERS,Sweet Red Cheddar Cubes,13.99,12.99,11.69,dairy_eggs,0.071,0.164,0.093,10% to 20%,Cheese
+Greyston Bakery,"Cinnamon Roll Blondie, 2.5 oz",1.99,1.67,1.5,desserts,0.161,0.246,0.085,20% to 30%,Dessert
+Whole Foods Market,Traditional Crepes 10 Count,5.99,5.49,4.94,desserts,0.083,0.175,0.092,10% to 20%,Dessert
+Whole Foods Market,"Chocolate Filled Crepes 6 Pack, 6.8 oz",4.99,4.49,4.04,desserts,0.1,0.19,0.09,10% to 20%,Chocolate
+ELITE FLOWERS,Occasional Bouquet,14.99,12.99,11.69,floral,0.133,0.22,0.087,20% to 30%,Bouquet
+ELITE FLOWERS,Sunset Bouquet,9.99,8.99,8.09,floral,0.1,0.19,0.09,10% to 20%,Bouquet
+FLORAL,Cheerful Bouquet,9.99,7.99,7.19,floral,0.2,0.28,0.08,20% to 30%,Bouquet
+Field Roast,"Celebration Roast With Traditional Bread Stuffing And Porcini Gravy, 32 oz",15.99,14.39,12.95,frozen_foods,0.1,0.19,0.09,10% to 20%,Bread
+Nancy's Fancy,"Bourbon Vanilla Bean Gelato, 1 pint",7.99,6.19,5.57,frozen_foods,0.225,0.303,0.078,30% to 40%,Gelato
+American Flatbread,"Revolution Flatbread, 16.8 oz",10.99,8.99,8.09,frozen_foods,0.182,0.264,0.082,20% to 30%,Flatbread
+Dolcezza,"Roasted Strawberry Gelato, 1 pint",6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Gelato
+Dolcezza,"Stracciatella Gelato, 1 pint",6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Gelato
+Dolcezza,"Mascarpone & Berries Gelato, 1 pint",6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Gelato
+Dolcezza,"Tramontana Gelato, 1 pint",6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Gelato
+Rao's Homemade,"Single Serve Chicken Parmesan, 8.5 oz",6.99,5.19,4.67,frozen_foods,0.258,0.332,0.074,30% to 40%,Chicken
+Rao's Homemade,"Chicken Alfredo, 8.4 oz",6.99,5.19,4.67,frozen_foods,0.258,0.332,0.074,30% to 40%,Chicken
+STARLITE,"Vegan Chipotle Chicken Soy Rolled Tacos, 12 oz",6.49,4.99,4.49,frozen_foods,0.231,0.308,0.077,30% to 40%,Chicken
+STARLITE,"Vegan Garlic Chicken Style Rolled Tacos, 12 oz",6.49,4.99,4.49,frozen_foods,0.231,0.308,0.077,30% to 40%,Chicken
+Whole Foods Market,Pecan Crusted Chicken Breast Cutlets,6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Chicken
+STARLITE,"Chicken Style Taquitos, 14 oz",6.69,4.99,4.49,frozen_foods,0.254,0.329,0.075,30% to 40%,Chicken
+Must Love,"Non-Dairy Frozen Dessert, Banana Banilla, 1 pint",6.99,4.49,4.04,frozen_foods,0.358,0.422,0.064,40% to 50%,Dessert
+Must Love,"Non-Dairy Frozen Dessert, Banana Choco Choco Chip, 1 pint",6.99,4.49,4.04,frozen_foods,0.358,0.422,0.064,40% to 50%,Dessert
+Must Love,"Non-Dairy Frozen Dessert, Banana Cashew Cookie, 1 pint",6.69,4.49,4.04,frozen_foods,0.329,0.396,0.067,30% to 40%,Dessert
+Must Love,"Non-Dairy Frozen Dessert, Banana Strawberry, 1 pint",6.69,4.49,4.04,frozen_foods,0.329,0.396,0.067,30% to 40%,Dessert
+Must Love,"Non-Dairy Frozen Dessert, Dipped Bars Banana Banilla, 12 fl oz",6.69,4.49,4.04,frozen_foods,0.329,0.396,0.067,30% to 40%,Dessert
+Must Love,"Non-Dairy Frozen Dessert, Dipped Bars Oat Milk Vanilla, 12 fl oz",5.99,4.49,4.04,frozen_foods,0.25,0.326,0.076,30% to 40%,Dessert
+Must Love,"Non-Dairy Frozen Dessert, Oat Milk Snickerdoodle Dough",5.99,4.49,4.04,frozen_foods,0.25,0.326,0.076,30% to 40%,Dessert
+Must Love,"Non-Dairy Frozen Dessert, Oat Milk Peanut Butter Swirl, 1 pint",5.99,4.49,4.04,frozen_foods,0.25,0.326,0.076,30% to 40%,Dessert
+Must Love,"Non-Dairy Frozen Dessert, Dipped Bars Oat Milk Crunchy Peanut Swirl, 12 fl oz",5.99,4.49,4.04,frozen_foods,0.25,0.326,0.076,30% to 40%,Dessert
+GoodPop,Chocolate Fudge 4-Pack,4.99,3.79,3.41,frozen_foods,0.24,0.317,0.077,30% to 40%,Ice Cream
+Milk Bar,"Pie Ice Cream, 14 fl oz",5.99,4.99,4.49,frozen_foods,0.167,0.25,0.083,20% to 30%,Ice Cream
+Milk Bar,"Peanut Butter Chocolate Cookie Crush Ice Cream, 14 fluid ounce",5.99,4.99,4.49,frozen_foods,0.167,0.25,0.083,20% to 30%,Ice Cream
+Milk Bar,"Birthday Cake Ice Cream, 14 fl oz",5.99,4.99,4.49,frozen_foods,0.167,0.25,0.083,20% to 30%,Ice Cream
+Milk Bar,"Cornflake Chocolate Chip Marshmallow Ice Cream, 14 fl oz",5.99,4.99,4.49,frozen_foods,0.167,0.25,0.083,20% to 30%,Ice Cream
+Dolcezza,"Swiss Chocolate Gelato, 1 pint",6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Ice Cream
+Van Leeuwen,"Chocolate Chip Cookie Dough Non Dairy Frozen Dessert, 14 fl oz",7.49,6.69,6.02,frozen_foods,0.107,0.196,0.089,10% to 20%,Ice Cream
+Van Leeuwen,"Chocolate Chip Cookie Dough Ice Cream, 14 fl oz",6.99,6.69,6.02,frozen_foods,0.043,0.139,0.096,10% to 20%,Ice Cream
+Van Leeuwen,"Mint Chip Non Dairy Frozen Dessert, 14 fl oz",6.99,6.69,6.02,frozen_foods,0.043,0.139,0.096,10% to 20%,Dessert
+Van Leeuwen,"Sicilian Pistachio Non Dairy Frozen Dessert, 14 fl oz",6.99,6.69,6.02,frozen_foods,0.043,0.139,0.096,10% to 20%,Dessert
+Van Leeuwen,"Vanilla Ice Cream, 14 fl oz",6.99,6.69,6.02,frozen_foods,0.043,0.139,0.096,10% to 20%,Ice Cream
+MOMPOPS,"Mini Chocolate Sea Salt, 6 fl oz",3.99,3.49,3.14,frozen_foods,0.125,0.213,0.088,20% to 30%,Ice Cream
+Van Leeuwen,"Chocolate Ice Cream, 14 fl oz",7.29,6.99,6.29,frozen_foods,0.041,0.137,0.096,10% to 20%,Ice Cream
+Van Leeuwen,"Mint Chip Ice Cream, 14 fl oz",7.29,6.99,6.29,frozen_foods,0.041,0.137,0.096,10% to 20%,Ice Cream
+Van Leeuwen,"Oatmilk Latte Vegan Ice Cream, 14 fl oz",7.29,6.99,6.29,frozen_foods,0.041,0.137,0.096,10% to 20%,Ice Cream
+Van Leeuwen,"Vanilla Caramel Swirl Ice Cream Bars, 9.2 fl oz",7.49,6.99,6.29,frozen_foods,0.067,0.16,0.093,10% to 20%,Bars
+Van Leeuwen,"Brown Sugar Honeycomb Frozen Dessert Bars, 4 bars",6.99,6.69,6.02,frozen_foods,0.043,0.139,0.096,10% to 20%,Bars
+Bonafide Provisions,Organic Turkey Bone Broth,9.79,7.99,7.19,frozen_foods,0.184,0.266,0.082,20% to 30%,Broth
+Rao's Homemade,"Penne Alla Vodka, 9 oz",6.99,5.19,4.67,frozen_foods,0.258,0.332,0.074,30% to 40%,Pasta
+Cappello's,"Lasagna Sheets Almond Flour Pasta, 9 oz",9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Pasta
+Cappello's,"Spaghetti Almond Flour Pasta, 8 oz",9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Pasta
+Cappello's,"Gnocchi Almond Flour Pasta, 12 oz",9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Pasta
+Cappello's,"Fettuccine Almond Flour Pasta, 9 oz",9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Pasta
+Cappello's,"Sweet Potata Gnocchi Almond Flour Pasta, 10.5 oz",9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Pasta
+STARLITE,"Original Vegan Soy Taquitos, 14 oz",7.99,4.99,4.49,frozen_foods,0.375,0.438,0.063,40% to 50%,Frozen
+Icelandic Provisions,"Extra Creamy Cold Brew Coffee, 4.4 oz",1.99,1.25,1.12,frozen_foods,0.372,0.437,0.065,40% to 50%,Frozen
+Cascadian Farm,"Organic Hearty Blend, 12 oz",4.29,3,2.7,frozen_foods,0.301,0.371,0.07,30% to 40%,Frozen
+Lucky Foods,"Thai Style Spring Rolls, 8.5 oz",6.99,4.99,4.49,frozen_foods,0.286,0.358,0.072,30% to 40%,Frozen
+Cascadian Farm,"Root Vegetable Hashbrowns, 360 gram",4.19,3,2.7,frozen_foods,0.284,0.356,0.072,30% to 40%,Frozen
+Rao's Homemade,"Single Serve Meat Lasagna, 9 oz",6.99,5.19,4.67,frozen_foods,0.258,0.332,0.074,30% to 40%,Frozen
+RAOS,Meatballs & Sauce,12.99,9.69,8.72,frozen_foods,0.254,0.329,0.075,30% to 40%,Frozen
+Cascadian Farm,"Riced Cauliflower Blend, 12 oz",3.99,3,2.7,frozen_foods,0.248,0.323,0.075,30% to 40%,Frozen
+Cascadian Farm,"Organic Riced Cauliflower, 12 oz",3.99,3,2.7,frozen_foods,0.248,0.323,0.075,30% to 40%,Frozen
+GoodPop,Watermelon Agave 4-Pack,4.99,3.79,3.41,frozen_foods,0.24,0.317,0.077,30% to 40%,Frozen
+GoodPop,Strawberry Shortcake 4-Pack,4.99,3.79,3.41,frozen_foods,0.24,0.317,0.077,30% to 40%,Frozen
+GoodPop,Orange N' Cream 4-Pack,4.99,3.79,3.41,frozen_foods,0.24,0.317,0.077,30% to 40%,Frozen
+GoodPop,Strawberry Lemonade 4-Pack,4.99,3.79,3.41,frozen_foods,0.24,0.317,0.077,30% to 40%,Frozen
+Nancy's Fancy,"Meyer Lemon Torrone, 1 pint",7.99,6.19,5.57,frozen_foods,0.225,0.303,0.078,30% to 40%,Frozen
+Nancy's Fancy,"Dark Rum Choc Chip Choc Fondente, 1 pint",7.99,6.19,5.57,frozen_foods,0.225,0.303,0.078,30% to 40%,Frozen
+Nancy's Fancy,"Salted Caramel Swirl Butterscotch Budino, 1 pint",7.99,6.19,5.57,frozen_foods,0.225,0.303,0.078,30% to 40%,Frozen
+Sunshine Plant-Based Foods™,"Ultimate Plant Burger, 10 oz",6.99,5.49,4.94,frozen_foods,0.215,0.293,0.078,20% to 30%,Frozen
+Ian's Natural Foods,Gluten Free Fish Sticks,6.99,5.69,5.12,frozen_foods,0.186,0.268,0.082,20% to 30%,Frozen
+American Flatbread,"Cheese & Herb Flatbread, 13.8 oz",10.99,8.99,8.09,frozen_foods,0.182,0.264,0.082,20% to 30%,Frozen
+GoodPop,Dreamy Orange Push Up 3-Pack,4.79,3.99,3.59,frozen_foods,0.167,0.251,0.084,20% to 30%,Frozen
+GoodPop,Dreamy Strawberry Push Up 3-Pack,4.79,3.99,3.59,frozen_foods,0.167,0.251,0.084,20% to 30%,Frozen
+Milk Bar,"Cereal Milk Ice Cream, 14 fl oz",5.99,4.99,4.49,frozen_foods,0.167,0.25,0.083,20% to 30%,Frozen
+Cascadian Farm,"Organic Chopped Spinach, 10 oz",3.49,3,2.7,frozen_foods,0.14,0.226,0.086,20% to 30%,Frozen
+Cascadian Farm,"Organic Broc Florets, 10 oz",3.49,3,2.7,frozen_foods,0.14,0.226,0.086,20% to 30%,Frozen
+Cascadian Farm,"Organic Mirepoix, 10 oz",3.49,3,2.7,frozen_foods,0.14,0.226,0.086,20% to 30%,Frozen
+GoodPop,"Red, White & Blue 8-Pack",4.99,4.29,3.86,frozen_foods,0.14,0.226,0.086,20% to 30%,Frozen
+Cascadian Farm,"Organic Sweet Green Peas, 10 oz",3.49,3,2.7,frozen_foods,0.14,0.226,0.086,20% to 30%,Frozen
+Van Leeuwen,"Raspberry Cheesecake Ice Cream Bars, 2.3 fl oz",7.99,6.99,6.29,frozen_foods,0.125,0.213,0.088,20% to 30%,Frozen
+Cappello's,"Spinach & Cheese Ravioli, 9.9 oz",9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Frozen
+Quorn,"Turk'y Roast, 16 oz",8.99,8.09,7.28,frozen_foods,0.1,0.19,0.09,10% to 20%,Frozen
+Cappello's,"Cheese Pizza Almond Flour Crust, 11 oz",9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Frozen
+Cappello's,"Uncured Pepperoni Pizza Almond Flour Crust, 12 oz",9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Frozen
+Cappello's,"Italian Sausage Pizza Almond Flour Crust, 12 oz",9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Frozen
+Cappello's,"White Pizza Almond Flour Crust, 10.85 oz",9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Frozen
+Cappello's,"Five Cheese Ravioli Almond Flour Pasta, 9.9 oz",9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Frozen
+Cappello's,"Keto Buffalo Ranch with Roasted Cauliflower Pizza, 11 ounce",10.99,9.99,8.99,frozen_foods,0.091,0.182,0.091,10% to 20%,Frozen
+Cappello's,"Keto Cheese Pizza, 10.7 ounce",10.99,9.99,8.99,frozen_foods,0.091,0.182,0.091,10% to 20%,Frozen
+Rosti,"Stuffed Baked Potato, 10.58 oz",5.99,5.49,4.94,frozen_foods,0.083,0.175,0.092,10% to 20%,Frozen
+Rosti,"Three Cheese Crispy Filled Potato, 10.58 oz",5.99,5.49,4.94,frozen_foods,0.083,0.175,0.092,10% to 20%,Frozen
+Annie's Homegrown,"Mini Uncured Pepperoni Pizza Bagels, 6.65 oz",4.49,4.19,3.77,frozen_foods,0.067,0.16,0.093,10% to 20%,Frozen
+Annie's Homegrown,"Mini Three Cheese Pizza Bagels, 6.65 oz",4.49,4.19,3.77,frozen_foods,0.067,0.16,0.093,10% to 20%,Frozen
+Brazi Bites,"Ranch Brazilian Cheese Bread, 11.5 oz",5.99,5.69,5.12,frozen_foods,0.05,0.145,0.095,10% to 20%,Frozen
+Brazi Bites,"Gluten-Free Empanadas, Chicken & Cheese, 10oz (Frozen)",5.99,5.69,5.12,frozen_foods,0.05,0.145,0.095,10% to 20%,Frozen
+Brazi Bites,"Gluten-Free Empanadas, Black Bean & Cheddar, 10oz (Frozen)",5.99,5.69,5.12,frozen_foods,0.05,0.145,0.095,10% to 20%,Frozen
+Annie's Homegrown,"Cheese Pizza Poppers, 6.8 oz",3.29,3.19,2.87,frozen_foods,0.03,0.128,0.098,10% to 20%,Frozen
+Annie's Homegrown,"Pepperoni Pizza Poppers, 6.8 oz",3.29,3.19,2.87,frozen_foods,0.03,0.128,0.098,10% to 20%,Frozen
+Rao's Homemade,"Meat Lasagna, 27 oz",12.79,9.59,8.63,frozen_foods,0.25,0.325,0.075,30% to 40%,Frozen
+Nancy's Fancy,"Coconut Stracciatella With Dark Choc, 1 pint",8.99,6.99,6.29,frozen_foods,0.222,0.3,0.078,20% to 30%,Frozen
+Neilly's Foods,"Yucca Fries, 16 oz",5.49,4.49,4.04,frozen_foods,0.182,0.264,0.082,20% to 30%,Frozen
+MOMPOPS,Banana Raspberry Mini Pops 6ct,4.19,3.49,3.14,frozen_foods,0.167,0.251,0.084,20% to 30%,Frozen
+Dolcezza Gelato,"Gelato Georgia Butter Pecan, 1 pint",6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Frozen
+MOMPOPS,"Mini Mango, 6 fl oz",3.99,3.49,3.14,frozen_foods,0.125,0.213,0.088,20% to 30%,Frozen
+GoodPop,Cookies N' Cream 4-Pack,4.29,3.99,3.59,frozen_foods,0.07,0.163,0.093,10% to 20%,Frozen
+Van Leeuwen,"Cookies & Cream Ice Cream, 14 fl oz",7.29,6.99,6.29,frozen_foods,0.041,0.137,0.096,10% to 20%,Frozen
+Van Leeuwen,"Cookies & Cream Caramel Swirl Frozen Dessert, 14 fl oz",7.29,6.99,6.29,frozen_foods,0.041,0.137,0.096,10% to 20%,Frozen
+Icelandic Provisions,"Extra Creamy Vanilla Bean, 4.4 oz",1.99,1.25,1.12,frozen_foods,0.372,0.437,0.065,40% to 50%,Yogurt
+Icelandic Provisions,"Traditional Vanilla, 5.3 oz",1.99,1.25,1.12,frozen_foods,0.372,0.437,0.065,40% to 50%,Yogurt
+Must Love,"Non-Dairy Frozen Dessert, Dipped Bars Banana Chocolate, 12 fl oz",6.69,4.49,4.04,frozen_foods,0.329,0.396,0.067,30% to 40%,Chocolate
+Must Love,"Non-Dairy Frozen Dessert, Oat Milk Double Chocolate Chip, 1 pint",5.99,4.49,4.04,frozen_foods,0.25,0.326,0.076,30% to 40%,Chocolate
+Must Love,"Non-Dairy Frozen Dessert, Dipped Bars Oat Milk Creamy Chocolate, 12 fl oz",5.99,4.49,4.04,frozen_foods,0.25,0.326,0.076,30% to 40%,Chocolate
+Van Leeuwen,"Chocolate Non Dairy Frozen Dessert, 14 fl oz",7.29,6.99,6.29,frozen_foods,0.041,0.137,0.096,10% to 20%,Chocolate
+Enviro Products by New Wave,"Premium Shower Filter, 1 each",44.99,32.99,29.69,lifestyle,0.267,0.34,0.073,30% to 40%,Filter
+NEW WAVE,"Premium Shower Replacement Filter, 1 each",31.99,25.99,23.39,lifestyle,0.188,0.269,0.081,20% to 30%,Filter
+MEAT,St. Louis Style Pork Spare Ribs,6.99,4.99,4.49,meat,0.286,0.358,0.072,30% to 40%,Ribs
+Whole Foods Market,Mild Italian Pork Sausage,6.99,4.99,4.49,meat,0.286,0.358,0.072,30% to 40%,Sausage
+Whole Foods Market,Sliced Roast Beef,4.99,3.99,3.59,meat,0.2,0.281,0.081,20% to 30%,Beef
+Atkins Ranch,Ground Lamb,10.99,9.99,8.99,meat,0.091,0.182,0.091,10% to 20%,Lamb
+GREAT RANGE BISON,Fresh Ground Bison,9.99,8.99,8.09,meat,0.1,0.19,0.09,10% to 20%,Bison
+MEAT,Beef Top Sirloin Steak,11.99,7.99,7.19,meat,0.334,0.4,0.066,30% to 40%,Steak
+duBreton,Ground Pork,6.49,4.49,4.04,meat,0.308,0.378,0.07,30% to 40%,Pork
+duBreton,Organic Ground Pork,7.49,5.49,4.94,meat,0.267,0.34,0.073,30% to 40%,Pork
+Whole Foods Market,Organic Honey Maple Uncured Ham,5.99,5.49,4.94,meat,0.083,0.175,0.092,10% to 20%,Ham
+Whole Foods Market,Organic Uncured Black Forest Ham,5.99,5.49,4.94,meat,0.083,0.175,0.092,10% to 20%,Ham
+Fra'Mani,Rosemary Ham,15.99,13.59,12.23,meat,0.15,0.235,0.085,20% to 30%,Ham
+Whole Foods Market,Organic Black Pepper Cracked Turkey Breast,5.99,4.99,4.49,meat,0.167,0.25,0.083,20% to 30%,Turkey
+Whole Foods Market,Organic Oven Roasted Turkey Breast,5.99,5.49,4.94,meat,0.083,0.175,0.092,10% to 20%,Turkey
+Whole Foods Market,Organic Applewood Smoked Turkey Breast,5.99,5.49,4.94,meat,0.083,0.175,0.092,10% to 20%,Turkey
+La Quercia,Sliced Prosciutto Americano,8.99,6.99,6.29,meat,0.222,0.3,0.078,20% to 30%,Bacon
+La Quercia,Prosciutto Piccante Sliced,9.49,7.49,6.74,meat,0.211,0.29,0.079,20% to 30%,Bacon
+Wellshire Farms,Dry Rubbed Applewood Pork Bacon,10.99,8.99,8.09,meat,0.182,0.264,0.082,20% to 30%,Bacon
+Wellshire Farms,Dry Rubbed Black Forest Pork Bacon,10.99,8.99,8.09,meat,0.182,0.264,0.082,20% to 30%,Bacon
+La Quercia,Sliced Speck Americano,8.99,6.99,6.29,meat,0.222,0.3,0.078,20% to 30%,Bacon
+Creminelli,Tartufo Uncured Italian Salami,12.99,10.99,9.89,meat,0.154,0.239,0.085,20% to 30%,Salami
+Creminelli,Sopressata Hand-crafted Uncured Italian Salami,10.99,9.49,8.54,meat,0.136,0.223,0.087,20% to 30%,Salami
+Creminelli,Fennel Salami,10.99,9.49,8.54,meat,0.136,0.223,0.087,20% to 30%,Salami
+Brooklyn Cured,Sliced Smoked Beef Salami,7.99,6.99,6.29,meat,0.125,0.213,0.088,20% to 30%,Salami
+Colamecos,Original Uncured Salami,9.49,8.49,7.64,meat,0.105,0.195,0.09,10% to 20%,Salami
+Creminelli,Mild Spicy Italian Salami,10.99,9.49,8.54,meat,0.136,0.223,0.087,20% to 30%,Salami
+Colamecos,Uncured Genoa Salami,9.49,8.49,7.64,meat,0.105,0.195,0.09,10% to 20%,Salami
+MEAT,Boneless Pork Loin Chops,7.99,5.99,5.39,meat,0.25,0.325,0.075,30% to 40%,Meat
+Teton Waters Ranch,Original Grass-fed Beef Breakfast Links,4.99,3.99,3.59,meat,0.2,0.281,0.081,20% to 30%,Meat
+Wellshire Farms,Colameco's Black Pepper Salame Chub,9.49,8.49,7.64,meat,0.105,0.195,0.09,10% to 20%,Meat
+Colamecos,Dried Uncured Chorizo,9.49,8.49,7.64,meat,0.105,0.195,0.09,10% to 20%,Meat
+Upton's Naturals,Bar-b-que Jackfruit,4.99,4.49,4.04,meat,0.1,0.19,0.09,10% to 20%,Meat
+Bell & Evans,Breaded Parmesan Chicken Meatballs With Mozzarella,6.99,4.99,4.49,meat,0.286,0.358,0.072,30% to 40%,Meat
+Pineland Farms,Ground Beef 90% Lean/10% Fat,6.99,5.49,4.94,meat,0.215,0.293,0.078,20% to 30%,Meat
+Creminelli,Barolo Salame,13.99,11.99,10.79,meat,0.143,0.229,0.086,20% to 30%,Meat
+Colamecos,Uncured Sopressata,9.49,8.49,7.64,meat,0.105,0.195,0.09,10% to 20%,Meat
+MARYS CHICKEN,Boneless Skinless Thin-sliced Chicken Breast,7.99,5.99,5.39,meat,0.25,0.325,0.075,30% to 40%,Chicken
+Whole Foods Market,Organic Oven Roasted Chicken Breast,5.29,4.49,4.04,meat,0.151,0.236,0.085,20% to 30%,Chicken
+Whole Foods Market,Thai Coconut Crusted Chicken Breast Cutlets,6.99,5.99,5.39,meat,0.143,0.229,0.086,20% to 30%,Chicken
+Bell & Evans,Thin Boneless Skinless Chicken Breast,7.99,5.99,5.39,meat,0.25,0.325,0.075,30% to 40%,Chicken
+Whole Foods Market,Organic Air Chilled Split Chicken Breast,7.99,6.99,6.29,meat,0.125,0.213,0.088,20% to 30%,Chicken
+Kite Hill,"Plant Based French Onion Dip, 8 oz",4.99,3.5,3.15,pantry_essentials,0.299,0.369,0.07,30% to 40%,Dip
+bionaturæ,"Organic Tomato Paste, 7 oz",2.69,1.99,1.79,pantry_essentials,0.26,0.335,0.075,30% to 40%,Paste
+Amore,"Tomato Paste, 4.5 oz",3.49,2.69,2.42,pantry_essentials,0.229,0.307,0.078,30% to 40%,Paste
+Arrowhead Mills,"Organic Stone Ground Whole Wheat Flour, 22 oz",3.79,3.39,3.05,pantry_essentials,0.106,0.195,0.089,10% to 20%,Flour
+Jovial,"Organic Whole Wheat Einkorn Flour, 32 oz",6.69,5.99,5.39,pantry_essentials,0.105,0.194,0.089,10% to 20%,Flour
+Amore,"Italian Garlic Paste, 3.2 oz",4.79,3.69,3.32,pantry_essentials,0.23,0.307,0.077,30% to 40%,Paste
+Jovial,"100 % Organic Einkorn All-purpose Flour, 32 oz",6.69,5.99,5.39,pantry_essentials,0.105,0.194,0.089,10% to 20%,Flour
+Cascadian Farm,"Organic Berry Vanilla Puffs, 10.25 oz",4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Puffs
+SunButter,"No-sugar Added Sunflower Spread, 16 oz",6.99,5.69,5.12,pantry_essentials,0.186,0.268,0.082,20% to 30%,Spread
+bionaturæ,"Organic Wild Berry Fruit Spread, 9 oz",4.39,3.69,3.32,pantry_essentials,0.159,0.244,0.085,20% to 30%,Spread
+bionaturæ,"Organic Strawberry Fruit Spread, 9 oz",4.39,3.69,3.32,pantry_essentials,0.159,0.244,0.085,20% to 30%,Spread
+bionaturæ,"Organic Apricot Fruit Spread, 9 oz",4.39,3.69,3.32,pantry_essentials,0.159,0.244,0.085,20% to 30%,Spread
+Westbrae Natural,"Organic Low Sodium Black Beans, 15 oz",2.49,1.99,1.79,pantry_essentials,0.201,0.281,0.08,20% to 30%,Beans
+Westbrae Natural,"Organic Low Sodium Chili Beans, 15 oz",2.49,1.99,1.79,pantry_essentials,0.201,0.281,0.08,20% to 30%,Beans
+Westbrae Natural,"Organic Low Sodium Garbanzo Beans, 15 oz",2.49,1.99,1.79,pantry_essentials,0.201,0.281,0.08,20% to 30%,Beans
+Lakanto,"Classic Monkfruit Sweetener, 28.22 oz",14.99,12.69,11.42,pantry_essentials,0.153,0.238,0.085,20% to 30%,Sweetener
+Lakanto,"Golden Monkfruit Sweetener, 28.22 oz",14.99,12.69,11.42,pantry_essentials,0.153,0.238,0.085,20% to 30%,Sweetener
+MODERN PRODUCTS,"Original Spike Seasoning, 3 oz",2.99,2.69,2.42,pantry_essentials,0.1,0.191,0.091,10% to 20%,Seasoning
+Lakanto,"Powdered Monk Fruit Sweetener, 16 oz",11.89,11.29,10.16,pantry_essentials,0.05,0.146,0.096,10% to 20%,Sweetener
+Lakanto,"Golden Monkfruit Sweetener, 8.29 oz",5.97,4.69,4.22,pantry_essentials,0.214,0.293,0.079,20% to 30%,Sweetener
+Lakanto,"Classic Monkfruit Sweetener, 8.29 oz",5.97,4.69,4.22,pantry_essentials,0.214,0.293,0.079,20% to 30%,Sweetener
+MODERN PRODUCTS,"Vegit Seasoning, 2 oz",3.19,2.69,2.42,pantry_essentials,0.157,0.241,0.084,20% to 30%,Seasoning
+MODERN PRODUCTS,"Spike Instant Seasoning, 7 oz",6.49,5.49,4.94,pantry_essentials,0.154,0.239,0.085,20% to 30%,Seasoning
+Sabatino Tartufi,"Truffle Seasoning, 1.76 oz",14.99,13.49,12.14,pantry_essentials,0.1,0.19,0.09,10% to 20%,Seasoning
+MODERN PRODUCTS,"Spike Seasoning, 14 oz",10.49,9.79,8.81,pantry_essentials,0.067,0.16,0.093,10% to 20%,Seasoning
+Westbrae Natural,"Organic Garbanzo Beans, 25 oz",3.19,2.99,2.69,pantry_essentials,0.063,0.157,0.094,10% to 20%,Beans
+Cava,"Spicy Hummus, 8 oz",4.29,2.99,2.69,pantry_essentials,0.303,0.373,0.07,30% to 40%,Hummus
+Cava,"Traditional Hummus, 8 oz",4.29,2.99,2.69,pantry_essentials,0.303,0.373,0.07,30% to 40%,Hummus
+Jovial,"Brown Rice Lasagna Noodles, 9 oz",4.99,3.79,3.41,pantry_essentials,0.24,0.317,0.077,30% to 40%,Noodles
+Lotus Foods,"Organic Brown Rice Pad Thai Noodles, 8 oz",4.39,3.39,3.05,pantry_essentials,0.228,0.305,0.077,30% to 40%,Noodles
+Lotus Foods,"Organic Traditional Pho Rice Noodles, 8 oz",4.19,3.39,3.05,pantry_essentials,0.191,0.272,0.081,20% to 30%,Noodles
+Lotus Foods,"Organic Brown Udon Rice Noodles, 8 oz",4.19,3.39,3.05,pantry_essentials,0.191,0.272,0.081,20% to 30%,Noodles
+Lotus Foods,"Organic Buckwheat And Brown Soba Rice Noodles, 8 oz",4.19,3.39,3.05,pantry_essentials,0.191,0.272,0.081,20% to 30%,Noodles
+Divina,"Pitted Kalamata Olives, 6 oz",5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Olives
+Divina,"Pitted Frescatrano Olives, 6 oz",5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Olives
+Divina,"Pitted Castelvetrano Olives, 6 oz",5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Olives
+Divina,"Castelvetrano Olives, 7 oz",5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Olives
+Divina,"Red Pepper Stuffed Green Olives, 7 oz",5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Olives
+Divina,"Garlic Stuffed Mt. Athos Olives, 7 oz",5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Olives
+Local Hive,"Wildflower Raw Honey, 16 oz",7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Honey
+Local Hive,"Clover Raw Honey, 16 oz",7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Honey
+Bragg Live Food Products,"Raw Unfiltered Apple Cider Vinegar With The 'Mother', 16 fl oz",4.29,3.79,3.41,pantry_essentials,0.117,0.205,0.088,20% to 30%,Vinegar
+Champagne,"Reserve Wine Vinegar, 12.7 fl oz",6.69,5.99,5.39,pantry_essentials,0.105,0.194,0.089,10% to 20%,Vinegar
+Napa Valley Naturals,"Grand Reserve Balsamic Vinegar 25 Stars, 12.7 fl oz",9.29,8.49,7.64,pantry_essentials,0.086,0.178,0.092,10% to 20%,Vinegar
+Napa Valley Naturals,"Sherry Reserve Vinegar, 12.7 fl oz",6.69,6.29,5.66,pantry_essentials,0.06,0.154,0.094,10% to 20%,Vinegar
+Napa Valley Naturals,"Organic Red Wine Vinegar, 12.7 fl oz",4.39,4.29,3.86,pantry_essentials,0.023,0.121,0.098,10% to 20%,Vinegar
+Napa Valley Naturals,"Organic White Wine Vinegar, 12.7 fl oz",4.39,4.29,3.86,pantry_essentials,0.023,0.121,0.098,10% to 20%,Vinegar
+Lotus Foods,"Organic White Rice Pad Thai Noodles, 8 oz",4.19,3.39,3.05,pantry_essentials,0.191,0.272,0.081,20% to 30%,Noodles
+Local Hive,"So Cal Raw Honey, 16 oz",7.79,6.99,6.29,pantry_essentials,0.103,0.193,0.09,10% to 20%,Honey
+Local Hive,"Mid-atlantic Raw Honey, 16 oz",7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Honey
+Local Hive,"Northeast Raw Honey, 16 oz",7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Honey
+Bakery On Main,"Extreme Fruit And Nut Gluten Free Granola, 11 oz",6.99,4.99,4.49,pantry_essentials,0.286,0.358,0.072,30% to 40%,Granola
+Bakery On Main,"Cranberry Almond Maple Granola, 11 oz",6.99,4.99,4.49,pantry_essentials,0.286,0.358,0.072,30% to 40%,Granola
+Bakery On Main,"Gluten Free Apple Raisin Walnut Granola, 11 oz",6.99,4.99,4.49,pantry_essentials,0.286,0.358,0.072,30% to 40%,Granola
+Cascadian Farm,"No Added Sugar Coconut Cashew Granola, 14 oz",3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Granola
+Cascadian Farm,"Organic Cinnamon Apple Granola, 13 oz",3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Granola
+Cascadian Farm,"Organic French Vanilla Almond Granola, 13 oz",3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Granola
+Cascadian Farm,"Organic No Added Sugar Blueberry Vanilla Granola, 15.2 oz",3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Granola
+Fix and Fogg,"Cashew & Maple Almond Butter, 10 oz",9.99,7.99,7.19,pantry_essentials,0.2,0.28,0.08,20% to 30%,Butter
+Fix and Fogg,"Everything Butter, 10 oz",7.99,6.49,5.84,pantry_essentials,0.188,0.269,0.081,20% to 30%,Butter
+Fix and Fogg,"Oaty Nut Butter, 10 oz",7.99,6.49,5.84,pantry_essentials,0.188,0.269,0.081,20% to 30%,Butter
+SunButter,"Natural Sunflower Butter, 16 oz",6.99,5.69,5.12,pantry_essentials,0.186,0.268,0.082,20% to 30%,Butter
+SunButter,"Organic Sunflower Butter, 16 oz",8.99,7.49,6.74,pantry_essentials,0.167,0.25,0.083,20% to 30%,Butter
+MaraNatha,"Crunchy Almond Butter, 12 oz",10.79,9.69,8.72,pantry_essentials,0.102,0.192,0.09,10% to 20%,Butter
+MaraNatha,"Creamy Almond Butter, 12 oz",10.79,9.69,8.72,pantry_essentials,0.102,0.192,0.09,10% to 20%,Butter
+MaraNatha,"Organic Creamy Roasted Almond Butter, 12 oz",20.99,18.89,17,pantry_essentials,0.1,0.19,0.09,10% to 20%,Butter
+Brekki,"Vanilla Cinnamon Overnight Oats, 5.3 oz",2.99,1.5,1.35,pantry_essentials,0.498,0.548,0.05,50% or more,Oats
+Brekki,"Original Overnight Oats, 5.3 oz",2.99,1.5,1.35,pantry_essentials,0.498,0.548,0.05,50% or more,Oats
+Cascadian Farm,Organic Oats & Honey Granola,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Oats
+Nature's Path Organic,"Original Instant Oatmeal, 14 oz",4.29,3.89,3.5,pantry_essentials,0.093,0.184,0.091,10% to 20%,Oats
+Whole Foods Market,"Organic Apple Cinnamon Instant Oatmeal, 2.1 oz",2.19,1.99,1.79,pantry_essentials,0.091,0.183,0.092,10% to 20%,Oats
+Whole Foods Market,"Organic Triple Berry Instant Oatmeal, 2 oz",2.19,1.99,1.79,pantry_essentials,0.091,0.183,0.092,10% to 20%,Oats
+RXBAR,"Apple Cinnamon Oats, 2.18 oz",2.99,2.89,2.6,pantry_essentials,0.033,0.13,0.097,10% to 20%,Oats
+Brekki,"Banana And Maple Brown Sugar Overnight Oats, 5.3 oz",2.99,1.25,1.12,pantry_essentials,0.582,0.625,0.043,50% or more,Oats
+Brekki,"Strawberry Overnight Oats, 5.3 oz",2.99,1.25,1.12,pantry_essentials,0.582,0.625,0.043,50% or more,Oats
+Brekki,"Overnight Oats With Ancient Grains Buleberries, 5.3 oz",2.99,1.25,1.12,pantry_essentials,0.582,0.625,0.043,50% or more,Oats
+Banza,"Garlic Olive Oil Chickpea Rice, 7 oz",3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Rice
+Banza,"Chickpea Rice, 8 oz",3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Rice
+Lotus Foods,"Organic Jade Pearl Rice, 15 oz",5.29,4.19,3.77,pantry_essentials,0.208,0.287,0.079,20% to 30%,Rice
+Lotus Foods,"Organic Black Forbidden Rice, 15 oz",5.29,4.19,3.77,pantry_essentials,0.208,0.287,0.079,20% to 30%,Rice
+Lotus Foods,"Organic Bhutanese Red Rice, 15 oz",5.29,4.19,3.77,pantry_essentials,0.208,0.287,0.079,20% to 30%,Rice
+Lotus Foods,Organic Brown Jasmine Rice (30 oz),7.69,6.29,5.66,pantry_essentials,0.182,0.264,0.082,20% to 30%,Rice
+Lotus Foods,"Organic Brown Basmati Rice, 30 oz",7.69,6.29,5.66,pantry_essentials,0.182,0.264,0.082,20% to 30%,Rice
+Lotus Foods,"Organic White Jasmine Rice, 30 oz",7.69,6.29,5.66,pantry_essentials,0.182,0.264,0.082,20% to 30%,Rice
+Lotus Foods,Organic Dehraduni Basmati Rice (30 oz),7.69,6.29,5.66,pantry_essentials,0.182,0.264,0.082,20% to 30%,Rice
+TASTYBITE,"Organic Turmeric Rice, 8.8 oz",2.79,2.49,2.24,pantry_essentials,0.108,0.197,0.089,10% to 20%,Rice
+Tasty Bite,"Organic Brown Rice, 8.8 oz",2.79,2.5,2.25,pantry_essentials,0.104,0.194,0.09,10% to 20%,Rice
+Tasty Bite,"Organic Sticky Rice, 8.8 oz",2.69,2.5,2.25,pantry_essentials,0.071,0.164,0.093,10% to 20%,Rice
+bionaturæ,"Organic Strained Tomatoes, 24 oz",3.99,2.69,2.42,pantry_essentials,0.326,0.393,0.067,30% to 40%,Tomato
+Jovial,"Organic Diced Tomatoes, 18.3 oz",4.29,3,2.7,pantry_essentials,0.301,0.371,0.07,30% to 40%,Tomato
+Jovial,"Organic Whole Peeled Tomatoes, 18.3 oz",4.29,3,2.7,pantry_essentials,0.301,0.371,0.07,30% to 40%,Tomato
+Jovial,"Organic Crushed Tomatoes, 18.3 oz",4.29,3,2.7,pantry_essentials,0.301,0.371,0.07,30% to 40%,Tomato
+Rao's Homemade,"Organic Italian Peeled Tomatoes, 28 oz",4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Tomato
+Organico Bello,"Organic Strained Passata Tomatoes, 24 oz",4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Tomato
+Premium,"Organic Chopped Tomatoes, 28 oz",4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Tomato
+Organico Bello,"Organic Chopped Tomatoes, 14.28 oz",2.99,2.49,2.24,pantry_essentials,0.167,0.251,0.084,20% to 30%,Tomato
+Divina,"Roasted Red Tomatoes, 9 oz",5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Tomato
+Bertagni,"Fire Roasted Heirloom Tomato, Mozzarella and Basil Ravioli",7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Tomato
+bionaturæ,"Organic Crushed Tomatoes, 28.2 oz",4.49,2.99,2.69,pantry_essentials,0.334,0.401,0.067,40% to 50%,Tomato
+Organico Bello,"Organic Whole Tomatoes, 28 oz",4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Tomato
+Organico Bello,"Organic Whole Tomatoes, 14.28 oz",2.99,2.49,2.24,pantry_essentials,0.167,0.251,0.084,20% to 30%,Tomato
+Ocean's Halo,"Organic and Plant-Based No Fish Broth, 32 fl oz",4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth
+Ocean's Halo,"Organic and Plant-Based No Beef Broth, 32 fl oz",4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth
+Ocean's Halo,"Organic Thai Coconut Broth, 32 fl oz",4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth
+Ocean's Halo,"Organic and Plant-Based No Chicken Broth, 32 fl oz",4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth
+Ocean's Halo,"Organic and Plant-Based Miso Broth, 32 fl oz",4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth
+Ocean's Halo,"Organic and Plant-Based Pho Broth, 32 fl oz",4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth
+Ocean's Halo,"Organic and Plant-Based Ramen Broth, 32 fl oz",4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth
+Bare Bones,"Organic Chicken Bone Broth, 16 oz",10.29,7.39,6.65,pantry_essentials,0.282,0.354,0.072,30% to 40%,Broth
+Bare Bones,"Beef Bone Broth, 16 oz",10.29,7.39,6.65,pantry_essentials,0.282,0.354,0.072,30% to 40%,Broth
+Freak Flag Organics,"Coconut Chicken Bone Broth, 16 oz",7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Broth
+Freak Flag Organics,"Lemon Chicken Bone Broth, 16 oz",7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Broth
+Bonafide Provisions,"Organic No Salt Added Vegetable Broth, 32 fl oz",4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Broth
+Bonafide Provisions,"Organic Vegetable Broth, 32 fl oz",4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Broth
+Bonafide Provisions,"Organic No Salt Added Chicken Broth, 32 fl oz",4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Broth
+Bonafide Provisions,"Organic Chicken Broth, 32 fl oz",4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Broth
+Bonafide Provisions,"Organic Lions Mane With Chicken Bone Broth Cup, 8 fl oz",4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Broth
+Bare Bones,"Chicken Broth Pantry Pack, 2.26 oz",7.99,6.39,5.75,pantry_essentials,0.2,0.28,0.08,20% to 30%,Broth
+Bare Bones,"Beef Broth Pantry Pack, 2.11 oz",7.99,6.39,5.75,pantry_essentials,0.2,0.28,0.08,20% to 30%,Broth
+Bonafide Provisions,"Organic Chicken Bone Broth, 24 fl oz",9.79,7.99,7.19,pantry_essentials,0.184,0.266,0.082,20% to 30%,Broth
+Bonafide Provisions,"Organic Beef Bone Broth, 24 fl oz",9.79,7.99,7.19,pantry_essentials,0.184,0.266,0.082,20% to 30%,Broth
+Freak Flag Organics,"Chicken Tortilla Bone Broth, 16 oz",7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Broth
+Bonafide Provisions,"Organic Chicken Bone Broth With Lemon Turmeric, 8 fl oz",5.29,3.99,3.59,pantry_essentials,0.246,0.321,0.075,30% to 40%,Broth
+California Olive Ranch,"Extra Virgin Olive Oil Cold Pressed, 25.4 fl oz",20.99,12.19,10.97,pantry_essentials,0.419,0.477,0.058,40% to 50%,Oil
+California Olive Ranch,California Reserve Arbequina Extra Virgin Olive Oil (500ml / 16.9oz),17.99,11.19,10.07,pantry_essentials,0.378,0.44,0.062,40% to 50%,Oil
+California Olive Ranch,100% California Extra Virgin Olive Oil (1L / 33.8oz),27.99,18.69,16.82,pantry_essentials,0.332,0.399,0.067,30% to 40%,Oil
+California Olive Ranch,Global Blend Extra Virgin Olive Oil (750ml / 25.4oz),14.99,10.49,9.44,pantry_essentials,0.3,0.37,0.07,30% to 40%,Oil
+California Olive Ranch,Global Blend Extra Virgin Olive Oil (500ml / 16.9oz),10.49,7.49,6.74,pantry_essentials,0.286,0.357,0.071,30% to 40%,Oil
+Barlean's,"Organic Lignan Rich Flax Oil, 16 fl oz",24.99,18.49,16.64,pantry_essentials,0.26,0.334,0.074,30% to 40%,Oil
+California Olive Ranch,Global Blend Extra Virgin Olive Oil (1L / 33.8oz),16.79,12.49,11.24,pantry_essentials,0.256,0.331,0.075,30% to 40%,Oil
+California Olive Ranch,"100% California Extra Virgin Olive Oil Spray, 5 oz",7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Oil
+Lucini,"Premium Select Extra Virgin Olive Oil, 16.9 fl oz",19.29,14.99,13.49,pantry_essentials,0.223,0.301,0.078,30% to 40%,Oil
+Lucini,"Select Extra Virgin Olive Oil, 16.9 fl oz",12.99,10.49,9.44,pantry_essentials,0.192,0.273,0.081,20% to 30%,Oil
+BONO,"Extra Virgin Olive Oil Sicilian Pgi Organic, 16.9 fl oz",15.99,12.99,11.69,pantry_essentials,0.188,0.269,0.081,20% to 30%,Oil
+Bellucci,"Organic Premium Extra Virgin Olive Oil, 16.9 fl oz",15.79,12.99,11.69,pantry_essentials,0.177,0.26,0.083,20% to 30%,Oil
+California Olive Ranch,"Avocado Oil And Extra Virgin Olive Oil Keto Blend, 16.9 fl oz",10.49,8.99,8.09,pantry_essentials,0.143,0.229,0.086,20% to 30%,Oil
+Montebello,"Organic Extra Virgin Olive Oil, 16.9 fl oz",13.99,11.99,10.79,pantry_essentials,0.143,0.229,0.086,20% to 30%,Oil
+Extra,"Virgin Olive Oil, 90 fl oz",17.99,15.99,14.39,pantry_essentials,0.111,0.2,0.089,10% to 20%,Oil
+Sabatino Tartufi,"Organic White Truffle Oil, 3.4 fl oz",19.99,17.99,16.19,pantry_essentials,0.1,0.19,0.09,10% to 20%,Oil
+Bragg Live Food Products,"Organic Extra Virgin Olive Oil, 16 fluid ounce",11.29,10.79,9.71,pantry_essentials,0.044,0.14,0.096,10% to 20%,Oil
+Dr. Bronner's,"Organic Virgin Coconut Oil, 14 fl oz",11.29,10.99,9.89,pantry_essentials,0.027,0.124,0.097,10% to 20%,Oil
+Lucini,"Premium Select Extra Virgin Olive Oil (750 Ml), 25.4 fl oz",29.99,17.99,16.19,pantry_essentials,0.4,0.46,0.06,40% to 50%,Oil
+California Olive Ranch,California Reserve Arbosana Extra Virgin Olive Oil (500ml / 16.9oz),17.99,11.19,10.07,pantry_essentials,0.378,0.44,0.062,40% to 50%,Oil
+Napa Valley,"Organic Extra Virgin Olive Oil, 25.4 fl oz",15.29,11.99,10.79,pantry_essentials,0.216,0.294,0.078,20% to 30%,Oil
+Napa Valley Naturals,"Grapeseed Oil 750ml, 25.4 fl oz",9.99,7.99,7.19,pantry_essentials,0.2,0.28,0.08,20% to 30%,Oil
+Lucini,"Everyday Extra Virgin Olive Oil, 1 l",20.99,17.19,15.47,pantry_essentials,0.181,0.263,0.082,20% to 30%,Oil
+Dr. Bronner's,"Organic Coconut Oil, 30 fl oz",19.99,17.49,15.74,pantry_essentials,0.125,0.213,0.088,20% to 30%,Oil
+Bellucci,"Toscano Pgi Organic Extra Virgin Olive Oil, 16.9 fl oz",17.49,15.49,13.94,pantry_essentials,0.114,0.203,0.089,20% to 30%,Oil
+O.Live & Co,"O-Live Premium Extra Virgin Olive Oil, 25 fl oz",13.49,10.99,9.89,pantry_essentials,0.185,0.267,0.082,20% to 30%,Oil
+Nunez De Prado,"Organic Spanish Extra Virgin Olive Oil, 16.9 fl oz",13.99,13.49,12.14,pantry_essentials,0.036,0.132,0.096,10% to 20%,Oil
+Barbara's Bakery,"Original Puffins Cereal, 10 oz",5.29,2.99,2.69,pantry_essentials,0.435,0.491,0.056,40% to 50%,Cereal
+Barbara's Bakery,"Peanut Butter Puffins Cereal, 11 oz",5.29,2.99,2.69,pantry_essentials,0.435,0.491,0.056,40% to 50%,Cereal
+Barbara's Bakery,"Cinnamon Puffins Cereal, 10 oz",5.29,2.99,2.69,pantry_essentials,0.435,0.491,0.056,40% to 50%,Cereal
+Barbara's Bakery,"Original Morning Oat Crunch Cereal, 14 oz",4.69,2.99,2.69,pantry_essentials,0.362,0.426,0.064,40% to 50%,Cereal
+Nature's Path Organic,"Flax Plus Pumpkin Raisin Crunch Cereal, 12.3 oz",5.39,3.49,3.14,pantry_essentials,0.353,0.417,0.064,40% to 50%,Cereal
+Nature's Path Organic,"Golden Turmeric Cereal, 10.6 oz",5.39,3.49,3.14,pantry_essentials,0.353,0.417,0.064,40% to 50%,Cereal
+Nature's Path Organic,"Flax Plus Raisin Bran Cereal, 14 oz",5.39,3.49,3.14,pantry_essentials,0.353,0.417,0.064,40% to 50%,Cereal
+Nature's Path Organic,"Smart Bran Cereal, 10.6 oz",5.29,3.49,3.14,pantry_essentials,0.34,0.406,0.066,40% to 50%,Cereal
+Cascadian Farm,"Organic No Added Sugar Vanilla Crisp Cereal, 12.5 oz",4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal
+Cascadian Farm,"Organic Honey Vanilla Crunch Cereal, 10.5 oz",4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal
+Cascadian Farm,"Organic Graham Crunch Cereal, 9.6 oz",4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal
+Cascadian Farm,"Organic Cinnamon Crunch Cereal, 9.2 oz",4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal
+Cascadian Farm,"Organic Fruitful O's Cereal, 10.2 oz",4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal
+Cascadian Farm,"Organic Purely O's Cereal, 8.6 oz",4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal
+Nature's Path Organic,"Sunrise Crunchy Vanilla Cereal, 10.6 oz",4.69,3.49,3.14,pantry_essentials,0.256,0.33,0.074,30% to 40%,Cereal
+Nature's Path Organic,"Sunrise Crunchy Honey Cereal, 10.6 oz",4.69,3.49,3.14,pantry_essentials,0.256,0.33,0.074,30% to 40%,Cereal
+Cascadian Farm,"Organic Hearty Morning Cereal, 14.6 oz",3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Cereal
+Cascadian Farm,"Organic Raisin Bran Cereal, 12 oz",3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Cereal
+Cascadian Farm,"Sprouted Frosted Flake Cereal, 12.7 oz",3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Cereal
+Nature's Path Organic,"Organic Cinnamon Toast Cereal, 9 oz",8.99,6.99,6.29,pantry_essentials,0.222,0.3,0.078,20% to 30%,Cereal
+Nature's Path Organic,"Organic Dark Chocolate Cereal, 9 oz",8.99,6.99,6.29,pantry_essentials,0.222,0.3,0.078,20% to 30%,Cereal
+Nature's Path Organic,"Choco Chimps Cereal, 10 oz",3.99,3.49,3.14,pantry_essentials,0.125,0.213,0.088,20% to 30%,Cereal
+Nature's Path Organic,"Koala Crisp Cereal, 11.5 oz",3.99,3.49,3.14,pantry_essentials,0.125,0.213,0.088,20% to 30%,Cereal
+Nature's Path Organic,"Panda Puffs Cereal, 10 oz",3.99,3.49,3.14,pantry_essentials,0.125,0.213,0.088,20% to 30%,Cereal
+Whole Foods Market,"Cereal, Protein & Fiber Crunch Honey Almond Flax, 13 oz",3.79,3.39,3.05,pantry_essentials,0.106,0.195,0.089,10% to 20%,Cereal
+Ancient Harvest,"Gluten-free Quinoa Hot Cereal Flakes, 12 oz",7.99,7.19,6.47,pantry_essentials,0.1,0.19,0.09,10% to 20%,Cereal
+Cascadian Farm,"Organic Climate Smart Kernza Grains Cereal, 13.3 oz",3.99,3.79,3.41,pantry_essentials,0.05,0.145,0.095,10% to 20%,Cereal
+Nature's Path Organic,"Honey'd Corn Flakes Cereal, 10.6 oz",5.69,3.49,3.14,pantry_essentials,0.387,0.448,0.061,40% to 50%,Cereal
+Nature's Path Organic,"Flax Plus Red Berry Crunch Cereal, 10.6 oz",5.39,3.49,3.14,pantry_essentials,0.353,0.417,0.064,40% to 50%,Cereal
+Nature's Path Organic,"Flax Plus Maple Pecan Crunch Cereal, 11.5 oz",5.39,3.49,3.14,pantry_essentials,0.353,0.417,0.064,40% to 50%,Cereal
+Nature's Path Organic,"Flax Plus Multibran Flakes Cereal, 13.25 oz",5.39,3.49,3.14,pantry_essentials,0.353,0.417,0.064,40% to 50%,Cereal
+Cascadian Farm,"Organic Honey Nut O's, 9.5 oz",4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal
+Nature's Path Organic,"Heritage Crunch Cereal, 14 oz",4.49,3.49,3.14,pantry_essentials,0.223,0.301,0.078,30% to 40%,Cereal
+VITABELLA,"Organic Strawberry Pillows Cereal, 10.6 oz",4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Cereal
+VITABELLA,"Organic Chocolate Hazelnut Pillows Cereal, 10.6 oz",4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Cereal
+Annie's Homegrown,"Organic Star Pasta & Chicken Soup, 14 oz",4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Soup
+Annie's Homegrown,"Org Soup Bunny Pasta Chicken Broth, 14 oz",4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Soup
+Annie's Homegrown,"Org Soup Creamy Tomato Bunny Pasta, 14.3 oz",4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Soup
+Banza,"Chickpea Shells Pasta, 8 oz",3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta
+Banza,"Chickpea Penne Pasta, 8 oz",3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta
+Banza,"Chickpea Rotini Pasta, 8 oz",3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta
+Banza,"Chickpea Spaghetti Pasta, 8 oz",3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta
+Banza,"Cavatappi made from Chickpeas, 8 oz",3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta
+Banza,"Chickpea Linguine Pasta, 8 oz",3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta
+Banza,"Chickpea Elbow Pasta, 8 oz",3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta
+SUN NOODLE,"Miso Ramen Soup Mix, 13.5 oz",6.49,4.79,4.31,pantry_essentials,0.262,0.336,0.074,30% to 40%,Soup
+Rao's Homemade,"Soup Chicken Noodle, 16 ounce",4.99,3.69,3.32,pantry_essentials,0.261,0.335,0.074,30% to 40%,Soup
+Rao's Homemade,"Soup Rte Pasta Fagioli, 16 ounce",4.99,3.69,3.32,pantry_essentials,0.261,0.335,0.074,30% to 40%,Soup
+Rao's Homemade,"Italian Wedding Soup With Meatballs, 16 oz",4.99,3.69,3.32,pantry_essentials,0.261,0.335,0.074,30% to 40%,Soup
+Rao's Homemade,"Chicken And Gnocchi Italian Style Soup, 16 oz",4.99,3.69,3.32,pantry_essentials,0.261,0.335,0.074,30% to 40%,Soup
+Rao's Homemade,"Vegetable Minestrone Soup, 16 oz",4.99,3.69,3.32,pantry_essentials,0.261,0.335,0.074,30% to 40%,Soup
+Jovial,"100% Organic Whole Grain Capellin Brown Rice Pasta, 12 oz",4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Pasta
+Jovial,"Organic Gluten Free Brown Rice Penne Rigate, 12 oz",4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Pasta
+Jovial,"Fusilli, 12 oz",4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Pasta
+Jovial,"Organic Gluten Free Brown Rice Spaghetti, 12 oz",4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Pasta
+Jovial,"Organic Grain Free Cassava Spaghetti, 8 oz",4.19,3.19,2.87,pantry_essentials,0.239,0.315,0.076,30% to 40%,Pasta
+Jovial,"Organic Gluten Free Traditional Egg Tagliatelle, 9 oz",5.49,4.19,3.77,pantry_essentials,0.237,0.313,0.076,30% to 40%,Pasta
+Banza,"Plant Based Mac With Chickpea Pasta, 5.5 oz",3.99,3.19,2.87,pantry_essentials,0.201,0.281,0.08,20% to 30%,Pasta
+Andean Dream,"Organic Quinoa Fusilli, 8 oz",4.69,3.79,3.41,pantry_essentials,0.192,0.273,0.081,20% to 30%,Pasta
+Andean Dream,"Organic Quinoa Spaghetti, 8 oz",4.69,3.79,3.41,pantry_essentials,0.192,0.273,0.081,20% to 30%,Pasta
+Andean Dream,"Organic Quinoa Macaroni, 8 oz",4.69,3.79,3.41,pantry_essentials,0.192,0.273,0.081,20% to 30%,Pasta
+Andean Dream,"Organic Turmeric Quinoa Penne Pasta, 8 oz",4.69,3.79,3.41,pantry_essentials,0.192,0.273,0.081,20% to 30%,Pasta
+Bonafide Provisions,"Organic Chicken Vegetable Soup, 12 oz",5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Soup
+Taste Republic,"Fettuccine Pasta, 9 oz",6.49,5.49,4.94,pantry_essentials,0.154,0.239,0.085,20% to 30%,Pasta
+Taste Republic,"Gluten-free Cauliflower Linguini Pasta, 9 oz",6.49,5.49,4.94,pantry_essentials,0.154,0.239,0.085,20% to 30%,Pasta
+Taste Republic,"Gluten-free Linguini Pasta, 9 oz",6.49,5.49,4.94,pantry_essentials,0.154,0.239,0.085,20% to 30%,Pasta
+Taste Republic,"Gluten-free Fusilli Pasta, 9 oz",6.49,5.49,4.94,pantry_essentials,0.154,0.239,0.085,20% to 30%,Pasta
+Manini's,"Gluten-free Lemon Thyme Linguini Pasta, 9 oz",6.99,5.99,5.39,pantry_essentials,0.143,0.229,0.086,20% to 30%,Pasta
+Montebello,"Organic Tagliatelle, 16 oz",3.49,3,2.7,pantry_essentials,0.14,0.226,0.086,20% to 30%,Pasta
+Montebello,"Organic Penne Rigate Pasta, 16 oz",3.49,3,2.7,pantry_essentials,0.14,0.226,0.086,20% to 30%,Pasta
+Montebello,"Organic Fusilli, 16 oz",3.49,3,2.7,pantry_essentials,0.14,0.226,0.086,20% to 30%,Pasta
+Amy's Kitchen,"Indian Golden Lentil Soup, 14.4 oz",3.49,3.19,2.87,pantry_essentials,0.086,0.178,0.092,10% to 20%,Soup
+Amy's Kitchen,"Organic Light In Sodium Minestrone Soup, 14.1 oz",3.49,3.19,2.87,pantry_essentials,0.086,0.178,0.092,10% to 20%,Soup
+Amy's Kitchen,"Organic Fire Roasted Southwestern Vegetable Soup, 14.3 oz",3.49,3.19,2.87,pantry_essentials,0.086,0.178,0.092,10% to 20%,Soup
+Amy's Kitchen,"Organic Lentil Vegetable Soup, Light in Sodium, 14.5 oz",3.49,3.19,2.87,pantry_essentials,0.086,0.178,0.092,10% to 20%,Soup
+Annie's Homegrown,"Organic Mac & Bees, 6 oz",3.19,2.5,2.25,pantry_essentials,0.216,0.295,0.079,20% to 30%,Pasta
+Montebello,"Organic Farfalle Pasta, 16 oz",3.29,3,2.7,pantry_essentials,0.088,0.179,0.091,10% to 20%,Pasta
+Annie's Homegrown,"Organic Vegetable Farm Shaped Pasta Soup, 14 oz",3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Soup
+Annie's Homegrown,"Organic Chicken Noodle Soup, 14 oz",3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Soup
+Bonafide Provisions,"Organic Roasted Butternut Squash Soup With Bone Broth, 12 oz",5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Soup
+Montebello,"Organic Spaghetti, 16 oz",3.49,3,2.7,pantry_essentials,0.14,0.226,0.086,20% to 30%,Pasta
+Bertagni,"Porcini Mushroom And Truffle Ravioli, 8.8 oz",7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Pasta
+Bertagni,"Organic Ricotta And Spinach Girasoli, 8 oz",7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Pasta
+Divina,"Pitted Greek Mix, 6 oz",5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Snack
+Lakanto,"Cookie Mix, 6.77 oz",8.39,6.99,6.29,pantry_essentials,0.167,0.25,0.083,20% to 30%,Snack
+Lakanto,"Blueberry Muffin Mix, 6.77 oz",8.29,6.99,6.29,pantry_essentials,0.157,0.241,0.084,20% to 30%,Snack
+Farmer's Market Foods,"Organic Pumpkin Pie Mix, 15 oz",2.99,2.69,2.42,pantry_essentials,0.1,0.191,0.091,10% to 20%,Snack
+Aleia's Gluten Free Foods,"Plain Stuffing Mix, 10 oz",5.99,5.39,4.85,pantry_essentials,0.1,0.19,0.09,10% to 20%,Snack
+Aleia's Gluten Free Foods,"Savory Stuffing Mix, 10 oz",5.99,5.39,4.85,pantry_essentials,0.1,0.19,0.09,10% to 20%,Snack
+CASA FORCELLO,"Strawberry Balsamic Compote, 4.94 oz",9.99,4.99,4.49,pantry_essentials,0.501,0.551,0.05,50% or more,Pantry
+Cucina Antica,"La Vodka Sauce, 25 oz",7.99,4.69,4.22,pantry_essentials,0.413,0.472,0.059,40% to 50%,Sauce
+Cucina Antica,"Garlic Marinara Sauce, 25 oz",7.99,4.69,4.22,pantry_essentials,0.413,0.472,0.059,40% to 50%,Sauce
+Cucina Antica,"Tomato Basil Sauce, 25 oz",7.99,4.69,4.22,pantry_essentials,0.413,0.472,0.059,40% to 50%,Sauce
+Annie's Homegrown,"Organic Vegan Shell Pasta & Creamy Sauce, 6 oz",4.19,2.5,2.25,pantry_essentials,0.403,0.463,0.06,40% to 50%,Sauce
+Annie's Homegrown,"Organic Vegan Elbow Pasta & Creamy Sauce, 6 oz",4.19,2.5,2.25,pantry_essentials,0.403,0.463,0.06,40% to 50%,Sauce
+Ocean's Halo,"Organic and Plant-Based Vegan Fish Sauce, 10.72 fl oz",4.49,2.69,2.42,pantry_essentials,0.401,0.461,0.06,40% to 50%,Sauce
+Ocean's Halo,"Organic No Soy Soy-Free Sauce Less Sodium, 10 fl oz",4.49,2.69,2.42,pantry_essentials,0.401,0.461,0.06,40% to 50%,Sauce
+Ocean's Halo,"Organic Soy-Free Teriyaki Sauce, 12 fl oz",5.99,3.69,3.32,pantry_essentials,0.384,0.446,0.062,40% to 50%,Sauce
+Ocean's Halo,"Organic Wakame Strips, 1.76 oz",5.99,3.69,3.32,pantry_essentials,0.384,0.446,0.062,40% to 50%,Pantry
+Ocean's Halo,"Organic Soy-Free Stir-fry Sauce, 12 fl oz",5.99,3.69,3.32,pantry_essentials,0.384,0.446,0.062,40% to 50%,Sauce
+YO MAMAS FOODS,"Radiant Rose Tomato Sauce, 25 oz",9.49,5.99,5.39,pantry_essentials,0.369,0.432,0.063,40% to 50%,Sauce
+YO MAMAS FOODS,"Fresh Tomatoes Basil Pasta Sauce, 25 oz",9.49,5.99,5.39,pantry_essentials,0.369,0.432,0.063,40% to 50%,Sauce
+Monte Bene,"Tomato Basil Pasta Sauce, 24 oz",4.99,3.5,3.15,pantry_essentials,0.299,0.369,0.07,30% to 40%,Sauce
+Monte Bene,"Spicy Marinara Pasta Sauce, 24 oz",4.99,3.5,3.15,pantry_essentials,0.299,0.369,0.07,30% to 40%,Sauce
+Bragg Live Food Products,"Liquid Aminos, 16 fl oz",6.29,4.49,4.04,pantry_essentials,0.286,0.358,0.072,30% to 40%,Sauce
+Rao's Homemade,"Rao's Specialty Foods Pizza Sauce, 13 oz",5.69,4.19,3.77,pantry_essentials,0.264,0.337,0.073,30% to 40%,Sauce
+Nonna Pia's,"Classic Balsamic Glaze, 8.45 fl oz",8.79,6.49,5.84,pantry_essentials,0.262,0.336,0.074,30% to 40%,Pantry
+Dandies,"Vegan Marshmallows, 10 oz",5.39,3.99,3.59,pantry_essentials,0.26,0.334,0.074,30% to 40%,Pantry
+Jovial,"Brown Rice Pasta Farfalle, 12 oz",4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Pantry
+Jovial,"Brown Rice Pasta Elbows, 12 oz",4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Pantry
+Rao's Homemade,"Rao's Specialty Foods Tomato Basil Sauce, 24 oz",8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce
+Rao's Homemade,"Tomato Herb Pasta Sauce, 24 oz",8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce
+Rao's Homemade,Rao's Specialty Foods Marinara Sauce (24 Oz),8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce
+Rao's Homemade,"Arrabbiata Sauce, 24 oz",8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce
+Rao's Homemade,"Roasted Garlic Sauce, 24 oz",8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce
+Rao's Homemade,"Sensitive Formula Marinara Sauce, 24 oz",8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce
+Rao's Homemade,"Vodka Sauce, 24 oz",8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce
+Rao's Homemade,"Bolognese Pasta Sauce, 24 oz",8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce
+Cascadian Farm,"Organic Honey Almond, 14.4 oz",3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Pantry
+Lucini,"Organic Golden Tomato Pasta Sauce, 25.5 oz",7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Sauce
+Lucini,"Rustic Tomato Basil Organic Sauce, 25.5 oz",7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Sauce
+Lucini,"Tuscan Marinara Organic Sauce, 25.5 oz",7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Sauce
+Rao's Homemade,"Alfredo Pasta Sauce, 15 oz",7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Sauce
+Rao's Homemade,"Roasted Garlic Alfredo Pasta Sauce, 15 oz",7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Sauce
+SAUCE GODDESS,"Sweet Spicy Grill Glaze, 14.6 oz",7.29,5.49,4.94,pantry_essentials,0.247,0.322,0.075,30% to 40%,Pantry
+Jovial,"Organic Chickpeas In Glass Jar, 13 oz",3.29,2.49,2.24,pantry_essentials,0.243,0.319,0.076,30% to 40%,Pantry
+SAUCE GODDESS,"Gluten-free Moroccan Twist Rub Rub, 1 each",6.29,4.79,4.31,pantry_essentials,0.238,0.315,0.077,30% to 40%,Pantry
+Nature's Path Organic,"Organic Heritage Flakes, 13.25 oz",4.49,3.49,3.14,pantry_essentials,0.223,0.301,0.078,30% to 40%,Pantry
+Cold Mountain,"Red Miso, 14 oz",4.49,3.59,3.23,pantry_essentials,0.2,0.281,0.081,20% to 30%,Pantry
+Cold Mountain,"Mellow White Miso, 14 oz",4.49,3.59,3.23,pantry_essentials,0.2,0.281,0.081,20% to 30%,Pantry
+Westbrae Natural,"Organic Low Sodium Lentils, 15 oz",2.49,1.99,1.79,pantry_essentials,0.201,0.281,0.08,20% to 30%,Pantry
+Pickled Planet,"Organic Raw Fermented Taqueria Pickles, 16 oz",8.99,7.19,6.47,pantry_essentials,0.2,0.28,0.08,20% to 30%,Pantry
+Pickled Planet,"Organic Raw Basil Garlic Sauerkraut, 16 oz",8.99,7.19,6.47,pantry_essentials,0.2,0.28,0.08,20% to 30%,Pantry
+Pickled Planet,"Organic Kim Chee, 16 oz",8.99,7.19,6.47,pantry_essentials,0.2,0.28,0.08,20% to 30%,Pantry
+Pickled Planet,"Organic Beat Kraut, 16 oz",8.99,7.19,6.47,pantry_essentials,0.2,0.28,0.08,20% to 30%,Pantry
+Tillen Farms,"Bada Bing Cherries, 13.5 oz",7.49,5.99,5.39,pantry_essentials,0.2,0.28,0.08,20% to 30%,Pantry
+Pickled Planet,"Organic Herbal I Boost Sauerkraut, 16 oz",8.99,7.19,6.47,pantry_essentials,0.2,0.28,0.08,20% to 30%,Pantry
+Pickled Planet,"Organic Raw Sauerkraut, 16 oz",8.99,7.19,6.47,pantry_essentials,0.2,0.28,0.08,20% to 30%,Pantry
+Tillen Farms,"Merry Maraschino Pitted Cherries With Stems, 13.5 oz",7.49,5.99,5.39,pantry_essentials,0.2,0.28,0.08,20% to 30%,Pantry
+Divina,"Sweet And Hot Peppers, 10.9 oz",5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Pantry
+Once Upon A Farm,"Apple, Cherry & Elderberry Immunity Blend, 3.2 oz",2.99,2.5,2.25,pantry_essentials,0.164,0.247,0.083,20% to 30%,Pantry
+Rao's Homemade,"Italian Sausage & Mushroom Sauce, 24 oz",7.95,6.69,6.02,pantry_essentials,0.158,0.243,0.085,20% to 30%,Sauce
+Lakanto,"Maple Flavored Syrup, 13 fl oz",8.29,6.99,6.29,pantry_essentials,0.157,0.241,0.084,20% to 30%,Pantry
+Lucky Foods,"Organic Hoisin Sauce, 15.7 oz",8.69,7.39,6.65,pantry_essentials,0.15,0.235,0.085,20% to 30%,Sauce
+Organico Bello,"Organic Marinara Pasta Sauce, 25 oz",6.99,5.99,5.39,pantry_essentials,0.143,0.229,0.086,20% to 30%,Sauce
+Organico Bello,"Organic Tomato Basil Pasta Sauce, 25 oz",6.99,5.99,5.39,pantry_essentials,0.143,0.229,0.086,20% to 30%,Sauce
+Organico Bello,"Delicate Recipe Pasta Sauce, 25 oz",6.99,5.99,5.39,pantry_essentials,0.143,0.229,0.086,20% to 30%,Sauce
+Organico Bello,"Organic Pasta Sauce-spicy Marinara, 25 oz",6.99,5.99,5.39,pantry_essentials,0.143,0.229,0.086,20% to 30%,Sauce
+Montebello,"Organic Tarchiette, 16 oz",3.49,3,2.7,pantry_essentials,0.14,0.226,0.086,20% to 30%,Pantry
+Seoul,"Kimchi Mayo, 12.35 oz",5.99,5.19,4.67,pantry_essentials,0.134,0.22,0.086,20% to 30%,Pantry
+Emperor's Kitchen Asian Style Condiments,"Organic Chopped Garlic, 4.5 oz",4.19,3.69,3.32,pantry_essentials,0.119,0.208,0.089,20% to 30%,Pantry
+Arrowhead Mills,"Organic Buckwheat Flour Gluten Free, 22 oz",5.69,5.09,4.58,pantry_essentials,0.105,0.195,0.09,10% to 20%,Pantry
+Frontera,"Double Roasted Tomato Salsa (Medium), 16 oz",4.79,4.29,3.86,pantry_essentials,0.104,0.194,0.09,10% to 20%,Pantry
+Frontera,"Jalapeño Cilantro Salsa (Medium), 16 oz",4.79,4.29,3.86,pantry_essentials,0.104,0.194,0.09,10% to 20%,Pantry
+Purely Elizabeth,"Original Superfood Oats Cup, 2 oz",2.99,2.69,2.42,pantry_essentials,0.1,0.191,0.091,10% to 20%,Pantry
+SPICEMODE,"Vindaloo Cooking Sauce, 9 oz",6.99,6.29,5.66,pantry_essentials,0.1,0.19,0.09,10% to 20%,Sauce
+SUCKERPUNCH,"Snappy Clasic Dill Spears, 24 fl oz",6.99,6.29,5.66,pantry_essentials,0.1,0.19,0.09,10% to 20%,Pantry
+Frontera,"Queso With Jalapeno, 16 oz",4.99,4.49,4.04,pantry_essentials,0.1,0.19,0.09,10% to 20%,Pantry
+Il Forteto,Genovese Pesto,19.99,17.99,16.19,pantry_essentials,0.1,0.19,0.09,10% to 20%,Pantry
+SUCKERPUNCH,"Fiery Spice Garlic Dill Spears, 24 fl oz",6.99,6.29,5.66,pantry_essentials,0.1,0.19,0.09,10% to 20%,Pantry
+Sabatino Tartufi,"Honey Truffle, 4.5 oz",14.99,13.49,12.14,pantry_essentials,0.1,0.19,0.09,10% to 20%,Pantry
+Whole Foods Market,"Organic Fruity Super Rings, 10 oz",4.29,3.89,3.5,pantry_essentials,0.093,0.184,0.091,10% to 20%,Pantry
+Nature's Path Organic,"Superseeds & Grains Superfood Oatmeal, 8 oz",6.49,5.89,5.3,pantry_essentials,0.092,0.183,0.091,10% to 20%,Pantry
+Rufus Teague,"Touch O' Heat Bbq Sauce, 16 oz",5.99,5.49,4.94,pantry_essentials,0.083,0.175,0.092,10% to 20%,Sauce
+Rufus Teague,"Honey Sweet Bbq Sauce, 16 oz",5.99,5.49,4.94,pantry_essentials,0.083,0.175,0.092,10% to 20%,Sauce
+Whole Foods Market,"Canned Fruit, Organic Yellow Cling Peach Slices in Organic Peach & Pear Juice from Concentrate, 15 oz",2.49,2.29,2.06,pantry_essentials,0.08,0.173,0.093,10% to 20%,Pantry
+AMERICAN BASIL,"Dairy Free Perfectto, 8 oz",12.99,11.99,10.79,pantry_essentials,0.077,0.169,0.092,10% to 20%,Pantry
+AMERICAN BASIL,"Pesto Perfectto, 8 ounce",12.99,11.99,10.79,pantry_essentials,0.077,0.169,0.092,10% to 20%,Pantry
+AMERICAN BASIL,"Roasted Garlic Pesto, 8 ounce",12.99,11.99,10.79,pantry_essentials,0.077,0.169,0.092,10% to 20%,Pantry
+Sown,"Organic Vanilla Oat Creamer, 32 fl oz",4.99,4.69,4.22,pantry_essentials,0.06,0.154,0.094,10% to 20%,Pantry
+Seoul,"Korean Bbq Marinade Kalbi Sauce, 13.2 oz",5.39,5.19,4.67,pantry_essentials,0.037,0.134,0.097,10% to 20%,Sauce
+Seoul,"Spicy Kimchi Hot Sauce, 13.2 oz",5.39,5.19,4.67,pantry_essentials,0.037,0.134,0.097,10% to 20%,Sauce
+Seoul,"Korean Bbq Marinade Bulgogi Sauce, 13.2 oz",5.39,5.19,4.67,pantry_essentials,0.037,0.134,0.097,10% to 20%,Sauce
+Cucina Antica,"La Pizza Cooking Sauce, 16 oz",5.99,3.99,3.59,pantry_essentials,0.334,0.401,0.067,40% to 50%,Sauce
+Freak Flag Organics,"Organic Burger Joint Dipping Sauce, 7.3 fl oz",6.99,5,4.5,pantry_essentials,0.285,0.356,0.071,30% to 40%,Sauce
+Pamela's Products,Gluten-free Baking & Pancake Mix (4 Lb),17.99,14.99,13.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Pantry
+CASA FORCELLO,"Crab Apple Mostarda, 4.94 oz",11.99,5.99,5.39,pantry_essentials,0.5,0.55,0.05,50% or more,Pantry
+YO MAMAS FOODS,"Orginal Fresh Tomatoes Marinara, 25 oz",8.79,5.99,5.39,pantry_essentials,0.319,0.387,0.068,30% to 40%,Sauce
+Monte Bene,"Garlic Marinara Pasta Sauce, 24 oz",4.99,3.5,3.15,pantry_essentials,0.299,0.369,0.07,30% to 40%,Sauce
+Rao's Homemade,"Rao's Specialty Foods Garden Vegetable Sauce, 24 oz",8.29,6.19,5.57,pantry_essentials,0.253,0.328,0.075,30% to 40%,Sauce
+Tillen Farms,"Bourbon Bada Bing Cherries, 13.5 oz",7.49,5.99,5.39,pantry_essentials,0.2,0.28,0.08,20% to 30%,Pantry
+Organico Bello,"Pizza Sauce Organic Pizza and Pasta Sauce, 16 oz",5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Sauce
+Napa Valley Naturals,"Maple Dijon & Avocado Oil Dressing, 8 fl oz",7.99,6.69,6.02,pantry_essentials,0.163,0.247,0.084,20% to 30%,Pantry
+Napa Valley Naturals,"Honey Lemon & Avocado Oil Dressing, 8 fl oz",7.99,6.69,6.02,pantry_essentials,0.163,0.247,0.084,20% to 30%,Pantry
+VITABELLA,"Organic Traditional Corn Flakes, 10.6 oz",3.49,2.99,2.69,pantry_essentials,0.143,0.229,0.086,20% to 30%,Pantry
+Montebello,"Organic Linguine, 16 oz",3.49,3,2.7,pantry_essentials,0.14,0.226,0.086,20% to 30%,Pantry
+Il Forteto,"Genovese Pesto, 0.44 lb",15.99,13.99,12.59,pantry_essentials,0.125,0.213,0.088,20% to 30%,Pantry
+Cucina Antica,Garlic Marinara Sauce (32 Oz),8.49,7.49,6.74,pantry_essentials,0.118,0.206,0.088,20% to 30%,Sauce
+Cucina Antica,"Tomato Basil Sauce, 32 oz",8.49,7.49,6.74,pantry_essentials,0.118,0.206,0.088,20% to 30%,Sauce
+The Meatball Shop,"Shop Tomato Sauce, 24 oz",8.99,7.99,7.19,pantry_essentials,0.111,0.2,0.089,10% to 20%,Sauce
+The Meatball Shop,"Creamy Tomato Basil Pasta Sauce, 24 oz",8.99,7.99,7.19,pantry_essentials,0.111,0.2,0.089,10% to 20%,Sauce
+Cucina Antica,"Spicy Arrabbiata Sauce, 25 oz",6.49,5.99,5.39,pantry_essentials,0.077,0.169,0.092,10% to 20%,Sauce
+Cucina Antica,"Tuscany Pumpkin Sauce, 25 oz",6.49,5.99,5.39,pantry_essentials,0.077,0.169,0.092,10% to 20%,Sauce
+Cucina Antica,"Nonna's Recipe San Marzano Tomato Sauce, 25 oz",6.49,5.99,5.39,pantry_essentials,0.077,0.169,0.092,10% to 20%,Sauce
+David's,"Kosher Salt, 16 oz",2.99,2.79,2.51,pantry_essentials,0.067,0.161,0.094,10% to 20%,Pantry
+MODERN PRODUCTS,"Spike Vege-sal, 20 oz",9.99,9.79,8.81,pantry_essentials,0.02,0.118,0.098,10% to 20%,Pantry
+Lakanto,"Suntella Chocolate Sunflower Spread, 10 oz",9.79,7.49,6.74,pantry_essentials,0.235,0.312,0.077,30% to 40%,Chocolate
+Lakanto,"Sugar Free Chocolate Chips, 8 oz",9.49,7.99,7.19,pantry_essentials,0.158,0.242,0.084,20% to 30%,Chocolate
+Beyond Good,Organic Chocolate Disc Melts 70%,8.99,7.99,7.19,pantry_essentials,0.111,0.2,0.089,10% to 20%,Chocolate
+Beyond Good,"Organic Chocolate Disc Melts 92%, 7 oz",8.99,7.99,7.19,pantry_essentials,0.111,0.2,0.089,10% to 20%,Chocolate
+Whole Foods Market,"Organic Instant Pudding, Chocolate, 3.9 oz",2.19,1.99,1.79,pantry_essentials,0.091,0.183,0.092,10% to 20%,Chocolate
+Foodstirs,"Organic Chocolate Lovers Brownie Mix, 12.55 oz",6.29,4.99,4.49,pantry_essentials,0.207,0.286,0.079,20% to 30%,Chocolate
+VITABELLA,"Organic Traditional Chocolate Crispies, 12 oz",4.49,3.99,3.59,pantry_essentials,0.111,0.2,0.089,10% to 20%,Chocolate
+Annie's Homegrown,"Gluten Free Rice Shells & Creamy White Cheddar Macaroni & Cheese, 170 g",3.79,2.5,2.25,pantry_essentials,0.34,0.406,0.066,40% to 50%,Cheese
+Banza,"Chickpea Pasta Mac & Cheese Shells & White Cheddar, 5.5 oz",4.29,2.99,2.69,pantry_essentials,0.303,0.373,0.07,30% to 40%,Cheese
+Annie's Homegrown,"Cheddar Cheesy Rice, 6.6 oz",4.19,3,2.7,pantry_essentials,0.284,0.356,0.072,30% to 40%,Cheese
+Annie's Homegrown,"Grilled Cheese Cheesy Rice, 6.6 oz",4.19,3,2.7,pantry_essentials,0.284,0.356,0.072,30% to 40%,Cheese
+Banza,"Deluxe Elbows & Cheddar Mac & Cheese, 11 oz",4.99,3.69,3.32,pantry_essentials,0.261,0.335,0.074,30% to 40%,Cheese
+Banza,"Chickpea Pasta Mac And Cheese, 5.5 oz",4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Cheese
+Banza,"Chickpea Elbow Mac & White Cheddar Cheese, 5.5 oz",4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Cheese
+Rao's Homemade,"4 Cheese Sauce, 24 oz",8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Cheese
+Annie's Homegrown,"Organic Classic Mild Cheddar Macaroni & Cheese (Grass Fed), 6 oz",3.29,2.5,2.25,pantry_essentials,0.24,0.316,0.076,30% to 40%,Cheese
+Annie's Homegrown,"Organic Grass Fed Shells & White Cheddar Macaroni & Cheese, 6 oz",3.29,2.5,2.25,pantry_essentials,0.24,0.316,0.076,30% to 40%,Cheese
+Annie's Homegrown,"Organic Macaroni & Cheese, 6 oz",3.19,2.5,2.25,pantry_essentials,0.216,0.295,0.079,20% to 30%,Cheese
+Annie's Homegrown,"Organic Shells & Real Aged Cheddar Macaroni & Cheese, 6 oz",3.19,2.5,2.25,pantry_essentials,0.216,0.295,0.079,20% to 30%,Cheese
+Taste Republic,"Gluten-free 4-cheese Tortellini Pasta, 9 oz",7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Cheese
+Manini's,"Gluten Free Ravioli Spinach & Cheese Made With Ancient Grain, 9.5 oz",7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Cheese
+Annie's Homegrown,"Deluxe Mac N Cheese Classic, 11.3 oz",4.39,3,2.7,pantry_essentials,0.317,0.385,0.068,30% to 40%,Cheese
+Annie's Homegrown,"Deluxe Shells & White Cheddar, 11 oz",4.29,3,2.7,pantry_essentials,0.301,0.371,0.07,30% to 40%,Cheese
+Annie's Homegrown,"Creamy Deluxe Shells & Real Aged Cheddar Sauce Macaroni Dinner, 11 oz",4.29,3,2.7,pantry_essentials,0.301,0.371,0.07,30% to 40%,Cheese
+Annie's Homegrown,"Organic Mac & Cheese 20% More Protein, 6 oz",3.19,2.5,2.25,pantry_essentials,0.216,0.295,0.079,20% to 30%,Cheese
+Freak Flag Organics,"Organic Southwestern Cheddar Mac & Freak, 6 oz",2.99,2,1.8,pantry_essentials,0.331,0.398,0.067,30% to 40%,Cheese
+Freak Flag Organics,"Organic Kale Cheddar Mac & Freak, 6 oz",2.99,2,1.8,pantry_essentials,0.331,0.398,0.067,30% to 40%,Cheese
+Annie's Homegrown,"Organic Whole Wheat Shells & White Cheddar Macaroni & Cheese, 6 oz",3.19,2.5,2.25,pantry_essentials,0.216,0.295,0.079,20% to 30%,Cheese
+Annie's Homegrown,"Organic Peace Pasta & Parmesan Macaroni & Cheese, 6 oz",3.19,2.5,2.25,pantry_essentials,0.216,0.295,0.079,20% to 30%,Cheese
+Manini's,"Raviolo Four Cheese, 9.5 oz",7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Cheese
+Bertagni,Buffalo Mozzarella Ravioli,7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Cheese
+Sabatino Tartufi,"Truffle And Cheese Seasoning, 2.11 oz",14.99,13.49,12.14,pantry_essentials,0.1,0.19,0.09,10% to 20%,Cheese
+Kikka Sushi,"Poached Salmon Roll, 7 oz",9.49,8.49,7.64,prepared_foods,0.105,0.195,0.09,10% to 20%,Roll
+Outer Aisle Gourmet,"Everything Cauliflower Sandwich Thins, 6.75 oz",6.99,5.99,5.39,prepared_foods,0.143,0.229,0.086,20% to 30%,Sandwich
+Whole Foods Market,Roasted Brussels Sprouts & Spinach with Lemon Confit,9.99,8.49,7.64,prepared_foods,0.15,0.235,0.085,20% to 30%,Sprouts
+Whole Foods Market,"Turkey Chili With White Beans, 24 oz",8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Turkey
+Rao's Homemade,"Family Size Chicken Parmesan, 25 oz",12.79,9.69,8.72,prepared_foods,0.242,0.318,0.076,30% to 40%,Chicken
+Whole Foods Market,"Corn and Shrimp Chowder, 24 oz",9.99,0,6,prepared_foods,1,0.399,0,30% to 40%,Soup
+Whole Foods Market,"Shrimp & Andouille Sausage Gumbo Soup, 24 oz",9.99,0,6,prepared_foods,1,0.399,0,30% to 40%,Soup
+Whole Foods Market,"Lobster Bisque, 24 oz",9.99,0,6,prepared_foods,1,0.399,0,30% to 40%,Soup
+Rao's Homemade,"Sausage & Potato Soup, 16 oz",4.99,3.69,3.32,prepared_foods,0.261,0.335,0.074,30% to 40%,Soup
+Whole Foods Market,"Mom's Chicken Soup, 24 oz",8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Soup
+Whole Foods Market,"Nana's Chicken Noodle Soup, 24 oz",8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Soup
+Whole Foods Market,"New England Clam Chowder, 24 oz",8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Soup
+Whole Foods Market,"Chicken Tortilla Soup, 24 oz",8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Soup
+Whole Foods Market,"Chicken & Rice Soup, 24 oz",8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Soup
+Whole Foods Market,"Mushroom Barley Soup, 24 oz",7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup
+Whole Foods Market,"Chicken Artichoke & Lemon Soup, 24 oz",7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup
+Whole Foods Market,"Aromatic Butternut Squash Soup, 24 oz",7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup
+Whole Foods Market,Pumpkin Curry Soup,7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup
+Whole Foods Market,"Minestrone Soup, 24 oz",7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup
+Whole Foods Market,"Italian Wedding Soup, 24 oz",7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup
+Whole Foods Market,"Old School Vegetable Soup, 24 oz",7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup
+Whole Foods Market,"Red Lentil Dal With Spinach Soup, 24 oz",7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup
+Whole Foods Market,"Tomato Parmesan Soup, 24 oz",7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup
+Kikka,"Hot & Sour Soup, 22 oz",8.49,7.49,6.74,prepared_foods,0.118,0.206,0.088,20% to 30%,Soup
+Rao's Homemade,"Tortellni & Vegetable Soup, 16 oz",4.99,3.69,3.32,prepared_foods,0.261,0.335,0.074,30% to 40%,Soup
+Whole Foods Market,"Classic Beef Chili With Beans, 24 oz",8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Soup
+Whole Foods Market,"Double Cheddar Broccoli Soup, 24 oz",7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Cheese
+PRODUCE,English Cucumbers,2.29,1.5,1.35,produce,0.345,0.41,0.065,40% to 50%,Cucumbers
+PRODUCE,Green Artichoke,3.49,2.5,2.25,produce,0.284,0.355,0.071,30% to 40%,Artichoke
+PRODUCE,Organic Collard Green,2.29,1.67,1.5,produce,0.271,0.345,0.074,30% to 40%,Green
+PRODUCE,Strawberries,4.99,3.99,3.59,produce,0.2,0.281,0.081,20% to 30%,Strawberries
+EMPERORS KITCHEN,Organic Pureed Garlic,4.19,3.69,3.32,produce,0.119,0.208,0.089,20% to 30%,Garlic
+PRODUCE,Sumo Citrus,4.49,3.99,3.59,produce,0.111,0.2,0.089,10% to 20%,Citrus
+PRODUCE,Organic Cripps Pink Apples Bag,6.99,5.99,5.39,produce,0.143,0.229,0.086,20% to 30%,Bag
+Tasteful Selections,Organic Ruby Sensations Potatoes,4.99,3.5,3.15,produce,0.299,0.369,0.07,30% to 40%,Potatoes
+PRODUCE,Organic Brussels Sprouts,4.99,3.5,3.15,produce,0.299,0.369,0.07,30% to 40%,Sprouts
+PRODUCE,Organic Gold Creamer Potatoes,4.99,3.5,3.15,produce,0.299,0.369,0.07,30% to 40%,Potatoes
+Divina,Marinated Artichokes,5.99,4.99,4.49,produce,0.167,0.25,0.083,20% to 30%,Artichokes
+PRODUCE,Organic Artichokes,3.99,3.49,3.14,produce,0.125,0.213,0.088,20% to 30%,Artichokes
+PRODUCE,Organic Red Chard,2.49,1.67,1.5,produce,0.329,0.398,0.069,30% to 40%,Chard
+PRODUCE,Organic Dino Kale,2.49,1.67,1.5,produce,0.329,0.398,0.069,30% to 40%,Kale
+Cal-Organic,Organic Green Chard,2.29,1.67,1.5,produce,0.271,0.345,0.074,30% to 40%,Chard
+PRODUCE,Organic Rainbow Chard,2.29,1.67,1.5,produce,0.271,0.345,0.074,30% to 40%,Chard
+PRODUCE,Organic Green Kale,1.89,1.67,1.5,produce,0.116,0.206,0.09,20% to 30%,Kale
+PRODUCE,Organic Red Kale,1.89,1.67,1.5,produce,0.116,0.206,0.09,20% to 30%,Kale
+PRODUCE,French Beans,4.99,3.49,3.14,produce,0.301,0.371,0.07,30% to 40%,Beans
+Whole Foods Market,Easy Peel White Shrimp 8-12 Count,19.99,13.49,12.14,seafood,0.325,0.393,0.068,30% to 40%,Shrimp
+DUCK TRAP RIVER FISH FARM,Smoked Sockeye Salmon,9.99,7.99,7.19,seafood,0.2,0.28,0.08,20% to 30%,Salmon
+SEAFOOD,Tilapia Fillet,8.99,7.99,7.19,seafood,0.111,0.2,0.089,10% to 20%,Tilapia
+SEAFOOD,Albacore Tuna Steak,13.99,10.99,9.89,seafood,0.214,0.293,0.079,20% to 30%,Steak
+SEAFOOD,Haddock Fillet,11.99,10.99,9.89,seafood,0.083,0.175,0.092,10% to 20%,Fillet
+SEAFOOD,Halibut Fillet,24.99,22.99,20.69,seafood,0.08,0.172,0.092,10% to 20%,Fillet
+Kite Hill,"Plant Based Tzatziki Dip, 8 oz",4.99,3.5,3.15,snacks_chips_salsas_dips,0.299,0.369,0.07,30% to 40%,Dip
+Kite Hill,"Plant Based Ranch Dip, 8 oz",4.99,3.5,3.15,snacks_chips_salsas_dips,0.299,0.369,0.07,30% to 40%,Dip
+UNCLE JERRYS,"Extra Dark Low Salt Pretzels, 8 oz",4.29,2.99,2.69,snacks_chips_salsas_dips,0.303,0.373,0.07,30% to 40%,Pretzels
+UNCLE JERRYS,"Special Pretzels, 8 oz",4.29,2.99,2.69,snacks_chips_salsas_dips,0.303,0.373,0.07,30% to 40%,Pretzels
+UNCLE JERRYS,"Extra Dark Pretzels, 8 oz",4.29,2.99,2.69,snacks_chips_salsas_dips,0.303,0.373,0.07,30% to 40%,Pretzels
+Hippeas,"BBQ Puffs, 4 oz",3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Puffs
+Spudsy,"Cinnamon Churro Sweet Potato Puffs, 4 oz",3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Puffs
+Hippeas,"Nacho Vibes Puffs, 4 oz",3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Puffs
+Cava,"Traditional Hummus, 16 oz",6.99,4.49,4.04,snacks_chips_salsas_dips,0.358,0.422,0.064,40% to 50%,Hummus
+Cava,"Hummus Spicy, 16 oz",6.99,4.49,4.04,snacks_chips_salsas_dips,0.358,0.422,0.064,40% to 50%,Hummus
+Craize Corn,"Plantain Toasted Corn Cracker, 4 oz",4.29,2.99,2.69,snacks_chips_salsas_dips,0.303,0.373,0.07,30% to 40%,Crackers
+Cava,"Roasted Red Pepper Hummus, 8 oz",4.29,2.99,2.69,snacks_chips_salsas_dips,0.303,0.373,0.07,30% to 40%,Hummus
+Craize Corn,"Sweet Corn Toasted Corn Cracker, 4 oz",3.99,2.99,2.69,snacks_chips_salsas_dips,0.251,0.326,0.075,30% to 40%,Crackers
+Craize Corn,"Roasted Corn Toasted Corn Cracker, 4 oz",3.99,2.99,2.69,snacks_chips_salsas_dips,0.251,0.326,0.075,30% to 40%,Crackers
+Craize Corn,"Coconut Toasted Corn Cracker, 4 oz",3.99,2.99,2.69,snacks_chips_salsas_dips,0.251,0.326,0.075,30% to 40%,Crackers
+Wedderspoon,"Organic Manuka Honey Drops Honey, 4 oz",11.99,8.99,8.09,snacks_chips_salsas_dips,0.25,0.325,0.075,30% to 40%,Honey
+Rustic Bakery,"Black Sesame Flatbread, 6 oz",7.49,6.49,5.84,snacks_chips_salsas_dips,0.134,0.22,0.086,20% to 30%,Flatbread
+Ka-Me,"Original Rice Crackers, 3.5 oz",3.19,2.49,2.24,snacks_chips_salsas_dips,0.219,0.298,0.079,20% to 30%,Crackers
+Rustic Bakery,"Sweet Onion & Creme French Sourdough Flatbread, 6 oz",7.49,6.49,5.84,snacks_chips_salsas_dips,0.134,0.22,0.086,20% to 30%,Flatbread
+Cava,"Organic Traditional Hummus, 8 oz",4.99,3.49,3.14,snacks_chips_salsas_dips,0.301,0.371,0.07,30% to 40%,Hummus
+Raaka Chocolate,"Mini Chocolate Bar Mini Coconut Milk, 0.28 oz",0.99,0.79,0.71,snacks_chips_salsas_dips,0.202,0.283,0.081,20% to 30%,Milk
+Raaka,"Dominican Republic Coconut Milk (60% Cacao), 1.8 oz",5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Milk
+Raaka,"Dominican Republic Coconut Milk (60% Cacao), 1 each",5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Milk
+Perky Jerky,"Hatch Chile Wagyu Beef Jerky, 2.2 oz",8.99,6.99,6.29,snacks_chips_salsas_dips,0.222,0.3,0.078,20% to 30%,Jerky
+Louisville Vegan Jerky Co.,"Vegan Jerky, 3 oz",6.99,5.99,5.39,snacks_chips_salsas_dips,0.143,0.229,0.086,20% to 30%,Jerky
+Louisville Vegan Jerky Co.,"Enid's Perfect Pepperoni Vegan Jerky, 3 oz",6.99,5.99,5.39,snacks_chips_salsas_dips,0.143,0.229,0.086,20% to 30%,Jerky
+Louisville Vegan Jerky Co.,"Carolina Bbq Jerky, 3 oz",6.99,5.99,5.39,snacks_chips_salsas_dips,0.143,0.229,0.086,20% to 30%,Jerky
+Louisville Vegan Jerky Co.,"Paulette's Maple Bacon Vegan Jerky, 3 oz",6.99,5.99,5.39,snacks_chips_salsas_dips,0.143,0.229,0.086,20% to 30%,Jerky
+Louisville Vegan Jerky Co.,"Black Pepper Smoked Jerky, 3 oz",6.99,5.99,5.39,snacks_chips_salsas_dips,0.143,0.229,0.086,20% to 30%,Jerky
+Perky Jerky,"Chimichurri Wagyu Beef Jerky, 2.2 oz",7.99,6.99,6.29,snacks_chips_salsas_dips,0.125,0.213,0.088,20% to 30%,Jerky
+Perky Jerky,"Sea Salt & Pepper Wagyu Beef Jerky, 2.2 oz",7.99,6.99,6.29,snacks_chips_salsas_dips,0.125,0.213,0.088,20% to 30%,Jerky
+Fruitables®,"Chicken & Sweet Potato Whole Jerky Bites, 12 oz",21.99,19.79,17.81,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Jerky
+Perky Jerky,"Original Turkey Jerky, 2.2 oz",6.99,4.99,4.49,snacks_chips_salsas_dips,0.286,0.358,0.072,30% to 40%,Jerky
+QUE PASA,"Yellow Corn Tortilla Chips, 11 oz",4.19,2.5,2.25,snacks_chips_salsas_dips,0.403,0.463,0.06,40% to 50%,Chips
+QUE PASA,"White Corn Tortilla Chips, 11 oz",4.19,2.5,2.25,snacks_chips_salsas_dips,0.403,0.463,0.06,40% to 50%,Chips
+Jackson's Honest,"Sweet Potato Chips, 5 oz",3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Chips
+PUR,"Cinnamon Gum, 1 each",3.99,3.19,2.87,snacks_chips_salsas_dips,0.201,0.281,0.08,20% to 30%,Gum
+PUR,"Wintergreen Gum, 2.72 oz",3.99,3.19,2.87,snacks_chips_salsas_dips,0.201,0.281,0.08,20% to 30%,Gum
+PUR,"Spearmint Gum, 2.72 oz",3.99,3.19,2.87,snacks_chips_salsas_dips,0.201,0.281,0.08,20% to 30%,Gum
+PUR,"Peppermint Gum, 2.72 oz",3.99,3.19,2.87,snacks_chips_salsas_dips,0.201,0.281,0.08,20% to 30%,Gum
+PUR,"Bubblegum Bag, 2.72 oz",3.99,3.19,2.87,snacks_chips_salsas_dips,0.201,0.281,0.08,20% to 30%,Gum
+The Good Crisp Company,"Outback Bbq Potato Crisps, 5.6 oz",3.69,3,2.7,snacks_chips_salsas_dips,0.187,0.268,0.081,20% to 30%,Chips
+The Good Crisp Company,"Original Stacked Chips, 5.6 oz",3.69,3,2.7,snacks_chips_salsas_dips,0.187,0.268,0.081,20% to 30%,Chips
+The Good Crisp Company,"Sour Cream Onion Stacked Chips, 5.6 oz",3.69,3,2.7,snacks_chips_salsas_dips,0.187,0.268,0.081,20% to 30%,Chips
+PUR,Wintermint Gum,1.99,1.67,1.5,snacks_chips_salsas_dips,0.161,0.246,0.085,20% to 30%,Gum
+PUR,Peppermint Gum,1.99,1.67,1.5,snacks_chips_salsas_dips,0.161,0.246,0.085,20% to 30%,Gum
+PUR,Cinnamon Gum,1.99,1.67,1.5,snacks_chips_salsas_dips,0.161,0.246,0.085,20% to 30%,Gum
+PUR,"Bubblegum, 9 pieces sugar-free chewing gum",1.99,1.67,1.5,snacks_chips_salsas_dips,0.161,0.246,0.085,20% to 30%,Gum
+PUR,"Spearmint Gum, 9 pieces sugar-free chewing gum",1.99,1.67,1.5,snacks_chips_salsas_dips,0.161,0.246,0.085,20% to 30%,Gum
+Sabatino Tartufi,"Truffle Crisps, 5 oz",7.99,6.99,6.29,snacks_chips_salsas_dips,0.125,0.213,0.088,20% to 30%,Chips
+Sonoma Creamery,"Pepper Jack Crisps, 2.25 oz",4.79,3,2.7,snacks_chips_salsas_dips,0.374,0.436,0.062,40% to 50%,Chips
+PUR,"Peppermint Gum Sticks, 12 sticks",2.49,2,1.8,snacks_chips_salsas_dips,0.197,0.277,0.08,20% to 30%,Gum
+PUR,"Spearmint Gum Sticks, 12 sticks",2.49,2,1.8,snacks_chips_salsas_dips,0.197,0.277,0.08,20% to 30%,Gum
+PUR,"Wintergreen Gum Sticks, 12 sticks",2.49,2,1.8,snacks_chips_salsas_dips,0.197,0.277,0.08,20% to 30%,Gum
+Chuao Chocolatier,"Milk Choc Mini Bar With kettle Cooked Potato Chips, 0.39 oz",0.99,0.89,0.8,snacks_chips_salsas_dips,0.101,0.192,0.091,10% to 20%,Chips
+Uglies,"Kettle Cooked Potato Chip Buffalo Ranch, 6 ounce",3.19,2,1.8,snacks_chips_salsas_dips,0.373,0.436,0.063,40% to 50%,Chips
+UGLIES SNACKS,"Bbq Potato Chips, 6 oz",2.99,2,1.8,snacks_chips_salsas_dips,0.331,0.398,0.067,30% to 40%,Chips
+UGLIES SNACKS,"Original Sea Salt Potato Chips, 6 oz",2.99,2,1.8,snacks_chips_salsas_dips,0.331,0.398,0.067,30% to 40%,Chips
+PUR,"Cinnamon Gum, 2.72 oz",3.99,3.19,2.87,snacks_chips_salsas_dips,0.201,0.281,0.08,20% to 30%,Gum
+Angelic Bakehouse,"Harissa & Green Chile Savory Crisps, 5 oz",4.69,3.99,3.59,snacks_chips_salsas_dips,0.149,0.235,0.086,20% to 30%,Chips
+Angelic Bakehouse,"Pickled Sweet Onion Savory Crisps, 5 oz",4.69,3.99,3.59,snacks_chips_salsas_dips,0.149,0.235,0.086,20% to 30%,Chips
+Honey Mama's,"Cocoa Truffle Bar Peruvian Raw, 2.5 oz",5.99,4,3.6,snacks_chips_salsas_dips,0.332,0.399,0.067,30% to 40%,Bars
+Honey Mama's,"Cocoa Truffle Bar Oregon Mint, 2.5 oz",5.99,4,3.6,snacks_chips_salsas_dips,0.332,0.399,0.067,30% to 40%,Bars
+Cascadian Farm,"Organic Vanilla Chip Chewy Granola Bars, 1 each",4.19,2.99,2.69,snacks_chips_salsas_dips,0.286,0.358,0.072,30% to 40%,Bars
+Cascadian Farm,"Organic Peanut Pretzel Chewy Granola Bars, 1 each",4.19,2.99,2.69,snacks_chips_salsas_dips,0.286,0.358,0.072,30% to 40%,Bars
+KIND Snacks,"Almond & Coconut Fruit & Nut Bars, 16.8 oz",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Bars
+KIND Snacks,"Caramel Almond & Sea Salt Nuts & Spices Bars, 16.8 oz",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Bars
+KIND Snacks,"Cranberry Almond + Antioxidants Bar, 1 each",1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Bars
+KIND Snacks,"Almond & Coconut Fruit & Nut Bar, 1 each",1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Bars
+KIND Snacks,"Caramel Almond & Sea Salt Nuts & Spices Bar, 1 each",1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Bars
+KIND Snacks,"Crunchy Peanut Butter Protein Bar, 1.76 oz",2.29,1.33,1.2,snacks_chips_salsas_dips,0.419,0.476,0.057,40% to 50%,Bars
+KIND Snacks,"Maple Glazed Pecan & Sea Salt Bar, 16.8 oz",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Bars
+KIND Snacks,"Maple Glazed Pecan & Sea Salt Nuts & Spices Bar, 1 each",1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Bars
+KIND Snacks,"Crunchy Peanut Butter Protein Bars, 21.12 oz",27.49,15.96,14.36,snacks_chips_salsas_dips,0.419,0.478,0.059,40% to 50%,Bars
+Kate's Real Food,"Organic Mango Coconut Tiki Bar, 2.2 oz",2.79,1.67,1.5,snacks_chips_salsas_dips,0.401,0.462,0.061,40% to 50%,Bars
+KIND Snacks,"Caramel Almond & Sea Salt Nuts & Spices Bars, 1 each",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Bars
+KIND Snacks,"Cranberry Almond + Antioxidants Bars, 1 each",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Bars
+Lenny & Larry's,"The Complete Crunchy Double Chocolate Cookies, 4.25 oz",3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Cookies
+Tate's Bake Shop,"Lemon Cookies, 7 oz",5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Cookies
+Tate's Bake Shop,"Gluten Free Ginger Zinger Cookies, 7 oz",5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Cookies
+Tate's Bake Shop,"Double Chocolate Chip Cookies, 7 oz",5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Cookies
+Enjoy Life Foods,"Soft Baked Chocolate Chip Cookies, 6 oz",4.69,3.99,3.59,snacks_chips_salsas_dips,0.149,0.235,0.086,20% to 30%,Cookies
+Lenny & Larry's,White Chocolate Macadamia Cookies,2.29,2,1.8,snacks_chips_salsas_dips,0.127,0.214,0.087,20% to 30%,Cookies
+Lenny & Larry's,"Peanut Butter Keto Cookie, 1.6 oz",2.29,2,1.8,snacks_chips_salsas_dips,0.127,0.214,0.087,20% to 30%,Cookies
+MadeGood,"Organic Cookies & Creme Granola Bars, 0.85 oz",4.79,4.29,3.86,snacks_chips_salsas_dips,0.104,0.194,0.09,10% to 20%,Cookies
+Simple Mills,"Soft-baked Chocolate Chip Cookies, 6.2 oz",4.99,4.49,4.04,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Cookies
+Andean Dream,"Quinoa Chocolate Chip Cookies, 7 oz",5.79,4.99,4.49,snacks_chips_salsas_dips,0.138,0.225,0.087,20% to 30%,Cookies
+Jovial,"Organic Einkorn Cookies, 8.8 oz",4.49,3.99,3.59,snacks_chips_salsas_dips,0.111,0.2,0.089,10% to 20%,Cookies
+PARTAKE FOODS,"Crunchy Double Chocolate Chip Cookies, 5.5 oz",4.99,3.5,3.15,snacks_chips_salsas_dips,0.299,0.369,0.07,30% to 40%,Cookies
+PARTAKE FOODS,"Crunchy Birthday Cake Cookies, 5.5 oz",4.99,3.5,3.15,snacks_chips_salsas_dips,0.299,0.369,0.07,30% to 40%,Cookies
+PARTAKE FOODS,"Crunchy Chocolate Chip Cookies, 5.5 oz",4.99,3.5,3.15,snacks_chips_salsas_dips,0.299,0.369,0.07,30% to 40%,Cookies
+Tate's Bake Shop,"Gluten Free Coconut Crisp Cookies, 7 oz",5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Cookies
+Three Wishes Cereal,"Chocolate Strawberry Grain Free Cereal, 8.6 oz",6.99,4.17,3.75,snacks_chips_salsas_dips,0.403,0.464,0.061,40% to 50%,Cereal
+YumEarth,"Organic Gummy Fruits Ye Valentine Organic Gummy Fruits, 7 oz",6.99,4.17,3.75,snacks_chips_salsas_dips,0.403,0.464,0.061,40% to 50%,Snack
+PIGOUT,"Hella Hot Pigless Pork Rinds, 3.5 oz",3.79,2.5,2.25,snacks_chips_salsas_dips,0.34,0.406,0.066,40% to 50%,Snack
+PIGOUT,"Texas Bbq Pigless Pork Rinds, 3.5 oz",3.79,2.5,2.25,snacks_chips_salsas_dips,0.34,0.406,0.066,40% to 50%,Snack
+Honey Mama's,"Cocoa Truffle Bar Coffee Nib Crunch, 2.5 oz",5.99,4,3.6,snacks_chips_salsas_dips,0.332,0.399,0.067,30% to 40%,Snack
+Honey Mama's,"Cocoa Truffle Bar Lavender Rose, 2.5 oz",5.99,4,3.6,snacks_chips_salsas_dips,0.332,0.399,0.067,30% to 40%,Snack
+Honey Mama's,"Cocoa Truffle Bar Coconut, 2.5 oz",5.99,4,3.6,snacks_chips_salsas_dips,0.332,0.399,0.067,30% to 40%,Snack
+Honey Mama's,"Cocoa Truffle Bar Original Dutch, 1.25 oz",2.99,2,1.8,snacks_chips_salsas_dips,0.331,0.398,0.067,30% to 40%,Snack
+Honey Mama's,"Cocoa Truffle Bar Coconut, 1.25 oz",2.99,2,1.8,snacks_chips_salsas_dips,0.331,0.398,0.067,30% to 40%,Snack
+Dandies,"Mini Vegan Marshmallows, 10 oz",5.39,3.99,3.59,snacks_chips_salsas_dips,0.26,0.334,0.074,30% to 40%,Snack
+SUN NOODLE,"Spicy Sesame Ramen, 12.7 oz",5.99,4.49,4.04,snacks_chips_salsas_dips,0.25,0.326,0.076,30% to 40%,Snack
+Hippeas,"Rockin Ranch Tortilla, 5 oz",3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Snack
+Hippeas,"Sea Salt & Lime Tortilla, 5 oz",3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Snack
+Manitoba Harvest,"Hemp Hearts, 16 oz",18.99,15.29,13.76,snacks_chips_salsas_dips,0.195,0.275,0.08,20% to 30%,Snack
+Manitoba Harvest Hemp Foods,"Raw Shelled Hemp Seeds, 7 oz",11.99,9.69,8.72,snacks_chips_salsas_dips,0.192,0.273,0.081,20% to 30%,Snack
+LOVE CORN,"Smoked Bbq Crunchy Corn Snack, 4 oz",3.69,3,2.7,snacks_chips_salsas_dips,0.187,0.268,0.081,20% to 30%,Snack
+LOVE CORN,"Sea Salt Crunchy Corn Snack, 4 oz",3.69,3,2.7,snacks_chips_salsas_dips,0.187,0.268,0.081,20% to 30%,Snack
+Chuao Chocolatier,"Golden Goodness, 2.8 oz",5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Snack
+Milk Bar,"Birthday Truffle Crumb Cakes, 2.33 oz",2.99,2.5,2.25,snacks_chips_salsas_dips,0.164,0.247,0.083,20% to 30%,Snack
+BRAMI Beans,"Garlic & Rosemary Italian Snacking Lupini Beans, 5.3 oz",4.69,3.99,3.59,snacks_chips_salsas_dips,0.149,0.235,0.086,20% to 30%,Snack
+BRAMI Beans,"Sea Salt & Vinegar Italian Snacking Lupini Beans, 5.3 oz",4.69,3.99,3.59,snacks_chips_salsas_dips,0.149,0.235,0.086,20% to 30%,Snack
+John Kelly Chocolates,"Peanut Butter With Himalayan Pink Salt Truffle Fudge Bites, 4 oz",14.99,13.49,12.14,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack
+ARTISAN TROPIC,"Sea Salt Plantain Chips Multipack, 6 oz",6.99,6.29,5.66,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack
+P.O.P. Candy Co,"Pop Mix Fresh Butter Crunch, 2 oz",5.99,5.39,4.85,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack
+P.O.P. Candy Co,"Rum Y Vanilla Fresh Butter Crunch, 2 oz",5.99,5.39,4.85,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack
+P.O.P. Candy Co,"Pecan Butter Crunch Brittle, 2 oz",5.99,5.39,4.85,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack
+Beanfields,"Grain Free Fiery Hot Rings, 3.5 oz",3.99,3.59,3.23,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack
+SmartSweets,"Blue Raspberry Watermelon Lollipops Multipack, 3 oz",6.99,6.29,5.66,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack
+Beanfields,"Black Bean With Sea Salt Chips, 5.5 oz",4.29,3.89,3.5,snacks_chips_salsas_dips,0.093,0.184,0.091,10% to 20%,Snack
+Beanfields,"Beanfield's Nacho, 5.5 oz",4.29,3.89,3.5,snacks_chips_salsas_dips,0.093,0.184,0.091,10% to 20%,Snack
+ZolliCandy,"Zolli Pops, 5.2 oz",6.99,5.19,4.67,snacks_chips_salsas_dips,0.258,0.332,0.074,30% to 40%,Snack
+Rawkin Raw,"Organic Blonde Superfood Macaroon, 2 oz",3.69,2.99,2.69,snacks_chips_salsas_dips,0.19,0.271,0.081,20% to 30%,Snack
+Chuao Chocolatier,"Joy Filled Caramels Sweet & Salty, 2.25 ounce",4.99,4.49,4.04,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack
+Chuao Chocolatier,"Ohh Ahh Almond Joy Filled Caramels, 2.25 ounce",4.99,4.49,4.04,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack
+Cava,"Harissa, 8 oz",6.99,4.49,4.04,snacks_chips_salsas_dips,0.358,0.422,0.064,40% to 50%,Snack
+CORE Foods,"Organic Probiotic Oat Bar Peanut Butter, 2 oz",2.99,2.19,1.97,snacks_chips_salsas_dips,0.268,0.341,0.073,30% to 40%,Snack
+CORE Foods,"Organic Probiotic Oat Bar Blueberry Banana Almond, 2 oz",2.99,2.19,1.97,snacks_chips_salsas_dips,0.268,0.341,0.073,30% to 40%,Snack
+Cava,"Tzatziki, 16 oz",8.69,6.49,5.84,snacks_chips_salsas_dips,0.253,0.328,0.075,30% to 40%,Snack
+Mitica,"Toketti Di Pane Carasau, 7 oz",6.99,5.74,5.17,snacks_chips_salsas_dips,0.179,0.26,0.081,20% to 30%,Snack
+Sesmark,"Brown Rice Thins, 3.5 oz",2.99,2.49,2.24,snacks_chips_salsas_dips,0.167,0.251,0.084,20% to 30%,Snack
+Hippeas,"Jalapeno Tortilla, 5 oz",3.55,3,2.7,snacks_chips_salsas_dips,0.155,0.239,0.084,20% to 30%,Snack
+Cava,"Tzatziki Sauce, 8 oz",5.99,3.99,3.59,snacks_chips_salsas_dips,0.334,0.401,0.067,40% to 50%,Sauce
+Theo Chocolate,"Organic Raspberry Cocoa Nib Dark Chocolate Bar, 3 oz",3.99,2.37,2.13,snacks_chips_salsas_dips,0.406,0.466,0.06,40% to 50%,Chocolate
+Larabar,"Mini Chocolate Cherry Truffle Bar, 0.78 oz",6.99,4.17,3.75,snacks_chips_salsas_dips,0.403,0.464,0.061,40% to 50%,Chocolate
+LesserEvil,"White Chocolate Strawberry Sweetheart Popcorn 8ct, 4.8 oz",5.99,3.57,3.21,snacks_chips_salsas_dips,0.404,0.464,0.06,40% to 50%,Chocolate
+Lake Champlain Chocolates,"Organic Dark Chocolate Hearts Gibag, 5.9 oz",13.49,8.07,7.26,snacks_chips_salsas_dips,0.402,0.462,0.06,40% to 50%,Chocolate
+Lake Champlain Chocolates,"Organic Aflutter Chocolate Hearts Collection, 3.2 oz",14.99,8.97,8.07,snacks_chips_salsas_dips,0.402,0.462,0.06,40% to 50%,Chocolate
+Lake Champlain Chocolates,"Organic Milk Chocolate Hearts Gift Bag, 5.9 oz",13.49,8.07,7.26,snacks_chips_salsas_dips,0.402,0.462,0.06,40% to 50%,Chocolate
+Greyston Bakery,"Chocolate Fudge Brownie, 2.5 oz",2.39,1.67,1.5,snacks_chips_salsas_dips,0.301,0.372,0.071,30% to 40%,Chocolate
+Cascadian Farm,"Organic Chocolate Chip Chewy Granola Bars, 1 each",4.19,2.99,2.69,snacks_chips_salsas_dips,0.286,0.358,0.072,30% to 40%,Chocolate
+KIND Snacks,"Dark Chocolate Cherry Cashew + Antioxidants Bars, 16.8 oz",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate
+KIND Snacks,"Peanut Butter Dark Chocolate Protein Bars, 16.8 oz",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate
+KIND Snacks,"Dark Chocolate Nuts & Sea Salt Nuts Bars, 16.8 oz",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate
+KIND Snacks,"Dark Chocolate Mocha Almond Nut & Spices Bars, 16.8 oz",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate
+KIND Snacks,"Dark Chocolate Cherry Cashew + Antioxidants Bar, 1 each",1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate
+KIND Snacks,"Peanut Butter Dark Chocolate Protein Bar, 1 each",1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate
+KIND Snacks,"Nuts & Spices Dark Chocolate Nuts & Sea Salt Bar, 1 each",1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate
+KIND Snacks,"Dark Chocolate Mocha Almond Nuts & Spices Bar, 1 each",1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate
+Taza Chocolate,"Salted Almond Chocolate Disc, 2.7 oz",4.49,3.49,3.14,snacks_chips_salsas_dips,0.223,0.301,0.078,30% to 40%,Chocolate
+Taza Chocolate,"Organic Dark Chocolate Vanilla Discs, 2.7 oz",4.49,3.49,3.14,snacks_chips_salsas_dips,0.223,0.301,0.078,30% to 40%,Chocolate
+Taza Chocolate,"Super Dark Chocolate Disc, 2.7 oz",4.49,3.49,3.14,snacks_chips_salsas_dips,0.223,0.301,0.078,30% to 40%,Chocolate
+Raaka,"Mini Oat Milk Chocolate Bar, 0.28 oz",0.99,0.79,0.71,snacks_chips_salsas_dips,0.202,0.283,0.081,20% to 30%,Chocolate
+Raaka Chocolate,"Chocolate Bar Mini Mini Pink Sea Salt, 0.28 oz",0.99,0.79,0.71,snacks_chips_salsas_dips,0.202,0.283,0.081,20% to 30%,Chocolate
+Raaka,"100% Cacao Mini Chocolate Bar, 0.28 oz",0.99,0.79,0.71,snacks_chips_salsas_dips,0.202,0.283,0.081,20% to 30%,Chocolate
+Chuao Chocolatier,"Sprinkle Dreams Chocolate Bar, 2.8 oz",5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate
+Chuao Chocolatier,"Salted Chocolate Crunch Chocolate, 2.8 oz",5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate
+Chuao Chocolatier,"Ravishing Rocky Road Chocolate, 2.8 oz",5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate
+Raaka Chocolate,"Organic Cacao Chocolate Bar, 1.8 oz",5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Chocolate
+Raaka,"Maple & Nibs Virgin Chocolate, 1.8 oz",5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Chocolate
+Raaka,"Pink Sea Salt Virgin Chocolate, 1.8 oz",5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Chocolate
+Raaka Chocolate,"Chocolate Bar 58% Oat Milk Chocolate Bar, 1.8 ounce",5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Chocolate
+Raaka,"Bar Chocolate Bananas Foster, 1.8 oz",5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Chocolate
+Milk Bar,"Chocolate Birthday Truffle Crumb Cakes, 2.33 oz",2.99,2.5,2.25,snacks_chips_salsas_dips,0.164,0.247,0.083,20% to 30%,Chocolate
+Milk Bar,"Chocolate Pretzel Truffle Crumb Cake, 528 gram",2.99,2.5,2.25,snacks_chips_salsas_dips,0.164,0.247,0.083,20% to 30%,Chocolate
+Green & Black's,"Organic 85% Dark Chocolate Bar, 3.17 oz",3.49,2.99,2.69,snacks_chips_salsas_dips,0.143,0.229,0.086,20% to 30%,Chocolate
+Lenny & Larry's,"The Complete Peanut Butter Chocolate Chip Cookie, 4 oz",2.29,2,1.8,snacks_chips_salsas_dips,0.127,0.214,0.087,20% to 30%,Chocolate
+Lenny & Larry's,"The Complete Chocolate Chip Cookie, 4 oz",2.29,2,1.8,snacks_chips_salsas_dips,0.127,0.214,0.087,20% to 30%,Chocolate
+John Kelly Chocolates,"Dark Chocolate Bourbon Truffle Fudge Bars Box 6pc, 10.2 oz",24.99,22.49,20.24,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Chocolate
+RXBAR,"Chocolate Sea Salt and PB Chocolate Mini Bars, 0.9 oz",9.99,8.99,8.09,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Chocolate
+John Kelly Chocolates,Dark Chocolate Sea Salt 4 Pack,16.29,14.69,13.22,snacks_chips_salsas_dips,0.098,0.188,0.09,10% to 20%,Chocolate
+John Kelly Chocolates,Caramel Sea Salt Chocolate 4 Pack,16.29,14.69,13.22,snacks_chips_salsas_dips,0.098,0.188,0.09,10% to 20%,Chocolate
+Chocolove,"Hazelnuts In Milk Chocolate Bar, 3.2 oz",3.19,2.89,2.6,snacks_chips_salsas_dips,0.094,0.185,0.091,10% to 20%,Chocolate
+Lily's,"Sea Salt 70% Dark Chocolate, 2.8 oz",4.29,3.89,3.5,snacks_chips_salsas_dips,0.093,0.184,0.091,10% to 20%,Chocolate
+Lily's,"White Chocolate Style Bar, 2.8 oz",4.29,3.89,3.5,snacks_chips_salsas_dips,0.093,0.184,0.091,10% to 20%,Chocolate
+Lenny & Larry's,"Keto Chocolate Chip Cookie, 1.6 oz",2.19,2,1.8,snacks_chips_salsas_dips,0.087,0.178,0.091,10% to 20%,Chocolate
+KIND Snacks,"Extra Dark Chocolate Bar 12 Count, 16.8 oz",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate
+KIND Snacks,"Dark Chocolate Almond & Coconut Fruit & Nut Bars, 16.8 oz",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate
+KIND Snacks,"Extra Dark Chocolate Bar, 1.4 oz",1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate
+KIND Snacks,"Dark Chocolate Almond & Coconut Fruit & Nut Bar, 1.4 oz",1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate
+Taza Chocolate,"Guajillo Chili Dark Chocolate, 2.7 oz",4.49,3.49,3.14,snacks_chips_salsas_dips,0.223,0.301,0.078,30% to 40%,Chocolate
+Taza Chocolate,"Stone Ground Cinnamon Chocolate, 2.7 oz",4.49,3.49,3.14,snacks_chips_salsas_dips,0.223,0.301,0.078,30% to 40%,Chocolate
+Rawkin Raw,"Organic Raw Vegan White Chocolate Truffle, 3 oz",6.79,5.49,4.94,snacks_chips_salsas_dips,0.191,0.272,0.081,20% to 30%,Chocolate
+Rawkin Raw,"Organic Chocolate Mocha Truffle, 3 oz",6.79,5.49,4.94,snacks_chips_salsas_dips,0.191,0.272,0.081,20% to 30%,Chocolate
+Rawkin Raw,"Organic White Chocolate Latte Truffle, 3 oz",6.79,5.49,4.94,snacks_chips_salsas_dips,0.191,0.272,0.081,20% to 30%,Chocolate
+Rawkin Raw,"Organic Cool Chlorella Mint Chocolate Truffle, 3 oz",6.79,5.49,4.94,snacks_chips_salsas_dips,0.191,0.272,0.081,20% to 30%,Chocolate
+Rawkin Raw,"Chocolate Superfood Macaroon, 2 oz",3.69,2.99,2.69,snacks_chips_salsas_dips,0.19,0.271,0.081,20% to 30%,Chocolate
+Chuao Chocolatier,"Chuao Oh My Smores! Chocolate, 2.8 oz",5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate
+Chuao Chocolatier,"Cheeky Cheeky Churro Chocolate Bar, 2.8 oz",5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate
+Chuao Chocolatier,"Firecracker Chocolate, 2.8 oz",5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate
+Chuao Chocolatier,"Potato Chip Chocolate, 2.8 oz",5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate
+Green & Black's,"Organic Dark Chocolate Bar 70%, 3.17 oz",3.39,2.99,2.69,snacks_chips_salsas_dips,0.118,0.206,0.088,20% to 30%,Chocolate
+Chuao Chocolatier,"Mini Salted Crunch Chocolate Bar, 0.39 oz",0.99,0.89,0.8,snacks_chips_salsas_dips,0.101,0.192,0.091,10% to 20%,Chocolate
+Chuao Chocolatier,"Honeycomb Mini Chocolate Bar, 0.39 oz",0.99,0.89,0.8,snacks_chips_salsas_dips,0.101,0.192,0.091,10% to 20%,Chocolate
+KIND Snacks,"Salted Caramel & Dark Chocolate Nut Bar, 1.4 oz",1.45,1.33,1.2,snacks_chips_salsas_dips,0.083,0.172,0.089,10% to 20%,Chocolate
+Kate's Real Food,"Organic Dark Chocolate Cherry & Almond Handle Bar, 2.2 oz",2.79,1.67,1.5,snacks_chips_salsas_dips,0.401,0.462,0.061,40% to 50%,Chocolate
+Kate's Real Food,"Organic Peanut Butter Milk Chocolate Tram Bar, 2.2 oz",2.79,1.67,1.5,snacks_chips_salsas_dips,0.401,0.462,0.061,40% to 50%,Chocolate
+Kate's Real Food,"Organic Peanut Butter Dark Chocolate Grizzly Bar, 2.2 oz",2.79,1.67,1.5,snacks_chips_salsas_dips,0.401,0.462,0.061,40% to 50%,Chocolate
+KIND Snacks,"Dark Chocolate Cherry Cashew + Antioxidants Bars, 1 each",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate
+KIND Snacks,"Peanut Butter Dark Chocolate Protein Bars, 1 each",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate
+KIND Snacks,"Dark Chocolate Almond & Coconut Fruit & Nut Bars, 1 each",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate
+KIND Snacks,"Dark Chocolate Nuts & Sea Salt Nuts Bars, 1 each",21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate
+KIND Snacks,"Dark Chocolate Almond & Coconut Fruit & Nut Bar, 1 each",1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate
+Valrhona,"70% Guanaja Chocolate Discs, 0.27 lb",21.99,19.99,17.99,snacks_chips_salsas_dips,0.091,0.182,0.091,10% to 20%,Chocolate
+Barbara's Bakery,Original Cheese Puffs (7 Oz),3.49,2.5,2.25,snacks_chips_salsas_dips,0.284,0.355,0.071,30% to 40%,Cheese
+Spudsy,"Vegan Cheesy Cheddar Sweet Potato Puffs, 4 oz",3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Cheese
+Hippeas,"Vegan White Cheddar Puffs, 4 oz",3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Cheese
+The Good Crisp Company,"Aged White Cheddar Potato Crisps, 5.6 oz",3.69,3,2.7,snacks_chips_salsas_dips,0.187,0.268,0.081,20% to 30%,Cheese
+Brazi Bites,"Gluten-Free Cheese Bread, Garlic Asiago, 11.5oz (Frozen)",5.99,5.69,5.12,snacks_chips_salsas_dips,0.05,0.145,0.095,10% to 20%,Cheese
+Brazi Bites,"Gluten-Free Cheese Bread, 3 Cheese Pizza, 11.5oz (Frozen)",5.99,5.69,5.12,snacks_chips_salsas_dips,0.05,0.145,0.095,10% to 20%,Cheese
+Brazi Bites,"Gluten-Free Cheese Bread, Cheddar & Parmesan, 11.5oz (Frozen)",5.99,5.69,5.12,snacks_chips_salsas_dips,0.05,0.145,0.095,10% to 20%,Cheese
+Sonoma Creamery,"Bacon Cheddar Crisps, 2.25 oz",4.79,3,2.7,snacks_chips_salsas_dips,0.374,0.436,0.062,40% to 50%,Cheese
+Cava,"Crazy Spicy Feta Dip, 8 oz",9.29,6.99,6.29,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Cheese
+Kor Shots,"VITALITY, 1.7 fl oz",3.79,3.19,2.87,supplements,0.158,0.243,0.085,20% to 30%,Juice
+Kor Shots,"Gut Check Apple Cider Vinegar, 1.7 fl oz",3.79,3.19,2.87,supplements,0.158,0.243,0.085,20% to 30%,Juice
+Barlean's,"Omega Swirl Strawberry Banana Flax Oil, 16 oz",30.49,19.99,17.99,supplements,0.344,0.41,0.066,40% to 50%,supplement
+Lakewood,"PURE Whole Leaf Aloe Pure Organic, 32 fl oz",8.99,5.99,5.39,supplements,0.334,0.4,0.066,30% to 40%,supplement
+Liquid I.V.,"Hydration Multiplier Passion Fruit Passion Fruit, 16 gram",2.99,2,1.8,supplements,0.331,0.398,0.067,30% to 40%,supplement
+Liquid IV,"Hydration Sleeve, 0.56 oz",2.99,2,1.8,supplements,0.331,0.398,0.067,30% to 40%,supplement
+Enzymedica,"Digest Gold, 90 capsules",54.49,39.99,35.99,supplements,0.266,0.34,0.074,30% to 40%,supplement
+Wishgarden,"Herbs Kick-Ass Immune Activator - Organic Herbal Immune Booster, Promotes Healthy Immune System Response and Resistance, Use for Early Onset of Sickness (4oz Jigger)",38.99,28.99,26.09,supplements,0.256,0.331,0.075,30% to 40%,supplement
+Wedderspoon,"Organic Manuka Honey Drops Ginger, 4 oz",11.99,8.99,8.09,supplements,0.25,0.325,0.075,30% to 40%,supplement
+Wedderspoon,"Organic Manuka Honey Drops Lemon, 4 oz",11.99,8.99,8.09,supplements,0.25,0.325,0.075,30% to 40%,supplement
+Wedderspoon,"Organic Manuka Honey Drops Eucalyptus, 4 oz",11.99,8.99,8.09,supplements,0.25,0.325,0.075,30% to 40%,supplement
+Plant Fusion,"Vanilla Complete Plant Protein, 15.87 oz",32.99,25.89,23.3,supplements,0.215,0.294,0.079,20% to 30%,supplement
+Vega,"Sport Energizer Acai Berry Tub, 16.2 oz",39.99,31.99,28.79,supplements,0.2,0.28,0.08,20% to 30%,supplement
+Vega,"Sport Energizer Strawberry Lemonade Tub, 16.1 oz",39.99,31.99,28.79,supplements,0.2,0.28,0.08,20% to 30%,supplement
+Nature's Way,"Original Sambucus Standardized Elderberry Syrup, 8 fl oz",29.99,23.99,21.59,supplements,0.2,0.28,0.08,20% to 30%,supplement
+Nature's Way,"Sambucus Immune Standardized Elderberry Syrup, 4 fl oz",18.99,15.19,13.67,supplements,0.2,0.28,0.08,20% to 30%,supplement
+Vega,"Vanilla Flavor Sport Performance Protein, 29.2 oz",54.99,43.99,39.59,supplements,0.2,0.28,0.08,20% to 30%,supplement
+Nature's Way,"Standardized Elderberry Sambucus Gummies, 60 gummies",20.99,16.79,15.11,supplements,0.2,0.28,0.08,20% to 30%,supplement
+Vega,"Sport Sugarfree Energizer Acai Berry Tub, 4 oz",39.99,31.99,28.79,supplements,0.2,0.28,0.08,20% to 30%,supplement
+Barlean's,"Organic Flax Oil, 16 fl oz",22.99,18.49,16.64,supplements,0.196,0.276,0.08,20% to 30%,supplement
+Manitoba Harvest Hemp Foods,"Organic Hemp Hearts, 12 oz",15.49,12.49,11.24,supplements,0.194,0.274,0.08,20% to 30%,supplement
+Manitoba Harvest Hemp Foods,"Natural Hemp Hearts, 8 oz",9.49,7.69,6.92,supplements,0.19,0.271,0.081,20% to 30%,supplement
+New Chapter,Women's Daily Probiotic,34.99,29.49,26.54,supplements,0.157,0.241,0.084,20% to 30%,supplement
+New Chapter,"Probiotic All-Flora, 30 capsules",34.99,29.49,26.54,supplements,0.157,0.241,0.084,20% to 30%,supplement
+Olly,"Kids Cherry Berry Mighty Immunity, 50 gummies",16.49,13.99,12.59,supplements,0.152,0.237,0.085,20% to 30%,supplement
+Vital Proteins,"Vanilla Collagen Creamer, 10.6 oz",32.99,27.99,25.19,supplements,0.152,0.236,0.084,20% to 30%,supplement
+Ancient Nutrition,"Protein Multi Collagen Vanilla, 16.8 oz",49.99,42.49,38.24,supplements,0.15,0.235,0.085,20% to 30%,supplement
+Ancient Nutrition,"Multi Collagen Protein, 8.6 oz",29.99,25.49,22.94,supplements,0.15,0.235,0.085,20% to 30%,supplement
+Ancient Nutrition,"Vanilla Plant Protein, 11.5 oz",39.99,33.99,30.59,supplements,0.15,0.235,0.085,20% to 30%,supplement
+New Chapter,"Zyflamend™, 120 vegetarian capsules",63.99,54.49,49.04,supplements,0.148,0.234,0.086,20% to 30%,supplement
+New Chapter,"Bone Strength Take Care™, 120 vegetarian slim tablets",60.99,51.99,46.79,supplements,0.148,0.233,0.085,20% to 30%,supplement
+New Chapter,"Bone Strength Take Care™, 60 vegetarian slim tablets",33.99,28.99,26.09,supplements,0.147,0.232,0.085,20% to 30%,supplement
+Olly,"Prenatal Folic Acid + DHA Gummy, 60 gummies",16.99,14.49,13.04,supplements,0.147,0.232,0.085,20% to 30%,supplement
+New Chapter,"Zyflamend™, 60 vegetarian capsules",40.99,34.99,31.49,supplements,0.146,0.232,0.086,20% to 30%,supplement
+Olly,"Blackberry Zen Restful Sleep Gummy, 10 count",4.99,4.29,3.86,supplements,0.14,0.226,0.086,20% to 30%,supplement
+Olly,"Berry Verbana Goodbye Stress, 10 count",4.99,4.29,3.86,supplements,0.14,0.226,0.086,20% to 30%,supplement
+Vitamin Friends,"Iron Strawberry Gummies, 60 gummies",23.99,20.99,18.89,supplements,0.125,0.213,0.088,20% to 30%,supplement
+Lakewood Organic,"Fresh Pressed Pure Aloe Gel, 32 fl oz",8.99,7.99,7.19,supplements,0.111,0.2,0.089,10% to 20%,supplement
+Source Naturals,"Wellness Formula Tablets, 90 tablets",27.49,24.49,22.04,supplements,0.109,0.198,0.089,10% to 20%,supplement
+Arnica,"re Tablets, 60 tablets",11.49,10.29,9.26,supplements,0.104,0.194,0.09,10% to 20%,supplement
+Source Naturals,"Wellness Formula Tablets, 45 tablets",14.49,12.99,11.69,supplements,0.104,0.193,0.089,10% to 20%,supplement
+Source Naturals,"Melatonin 3mg Tablets, 120 tablets",19.79,17.79,16.01,supplements,0.101,0.191,0.09,10% to 20%,supplement
+Arnica,"Montana Pellets, 30C, 80 pellets",14.99,13.49,12.14,supplements,0.1,0.19,0.09,10% to 20%,supplement
+Source Naturals,"Wellness Formula Capsules, 120 capsules",25.99,23.49,21.14,supplements,0.096,0.187,0.091,10% to 20%,supplement
+Boiron,"Chestal Honey Homeopathic Medicine, 6.7 oz",10.99,9.99,8.99,supplements,0.091,0.182,0.091,10% to 20%,supplement
+Source Naturals,"Wellness Formula Tablets, 180 tablets",52.99,47.49,42.74,supplements,0.104,0.193,0.089,10% to 20%,supplement
+Source Naturals,"Wellness Formula Capsules, 240 capsules",50.99,45.99,41.39,supplements,0.098,0.188,0.09,10% to 20%,supplement
+New Chapter,"Wholemega™ Fish Oil, 60 bse-free softgels",24.99,22.99,20.69,supplements,0.08,0.172,0.092,10% to 20%,supplement
+Barlean's,"Citrus Sorbet Flavor Ultra High Potency Fish Oil, 16 oz",36.99,26.99,24.29,supplements,0.27,0.343,0.073,30% to 40%,supplement
+Wishgarden,"Herbs Kick-Ass Immune Activator - Organic Herbal Immune Booster, Promotes Healthy Immune System Response and Resistance, Use for Early Onset of Sickness (1oz Dropper)",14.99,11.29,10.16,supplements,0.247,0.322,0.075,30% to 40%,supplement
+Himalaya®,Organic Ashwagandha 4 Count,1.99,1.59,1.43,supplements,0.201,0.281,0.08,20% to 30%,supplement
+Nature's Way,"Standardized Elderberry Kids Sambucus Syrup, 8 fl oz",22.99,18.39,16.55,supplements,0.2,0.28,0.08,20% to 30%,supplement
+Urban Moonshine,"Original Digestive BItters, 2 fl oz",17.79,14.49,13.04,supplements,0.185,0.267,0.082,20% to 30%,supplement
+Vital Proteins,"Mocha Collagen Creamer, 11.2 oz",28.99,23.99,21.59,supplements,0.172,0.255,0.083,20% to 30%,supplement
+Irwin Naturals,"Steel Libido For Women, 75 liquid softgels",24.99,20.99,18.89,supplements,0.16,0.244,0.084,20% to 30%,supplement
+New Chapter,"Turmeric Force™, 60 vegetarian capsules",32.49,27.49,24.74,supplements,0.154,0.239,0.085,20% to 30%,supplement
+New Chapter,"Turmeric Force™, 120 vegetarian capsules",55.99,47.49,42.74,supplements,0.152,0.237,0.085,20% to 30%,supplement
+Plant Fusion,"Vanilla Plant Protein, 31.75 oz",51.99,44.49,40.04,supplements,0.144,0.23,0.086,20% to 30%,supplement
+Source Naturals,"Melatonin 5 MG Orange Sublingual, 50 tablet",14.49,12.99,11.69,supplements,0.104,0.193,0.089,10% to 20%,supplement
+Source Naturals,"Melatonin Tablets, 5 Mg, 60 tablets",13.49,12.49,11.24,supplements,0.074,0.167,0.093,10% to 20%,supplement
+GoodBelly,"Blueberry Acai Plusshot Probiotic Juice Drink, 2.7 fl oz",4.49,3.19,2.87,supplements,0.29,0.361,0.071,30% to 40%,Beverage
+Vega,"Sport Protein Chocolate Tub, 29.5 oz",54.99,43.99,39.59,supplements,0.2,0.28,0.08,20% to 30%,Chocolate
+Vega,"Rest & Repair Chocolate Strawberry, 15 oz",39.99,31.99,28.79,supplements,0.2,0.28,0.08,20% to 30%,Chocolate
+Plant Fusion,"Chocolate Complete Plant Protein, 15.87 oz",32.99,27.99,25.19,supplements,0.152,0.236,0.084,20% to 30%,Chocolate
+Ancient Nutrition,"Chocolate Plant Protein, 12.5 oz",39.99,33.99,30.59,supplements,0.15,0.235,0.085,20% to 30%,Chocolate

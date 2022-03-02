@@ -1,0 +1,1658 @@
+,company,product,regular,sale,prime,category,sale_discount,prime_discount,prime_sale_difference,discount_bins,parsed_product,vc
+0,CASA FORCELLO,Strawberry Balsamic Compote,9.99,4.99,4.49,pantry_essentials,0.501,0.551,0.05,50% or more,Compote,"COUNTIF($L$2:$L$54447, L2)"
+24,Santa Cruz Organic,Organic Sangria Spritzer,4.49,2.67,2.4,Beverages,0.405,0.465,0.06,40% to 50%,Spritzer,1
+38,AURA CACIA,Clearing Eucalyptus Aromatherapy Mist Clearing Eucalyptus,7.99,4.79,4.31,body_care,0.401,0.461,0.06,40% to 50%,Eucalyptus,1
+44,Ocean's Halo,Organic Wakame Strips,5.99,3.69,3.32,pantry_essentials,0.384,0.446,0.062,40% to 50%,Strips,1
+47,STARLITE,Original Vegan Soy Taquitos,7.99,4.99,4.49,frozen_foods,0.375,0.438,0.063,40% to 50%,Taquitos,1
+66,Jason Natural Products,Moisturizing Vitamin E 25000iu Creme,12.49,7.99,7.19,body_care,0.36,0.424,0.064,40% to 50%,Creme,1
+76,PRODUCE,English Cucumbers,2.29,1.5,1.35,produce,0.345,0.41,0.065,40% to 50%,Cucumbers,1
+99,Whole Foods Market,Lobster Bisque,9.99,0,6,prepared_foods,1,0.399,0,30% to 40%,Bisque,1
+104,Liquid IV,Hydration Multiplier Electrolyte Mix Strawberry Single,2.99,2,1.8,Beverages,0.331,0.398,0.067,30% to 40%,Single,1
+151,MEAT,St. Louis Style Pork Spare Ribs,6.99,4.99,4.49,meat,0.286,0.358,0.072,30% to 40%,Ribs,1
+152,Whole Foods Market,Mild Italian Pork Sausage,6.99,4.99,4.49,meat,0.286,0.358,0.072,30% to 40%,Sausage,1
+160,Lucky Foods,Thai Style Spring Rolls,6.99,4.99,4.49,frozen_foods,0.286,0.358,0.072,30% to 40%,Rolls,1
+174,Cascadian Farm,Root Vegetable Hashbrowns,4.19,3,2.7,frozen_foods,0.284,0.356,0.072,30% to 40%,Hashbrowns,1
+179,PRODUCE,Green Artichoke,3.49,2.5,2.25,produce,0.284,0.355,0.071,30% to 40%,Artichoke,1
+182,Against the Grain,Gluten Free Original Baguettes,8.29,5.99,5.39,bread_rolls_bakery,0.277,0.35,0.073,30% to 40%,Baguettes,1
+184,PRODUCE,Organic Collard Green,2.29,1.67,1.5,produce,0.271,0.345,0.074,30% to 40%,Green,1
+226,Dandies,Vegan Marshmallows,5.39,3.99,3.59,pantry_essentials,0.26,0.334,0.074,30% to 40%,Marshmallows,1
+235,Whole Foods Market,New England Clam Chowder,8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Chowder,1
+258,Jovial,Brown Rice Pasta Farfalle,4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Farfalle,1
+261,Jovial,Brown Rice Pasta Elbows,4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Elbows,1
+307,Cascadian Farm,Organic Honey Almond,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Almond,1
+335,MEAT,Boneless Pork Loin Chops,7.99,5.99,5.39,meat,0.25,0.325,0.075,30% to 40%,Chops,1
+343,Cascadian Farm,Organic Riced Cauliflower,3.99,3,2.7,frozen_foods,0.248,0.323,0.075,30% to 40%,Cauliflower,1
+379,Jovial,Organic Chickpeas In Glass Jar,3.29,2.49,2.24,pantry_essentials,0.243,0.319,0.076,30% to 40%,Chickpeas,1
+381,GoodPop,Watermelon Agave 4-Pack,4.99,3.79,3.41,frozen_foods,0.24,0.317,0.077,30% to 40%,Agave,1
+384,GoodPop,Strawberry Shortcake 4-Pack,4.99,3.79,3.41,frozen_foods,0.24,0.317,0.077,30% to 40%,Shortcake,1
+392,SAUCE GODDESS,Gluten-free Moroccan Twist Rub Rub,6.29,4.79,4.31,pantry_essentials,0.238,0.315,0.077,30% to 40%,Rub,1
+398,Counter Culture Coffee,Organic Apollo Single Origin Espresso,12.99,9.99,8.99,Beverages,0.231,0.308,0.077,30% to 40%,Espresso,1
+408,Nancy's Fancy,Meyer Lemon Torrone,7.99,6.19,5.57,frozen_foods,0.225,0.303,0.078,30% to 40%,Torrone,1
+409,Nancy's Fancy,Dark Rum Choc Chip Choc Fondente,7.99,6.19,5.57,frozen_foods,0.225,0.303,0.078,30% to 40%,Fondente,1
+412,Nancy's Fancy,Salted Caramel Swirl Butterscotch Budino,7.99,6.19,5.57,frozen_foods,0.225,0.303,0.078,30% to 40%,Budino,1
+437,Sunshine Plant-Based Foods™,Ultimate Plant Burger,6.99,5.49,4.94,frozen_foods,0.215,0.293,0.078,20% to 30%,Burger,1
+458,EO,Hand Sanitizer,9.79,7.79,7.01,body_care,0.204,0.284,0.08,20% to 30%,Sanitizer,1
+459,Jason Natural Products,Cannabis Sativa Seed Oil Moisturizing Crème,9.79,7.79,7.01,body_care,0.204,0.284,0.08,20% to 30%,Crème,1
+468,PRODUCE,Strawberries,4.99,3.99,3.59,produce,0.2,0.281,0.081,20% to 30%,Strawberries,1
+474,Whole Foods Market,Sliced Roast Beef,4.99,3.99,3.59,meat,0.2,0.281,0.081,20% to 30%,Beef,1
+475,Remedy Organics,Organic Cacao Essentials,4.99,3.99,3.59,Beverages,0.2,0.281,0.081,20% to 30%,Essentials,1
+476,Teton Waters Ranch,Original Grass-fed Beef Breakfast Links,4.99,3.99,3.59,meat,0.2,0.281,0.081,20% to 30%,Links,1
+486,Remedy Organics,Organic Super Chai Fuel,4.99,3.99,3.59,dairy_eggs,0.2,0.281,0.081,20% to 30%,Fuel,1
+501,Westbrae Natural,Organic Low Sodium Lentils,2.49,1.99,1.79,pantry_essentials,0.201,0.281,0.08,20% to 30%,Lentil,1
+506,ALBA BOTANICA,Very Emollient Dry Skin Formula,14.99,11.99,10.79,body_care,0.2,0.28,0.08,20% to 30%,Formula,1
+515,ALBA BOTANICA,Leave In Detangler,7.49,5.99,5.39,body_care,0.2,0.28,0.08,20% to 30%,Detangler,1
+526,Pickled Planet,Organic Raw Fermented Taqueria Pickles,8.99,7.19,6.47,pantry_essentials,0.2,0.28,0.08,20% to 30%,Pickles,1
+539,Pickled Planet,Organic Kim Chee,8.99,7.19,6.47,pantry_essentials,0.2,0.28,0.08,20% to 30%,Chee,1
+543,Pickled Planet,Organic Beat Kraut,8.99,7.19,6.47,pantry_essentials,0.2,0.28,0.08,20% to 30%,Kraut,1
+551,Pacha Soap Co.,"Bath Crayons, Kids Warm 3 Pack",10.49,8.39,7.55,body_care,0.2,0.28,0.08,20% to 30%,Crayons,1
+552,Pickled Planet,Organic Herbal I Boost Sauerkraut,8.99,7.19,6.47,pantry_essentials,0.2,0.28,0.08,20% to 30%,Herbal,1
+555,Liquid IV,Lemon Lime Hydration Multiplier 10 Count,19.99,15.99,14.39,Beverages,0.2,0.28,0.08,20% to 30%,Multiplier,1
+589,AURA CACIA,Organic Ylang Ylang,12.99,10.49,9.44,body_care,0.192,0.273,0.081,20% to 30%,Ylang,1
+595,AURA CACIA,Chill Pill Essential Solution,12.99,10.49,9.44,body_care,0.192,0.273,0.081,20% to 30%,Solution,1
+599,EO,Cleansing Lavender Hand Wipes,4.19,3.39,3.05,body_care,0.191,0.272,0.081,20% to 30%,Wipes,1
+603,Burt's Bees,Baby Bee Face And Hand Cloths,5.79,4.69,4.22,body_care,0.19,0.271,0.081,20% to 30%,Face,1
+609,EARTH THERAPEUTICS,Exfoliating Hydro Towel,5.79,4.69,4.22,body_care,0.19,0.271,0.081,20% to 30%,Towel,1
+623,Ellenos,Greek Yogurt Lemon Curd,2.69,2.19,1.97,dairy_eggs,0.186,0.268,0.082,20% to 30%,Curd,1
+626,Ellenos,Real Greek Yogurt Marionberry,2.69,2.19,1.97,dairy_eggs,0.186,0.268,0.082,20% to 30%,Marionberry,1
+635,Ian's Natural Foods,Gluten Free Fish Sticks,6.99,5.69,5.12,frozen_foods,0.186,0.268,0.082,20% to 30%,Sticks,1
+638,Ellenos,Real Greek Yogurt Passionfruit,2.69,2.19,1.97,dairy_eggs,0.186,0.268,0.082,20% to 30%,Passionfruit,1
+662,Vermont Creamery,"Bijou Aged Goat Cheese ""Crottin""",10.99,8.99,8.09,dairy_eggs,0.182,0.264,0.082,20% to 30%,Crottin,1
+663,BUF CREAME,Mozzarella,10.99,8.99,8.09,dairy_eggs,0.182,0.264,0.082,20% to 30%,Mozzarella,1
+678,Culture Pop Soda,Pink Grapefruit Probiotic Soda 4pk,7.29,5.99,5.39,Beverages,0.178,0.261,0.083,20% to 30%,Grapefruit,1
+684,SEVENTH GENERATION,Pantiliners,6.29,5.19,4.67,body_care,0.175,0.258,0.083,20% to 30%,Pantiliners,1
+685,GoodPop,Dreamy Orange Push Up 3-Pack,4.79,3.99,3.59,frozen_foods,0.167,0.251,0.084,20% to 30%,Orange,1
+687,GoodPop,Dreamy Strawberry Push Up 3-Pack,4.79,3.99,3.59,frozen_foods,0.167,0.251,0.084,20% to 30%,Strawberry,1
+695,GT's Cocoyo,Organic Pure 8oz,5.99,4.99,4.49,dairy_eggs,0.167,0.25,0.083,20% to 30%,Pure,1
+703,Organic Valley,Organic Mozzarella Cheese Stringles,5.99,4.99,4.49,dairy_eggs,0.167,0.25,0.083,20% to 30%,Stringles,1
+712,Divina,Sweet And Hot Peppers,5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Peppers,1
+738,GT's Cocoyo,Living Coconut Yogurt Cacao,5.99,4.99,4.49,dairy_eggs,0.167,0.25,0.083,20% to 30%,Cacao,1
+759,Tom's of Maine,Toothbrush Whole Care,4.29,3.59,3.23,body_care,0.163,0.247,0.084,20% to 30%,Care,1
+765,Once Upon A Farm,"Apple, Cherry & Elderberry Immunity Blend",2.99,2.5,2.25,pantry_essentials,0.164,0.247,0.083,20% to 30%,Apple,1
+767,So Delicious,Yogurt Blueberry,1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Blueberry,1
+800,Tom's of Maine,Anti Plaque Sprearmint Flat Floss 32yd,3.79,3.19,2.87,body_care,0.158,0.243,0.085,20% to 30%,Floss,1
+804,Tom's of Maine,Men Mountain Spring Deodorant Stick,6.99,5.89,5.3,body_care,0.157,0.242,0.085,20% to 30%,Stick,1
+808,Lakanto,Maple Flavored Syrup,8.29,6.99,6.29,pantry_essentials,0.157,0.241,0.084,20% to 30%,Syrup,1
+809,ALAFFIA,Bubble Bath Coconut Chamomile,15.99,13.49,12.14,body_care,0.156,0.241,0.085,20% to 30%,Chamomile,1
+822,Counter Culture Coffee,Organic Number 46 12ozcoffee,12.99,10.99,9.89,Beverages,0.154,0.239,0.085,20% to 30%,Number,1
+824,Counter Culture Coffee,Hologram,12.99,10.99,9.89,Beverages,0.154,0.239,0.085,20% to 30%,Hologram,1
+830,Counter Culture Coffee,Big Trouble,12.99,10.99,9.89,Beverages,0.154,0.239,0.085,20% to 30%,Trouble,1
+839,Jason Natural Products,Aloe Vera Gel Tube,5.29,4.49,4.04,body_care,0.151,0.236,0.085,20% to 30%,Tube,1
+847,Tom's of Maine,Medium Adult Toothbrush,3.99,3.39,3.05,body_care,0.15,0.236,0.086,20% to 30%,Toothbrush,1
+951,GT's Alive,Ancient Mushroom Elixir Root Beer 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Beer,1
+976,Cascadian Farm,Organic Chopped Spinach,3.49,3,2.7,frozen_foods,0.14,0.226,0.086,20% to 30%,Spinach,1
+977,Cascadian Farm,Organic Broc Florets,3.49,3,2.7,frozen_foods,0.14,0.226,0.086,20% to 30%,Florets,1
+983,Cascadian Farm,Organic Mirepoix,3.49,3,2.7,frozen_foods,0.14,0.226,0.086,20% to 30%,Mirepoix,1
+988,Montebello,Organic Tarchiette,3.49,3,2.7,pantry_essentials,0.14,0.226,0.086,20% to 30%,Tarchiette,1
+994,GoodPop,Red,4.99,4.29,3.86,frozen_foods,0.14,0.226,0.086,20% to 30%,Red,1
+996,GT's Alive,Ancient Mushroom Elixir Cascara Cider 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Cider,1
+1003,Cascadian Farm,Organic Sweet Green Peas,3.49,3,2.7,frozen_foods,0.14,0.226,0.086,20% to 30%,Peas,1
+1019,Cypress Grove,Truffle Tremor,29.99,25.99,23.39,dairy_eggs,0.133,0.22,0.087,20% to 30%,Tremor,1
+1026,Seoul,Kimchi Mayo,5.99,5.19,4.67,pantry_essentials,0.134,0.22,0.086,20% to 30%,Mayo,1
+1031,Clover Sonoma,Lactose Free Vitamin A & D 2% Milk,3.79,3.29,2.96,dairy_eggs,0.132,0.219,0.087,20% to 30%,Lactose,1
+1069,PRODUCE,Sumo Citrus,4.49,3.99,3.59,produce,0.111,0.2,0.089,10% to 20%,Citrus,1
+1070,Lakewood,Pure Aloe Organic,8.99,7.99,7.19,Beverages,0.111,0.2,0.089,10% to 20%,Organic,1
+1072,Wallaby,Yogurt Aussie Smooth Whole Milk Plain,4.49,3.99,3.59,dairy_eggs,0.111,0.2,0.089,10% to 20%,Plain,1
+1091,Arrowhead Mills,Organic Buckwheat Flour Gluten Free,5.69,5.09,4.58,pantry_essentials,0.105,0.195,0.09,10% to 20%,Free,1
+1095,Wellshire Farms,Colameco's Black Pepper Salame Chub,9.49,8.49,7.64,meat,0.105,0.195,0.09,10% to 20%,Chub,1
+1097,Colamecos,Dried Uncured Chorizo,9.49,8.49,7.64,meat,0.105,0.195,0.09,10% to 20%,Chorizo,1
+1125,Purely Elizabeth,Original Superfood Oats Cup,2.99,2.69,2.42,pantry_essentials,0.1,0.191,0.091,10% to 20%,Original,1
+1140,Upton's Naturals,Bar-b-que Jackfruit,4.99,4.49,4.04,meat,0.1,0.19,0.09,10% to 20%,Jackfruit,1
+1147,Quorn,Turk'y Roast,8.99,8.09,7.28,frozen_foods,0.1,0.19,0.09,10% to 20%,Roast,1
+1155,Frontera,Queso With Jalapeno,4.99,4.49,4.04,pantry_essentials,0.1,0.19,0.09,10% to 20%,Queso,1
+1176,Sabatino Tartufi,Honey Truffle,14.99,13.49,12.14,pantry_essentials,0.1,0.19,0.09,10% to 20%,Truffle,1
+1180,Vita Coco,Coconut Water 4pk,9.99,8.99,8.09,Beverages,0.1,0.19,0.09,10% to 20%,Coconut,1
+1195,Whole Foods Market,Organic Fruity Super Rings,4.29,3.89,3.5,pantry_essentials,0.093,0.184,0.091,10% to 20%,Rings,1
+1199,Whole Foods Market,"Organic Instant Pudding, Chocolate",2.19,1.99,1.79,pantry_essentials,0.091,0.183,0.092,10% to 20%,Pudding,1
+1200,Nature's Path Organic,Superseeds & Grains Superfood Oatmeal,6.49,5.89,5.3,pantry_essentials,0.092,0.183,0.091,10% to 20%,Superseeds,1
+1209,Cappello's,Keto Buffalo Ranch with Roasted Cauliflower Pizza,10.99,9.99,8.99,frozen_foods,0.091,0.182,0.091,10% to 20%,Ranch,1
+1210,Cappello's,Keto Cheese Pizza,10.99,9.99,8.99,frozen_foods,0.091,0.182,0.091,10% to 20%,Pizza,1
+1211,Atkins Ranch,Ground Lamb,10.99,9.99,8.99,meat,0.091,0.182,0.091,10% to 20%,Lamb,1
+1232,Whole Foods Market,"Canned Fruit, Organic Yellow Cling Peach Slices in Organic Peach & Pear Juice from Concentrate",2.49,2.29,2.06,pantry_essentials,0.08,0.173,0.093,10% to 20%,Fruit,1
+1237,Counter Culture Coffee,Organic Slow Motion Decaf,12.99,11.99,10.79,Beverages,0.077,0.169,0.092,10% to 20%,Decaf,1
+1241,Hervé Mons,1924 Bleu,26.99,24.99,22.49,dairy_eggs,0.074,0.167,0.093,10% to 20%,Bleu,1
+1249,Stonyfield,Organic Blueberry Yogurt Pouches,1.49,1.39,1.25,dairy_eggs,0.067,0.161,0.094,10% to 20%,Pouches,1
+1260,Vital Farms,Pasture Raised Large Grade A Eggs,7.99,7.49,6.74,dairy_eggs,0.063,0.156,0.093,10% to 20%,Pasture,1
+1261,Sown,Organic Sweet & Creamy Oat Creamer,4.99,4.69,4.22,dairy_eggs,0.06,0.154,0.094,10% to 20%,Sweet,1
+1279,Emmi,Ages Kaltbatch La Cremeux,21.99,20.99,18.89,dairy_eggs,0.045,0.141,0.096,10% to 20%,Cremeux,1
+1292,Fiji,Artesian Water 12 Pk,29.99,28.99,26.09,Beverages,0.033,0.13,0.097,10% to 20%,Pk,1
+1383,Annie's Homegrown,Deluxe Mac N Cheese Classic,4.39,3,2.7,pantry_essentials,0.317,0.385,0.068,30% to 40%,Classic,1
+1391,Greyston Bakery,Vegan Fudge Brownie,2.39,1.67,1.5,bread_rolls_bakery,0.301,0.372,0.071,30% to 40%,Brownie,1
+1656,Peet's Coffee,Organic Alma De La Tierra Kcup,10.99,8.69,7.82,Beverages,0.209,0.288,0.079,20% to 30%,Kcup,1
+1657,Peet's Coffee,Major Dickason's Blend K-cup,10.99,8.69,7.82,Beverages,0.209,0.288,0.079,20% to 30%,Dickason,1
+1721,DUCK TRAP RIVER FISH FARM,Smoked Sockeye Salmon,9.99,7.99,7.19,seafood,0.2,0.28,0.08,20% to 30%,Salmon,1
+1831,Pamela's Products,Gluten-free Baking & Pancake Mix (4 Lb),17.99,14.99,13.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Baking,1
+1837,Kourella's,Organic Barrel Feta,5.99,4.99,4.49,dairy_eggs,0.167,0.25,0.083,20% to 30%,Feta,1
+1953,ALAFFIA,Wild Lavender Whipped Shea Butter & Coconut Oil,13.79,11.79,10.61,body_care,0.145,0.231,0.086,20% to 30%,Whipped,1
+1972,Forces Of Nature,Organic Rollerball Scar Control Medicine,13.99,11.99,10.79,body_care,0.143,0.229,0.086,20% to 30%,Medicine,1
+2273,CASA FORCELLO,Crab Apple Mostarda,11.99,5.99,5.39,pantry_essentials,0.5,0.55,0.05,50% or more,Mostarda,1
+2283,Santa Cruz Organic,Organic Cran Fizz,4.49,2.67,2.4,Beverages,0.405,0.465,0.06,40% to 50%,Fizz,1
+2347,Freak Flag Organics,Organic Broccoli & Cheese Mac & Freak,2.99,2,1.8,dairy_eggs,0.331,0.398,0.067,30% to 40%,Broccoli,1
+2361,Lactalis,Brie De Paris,12.99,8.99,8.09,dairy_eggs,0.308,0.377,0.069,30% to 40%,Paris,1
+2486,Whole Foods Market,Classic Beef Chili With Beans,8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Chili,1
+2564,Lactalis,Le Petit Brie,15.99,11.99,10.79,dairy_eggs,0.25,0.325,0.075,30% to 40%,Brie,1
+2640,Vermont Creamery,St. Albans,8.99,6.99,6.29,dairy_eggs,0.222,0.3,0.078,20% to 30%,Albans,1
+2641,Nancy's Fancy,Coconut Stracciatella With Dark Choc,8.99,6.99,6.29,frozen_foods,0.222,0.3,0.078,20% to 30%,Stracciatella,1
+2666,Pineland Farms,Ground Beef 90% Lean/10% Fat,6.99,5.49,4.94,meat,0.215,0.293,0.078,20% to 30%,Fat,1
+2700,EARTH THERAPEUTICS,Loofah Sisal Bath Mitt,6.79,5.39,4.85,body_care,0.206,0.286,0.08,20% to 30%,Mitt,1
+2703,EARTH THERAPEUTICS,Loofah Blown Up,3.39,2.69,2.42,body_care,0.206,0.286,0.08,20% to 30%,Loofah,1
+2765,EO,Lavender Sanitizing Wipes Tub,29.99,23.99,21.59,body_care,0.2,0.28,0.08,20% to 30%,Tub,1
+2777,EARTH THERAPEUTICS,Gray Aloe Infused Socks,9.99,7.99,7.19,body_care,0.2,0.28,0.08,20% to 30%,Socks,1
+2837,EARTH THERAPEUTICS,Wooden Foot File,4.19,3.39,3.05,body_care,0.191,0.272,0.081,20% to 30%,File,1
+2864,Neilly's Foods,Yucca Fries,5.49,4.49,4.04,frozen_foods,0.182,0.264,0.082,20% to 30%,Fries,1
+2893,MOMPOPS,Banana Raspberry Mini Pops 6ct,4.19,3.49,3.14,frozen_foods,0.167,0.251,0.084,20% to 30%,Pops,1
+2972,Napa Valley Naturals,Maple Dijon & Avocado Oil Dressing,7.99,6.69,6.02,pantry_essentials,0.163,0.247,0.084,20% to 30%,Dijon,1
+2975,Napa Valley Naturals,Honey Lemon & Avocado Oil Dressing,7.99,6.69,6.02,pantry_essentials,0.163,0.247,0.084,20% to 30%,Lemon,1
+3086,Creminelli,Barolo Salame,13.99,11.99,10.79,meat,0.143,0.229,0.086,20% to 30%,Salame,1
+3107,PRODUCE,Organic Cripps Pink Apples Bag,6.99,5.99,5.39,produce,0.143,0.229,0.086,20% to 30%,Bag,1
+3119,Dolcezza Gelato,Gelato Georgia Butter Pecan,6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Pecan,1
+3142,Montebello,Organic Linguine,3.49,3,2.7,pantry_essentials,0.14,0.226,0.086,20% to 30%,Linguine,1
+3263,Hello,Kids Watermelon Fluoride Free Rinse,5.39,4.79,4.31,body_care,0.111,0.2,0.089,10% to 20%,Fluoride,1
+3268,SEAFOOD,Tilapia Fillet,8.99,7.99,7.19,seafood,0.111,0.2,0.089,10% to 20%,Tilapia,1
+3278,Colamecos,Uncured Sopressata,9.49,8.49,7.64,meat,0.105,0.195,0.09,10% to 20%,Sopressata,1
+3314,GREAT RANGE BISON,Fresh Ground Bison,9.99,8.99,8.09,meat,0.1,0.19,0.09,10% to 20%,Bison,1
+3456,MODERN PRODUCTS,Spike Vege-sal,9.99,9.79,8.81,pantry_essentials,0.02,0.118,0.098,10% to 20%,Spike,1
+18,Lifeway,Lowfat Cherry Kefir,4.59,2.67,2.4,dairy_eggs,0.418,0.477,0.059,40% to 50%,Kefir,2
+83,MEAT,Beef Top Sirloin Steak,11.99,7.99,7.19,meat,0.334,0.4,0.066,30% to 40%,Steak,2
+91,Whole Foods Market,Corn and Shrimp Chowder,9.99,0,6,prepared_foods,1,0.399,0,30% to 40%,Shrimp,2
+113,Whole Foods Market,Easy Peel White Shrimp 8-12 Count,19.99,13.49,12.14,seafood,0.325,0.393,0.068,30% to 40%,Shrimp,2
+116,DIVACUP,Diva Cup Model 1,47.99,32.69,29.42,body_care,0.319,0.387,0.068,30% to 40%,Model,2
+117,DIVACUP,Model 2 Menstrual Cup,47.99,32.69,29.42,body_care,0.319,0.387,0.068,30% to 40%,Model,2
+139,Tasteful Selections,Organic Ruby Sensations Potatoes,4.99,3.5,3.15,produce,0.299,0.369,0.07,30% to 40%,Potatoes,2
+140,PRODUCE,Organic Brussels Sprouts,4.99,3.5,3.15,produce,0.299,0.369,0.07,30% to 40%,Sprouts,2
+144,PRODUCE,Organic Gold Creamer Potatoes,4.99,3.5,3.15,produce,0.299,0.369,0.07,30% to 40%,Potatoes,2
+201,Enviro Products by New Wave,Premium Shower Filter,44.99,32.99,29.69,lifestyle,0.267,0.34,0.073,30% to 40%,Filter,2
+214,Nonna Pia's,Classic Balsamic Glaze,8.79,6.49,5.84,pantry_essentials,0.262,0.336,0.074,30% to 40%,Glaze,2
+242,Rao's Homemade,Single Serve Meat Lasagna,6.99,5.19,4.67,frozen_foods,0.258,0.332,0.074,30% to 40%,Lasagna,2
+366,SAUCE GODDESS,Sweet Spicy Grill Glaze,7.29,5.49,4.94,pantry_essentials,0.247,0.322,0.075,30% to 40%,Glaze,2
+457,ALBA BOTANICA,Facial Sheer Shield Sunscreen Spf 45,16.99,13.49,12.14,body_care,0.206,0.285,0.079,20% to 30%,Spf,2
+473,Cold Mountain,Red Miso,4.49,3.59,3.23,pantry_essentials,0.2,0.281,0.081,20% to 30%,Miso,2
+480,Remedy Organics,Organic Matcha Oxidants,4.99,3.99,3.59,dairy_eggs,0.2,0.281,0.081,20% to 30%,Oxidants,2
+484,Remedy Organics,Organic Blue Oxidants,4.99,3.99,3.59,Beverages,0.2,0.281,0.081,20% to 30%,Oxidants,2
+489,Cold Mountain,Mellow White Miso,4.49,3.59,3.23,pantry_essentials,0.2,0.281,0.081,20% to 30%,Miso,2
+530,Pickled Planet,Organic Raw Basil Garlic Sauerkraut,8.99,7.19,6.47,pantry_essentials,0.2,0.28,0.08,20% to 30%,Sauerkraut,2
+541,ALBA BOTANICA,Baby Clear Mineral Sunscreen Spf 50,14.99,11.99,10.79,body_care,0.2,0.28,0.08,20% to 30%,Spf,2
+553,Pickled Planet,Organic Raw Sauerkraut,8.99,7.19,6.47,pantry_essentials,0.2,0.28,0.08,20% to 30%,Sauerkraut,2
+583,Jason Natural Products,Himalayan Pink Salt,11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Salt,2
+618,NEW WAVE,Premium Shower Replacement Filter,31.99,25.99,23.39,lifestyle,0.188,0.269,0.081,20% to 30%,Filter,2
+666,Fondueand More,Cheese Fondue Box,10.99,8.99,8.09,dairy_eggs,0.182,0.264,0.082,20% to 30%,Box,2
+706,GT's Cocoyo,Living Coconut Yogurt Raspberry,5.99,4.99,4.49,dairy_eggs,0.167,0.25,0.083,20% to 30%,Raspberry,2
+723,Divina,Marinated Artichokes,5.99,4.99,4.49,produce,0.167,0.25,0.083,20% to 30%,Artichokes,2
+783,So Delicious,Yogurt Raspberry,1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Raspberry,2
+870,MAD HIPPIE,Mad Hip Normal/dry Cream Cleanser,16.99,14.49,13.04,beauty,0.147,0.232,0.085,20% to 30%,Cleanser,2
+893,Outer Aisle Gourmet,Everything Cauliflower Sandwich Thins,6.99,5.99,5.39,prepared_foods,0.143,0.229,0.086,20% to 30%,Sandwich,2
+896,Outer Aisle Gourmet,Plantpower Sandwich Thins,6.99,5.99,5.39,bread_rolls_bakery,0.143,0.229,0.086,20% to 30%,Sandwich,2
+1010,Organic Valley,Organic Jack,7.29,6.29,5.66,dairy_eggs,0.137,0.224,0.087,20% to 30%,Jack,2
+1060,Emperor's Kitchen Asian Style Condiments,Organic Chopped Garlic,4.19,3.69,3.32,pantry_essentials,0.119,0.208,0.089,20% to 30%,Garlic,2
+1061,EMPERORS KITCHEN,Organic Pureed Garlic,4.19,3.69,3.32,produce,0.119,0.208,0.089,20% to 30%,Garlic,2
+1103,Frontera,Double Roasted Tomato Salsa (Medium),4.79,4.29,3.86,pantry_essentials,0.104,0.194,0.09,10% to 20%,Salsa,2
+1105,Frontera,Jalapeño Cilantro Salsa (Medium),4.79,4.29,3.86,pantry_essentials,0.104,0.194,0.09,10% to 20%,Salsa,2
+1144,SUCKERPUNCH,Snappy Clasic Dill Spears,6.99,6.29,5.66,pantry_essentials,0.1,0.19,0.09,10% to 20%,Spears,2
+1172,SUCKERPUNCH,Fiery Spice Garlic Dill Spears,6.99,6.29,5.66,pantry_essentials,0.1,0.19,0.09,10% to 20%,Spears,2
+1222,Rosti,Stuffed Baked Potato,5.99,5.49,4.94,frozen_foods,0.083,0.175,0.092,10% to 20%,Potato,2
+1223,NEALS YARD,Keens Farmhouse Cheddar,23.99,21.99,19.79,dairy_eggs,0.083,0.175,0.092,10% to 20%,Cheddar,2
+1224,Rosti,Three Cheese Crispy Filled Potato,5.99,5.49,4.94,frozen_foods,0.083,0.175,0.092,10% to 20%,Potato,2
+1233,AMERICAN BASIL,Dairy Free Perfectto,12.99,11.99,10.79,pantry_essentials,0.077,0.169,0.092,10% to 20%,Perfectto,2
+1234,BARBERS,Sweet Red Grass Fed Cheddar,12.99,11.99,10.79,dairy_eggs,0.077,0.169,0.092,10% to 20%,Cheddar,2
+1236,AMERICAN BASIL,Pesto Perfectto,12.99,11.99,10.79,pantry_essentials,0.077,0.169,0.092,10% to 20%,Perfectto,2
+1244,GoodBelly,Supershot Extra Boost Lemon Ginger Oatdrink,7.29,6.79,6.11,dairy_eggs,0.069,0.162,0.093,10% to 20%,Oatdrink,2
+1245,GoodBelly,Vanilla Chamomile Supershot Oatdrink,7.29,6.79,6.11,Beverages,0.069,0.162,0.093,10% to 20%,Oatdrink,2
+1252,Stonyfield,Organic Yogurt Tod Pear Spinach Mango,1.49,1.39,1.25,dairy_eggs,0.067,0.161,0.094,10% to 20%,Mango,2
+1256,Annie's Homegrown,Mini Uncured Pepperoni Pizza Bagels,4.49,4.19,3.77,frozen_foods,0.067,0.16,0.093,10% to 20%,Bagel,2
+1257,Annie's Homegrown,Mini Three Cheese Pizza Bagels,4.49,4.19,3.77,frozen_foods,0.067,0.16,0.093,10% to 20%,Bagel,2
+1258,ROGUE CREAMERY,Organic Enraptured Blue,29.99,27.99,25.19,dairy_eggs,0.067,0.16,0.093,10% to 20%,Blue,2
+1263,Sown,Organic Vanilla Oat Creamer,4.99,4.69,4.22,pantry_essentials,0.06,0.154,0.094,10% to 20%,Creamer,2
+1264,Sown,Organic Unsweetened Oat Creamer,4.99,4.69,4.22,dairy_eggs,0.06,0.154,0.094,10% to 20%,Creamer,2
+1274,Brazi Bites,"Gluten-Free Empanadas, Chicken & Cheese",5.99,5.69,5.12,frozen_foods,0.05,0.145,0.095,10% to 20%,Empanadas,2
+1275,Brazi Bites,"Gluten-Free Empanadas, Black Bean & Cheddar",5.99,5.69,5.12,frozen_foods,0.05,0.145,0.095,10% to 20%,Empanadas,2
+1276,Emmi,Swiss Raclette,19.99,18.99,17.09,dairy_eggs,0.05,0.145,0.095,10% to 20%,Raclette,2
+1286,siggi's,Plant-Based Probiotics Coconut Vanilla Kefir,2.49,2.39,2.15,dairy_eggs,0.04,0.137,0.097,10% to 20%,Kefir,2
+1294,Annie's Homegrown,Cheese Pizza Poppers,3.29,3.19,2.87,frozen_foods,0.03,0.128,0.098,10% to 20%,Poppers,2
+1295,Annie's Homegrown,Pepperoni Pizza Poppers,3.29,3.19,2.87,frozen_foods,0.03,0.128,0.098,10% to 20%,Poppers,2
+1737,Liquid IV,Hydration Box,21.49,17.29,15.56,Beverages,0.195,0.276,0.081,20% to 30%,Box,2
+1766,Rumiano Cheese,Organic Sliced Monterey Jack,5.29,4.29,3.86,dairy_eggs,0.189,0.27,0.081,20% to 30%,Jack,2
+2357,duBreton,Ground Pork,6.49,4.49,4.04,meat,0.308,0.378,0.07,30% to 40%,Pork,2
+2458,duBreton,Organic Ground Pork,7.49,5.49,4.94,meat,0.267,0.34,0.073,30% to 40%,Pork,2
+2545,Rao's Homemade,Meat Lasagna,12.79,9.59,8.63,frozen_foods,0.25,0.325,0.075,30% to 40%,Lasagna,2
+2665,SEAFOOD,Albacore Tuna Steak,13.99,10.99,9.89,seafood,0.214,0.293,0.079,20% to 30%,Steak,2
+2747,ALBA BOTANICA,Pineapple Enzyme Facial Cleanser,13.49,10.79,9.71,beauty,0.2,0.28,0.08,20% to 30%,Cleanser,2
+2981,Greyston Bakery,Birthday Cake Blondie,1.99,1.67,1.5,bread_rolls_bakery,0.161,0.246,0.085,20% to 30%,Blondie,2
+3002,Greyston Bakery,Brown Sugar Blondie,1.99,1.67,1.5,bread_rolls_bakery,0.161,0.246,0.085,20% to 30%,Blondie,2
+3048,Whole Foods Market,Roasted Brussels Sprouts & Spinach with Lemon Confit,9.99,8.49,7.64,prepared_foods,0.15,0.235,0.085,20% to 30%,Sprouts,2
+3201,PRODUCE,Organic Artichokes,3.99,3.49,3.14,produce,0.125,0.213,0.088,20% to 30%,Artichokes,2
+3216,MOMPOPS,Mini Mango,3.99,3.49,3.14,frozen_foods,0.125,0.213,0.088,20% to 30%,Mango,2
+3368,SEAFOOD,Haddock Fillet,11.99,10.99,9.89,seafood,0.083,0.175,0.092,10% to 20%,Fillet,2
+3372,SEAFOOD,Halibut Fillet,24.99,22.99,20.69,seafood,0.08,0.172,0.092,10% to 20%,Fillet,2
+3390,JASPER HILL,Bayley Hazen Blue,27.99,25.99,23.39,dairy_eggs,0.071,0.164,0.093,10% to 20%,Blue,2
+3398,David's,Kosher Salt,2.99,2.79,2.51,pantry_essentials,0.067,0.161,0.094,10% to 20%,Salt,2
+3413,Emmi,Swiss Raclette,17.99,16.99,15.29,dairy_eggs,0.056,0.15,0.094,10% to 20%,Raclette,2
+40,Groundwork Coffee,Organic Bitches Brew Cold Brew,4.99,3,2.7,Beverages,0.399,0.459,0.06,40% to 50%,Brew,3
+101,PRODUCE,Organic Red Chard,2.49,1.67,1.5,produce,0.329,0.398,0.069,30% to 40%,Chard,3
+102,PRODUCE,Organic Dino Kale,2.49,1.67,1.5,produce,0.329,0.398,0.069,30% to 40%,Kale,3
+183,Cal-Organic,Organic Green Chard,2.29,1.67,1.5,produce,0.271,0.345,0.074,30% to 40%,Chard,3
+185,PRODUCE,Organic Rainbow Chard,2.29,1.67,1.5,produce,0.271,0.345,0.074,30% to 40%,Chard,3
+296,Shroomi,Mandarin Turmeric Adaptogenic Mushroom Shot,3.99,2.99,2.69,Beverages,0.251,0.326,0.075,30% to 40%,Shot,3
+297,Shroomi,Yuzu Honey Adaptogenic Mushroom Shot,3.99,2.99,2.69,Beverages,0.251,0.326,0.075,30% to 40%,Shot,3
+303,Shroomi,Pomegranate Mint Adaptogenic Mushroom Shot,3.99,2.99,2.69,Beverages,0.251,0.326,0.075,30% to 40%,Shot,3
+333,KISS MY FACE,Fragrance Free Moisture Shave,7.99,5.99,5.39,body_care,0.25,0.325,0.075,30% to 40%,Shave,3
+340,KISS MY FACE,Cool Mint Moisture Shave,7.99,5.99,5.39,body_care,0.25,0.325,0.075,30% to 40%,Shave,3
+386,GoodPop,Orange N' Cream 4-Pack,4.99,3.79,3.41,frozen_foods,0.24,0.317,0.077,30% to 40%,Pack,3
+419,Nature's Path Organic,Organic Heritage Flakes,4.49,3.49,3.14,pantry_essentials,0.223,0.301,0.078,30% to 40%,Flakes,3
+508,Pacha Soap Co.,Sweet Almond Honeycomb Froth Bomb,5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,Bomb,3
+511,Pacha Soap Co.,Bath Salts Muscle Salt Block,5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,Block,3
+512,Pacha Soap Co.,Rosewater Froth Bomb 5oz,5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,Bomb,3
+516,Pacha Soap Co.,French Lavender Round Froth Bomb,5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,Bomb,3
+520,Burt's Bees,Baby Dusting Powder,9.49,7.59,6.83,body_care,0.2,0.28,0.08,20% to 30%,Powder,3
+521,Pacha Soap Co.,Bath Salts Detox Salt Block,5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,Block,3
+544,Tillen Farms,Bada Bing Cherries,7.49,5.99,5.39,pantry_essentials,0.2,0.28,0.08,20% to 30%,Cherries,3
+560,Tillen Farms,Merry Maraschino Pitted Cherries With Stems,7.49,5.99,5.39,pantry_essentials,0.2,0.28,0.08,20% to 30%,Cherries,3
+622,SEVENTH GENERATION,Maxi Pads Overnight Withwings,6.99,5.69,5.12,body_care,0.186,0.268,0.082,20% to 30%,Pads,3
+631,ALBA BOTANICA,Mango Vanilla Cream Shave,6.99,5.69,5.12,body_care,0.186,0.268,0.082,20% to 30%,Shave,3
+632,SEVENTH GENERATION,Maxi Pads Regular,6.99,5.69,5.12,body_care,0.186,0.268,0.082,20% to 30%,Pads,3
+679,Klare Melk,Truffle Gouda,27.99,22.99,20.69,dairy_eggs,0.179,0.261,0.082,20% to 30%,Gouda,3
+699,GT's Cocoyo,Organic Vanilla 8oz,5.99,4.99,4.49,dairy_eggs,0.167,0.25,0.083,20% to 30%,Vanilla,3
+762,CLEAN CAUSE,Peach Yerba Mate,2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Mate,3
+764,CLEAN CAUSE,Blackberry Yerba Mate,2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Mate,3
+766,CLEAN CAUSE,Raspberry Yerba Mate,2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Mate,3
+918,Rumiano Cheese,Organic Gouda,6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Gouda,3
+997,GT's Alive,Ancient Mushroom Elixir Matcha Vanilla 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Vanilla,3
+1025,ELITE FLOWERS,Occasional Bouquet,14.99,12.99,11.69,floral,0.133,0.22,0.087,20% to 30%,Bouquet,3
+1063,PRODUCE,Organic Green Kale,1.89,1.67,1.5,produce,0.116,0.206,0.09,20% to 30%,Kale,3
+1064,PRODUCE,Organic Red Kale,1.89,1.67,1.5,produce,0.116,0.206,0.09,20% to 30%,Kale,3
+1079,Modern Times Beer,Black House Blend Cold Brew,4.49,3.99,3.59,Beverages,0.111,0.2,0.089,10% to 20%,Brew,3
+1092,Arrowhead Mills,Organic Stone Ground Whole Wheat Flour,3.79,3.39,3.05,pantry_essentials,0.106,0.195,0.089,10% to 20%,Flour,3
+1115,Jovial,Organic Whole Wheat Einkorn Flour,6.69,5.99,5.39,pantry_essentials,0.105,0.194,0.089,10% to 20%,Flour,3
+1146,Navitas Organics,Organic Cacao Powder,21.99,19.79,17.81,dairy_eggs,0.1,0.19,0.09,10% to 20%,Powder,3
+1162,Ancient Harvest,Gluten-free Quinoa Hot Cereal Flakes,7.99,7.19,6.47,pantry_essentials,0.1,0.19,0.09,10% to 20%,Flakes,3
+1168,Il Forteto,Genovese Pesto,19.99,17.99,16.19,pantry_essentials,0.1,0.19,0.09,10% to 20%,Pesto,3
+1184,Navitas Organics,Organic Keto Cacao Powder,16.49,14.89,13.4,Beverages,0.097,0.187,0.09,10% to 20%,Powder,3
+1214,MODERN TIMES,Guatemala San Emiliano Cold Brew,5.69,5.19,4.67,Beverages,0.088,0.179,0.091,10% to 20%,Brew,3
+1226,Whole Foods Market,Organic Honey Maple Uncured Ham,5.99,5.49,4.94,meat,0.083,0.175,0.092,10% to 20%,Ham,3
+1230,Whole Foods Market,Organic Uncured Black Forest Ham,5.99,5.49,4.94,meat,0.083,0.175,0.092,10% to 20%,Ham,3
+1238,AMERICAN BASIL,Roasted Garlic Pesto,12.99,11.99,10.79,pantry_essentials,0.077,0.169,0.092,10% to 20%,Pesto,3
+1250,Stonyfield,Organic Organic Whole Milk Strawberry Beet Berry Yogurt Pouch,1.49,1.39,1.25,dairy_eggs,0.067,0.161,0.094,10% to 20%,Pouch,3
+1253,Stonyfield,Organic Low Fat Strawberry Yogurt Pouch,1.49,1.39,1.25,dairy_eggs,0.067,0.161,0.094,10% to 20%,Pouch,3
+1254,Stonyfield,Organic Blueberry Whole Milk Yogurt Pouch,1.49,1.39,1.25,dairy_eggs,0.067,0.161,0.094,10% to 20%,Pouch,3
+1267,KAASAGGIO,Robusto Gouda,18.99,17.99,16.19,dairy_eggs,0.053,0.147,0.094,10% to 20%,Gouda,3
+2158,ELITE FLOWERS,Sunset Bouquet,9.99,8.99,8.09,floral,0.1,0.19,0.09,10% to 20%,Bouquet,3
+2365,UNCLE JERRYS,Extra Dark Low Salt Pretzels,4.29,2.99,2.69,snacks_chips_salsas_dips,0.303,0.373,0.07,30% to 40%,Pretzels,3
+2367,UNCLE JERRYS,Special Pretzels,4.29,2.99,2.69,snacks_chips_salsas_dips,0.303,0.373,0.07,30% to 40%,Pretzels,3
+2370,UNCLE JERRYS,Extra Dark Pretzels,4.29,2.99,2.69,snacks_chips_salsas_dips,0.303,0.373,0.07,30% to 40%,Pretzels,3
+2760,Pacha Soap Co.,Sleep Salt Block 5oz,5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,Block,3
+2786,FLORAL,Cheerful Bouquet,9.99,7.99,7.19,floral,0.2,0.28,0.08,20% to 30%,Bouquet,3
+2799,Tillen Farms,Bourbon Bada Bing Cherries,7.49,5.99,5.39,pantry_essentials,0.2,0.28,0.08,20% to 30%,Cherries,3
+2991,So Delicious,Yogurt Vanilla,1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Vanilla,3
+3045,Fra'Mani,Rosemary Ham,15.99,13.59,12.23,meat,0.15,0.235,0.085,20% to 30%,Ham,3
+3106,VITABELLA,Organic Traditional Corn Flakes,3.49,2.99,2.69,pantry_essentials,0.143,0.229,0.086,20% to 30%,Flakes,3
+3164,Tom's of Maine,Naturally Clean Toothbrush Twin Pack,5.79,4.99,4.49,body_care,0.138,0.225,0.087,20% to 30%,Pack,3
+3223,Il Forteto,Genovese Pesto,15.99,13.99,12.59,pantry_essentials,0.125,0.213,0.088,20% to 30%,Pesto,3
+3285,Jovial,100 % Organic Einkorn All-purpose Flour,6.69,5.99,5.39,pantry_essentials,0.105,0.194,0.089,10% to 20%,Flour,3
+3394,GoodPop,Cookies N' Cream 4-Pack,4.29,3.99,3.59,frozen_foods,0.07,0.163,0.093,10% to 20%,Pack,3
+3414,SEVENTH GENERATION,Ultra Thin Pads Spr Long With win,5.49,5.19,4.67,body_care,0.055,0.149,0.094,10% to 20%,Pads,3
+133,Cascadian Farm,Organic Hearty Blend,4.29,3,2.7,frozen_foods,0.301,0.371,0.07,30% to 40%,Blend,4
+143,Kite Hill,Plant Based Tzatziki Dip,4.99,3.5,3.15,snacks_chips_salsas_dips,0.299,0.369,0.07,30% to 40%,Dip,4
+145,Kite Hill,Plant Based French Onion Dip,4.99,3.5,3.15,pantry_essentials,0.299,0.369,0.07,30% to 40%,Dip,4
+146,Kite Hill,Plant Based Ranch Dip,4.99,3.5,3.15,snacks_chips_salsas_dips,0.299,0.369,0.07,30% to 40%,Dip,4
+223,bionaturæ,Organic Tomato Paste,2.69,1.99,1.79,pantry_essentials,0.26,0.335,0.075,30% to 40%,Paste,4
+237,Whole Foods Market,Turkey Chili With White Beans,8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Turkey,4
+342,Cascadian Farm,Riced Cauliflower Blend,3.99,3,2.7,frozen_foods,0.248,0.323,0.075,30% to 40%,Blend,4
+388,GoodPop,Strawberry Lemonade 4-Pack,4.99,3.79,3.41,frozen_foods,0.24,0.317,0.077,30% to 40%,Lemonade,4
+405,Amore,Tomato Paste,3.49,2.69,2.42,pantry_essentials,0.229,0.307,0.078,30% to 40%,Paste,4
+432,Me & The Bees,Classic Lemonade,3.19,2.5,2.25,Beverages,0.216,0.295,0.079,20% to 30%,Lemonade,4
+433,Me & The Bees,Prickly Pear Lemonade,3.19,2.5,2.25,Beverages,0.216,0.295,0.079,20% to 30%,Lemonade,4
+434,Me & The Bees,Ginger Lemonade,3.19,2.5,2.25,Beverages,0.216,0.295,0.079,20% to 30%,Lemonade,4
+451,ALBA BOTANICA,Honey Mango Bath Gel,14.49,11.49,10.34,body_care,0.207,0.286,0.079,20% to 30%,Gel,4
+454,ALBA BOTANICA,Midnight Tuberose Shower Gel,14.49,11.49,10.34,body_care,0.207,0.286,0.079,20% to 30%,Gel,4
+455,ALBA BOTANICA,French Lavender Shower Gel,14.49,11.49,10.34,body_care,0.207,0.286,0.079,20% to 30%,Gel,4
+456,ALBA BOTANICA,Coconut Rescue Bath & Shower Gel,14.49,11.49,10.34,body_care,0.207,0.286,0.079,20% to 30%,Bath,4
+470,AURA CACIA,Relaxing Lavender Mineral Bath,3.99,3.19,2.87,body_care,0.201,0.281,0.08,20% to 30%,Bath,4
+483,EARTH THERAPEUTICS,Blue Hydro Body Sponge,4.99,3.99,3.59,body_care,0.2,0.281,0.081,20% to 30%,Sponge,4
+514,AURA CACIA,Lavender Body Mist,7.99,6.39,5.75,body_care,0.2,0.28,0.08,20% to 30%,Mist,4
+529,AURA CACIA,Neroli Hydrosol Mist,10.99,8.79,7.91,body_care,0.2,0.28,0.08,20% to 30%,Mist,4
+531,AURA CACIA,Rose Hydrosol Mist,10.99,8.79,7.91,body_care,0.2,0.28,0.08,20% to 30%,Mist,4
+535,AURA CACIA,Lavender Hydrosol Mist,10.99,8.79,7.91,body_care,0.2,0.28,0.08,20% to 30%,Mist,4
+634,SunButter,No-sugar Added Sunflower Spread,6.99,5.69,5.12,pantry_essentials,0.186,0.268,0.082,20% to 30%,Spread,4
+733,Whole Foods Market,Organic Black Pepper Cracked Turkey Breast,5.99,4.99,4.49,meat,0.167,0.25,0.083,20% to 30%,Turkey,4
+755,Orgain,Organic Sweet Vanilla Bean Vegan Nutritional Shake,2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Shake,4
+784,Orgain,Strawberry & Cream Organic Nutrition Complete Protein Shake (4 Pk),11.89,9.99,8.99,Beverages,0.16,0.244,0.084,20% to 30%,Shake,4
+788,Orgain,Sweet Vanilla Bean Organic Nutrition Complete Protein Shake,11.89,9.99,8.99,Beverages,0.16,0.244,0.084,20% to 30%,Shake,4
+868,ALAFFIA,Lavender Shea Bubble Bath,11.49,9.79,8.81,body_care,0.148,0.233,0.085,20% to 30%,Bath,4
+1034,Blue Diamond,Unsweetened Original Almond Coconut Blend,2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Blend,4
+1096,Kikka Sushi,Poached Salmon Roll,9.49,8.49,7.64,prepared_foods,0.105,0.195,0.09,10% to 20%,Roll,4
+1225,Whole Foods Market,Organic Oven Roasted Turkey Breast,5.99,5.49,4.94,meat,0.083,0.175,0.092,10% to 20%,Turkey,4
+1227,Whole Foods Market,Organic Applewood Smoked Turkey Breast,5.99,5.49,4.94,meat,0.083,0.175,0.092,10% to 20%,Turkey,4
+1239,Orgain,Organic Vanilla Bean Plant Based Shake,11.89,10.99,9.89,Beverages,0.076,0.168,0.092,10% to 20%,Shake,4
+1579,Cava,Crazy Spicy Feta Dip,9.29,6.99,6.29,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Dip,4
+1896,bionaturæ,Organic Wild Berry Fruit Spread,4.39,3.69,3.32,pantry_essentials,0.159,0.244,0.085,20% to 30%,Spread,4
+1902,bionaturæ,Organic Strawberry Fruit Spread,4.39,3.69,3.32,pantry_essentials,0.159,0.244,0.085,20% to 30%,Spread,4
+1904,bionaturæ,Organic Apricot Fruit Spread,4.39,3.69,3.32,pantry_essentials,0.159,0.244,0.085,20% to 30%,Spread,4
+2633,Amore,Italian Garlic Paste,4.79,3.69,3.32,pantry_essentials,0.23,0.307,0.077,30% to 40%,Paste,4
+2649,EARTH THERAPEUTICS,White Hydro Body Sponge,3.19,2.49,2.24,body_care,0.219,0.298,0.079,20% to 30%,Sponge,4
+2652,EARTH THERAPEUTICS,Pink Hydro Body Sponge,3.19,2.49,2.24,body_care,0.219,0.298,0.079,20% to 30%,Sponge,4
+2654,EARTH THERAPEUTICS,Peach Hydro Body Sponge,3.19,2.49,2.24,body_care,0.219,0.298,0.079,20% to 30%,Sponge,4
+2683,AURA CACIA,Organic Opening Heart Roll On,13.29,10.49,9.44,body_care,0.211,0.29,0.079,20% to 30%,Roll,4
+2686,AURA CACIA,Organic Empowering Solar Plexus Roll On,13.29,10.49,9.44,body_care,0.211,0.29,0.079,20% to 30%,Roll,4
+2687,AURA CACIA,Organic Insightful Third Eye Roll On,13.29,10.49,9.44,body_care,0.211,0.29,0.079,20% to 30%,Roll,4
+2714,ALBA BOTANICA,Island Citrus Bath Gel,14.79,11.79,10.61,body_care,0.203,0.283,0.08,20% to 30%,Gel,4
+2737,AURA CACIA,Lavender Foaming Bath,3.49,2.79,2.51,body_care,0.201,0.281,0.08,20% to 30%,Bath,4
+3057,Jason Natural Products,Power Smile Powerful Peppermint Whitening Paste,2.99,2.55,2.29,body_care,0.147,0.234,0.087,20% to 30%,Paste,4
+3183,R.W. Knudsen Family,Rw Knudsen Simply Nutritious Morning Blend,3.79,3.29,2.96,Beverages,0.132,0.219,0.087,20% to 30%,Blend,4
+41,Koia,Straw-nana Dream Smoothie,3.29,2,1.8,Beverages,0.392,0.453,0.061,40% to 50%,Smoothie,5
+42,Koia,Glowing Greens Smoothie,3.29,2,1.8,Beverages,0.392,0.453,0.061,40% to 50%,Smoothie,5
+426,La Quercia,Sliced Prosciutto Americano,8.99,6.99,6.29,meat,0.222,0.3,0.078,20% to 30%,Bacon,5
+440,La Quercia,Prosciutto Piccante Sliced,9.49,7.49,6.74,meat,0.211,0.29,0.079,20% to 30%,Bacon,5
+656,Wellshire Farms,Dry Rubbed Applewood Pork Bacon,10.99,8.99,8.09,meat,0.182,0.264,0.082,20% to 30%,Bacon,5
+664,Wellshire Farms,Dry Rubbed Black Forest Pork Bacon,10.99,8.99,8.09,meat,0.182,0.264,0.082,20% to 30%,Bacon,5
+732,Raaka,Dominican Republic Coconut Milk (60% Cacao),5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Milk,5
+735,Ripple Foods,Original Plant Based Milk,5.99,4.99,4.49,Beverages,0.167,0.25,0.083,20% to 30%,Milk,5
+832,Lakanto,Classic Monkfruit Sweetener,14.99,12.69,11.42,pantry_essentials,0.153,0.238,0.085,20% to 30%,Sweetener,5
+833,Lakanto,Golden Monkfruit Sweetener,14.99,12.69,11.42,pantry_essentials,0.153,0.238,0.085,20% to 30%,Sweetener,5
+909,Outer Aisle Gourmet,Italian Cauliflower Pizza Crust,6.99,5.99,5.39,bread_rolls_bakery,0.143,0.229,0.086,20% to 30%,Crust,5
+1151,Cappello's,Cheese Pizza Almond Flour Crust,9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Crust,5
+1154,Cappello's,Uncured Pepperoni Pizza Almond Flour Crust,9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Crust,5
+1156,Cappello's,Italian Sausage Pizza Almond Flour Crust,9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Crust,5
+1157,Cappello's,White Pizza Almond Flour Crust,9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Crust,5
+1243,BARBERS,Sweet Red Cheddar Cubes,13.99,12.99,11.69,dairy_eggs,0.071,0.164,0.093,10% to 20%,Cubes,5
+1268,Lakanto,Powdered Monk Fruit Sweetener,11.89,11.29,10.16,pantry_essentials,0.05,0.146,0.096,10% to 20%,Sweetener,5
+1278,KAASAGGIO,Robusto Cubes,20.99,19.99,17.99,dairy_eggs,0.048,0.143,0.095,10% to 20%,Cubes,5
+1324,Koia,Magic Mango Smoothie,3.29,2,1.8,Beverages,0.392,0.453,0.061,40% to 50%,Smoothie,5
+1325,Koia,Rise & Shine Smoothie,3.29,2,1.8,Beverages,0.392,0.453,0.061,40% to 50%,Smoothie,5
+1326,Koia,Tropical Passion Smoothie,3.29,2,1.8,Beverages,0.392,0.453,0.061,40% to 50%,Smoothie,5
+1533,Whole Foods Market,Cheddar Mild Cubes,3.99,2.99,2.69,dairy_eggs,0.251,0.326,0.075,30% to 40%,Cubes,5
+1537,Whole Foods Market,Colby Jack Cubes,3.99,2.99,2.69,dairy_eggs,0.251,0.326,0.075,30% to 40%,Cubes,5
+1651,Lakanto,Golden Monkfruit Sweetener,5.97,4.69,4.22,pantry_essentials,0.214,0.293,0.079,20% to 30%,Sweetener,5
+1652,Lakanto,Classic Monkfruit Sweetener,5.97,4.69,4.22,pantry_essentials,0.214,0.293,0.079,20% to 30%,Sweetener,5
+2035,Clover Sonoma,Lactose Free Vitamin D Whole Milk,3.79,3.29,2.96,dairy_eggs,0.132,0.219,0.087,20% to 30%,Milk,5
+2037,Blue Diamond,Almond Breeze Almond Coconut Blend Unsweetened Vanilla Coconut Milk,2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Milk,5
+2646,La Quercia,Sliced Speck Americano,8.99,6.99,6.29,meat,0.222,0.3,0.078,20% to 30%,Bacon,5
+2926,Raaka,Dominican Republic Coconut Milk (60% Cacao),5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Milk,5
+3389,BARBERS,Sweet Red Cheddar Cubes,13.99,12.99,11.69,dairy_eggs,0.071,0.164,0.093,10% to 20%,Cubes,5
+68,Cava,Traditional Hummus,6.99,4.49,4.04,snacks_chips_salsas_dips,0.358,0.422,0.064,40% to 50%,Hummus,6
+69,Cava,Hummus Spicy,6.99,4.49,4.04,snacks_chips_salsas_dips,0.358,0.422,0.064,40% to 50%,Hummus,6
+121,Craize Corn,Plantain Toasted Corn Cracker,4.29,2.99,2.69,snacks_chips_salsas_dips,0.303,0.373,0.07,30% to 40%,Crackers,6
+122,Cava,Spicy Hummus,4.29,2.99,2.69,pantry_essentials,0.303,0.373,0.07,30% to 40%,Hummus,6
+123,Cava,Roasted Red Pepper Hummus,4.29,2.99,2.69,snacks_chips_salsas_dips,0.303,0.373,0.07,30% to 40%,Hummus,6
+126,Cava,Traditional Hummus,4.29,2.99,2.69,pantry_essentials,0.303,0.373,0.07,30% to 40%,Hummus,6
+293,Craize Corn,Sweet Corn Toasted Corn Cracker,3.99,2.99,2.69,snacks_chips_salsas_dips,0.251,0.326,0.075,30% to 40%,Crackers,6
+309,Craize Corn,Roasted Corn Toasted Corn Cracker,3.99,2.99,2.69,snacks_chips_salsas_dips,0.251,0.326,0.075,30% to 40%,Crackers,6
+311,Craize Corn,Coconut Toasted Corn Cracker,3.99,2.99,2.69,snacks_chips_salsas_dips,0.251,0.326,0.075,30% to 40%,Crackers,6
+337,Wedderspoon,Organic Manuka Honey Drops Honey,11.99,8.99,8.09,snacks_chips_salsas_dips,0.25,0.325,0.075,30% to 40%,Honey,6
+377,Dr. Bronner's,Organic Lavender Hand Sanitizing Spray,5.29,3.99,3.59,body_care,0.246,0.321,0.075,30% to 40%,Spray,6
+380,Jovial,Brown Rice Lasagna Noodles,4.99,3.79,3.41,pantry_essentials,0.24,0.317,0.077,30% to 40%,Noodles,6
+406,Lotus Foods,Organic Brown Rice Pad Thai Noodles,4.39,3.39,3.05,pantry_essentials,0.228,0.305,0.077,30% to 40%,Noodles,6
+407,Nancy's Fancy,Whiskey And Cake Gelato,7.99,6.19,5.57,bread_rolls_bakery,0.225,0.303,0.078,30% to 40%,Gelato,6
+414,Nancy's Fancy,Bourbon Vanilla Bean Gelato,7.99,6.19,5.57,frozen_foods,0.225,0.303,0.078,30% to 40%,Gelato,6
+442,EO,Organic Lavender Echinacea Hand Sanitizing Spray,5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Spray,6
+495,Everyone,Ruby Grapefruit Hand Sanitizer Spray,2.99,2.39,2.15,body_care,0.201,0.281,0.08,20% to 30%,Spray,6
+505,EO,Peppermint & Citrus Hand Sanitizer Spray,2.99,2.39,2.15,body_care,0.201,0.281,0.08,20% to 30%,Spray,6
+513,ALBA BOTANICA,Deet-free Anti Bug Spray,15.99,12.79,11.51,body_care,0.2,0.28,0.08,20% to 30%,Spray,6
+600,Lotus Foods,Organic Traditional Pho Rice Noodles,4.19,3.39,3.05,pantry_essentials,0.191,0.272,0.081,20% to 30%,Noodles,6
+601,Lotus Foods,Organic Brown Udon Rice Noodles,4.19,3.39,3.05,pantry_essentials,0.191,0.272,0.081,20% to 30%,Noodles,6
+602,Lotus Foods,Organic Buckwheat And Brown Soba Rice Noodles,4.19,3.39,3.05,pantry_essentials,0.191,0.272,0.081,20% to 30%,Noodles,6
+608,Orgain,Unsweetened Vanilla Organic Protein Almondmilk,5.79,4.69,4.22,dairy_eggs,0.19,0.271,0.081,20% to 30%,Almondmilk,6
+661,EO Products,Coconut Lemon Hand Sanitizer Spray,3.29,2.69,2.42,body_care,0.182,0.264,0.082,20% to 30%,Spray,6
+693,Divina,Pitted Kalamata Olives,5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Olives,6
+694,Divina,Pitted Frescatrano Olives,5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Olives,6
+696,Divina,Pitted Castelvetrano Olives,5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Olives,6
+700,Divina,Castelvetrano Olives,5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Olives,6
+709,Divina,Red Pepper Stuffed Green Olives,5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Olives,6
+711,Divina,Garlic Stuffed Mt. Athos Olives,5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Olives,6
+903,Dolcezza,Roasted Strawberry Gelato,6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Gelato,6
+913,Dolcezza,Stracciatella Gelato,6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Gelato,6
+916,Dolcezza,Mascarpone & Berries Gelato,6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Gelato,6
+923,Dolcezza,Tramontana Gelato,6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Gelato,6
+1033,Blue Diamond,Unsweetened Original Almond Breeze Almondmilk (1 Qt),2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Almondmilk,6
+1037,Blue Diamond,Original Almond Breeze Almondmilk,2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Almondmilk,6
+1038,Blue Diamond,Vanilla Almond Breeze Almondmilk,2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Almondmilk,6
+1039,Blue Diamond,Unsweetened Vanilla Almond Breeze Almondmilk (1 Qt),2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Almondmilk,6
+1047,Local Hive,Wildflower Raw Honey,7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Honey,6
+1048,Local Hive,Clover Raw Honey,7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Honey,6
+1066,Bragg Live Food Products,Raw Unfiltered Apple Cider Vinegar With The 'Mother',4.29,3.79,3.41,pantry_essentials,0.117,0.205,0.088,20% to 30%,Vinegar,6
+1104,Champagne,Reserve Wine Vinegar,6.69,5.99,5.39,pantry_essentials,0.105,0.194,0.089,10% to 20%,Vinegar,6
+1132,MODERN PRODUCTS,Original Spike Seasoning,2.99,2.69,2.42,pantry_essentials,0.1,0.191,0.091,10% to 20%,Seasoning,6
+1221,Napa Valley Naturals,Grand Reserve Balsamic Vinegar 25 Stars,9.29,8.49,7.64,pantry_essentials,0.086,0.178,0.092,10% to 20%,Vinegar,6
+1262,Napa Valley Naturals,Sherry Reserve Vinegar,6.69,6.29,5.66,pantry_essentials,0.06,0.154,0.094,10% to 20%,Vinegar,6
+1301,Napa Valley Naturals,Organic Red Wine Vinegar,4.39,4.29,3.86,pantry_essentials,0.023,0.121,0.098,10% to 20%,Vinegar,6
+1302,Napa Valley Naturals,Organic White Wine Vinegar,4.39,4.29,3.86,pantry_essentials,0.023,0.121,0.098,10% to 20%,Vinegar,6
+1638,Ka-Me,Original Rice Crackers,3.19,2.49,2.24,snacks_chips_salsas_dips,0.219,0.298,0.079,20% to 30%,Crackers,6
+1758,Lotus Foods,Organic White Rice Pad Thai Noodles,4.19,3.39,3.05,pantry_essentials,0.191,0.272,0.081,20% to 30%,Noodles,6
+1921,MODERN PRODUCTS,Vegit Seasoning,3.19,2.69,2.42,pantry_essentials,0.157,0.241,0.084,20% to 30%,Seasoning,6
+2085,Orgain,Vanilla Organic Protein Almondmilk,5.29,4.69,4.22,dairy_eggs,0.113,0.202,0.089,20% to 30%,Almondmilk,6
+2124,Local Hive,So Cal Raw Honey,7.79,6.99,6.29,pantry_essentials,0.103,0.193,0.09,10% to 20%,Honey,6
+2385,Cava,Organic Traditional Hummus,4.99,3.49,3.14,snacks_chips_salsas_dips,0.301,0.371,0.07,30% to 40%,Hummus,6
+2876,Mitica,Rosemary Toketti Di Pane Carasau Crackers,6.99,5.74,5.17,bread_rolls_bakery,0.179,0.26,0.081,20% to 30%,Crackers,6
+3034,MODERN PRODUCTS,Spike Instant Seasoning,6.49,5.49,4.94,pantry_essentials,0.154,0.239,0.085,20% to 30%,Seasoning,6
+3221,Local Hive,Mid-atlantic Raw Honey,7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Honey,6
+3225,Local Hive,Northeast Raw Honey,7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Honey,6
+3304,Sabatino Tartufi,Truffle Seasoning,14.99,13.49,12.14,pantry_essentials,0.1,0.19,0.09,10% to 20%,Seasoning,6
+3305,Sabatino Tartufi,Truffle And Cheese Seasoning,14.99,13.49,12.14,pantry_essentials,0.1,0.19,0.09,10% to 20%,Seasoning,6
+3401,MODERN PRODUCTS,Spike Seasoning,10.49,9.79,8.81,pantry_essentials,0.067,0.16,0.093,10% to 20%,Seasoning,6
+153,Bakery On Main,Extreme Fruit And Nut Gluten Free Granola,6.99,4.99,4.49,pantry_essentials,0.286,0.358,0.072,30% to 40%,Granola,7
+165,Bakery On Main,Cranberry Almond Maple Granola,6.99,4.99,4.49,pantry_essentials,0.286,0.358,0.072,30% to 40%,Granola,7
+169,Bakery On Main,Gluten Free Apple Raisin Walnut Granola,6.99,4.99,4.49,pantry_essentials,0.286,0.358,0.072,30% to 40%,Granola,7
+170,Cascadian Farm,Organic Berry Vanilla Puffs,4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Puffs,7
+178,Barbara's Bakery,Original Cheese Puffs (7 Oz),3.49,2.5,2.25,snacks_chips_salsas_dips,0.284,0.355,0.071,30% to 40%,Puffs,7
+302,Cascadian Farm,No Added Sugar Coconut Cashew Granola,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Granola,7
+304,Cascadian Farm,Organic Cinnamon Apple Granola,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Granola,7
+305,Cascadian Farm,Organic French Vanilla Almond Granola,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Granola,7
+308,Cascadian Farm,Organic No Added Sugar Blueberry Vanilla Granola,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Granola,7
+341,Spudsy,Vegan Cheesy Cheddar Sweet Potato Puffs,3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Puffs,7
+346,Hippeas,BBQ Puffs,3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Puffs,7
+350,Hippeas,Vegan White Cheddar Puffs,3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Puffs,7
+356,Spudsy,Cinnamon Churro Sweet Potato Puffs,3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Puffs,7
+357,Hippeas,Nacho Vibes Puffs,3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Puffs,7
+402,Dr. Bronner's,Organic Naked Lip Balm,3.49,2.69,2.42,beauty,0.229,0.307,0.078,30% to 40%,Balm,7
+403,Dr. Bronner's,Organic Peppermint Lip Balm,3.49,2.69,2.42,beauty,0.229,0.307,0.078,30% to 40%,Balm,7
+404,Dr. Bronner's,Organic Lemon Lime Lip Balm,3.49,2.69,2.42,beauty,0.229,0.307,0.078,30% to 40%,Balm,7
+490,Westbrae Natural,Organic Low Sodium Black Beans,2.49,1.99,1.79,pantry_essentials,0.201,0.281,0.08,20% to 30%,Beans,7
+496,Westbrae Natural,Organic Low Sodium Chili Beans,2.49,1.99,1.79,pantry_essentials,0.201,0.281,0.08,20% to 30%,Beans,7
+497,Westbrae Natural,Organic Low Sodium Garbanzo Beans,2.49,1.99,1.79,pantry_essentials,0.201,0.281,0.08,20% to 30%,Beans,7
+647,American Flatbread,Cheese & Herb Flatbread,10.99,8.99,8.09,frozen_foods,0.182,0.264,0.082,20% to 30%,Flatbread,7
+648,American Flatbread,Revolution Flatbread,10.99,8.99,8.09,frozen_foods,0.182,0.264,0.082,20% to 30%,Flatbread,7
+688,ALAFFIA,Purely Coconut Lip Balm,2.99,2.49,2.24,beauty,0.167,0.251,0.084,20% to 30%,Balm,7
+689,ALAFFIA,Coconut Pineapple Lip Balm,2.99,2.49,2.24,beauty,0.167,0.251,0.084,20% to 30%,Balm,7
+691,ALAFFIA,Coconut Mint Lip Balm,2.99,2.49,2.24,beauty,0.167,0.251,0.084,20% to 30%,Balm,7
+710,Milk Bar,Cereal Milk Ice Cream,5.99,4.99,4.49,frozen_foods,0.167,0.25,0.083,20% to 30%,Ice Cream,7
+718,Milk Bar,Pie Ice Cream,5.99,4.99,4.49,frozen_foods,0.167,0.25,0.083,20% to 30%,Ice Cream,7
+720,Milk Bar,Birthday Cake Ice Cream,5.99,4.99,4.49,frozen_foods,0.167,0.25,0.083,20% to 30%,Ice Cream,7
+826,Creminelli,Tartufo Uncured Italian Salami,12.99,10.99,9.89,meat,0.154,0.239,0.085,20% to 30%,Salami,7
+1012,Creminelli,Sopressata Hand-crafted Uncured Italian Salami,10.99,9.49,8.54,meat,0.136,0.223,0.087,20% to 30%,Salami,7
+1013,Creminelli,Fennel Salami,10.99,9.49,8.54,meat,0.136,0.223,0.087,20% to 30%,Salami,7
+1027,Rustic Bakery,Herbs De Provence Flatbread,7.49,6.49,5.84,bread_rolls_bakery,0.134,0.22,0.086,20% to 30%,Flatbread,7
+1028,Rustic Bakery,Rosemary & Olive Oil Sourdough Flatbread,7.49,6.49,5.84,bread_rolls_bakery,0.134,0.22,0.086,20% to 30%,Flatbread,7
+1029,Rustic Bakery,Olive Oil & Sel Gris Sourdough Flatbread,7.49,6.49,5.84,bread_rolls_bakery,0.134,0.22,0.086,20% to 30%,Flatbread,7
+1030,Rustic Bakery,Black Sesame Flatbread,7.49,6.49,5.84,snacks_chips_salsas_dips,0.134,0.22,0.086,20% to 30%,Flatbread,7
+1046,Brooklyn Cured,Sliced Smoked Beef Salami,7.99,6.99,6.29,meat,0.125,0.213,0.088,20% to 30%,Salami,7
+1093,Colamecos,Original Uncured Salami,9.49,8.49,7.64,meat,0.105,0.195,0.09,10% to 20%,Salami,7
+1143,Field Roast,Celebration Roast With Traditional Bread Stuffing And Porcini Gravy,15.99,14.39,12.95,frozen_foods,0.1,0.19,0.09,10% to 20%,Bread,7
+1205,Peet's Coffee,Big Bang Ground Beans,10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Beans,7
+1208,Peet's Coffee,Major Dickasons Blend Whole Beans,10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Beans,7
+1270,Brazi Bites,"Gluten-Free Cheese Bread, Garlic Asiago",5.99,5.69,5.12,snacks_chips_salsas_dips,0.05,0.145,0.095,10% to 20%,Bread,7
+1271,Brazi Bites,Ranch Brazilian Cheese Bread,5.99,5.69,5.12,frozen_foods,0.05,0.145,0.095,10% to 20%,Bread,7
+1273,Brazi Bites,"Gluten-Free Cheese Bread, 3 Cheese Pizza",5.99,5.69,5.12,snacks_chips_salsas_dips,0.05,0.145,0.095,10% to 20%,Bread,7
+1277,Brazi Bites,"Gluten-Free Cheese Bread, Cheddar & Parmesan",5.99,5.69,5.12,snacks_chips_salsas_dips,0.05,0.145,0.095,10% to 20%,Bread,7
+1285,Van Leeuwen,Vanilla Ice Cream,6.99,6.69,6.02,frozen_foods,0.043,0.139,0.096,10% to 20%,Ice Cream,7
+1683,ALBA BOTANICA,Nourishing Coconut Cream Hawaiian Lip Balm,3.49,2.79,2.51,beauty,0.201,0.281,0.08,20% to 30%,Balm,7
+2024,Creminelli,Mild Spicy Italian Salami,10.99,9.49,8.54,meat,0.136,0.223,0.087,20% to 30%,Salami,7
+2032,Rustic Bakery,Sweet Onion & Creme French Sourdough Flatbread,7.49,6.49,5.84,snacks_chips_salsas_dips,0.134,0.22,0.086,20% to 30%,Flatbread,7
+2375,PRODUCE,French Beans,4.99,3.49,3.14,produce,0.301,0.371,0.07,30% to 40%,Beans,7
+2413,Bell & Evans,Breaded Parmesan Chicken Meatballs With Mozzarella,6.99,4.99,4.49,meat,0.286,0.358,0.072,30% to 40%,Bread,7
+3279,Colamecos,Uncured Genoa Salami,9.49,8.49,7.64,meat,0.105,0.195,0.09,10% to 20%,Salami,7
+3344,Whole Foods Market,Seeduction Bread,5.49,4.99,4.49,bread_rolls_bakery,0.091,0.182,0.091,10% to 20%,Bread,7
+3404,Westbrae Natural,Organic Garbanzo Beans,3.19,2.99,2.69,pantry_essentials,0.063,0.157,0.094,10% to 20%,Beans,7
+3442,Van Leeuwen,Cookies & Cream Ice Cream,7.29,6.99,6.29,frozen_foods,0.041,0.137,0.096,10% to 20%,Ice Cream,7
+3446,Van Leeuwen,Mint Chip Ice Cream,7.29,6.99,6.29,frozen_foods,0.041,0.137,0.096,10% to 20%,Ice Cream,7
+3447,Van Leeuwen,Oatmilk Latte Vegan Ice Cream,7.29,6.99,6.29,frozen_foods,0.041,0.137,0.096,10% to 20%,Ice Cream,7
+85,Koia,Carmel Créme Keto Beverage,4.49,3,2.7,dairy_eggs,0.332,0.399,0.067,30% to 40%,Beverage,8
+88,Koia,Cake Batter Keto Beverage,4.49,3,2.7,dairy_eggs,0.332,0.399,0.067,30% to 40%,Beverage,8
+344,Koia,Keto Cookies N' Cream Beverage,3.99,3,2.7,Beverages,0.248,0.323,0.075,30% to 40%,Beverage,8
+345,Koia,Cinnamon Horchata Protein Beverage,3.99,3,2.7,dairy_eggs,0.248,0.323,0.075,30% to 40%,Beverage,8
+360,Koia,Vanilla Bean Protein Beverage,3.99,3,2.7,Beverages,0.248,0.323,0.075,30% to 40%,Beverage,8
+477,Ripple Foods,Unsweetened Non-dairy Beverage,4.99,3.99,3.59,dairy_eggs,0.2,0.281,0.081,20% to 30%,Beverage,8
+958,Sproud™,Beverage,3.49,3,2.7,dairy_eggs,0.14,0.226,0.086,20% to 30%,Beverage,8
+3256,Remedy Organics,Berry Power Beverage,4.49,3.99,3.59,Beverages,0.111,0.2,0.089,10% to 20%,Beverage,8
+2,Brekki,Vanilla Cinnamon Overnight Oats,2.99,1.5,1.35,pantry_essentials,0.498,0.548,0.05,50% or more,Oats,10
+3,Brekki,Original Overnight Oats,2.99,1.5,1.35,pantry_essentials,0.498,0.548,0.05,50% or more,Oats,10
+291,Kite Hill,European Style Plant Based Butter,5.99,4.49,4.04,dairy_eggs,0.25,0.326,0.076,30% to 40%,Butter,10
+306,Cascadian Farm,Organic Oats & Honey Granola,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Oats,10
+428,Perky Jerky,Hatch Chile Wagyu Beef Jerky,8.99,6.99,6.29,snacks_chips_salsas_dips,0.222,0.3,0.078,20% to 30%,Jerky,10
+537,Fix and Fogg,Cashew & Maple Almond Butter,9.99,7.99,7.19,pantry_essentials,0.2,0.28,0.08,20% to 30%,Butter,10
+620,Fix and Fogg,Everything Butter,7.99,6.49,5.84,pantry_essentials,0.188,0.269,0.081,20% to 30%,Butter,10
+621,Fix and Fogg,Oaty Nut Butter,7.99,6.49,5.84,pantry_essentials,0.188,0.269,0.081,20% to 30%,Butter,10
+628,SunButter,Natural Sunflower Butter,6.99,5.69,5.12,pantry_essentials,0.186,0.268,0.082,20% to 30%,Butter,10
+692,Tate's Bake Shop,Lemon Cookies,5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Cookies,10
+701,SunButter,Organic Sunflower Butter,8.99,7.49,6.74,pantry_essentials,0.167,0.25,0.083,20% to 30%,Butter,10
+704,Tate's Bake Shop,Gluten Free Ginger Zinger Cookies,5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Cookies,10
+707,Tate's Bake Shop,Oatmeal Raisin Cookies,5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Cookies,10
+717,Tate's Bake Shop,Butter Crunch Cookies,5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Cookies,10
+900,Louisville Vegan Jerky Co.,Vegan Jerky,6.99,5.99,5.39,snacks_chips_salsas_dips,0.143,0.229,0.086,20% to 30%,Jerky,10
+905,Louisville Vegan Jerky Co.,Enid's Perfect Pepperoni Vegan Jerky,6.99,5.99,5.39,snacks_chips_salsas_dips,0.143,0.229,0.086,20% to 30%,Jerky,10
+920,ALAFFIA,Unscented Shea Butter,13.99,11.99,10.79,body_care,0.143,0.229,0.086,20% to 30%,Butter,10
+926,Louisville Vegan Jerky Co.,Carolina Bbq Jerky,6.99,5.99,5.39,snacks_chips_salsas_dips,0.143,0.229,0.086,20% to 30%,Jerky,10
+927,Louisville Vegan Jerky Co.,Paulette's Maple Bacon Vegan Jerky,6.99,5.99,5.39,snacks_chips_salsas_dips,0.143,0.229,0.086,20% to 30%,Jerky,10
+928,Louisville Vegan Jerky Co.,Black Pepper Smoked Jerky,6.99,5.99,5.39,snacks_chips_salsas_dips,0.143,0.229,0.086,20% to 30%,Jerky,10
+1044,Lenny & Larry's,Peanut Butter Keto Cookie,2.29,2,1.8,snacks_chips_salsas_dips,0.127,0.214,0.087,20% to 30%,Cookies,10
+1051,Perky Jerky,Chimichurri Wagyu Beef Jerky,7.99,6.99,6.29,snacks_chips_salsas_dips,0.125,0.213,0.088,20% to 30%,Jerky,10
+1057,Perky Jerky,Sea Salt & Pepper Wagyu Beef Jerky,7.99,6.99,6.29,snacks_chips_salsas_dips,0.125,0.213,0.088,20% to 30%,Jerky,10
+1109,MadeGood,Organic Cookies & Creme Granola Bars,4.79,4.29,3.86,snacks_chips_salsas_dips,0.104,0.194,0.09,10% to 20%,Cookies,10
+1118,MaraNatha,Crunchy Almond Butter,10.79,9.69,8.72,pantry_essentials,0.102,0.192,0.09,10% to 20%,Butter,10
+1121,MaraNatha,Creamy Almond Butter,10.79,9.69,8.72,pantry_essentials,0.102,0.192,0.09,10% to 20%,Butter,10
+1133,MaraNatha,Organic Creamy Roasted Almond Butter,20.99,18.89,17,pantry_essentials,0.1,0.19,0.09,10% to 20%,Butter,10
+1173,Fruitables®,Chicken & Sweet Potato Whole Jerky Bites,21.99,19.79,17.81,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Jerky,10
+1196,Nature's Path Organic,Original Instant Oatmeal,4.29,3.89,3.5,pantry_essentials,0.093,0.184,0.091,10% to 20%,Oats,10
+1197,Whole Foods Market,Organic Apple Cinnamon Instant Oatmeal,2.19,1.99,1.79,pantry_essentials,0.091,0.183,0.092,10% to 20%,Oats,10
+1198,Whole Foods Market,Organic Triple Berry Instant Oatmeal,2.19,1.99,1.79,pantry_essentials,0.091,0.183,0.092,10% to 20%,Oats,10
+1293,RXBAR,Apple Cinnamon Oats,2.99,2.89,2.6,pantry_essentials,0.033,0.13,0.097,10% to 20%,Oats,10
+1417,Perky Jerky,Original Turkey Jerky,6.99,4.99,4.49,snacks_chips_salsas_dips,0.286,0.358,0.072,30% to 40%,Jerky,10
+1855,Tate's Bake Shop,Coconut Crisp Cookies,5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Cookies,10
+2095,Jovial,Organic Einkorn Cookies,4.49,3.99,3.59,snacks_chips_salsas_dips,0.111,0.2,0.089,10% to 20%,Cookies,10
+2268,Brekki,Banana And Maple Brown Sugar Overnight Oats,2.99,1.25,1.12,pantry_essentials,0.582,0.625,0.043,50% or more,Oats,10
+2269,Brekki,Strawberry Overnight Oats,2.99,1.25,1.12,pantry_essentials,0.582,0.625,0.043,50% or more,Oats,10
+2271,Brekki,Overnight Oats With Ancient Grains Buleberries,2.99,1.25,1.12,pantry_essentials,0.582,0.625,0.043,50% or more,Oats,10
+2398,PARTAKE FOODS,Crunchy Birthday Cake Cookies,4.99,3.5,3.15,snacks_chips_salsas_dips,0.299,0.369,0.07,30% to 40%,Cookies,10
+2942,Tate's Bake Shop,Gluten Free Coconut Crisp Cookies,5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Cookies,10
+15,Jason Natural Products,Thin To Thick Conditioner,9.49,5.49,4.94,beauty,0.421,0.479,0.058,40% to 50%,Conditioner,11
+127,SHIKAI,Cbd+ Mentholated Cream With Menthol & Camphor,26.99,18.79,16.91,body_care,0.304,0.373,0.069,30% to 40%,Cream,11
+138,SHIKAI,Borage Therapy Unscentedhand Cream,8.99,6.29,5.66,body_care,0.3,0.37,0.07,30% to 40%,Cream,11
+171,SHIKAI,CBD Cooling Formula Cream with Menthol,10.49,7.49,6.74,body_care,0.286,0.357,0.071,30% to 40%,Cream,11
+173,SHIKAI,CBD+ Skin Cream with Borage Oil,10.49,7.49,6.74,body_care,0.286,0.357,0.071,30% to 40%,Cream,11
+375,Straus Family Creamery,Organic Sour Cream,5.29,3.99,3.59,dairy_eggs,0.246,0.321,0.075,30% to 40%,Cream,11
+378,NUBIAN HERITAGE,Lavender & Wildflowers Hand Cream,6.99,5.29,4.76,body_care,0.243,0.319,0.076,30% to 40%,Cream,11
+545,ALBA BOTANICA,Mango Body Builder Conditioner,10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Conditioner,11
+548,ALBA BOTANICA,Hawaiian Gardenia Conditioner,10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Conditioner,11
+814,AVALON ORGANICS,Nourishing Lavender Conditioner,22.49,18.99,17.09,beauty,0.156,0.24,0.084,20% to 30%,Conditioner,11
+815,AVALON ORGANICS,Organic Biotin B Complx Thick Conditioner,22.49,18.99,17.09,beauty,0.156,0.24,0.084,20% to 30%,Conditioner,11
+881,AVALON ORGANICS,Rosemary Conditioner,10.29,8.79,7.91,beauty,0.146,0.231,0.085,20% to 30%,Conditioner,11
+884,AVALON ORGANICS,Nourishing Lavender Conditioner,10.29,8.79,7.91,beauty,0.146,0.231,0.085,20% to 30%,Conditioner,11
+890,ALAFFIA,Unscented Shave Cream,8.99,7.69,6.92,body_care,0.145,0.23,0.085,20% to 30%,Cream,11
+892,AVALON ORGANICS,Organic Biotin Thickening Conditioner,9.69,8.29,7.46,beauty,0.144,0.23,0.086,20% to 30%,Conditioner,11
+1299,Green Valley Creamery,Lactose Free Sour Cream,3.79,3.69,3.32,dairy_eggs,0.026,0.124,0.098,10% to 20%,Cream,11
+1713,ALBA BOTANICA,Coconut Milk Rich Hair Conditioner,10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Conditioner,11
+2422,SHIKAI,CBD+ Cream,31.49,22.49,20.24,body_care,0.286,0.357,0.071,30% to 40%,Cream,11
+2655,A LA MAISON,Honeysuckle Hand Cream,6.39,4.99,4.49,body_care,0.219,0.297,0.078,20% to 30%,Cream,11
+2739,ALBA BOTANICA,Plumria Replenishing Hair Conditioner,10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Conditioner,11
+3085,ALAFFIA,Lavender Shave Cream,8.99,7.69,6.92,body_care,0.145,0.23,0.085,20% to 30%,Cream,11
+3148,AVALON ORGANICS,Organic Tea Tree Conditioner,9.29,7.99,7.19,beauty,0.14,0.226,0.086,20% to 30%,Conditioner,11
+241,Rao's Homemade,Single Serve Chicken Parmesan,6.99,5.19,4.67,frozen_foods,0.258,0.332,0.074,30% to 40%,Chicken,12
+250,Rao's Homemade,Chicken Alfredo,6.99,5.19,4.67,frozen_foods,0.258,0.332,0.074,30% to 40%,Chicken,12
+332,MARYS CHICKEN,Boneless Skinless Thin-sliced Chicken Breast,7.99,5.99,5.39,meat,0.25,0.325,0.075,30% to 40%,Chicken,12
+396,STARLITE,Vegan Chipotle Chicken Soy Rolled Tacos,6.49,4.99,4.49,frozen_foods,0.231,0.308,0.077,30% to 40%,Chicken,12
+401,STARLITE,Vegan Garlic Chicken Style Rolled Tacos,6.49,4.99,4.49,frozen_foods,0.231,0.308,0.077,30% to 40%,Chicken,12
+605,Tom's of Maine,Unscented Deodorant,5.79,4.69,4.22,body_care,0.19,0.271,0.081,20% to 30%,Deodorant,12
+606,Tom's of Maine,Lavender Deodorant,5.79,4.69,4.22,body_care,0.19,0.271,0.081,20% to 30%,Deodorant,12
+681,HERBAN COWBOY,Dry Dusk Spray Deodorant,8.49,6.99,6.29,body_care,0.177,0.259,0.082,20% to 30%,Deodorant,12
+682,HERBAN COWBOY,Stick Dusk Deodorant,8.49,6.99,6.29,body_care,0.177,0.259,0.082,20% to 30%,Deodorant,12
+708,Jason Natural Products,Tea Tree Oil Stick Deodorant,5.99,4.99,4.49,body_care,0.167,0.25,0.083,20% to 30%,Deodorant,12
+803,Tom's of Maine,Northwoods Men's Deodorant,6.99,5.89,5.3,body_care,0.157,0.242,0.085,20% to 30%,Deodorant,12
+819,ALAFFIA,Coconut Reishi Deodorant,6.49,5.49,4.94,body_care,0.154,0.239,0.085,20% to 30%,Deodorant,12
+825,ALAFFIA,Lavender Deodorant,6.49,5.49,4.94,body_care,0.154,0.239,0.085,20% to 30%,Deodorant,12
+844,Whole Foods Market,Organic Oven Roasted Chicken Breast,5.29,4.49,4.04,meat,0.151,0.236,0.085,20% to 30%,Chicken,12
+858,Jason Natural Products,Soft Rose Dry Spray Deodorant,7.99,6.79,6.11,body_care,0.15,0.235,0.085,20% to 30%,Deodorant,12
+899,ALAFFIA,Everyday Shea Dry Finish Deodorant,6.99,5.99,5.39,body_care,0.143,0.229,0.086,20% to 30%,Deodorant,12
+908,Whole Foods Market,Thai Coconut Crusted Chicken Breast Cutlets,6.99,5.99,5.39,meat,0.143,0.229,0.086,20% to 30%,Chicken,12
+914,Whole Foods Market,Pecan Crusted Chicken Breast Cutlets,6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Chicken,12
+1517,STARLITE,Chicken Style Taquitos,6.69,4.99,4.49,frozen_foods,0.254,0.329,0.075,30% to 40%,Chicken,12
+2556,Bell & Evans,Thin Boneless Skinless Chicken Breast,7.99,5.99,5.39,meat,0.25,0.325,0.075,30% to 40%,Chicken,12
+2609,Rao's Homemade,Family Size Chicken Parmesan,12.79,9.69,8.72,prepared_foods,0.242,0.318,0.076,30% to 40%,Chicken,12
+3044,Jason Natural Products,Men's Forest Fresh Stick Deodorant,5.99,5.09,4.58,body_care,0.15,0.235,0.085,20% to 30%,Deodorant,12
+3072,Tom's of Maine,Refreshing Lemongrass Deodorant,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Deodorant,12
+3222,Whole Foods Market,Organic Air Chilled Split Chicken Breast,7.99,6.99,6.29,meat,0.125,0.213,0.088,20% to 30%,Chicken,12
+114,bionaturæ,Organic Strained Tomatoes,3.99,2.69,2.42,pantry_essentials,0.326,0.393,0.067,30% to 40%,Tomato,13
+132,Jovial,Organic Diced Tomatoes,4.29,3,2.7,pantry_essentials,0.301,0.371,0.07,30% to 40%,Tomato,13
+134,Jovial,Organic Whole Peeled Tomatoes,4.29,3,2.7,pantry_essentials,0.301,0.371,0.07,30% to 40%,Tomato,13
+135,Jovial,Organic Crushed Tomatoes,4.29,3,2.7,pantry_essentials,0.301,0.371,0.07,30% to 40%,Tomato,13
+260,Rao's Homemade,Organic Italian Peeled Tomatoes,4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Tomato,13
+478,Organico Bello,Organic Strained Passata Tomatoes,4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Tomato,13
+498,Premium,Organic Chopped Tomatoes,4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Tomato,13
+690,Organico Bello,Organic Chopped Tomatoes,2.99,2.49,2.24,pantry_essentials,0.167,0.251,0.084,20% to 30%,Tomato,13
+715,Divina,Roasted Red Tomatoes,5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Tomato,13
+2059,Bertagni,Fire Roasted Heirloom Tomato,7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Tomato,13
+2328,bionaturæ,Organic Crushed Tomatoes,4.49,2.99,2.69,pantry_essentials,0.334,0.401,0.067,40% to 50%,Tomato,13
+2718,Organico Bello,Organic Whole Tomatoes,4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Tomato,13
+2886,Organico Bello,Organic Whole Tomatoes,2.99,2.49,2.24,pantry_essentials,0.167,0.251,0.084,20% to 30%,Tomato,13
+61,Hawaiian Springs,Artesian Spring Water,3.99,2.5,2.25,Beverages,0.373,0.436,0.063,40% to 50%,Water,14
+108,Essentia,20oz Single,1.49,1,0.9,Beverages,0.329,0.396,0.067,30% to 40%,Water,14
+175,Annie's Homegrown,Cheddar Cheesy Rice,4.19,3,2.7,pantry_essentials,0.284,0.356,0.072,30% to 40%,Rice,14
+177,Annie's Homegrown,Grilled Cheese Cheesy Rice,4.19,3,2.7,pantry_essentials,0.284,0.356,0.072,30% to 40%,Rice,14
+205,GoodBelly,Straightshot Probiotic Oat Drink,3.79,2.79,2.51,Beverages,0.264,0.338,0.074,30% to 40%,Drink,14
+211,Liquid Death,Mountain Spring Water,1.69,1.25,1.12,Beverages,0.26,0.337,0.077,30% to 40%,Water,14
+290,Banza,Garlic Olive Oil Chickpea Rice,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Rice,14
+310,Banza,Chickpea Rice,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Rice,14
+353,Koia,Coconut Almond Plant Powered Protein Drink,3.99,3,2.7,dairy_eggs,0.248,0.323,0.075,30% to 40%,Drink,14
+365,Koia,Cocoa Bean Plant Powered Protein Drink,3.99,3,2.7,Beverages,0.248,0.323,0.075,30% to 40%,Drink,14
+368,Steaz,Organic Blueberry Pomegranate Acai Iced Green Tea,1.99,1.5,1.35,Beverages,0.246,0.322,0.076,30% to 40%,Drink,14
+371,1907 Water,Natural Alkaline Artesian Water,1.99,1.5,1.35,Beverages,0.246,0.322,0.076,30% to 40%,Water,14
+372,Steaz,Peach Mango Iced Green Tea,1.99,1.5,1.35,Beverages,0.246,0.322,0.076,30% to 40%,Drink,14
+373,Steaz,Raspberry Iced Green Tea,1.99,1.5,1.35,Beverages,0.246,0.322,0.076,30% to 40%,Drink,14
+399,Essentia Water,Essentia Ionized Alkaline Water (6 Pk),12.99,9.99,8.99,Beverages,0.231,0.308,0.077,30% to 40%,Water,14
+443,Lotus Foods,Organic Jade Pearl Rice,5.29,4.19,3.77,pantry_essentials,0.208,0.287,0.079,20% to 30%,Rice,14
+447,Lotus Foods,Organic Black Forbidden Rice,5.29,4.19,3.77,pantry_essentials,0.208,0.287,0.079,20% to 30%,Rice,14
+449,Lotus Foods,Organic Bhutanese Red Rice,5.29,4.19,3.77,pantry_essentials,0.208,0.287,0.079,20% to 30%,Rice,14
+651,Lotus Foods,Organic Brown Jasmine Rice (30 oz),7.69,6.29,5.66,pantry_essentials,0.182,0.264,0.082,20% to 30%,Rice,14
+653,Lotus Foods,Organic Brown Basmati Rice,7.69,6.29,5.66,pantry_essentials,0.182,0.264,0.082,20% to 30%,Rice,14
+665,Lotus Foods,Organic White Jasmine Rice,7.69,6.29,5.66,pantry_essentials,0.182,0.264,0.082,20% to 30%,Rice,14
+668,Lotus Foods,Organic Dehraduni Basmati Rice (30 oz),7.69,6.29,5.66,pantry_essentials,0.182,0.264,0.082,20% to 30%,Rice,14
+834,GoodBelly,Straightshot Yumberry Oat Drink,3.29,2.79,2.51,dairy_eggs,0.152,0.237,0.085,20% to 30%,Drink,14
+1017,Liquid Death,Mountain Spring Water 12 Pack,14.99,12.99,11.69,Beverages,0.133,0.22,0.087,20% to 30%,Water,14
+1086,Fiji,Natural Artesian Water (1 L),2.79,2.49,2.24,Beverages,0.108,0.197,0.089,10% to 20%,Water,14
+1087,Vita Coco,Pure Coconut Water,2.79,2.49,2.24,Beverages,0.108,0.197,0.089,10% to 20%,Water,14
+1088,TASTYBITE,Organic Turmeric Rice,2.79,2.49,2.24,pantry_essentials,0.108,0.197,0.089,10% to 20%,Rice,14
+1101,Tasty Bite,Organic Brown Rice,2.79,2.5,2.25,pantry_essentials,0.104,0.194,0.09,10% to 20%,Rice,14
+1122,FLOW WATER,Blood Orange Collagen Alkaline Spring Water,2.99,2.69,2.42,Beverages,0.1,0.191,0.091,10% to 20%,Water,14
+1123,Riot Energy,Mango Plant Powered Energy Drink,2.99,2.69,2.42,Beverages,0.1,0.191,0.091,10% to 20%,Drink,14
+1128,Riot Energy,Citrus Plant Powered Energy Drink,2.99,2.69,2.42,Beverages,0.1,0.191,0.091,10% to 20%,Drink,14
+1129,Riot Energy,Berry Plant Powered Energy Drink,2.99,2.69,2.42,Beverages,0.1,0.191,0.091,10% to 20%,Drink,14
+1130,Riot Energy,Cherry Watermelon Plant Powered Energy Drink,2.99,2.69,2.42,Beverages,0.1,0.191,0.091,10% to 20%,Drink,14
+1131,FLOW WATER,Pomegranate Collagen Alkaline Spring Water,2.99,2.69,2.42,Beverages,0.1,0.191,0.091,10% to 20%,Water,14
+1206,Fiji,Natural Artesian Water (1.5 L),3.29,2.99,2.69,Beverages,0.091,0.182,0.091,10% to 20%,Water,14
+1242,Tasty Bite,Organic Sticky Rice,2.69,2.5,2.25,pantry_essentials,0.071,0.164,0.093,10% to 20%,Rice,14
+1248,Flow Alkaline Spring Water,Natural Alkaline Spring Water,1.49,1.39,1.25,Beverages,0.067,0.161,0.094,10% to 20%,Water,14
+1255,Icelandic Glacial Water,Glacial Natural Spring Water,2.99,2.79,2.51,Beverages,0.067,0.161,0.094,10% to 20%,Water,14
+1287,siggi's,Strawberry Plant Based Yogurt Drink,2.49,2.39,2.15,dairy_eggs,0.04,0.137,0.097,10% to 20%,Drink,14
+1596,Steaz,Organic Peach Iced Green Tea,1.99,1.5,1.35,Beverages,0.246,0.322,0.076,30% to 40%,Drink,14
+2336,Essentia Water,Bottled Water,34.49,22.99,20.69,Beverages,0.333,0.4,0.067,30% to 40%,Water,14
+2704,Steaz,Zero Calorie Half & Half Green Tea And Lemonade,1.89,1.5,1.35,Beverages,0.206,0.286,0.08,20% to 30%,Drink,14
+29,QUE PASA,Yellow Corn Tortilla Chips,4.19,2.5,2.25,snacks_chips_salsas_dips,0.403,0.463,0.06,40% to 50%,Chips,16
+32,QUE PASA,White Corn Tortilla Chips,4.19,2.5,2.25,snacks_chips_salsas_dips,0.403,0.463,0.06,40% to 50%,Chips,16
+224,NUBIAN HERITAGE,Goat's Milk & Chai Body Lotion,13.49,9.99,8.99,body_care,0.259,0.334,0.075,30% to 40%,Lotion,16
+228,NUBIAN HERITAGE,Coconut Papaya Body Lotion,13.49,9.99,8.99,body_care,0.259,0.334,0.075,30% to 40%,Lotion,16
+229,NUBIAN HERITAGE,Raw Shea Butter Body Lotion,13.49,9.99,8.99,body_care,0.259,0.334,0.075,30% to 40%,Lotion,16
+248,SHIKAI,CBD+ Body Lotion,10.49,7.79,7.01,body_care,0.257,0.332,0.075,30% to 40%,Lotion,16
+256,PURELY SEDONA,Water Artesian Spring Still 1lt,2.69,2,1.8,Beverages,0.257,0.331,0.074,30% to 40%,Gum,16
+317,SHIKAI,Borage Advanced Therapy Lotion,21.99,16.49,14.84,body_care,0.25,0.325,0.075,30% to 40%,Lotion,16
+319,SHIKAI,Original Unscented Borage Therapy Dry Skin Lotion,21.99,16.49,14.84,body_care,0.25,0.325,0.075,30% to 40%,Lotion,16
+354,Jackson's Honest,Sweet Potato Chips,3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Chips,16
+430,PURELY SEDONA,Water Artesian Spring Still 500ml,1.59,1.25,1.12,Beverages,0.214,0.296,0.082,20% to 30%,Gum,16
+465,SHIKAI,CBD+ Body Lotion,41.99,33.49,30.14,body_care,0.202,0.282,0.08,20% to 30%,Lotion,16
+471,PUR,Cinnamon Gum,3.99,3.19,2.87,snacks_chips_salsas_dips,0.201,0.281,0.08,20% to 30%,Gum,16
+472,PUR,Wintergreen Gum,3.99,3.19,2.87,snacks_chips_salsas_dips,0.201,0.281,0.08,20% to 30%,Gum,16
+488,PUR,Spearmint Gum,3.99,3.19,2.87,snacks_chips_salsas_dips,0.201,0.281,0.08,20% to 30%,Gum,16
+500,PUR,Peppermint Gum,3.99,3.19,2.87,snacks_chips_salsas_dips,0.201,0.281,0.08,20% to 30%,Gum,16
+502,PUR,Bubblegum Bag,3.99,3.19,2.87,snacks_chips_salsas_dips,0.201,0.281,0.08,20% to 30%,Gum,16
+576,ALBA BOTANICA,Very Emollient Scented Lotion,13.99,11.29,10.16,body_care,0.193,0.274,0.081,20% to 30%,Lotion,16
+577,ALBA BOTANICA,Very Emollient Body Lotion,13.99,11.29,10.16,body_care,0.193,0.274,0.081,20% to 30%,Lotion,16
+578,ALBA BOTANICA,Very Emollient Unscented Lotion,13.99,11.29,10.16,body_care,0.193,0.274,0.081,20% to 30%,Lotion,16
+616,A LA MAISON,Honeysuckle Hand & Body Lotion,8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Lotion,16
+624,The Good Crisp Company,Aged White Cheddar Potato Crisps,3.69,3,2.7,snacks_chips_salsas_dips,0.187,0.268,0.081,20% to 30%,Chips,16
+629,The Good Crisp Company,Outback Bbq Potato Crisps,3.69,3,2.7,snacks_chips_salsas_dips,0.187,0.268,0.081,20% to 30%,Chips,16
+630,The Good Crisp Company,Original Stacked Chips,3.69,3,2.7,snacks_chips_salsas_dips,0.187,0.268,0.081,20% to 30%,Chips,16
+633,The Good Crisp Company,Sour Cream Onion Stacked Chips,3.69,3,2.7,snacks_chips_salsas_dips,0.187,0.268,0.081,20% to 30%,Chips,16
+672,Burt's Bees,Baby Bee Nourishing Lotion,7.79,6.39,5.75,body_care,0.18,0.262,0.082,20% to 30%,Lotion,16
+768,PUR,Wintermint Gum,1.99,1.67,1.5,snacks_chips_salsas_dips,0.161,0.246,0.085,20% to 30%,Gum,16
+769,PUR,Peppermint Gum,1.99,1.67,1.5,snacks_chips_salsas_dips,0.161,0.246,0.085,20% to 30%,Gum,16
+775,PUR,Cinnamon Gum,1.99,1.67,1.5,snacks_chips_salsas_dips,0.161,0.246,0.085,20% to 30%,Gum,16
+777,PUR,Bubblegum,1.99,1.67,1.5,snacks_chips_salsas_dips,0.161,0.246,0.085,20% to 30%,Gum,16
+781,PUR,Spearmint Gum,1.99,1.67,1.5,snacks_chips_salsas_dips,0.161,0.246,0.085,20% to 30%,Gum,16
+938,ALAFFIA,Lavender Body Lotion,11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Lotion,16
+940,ALAFFIA,Unscented Body Lotion,11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Lotion,16
+943,ALAFFIA,Coconut Body Lotion,11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Lotion,16
+1052,Sabatino Tartufi,Truffle Crisps,7.99,6.99,6.29,snacks_chips_salsas_dips,0.125,0.213,0.088,20% to 30%,Chips,16
+1343,Sonoma Creamery,Bacon Cheddar Crisps,4.79,3,2.7,snacks_chips_salsas_dips,0.374,0.436,0.062,40% to 50%,Chips,16
+1345,Sonoma Creamery,Pepper Jack Crisps,4.79,3,2.7,snacks_chips_salsas_dips,0.374,0.436,0.062,40% to 50%,Chips,16
+1733,PUR,Peppermint Gum Sticks,2.49,2,1.8,snacks_chips_salsas_dips,0.197,0.277,0.08,20% to 30%,Gum,16
+1735,PUR,Spearmint Gum Sticks,2.49,2,1.8,snacks_chips_salsas_dips,0.197,0.277,0.08,20% to 30%,Gum,16
+1736,PUR,Wintergreen Gum Sticks,2.49,2,1.8,snacks_chips_salsas_dips,0.197,0.277,0.08,20% to 30%,Gum,16
+2131,Chuao Chocolatier,Milk Choc Mini Bar With kettle Cooked Potato Chips,0.99,0.89,0.8,snacks_chips_salsas_dips,0.101,0.192,0.091,10% to 20%,Chips,16
+2314,Uglies,Kettle Cooked Potato Chip Buffalo Ranch,3.19,2,1.8,snacks_chips_salsas_dips,0.373,0.436,0.063,40% to 50%,Chips,16
+2345,UGLIES SNACKS,Bbq Potato Chips,2.99,2,1.8,snacks_chips_salsas_dips,0.331,0.398,0.067,30% to 40%,Chips,16
+2346,UGLIES SNACKS,Original Sea Salt Potato Chips,2.99,2,1.8,snacks_chips_salsas_dips,0.331,0.398,0.067,30% to 40%,Chips,16
+2724,PUR,Cinnamon Gum,3.99,3.19,2.87,snacks_chips_salsas_dips,0.201,0.281,0.08,20% to 30%,Gum,16
+3042,Angelic Bakehouse,Harissa & Green Chile Savory Crisps,4.69,3.99,3.59,snacks_chips_salsas_dips,0.149,0.235,0.086,20% to 30%,Chips,16
+3050,Angelic Bakehouse,Pickled Sweet Onion Savory Crisps,4.69,3.99,3.59,snacks_chips_salsas_dips,0.149,0.235,0.086,20% to 30%,Chips,16
+3121,ALAFFIA,Coconut Lime Body Lotion,11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Lotion,16
+67,Must Love,"Non-Dairy Frozen Dessert, Banana Banilla",6.99,4.49,4.04,frozen_foods,0.358,0.422,0.064,40% to 50%,Dessert,17
+71,Must Love,"Non-Dairy Frozen Dessert, Banana Choco Choco Chip",6.99,4.49,4.04,frozen_foods,0.358,0.422,0.064,40% to 50%,Dessert,17
+109,Must Love,"Non-Dairy Frozen Dessert, Banana Cashew Cookie",6.69,4.49,4.04,frozen_foods,0.329,0.396,0.067,30% to 40%,Dessert,17
+110,Must Love,"Non-Dairy Frozen Dessert, Banana Strawberry",6.69,4.49,4.04,frozen_foods,0.329,0.396,0.067,30% to 40%,Dessert,17
+111,Must Love,"Non-Dairy Frozen Dessert, Dipped Bars Banana Banilla",6.69,4.49,4.04,frozen_foods,0.329,0.396,0.067,30% to 40%,Dessert,17
+112,Must Love,"Non-Dairy Frozen Dessert, Dipped Bars Banana Chocolate",6.69,4.49,4.04,frozen_foods,0.329,0.396,0.067,30% to 40%,Dessert,17
+288,Must Love,"Non-Dairy Frozen Dessert, Dipped Bars Oat Milk Vanilla",5.99,4.49,4.04,frozen_foods,0.25,0.326,0.076,30% to 40%,Dessert,17
+289,Must Love,Non-Dairy Frozen Dessert,5.99,4.49,4.04,frozen_foods,0.25,0.326,0.076,30% to 40%,Dessert,17
+292,Must Love,"Non-Dairy Frozen Dessert, Oat Milk Double Chocolate Chip",5.99,4.49,4.04,frozen_foods,0.25,0.326,0.076,30% to 40%,Dessert,17
+294,Must Love,"Non-Dairy Frozen Dessert, Oat Milk Peanut Butter Swirl",5.99,4.49,4.04,frozen_foods,0.25,0.326,0.076,30% to 40%,Dessert,17
+298,Must Love,"Non-Dairy Frozen Dessert, Dipped Bars Oat Milk Crunchy Peanut Swirl",5.99,4.49,4.04,frozen_foods,0.25,0.326,0.076,30% to 40%,Dessert,17
+300,Must Love,"Non-Dairy Frozen Dessert, Dipped Bars Oat Milk Creamy Chocolate",5.99,4.49,4.04,frozen_foods,0.25,0.326,0.076,30% to 40%,Dessert,17
+1282,Van Leeuwen,Mint Chip Non Dairy Frozen Dessert,6.99,6.69,6.02,frozen_foods,0.043,0.139,0.096,10% to 20%,Dessert,17
+1283,Van Leeuwen,Sicilian Pistachio Non Dairy Frozen Dessert,6.99,6.69,6.02,frozen_foods,0.043,0.139,0.096,10% to 20%,Dessert,17
+2999,Greyston Bakery,Cinnamon Roll Blondie,1.99,1.67,1.5,desserts,0.161,0.246,0.085,20% to 30%,Dessert,17
+3364,Whole Foods Market,Traditional Crepes 10 Count,5.99,5.49,4.94,desserts,0.083,0.175,0.092,10% to 20%,Dessert,17
+3445,Van Leeuwen,Cookies & Cream Caramel Swirl Frozen Dessert,7.29,6.99,6.29,frozen_foods,0.041,0.137,0.096,10% to 20%,Dessert,17
+65,Jason Natural Products,Dandruff Relief Shampoo,13.79,8.79,7.91,beauty,0.363,0.426,0.063,40% to 50%,Shampoo,21
+410,Burt's Bees,Baby Bee Shampoo And Wash,15.99,12.39,11.15,body_care,0.225,0.303,0.078,30% to 40%,Shampoo,21
+547,ALBA BOTANICA,Mango Body Builder Shampoo,10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Shampoo,21
+805,Jason Natural Products,Thin To Thick Shampoo,9.49,7.99,7.19,beauty,0.158,0.242,0.084,20% to 30%,Shampoo,21
+806,ALAFFIA,Curl Enhancing Shampoo,12.79,10.79,9.71,beauty,0.156,0.241,0.085,20% to 30%,Shampoo,21
+816,AVALON ORGANICS,Organic Biotin Shampoo,22.49,18.99,17.09,beauty,0.156,0.24,0.084,20% to 30%,Shampoo,21
+829,AVALON ORGANICS,Organic Biotin Shampoo,12.99,10.99,9.89,beauty,0.154,0.239,0.085,20% to 30%,Shampoo,21
+865,ALAFFIA,Lavender Moisturizing Shampoo,16.79,14.29,12.86,beauty,0.149,0.234,0.085,20% to 30%,Shampoo,21
+897,PUREZERO,Moroccan Argan Oil Shampoo,6.99,5.99,5.39,beauty,0.143,0.229,0.086,20% to 30%,Shampoo,21
+906,PUREZERO,Biotin Shampoo,6.99,5.99,5.39,beauty,0.143,0.229,0.086,20% to 30%,Shampoo,21
+907,PUREZERO,Coconut Milk Shampoo,6.99,5.99,5.39,beauty,0.143,0.229,0.086,20% to 30%,Shampoo,21
+1006,AVALON ORGANICS,Organic Volumizing Rosemary Shampoo,10.79,9.29,8.36,beauty,0.139,0.225,0.086,20% to 30%,Shampoo,21
+1008,AVALON ORGANICS,Nourishing Lavender Shampoo,10.79,9.29,8.36,beauty,0.139,0.225,0.086,20% to 30%,Shampoo,21
+1715,ALBA BOTANICA,Hawaiian Plumeria Shampoo,10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Shampoo,21
+2112,ALAFFIA,Lemon Lavender Shampoo & Body Wash,10.49,9.39,8.45,body_care,0.105,0.194,0.089,10% to 20%,Shampoo,21
+2648,Burt's Bees,Baby Bee Shampoo & Wash,9.49,7.39,6.65,body_care,0.221,0.299,0.078,20% to 30%,Shampoo,21
+3020,ALAFFIA,Coconut Shampoo,14.79,12.49,11.24,beauty,0.156,0.24,0.084,20% to 30%,Shampoo,21
+3241,ALAFFIA,Babies Coconut Shampoo,8.69,7.69,6.92,body_care,0.115,0.204,0.089,20% to 30%,Shampoo,21
+3242,ALAFFIA,Coconut Strawberry Shampoo Body Wash,8.69,7.69,6.92,body_care,0.115,0.204,0.089,20% to 30%,Shampoo,21
+3298,AVALON ORGANICS,Organic Lavender Shampoo,20.99,18.79,16.91,beauty,0.105,0.194,0.089,10% to 20%,Shampoo,21
+3455,AVALON ORGANICS,Scalp Treatment Tea Tree Shampoo,8.69,8.49,7.64,beauty,0.023,0.121,0.098,10% to 20%,Shampoo,21
+90,Honey Mama's,Cocoa Truffle Bar Peruvian Raw,5.99,4,3.6,snacks_chips_salsas_dips,0.332,0.399,0.067,30% to 40%,Bars,22
+96,Honey Mama's,Cocoa Truffle Bar Oregon Mint,5.99,4,3.6,snacks_chips_salsas_dips,0.332,0.399,0.067,30% to 40%,Bars,22
+159,Cascadian Farm,Organic Vanilla Chip Chewy Granola Bars,4.19,2.99,2.69,snacks_chips_salsas_dips,0.286,0.358,0.072,30% to 40%,Bars,22
+166,Cascadian Farm,Organic Peanut Pretzel Chewy Granola Bars,4.19,2.99,2.69,snacks_chips_salsas_dips,0.286,0.358,0.072,30% to 40%,Bars,22
+240,KIND Snacks,Almond & Coconut Fruit & Nut Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Bars,22
+243,KIND Snacks,Caramel Almond & Sea Salt Nuts & Spices Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Bars,22
+265,KIND Snacks,Cranberry Almond + Antioxidants Bar,1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Bars,22
+272,KIND Snacks,Almond & Coconut Fruit & Nut Bar,1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Bars,22
+273,KIND Snacks,Caramel Almond & Sea Salt Nuts & Spices Bar,1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Bars,22
+901,Rumiano Cheese,Organic Pepper Jack Cheddar Cheese Bar,6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Bars,22
+910,Rumiano Cheese,Organic Monterey Jack Cheese Bar,6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Bars,22
+1045,Van Leeuwen,Raspberry Cheesecake Ice Cream Bars,7.99,6.99,6.29,frozen_foods,0.125,0.213,0.088,20% to 30%,Bars,22
+1259,Van Leeuwen,Vanilla Caramel Swirl Ice Cream Bars,7.49,6.99,6.29,frozen_foods,0.067,0.16,0.093,10% to 20%,Bars,22
+1284,Van Leeuwen,Brown Sugar Honeycomb Frozen Dessert Bars,6.99,6.69,6.02,frozen_foods,0.043,0.139,0.096,10% to 20%,Bars,22
+1310,KIND Snacks,Crunchy Peanut Butter Protein Bar,2.29,1.33,1.2,snacks_chips_salsas_dips,0.419,0.476,0.057,40% to 50%,Bars,22
+1483,KIND Snacks,Maple Glazed Pecan & Sea Salt Bar,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Bars,22
+1513,KIND Snacks,Maple Glazed Pecan & Sea Salt Nuts & Spices Bar,1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Bars,22
+2276,KIND Snacks,Crunchy Peanut Butter Protein Bars,27.49,15.96,14.36,snacks_chips_salsas_dips,0.419,0.478,0.059,40% to 50%,Bars,22
+2287,Kate's Real Food,Organic Mango Coconut Tiki Bar,2.79,1.67,1.5,snacks_chips_salsas_dips,0.401,0.462,0.061,40% to 50%,Bars,22
+2491,KIND Snacks,Caramel Almond & Sea Salt Nuts & Spices Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Bars,22
+2494,KIND Snacks,Cranberry Almond + Antioxidants Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Bars,22
+2885,Whole Foods Market,Mild Cheddar Cheese Bar,2.99,2.49,2.24,dairy_eggs,0.167,0.251,0.084,20% to 30%,Bars,22
+5,Ocean's Halo,Organic and Plant-Based No Fish Broth,4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth,23
+6,Ocean's Halo,Organic and Plant-Based No Beef Broth,4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth,23
+7,Ocean's Halo,Organic Thai Coconut Broth,4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth,23
+8,Ocean's Halo,Organic and Plant-Based No Chicken Broth,4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth,23
+9,Ocean's Halo,Organic and Plant-Based Miso Broth,4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth,23
+10,Ocean's Halo,Organic and Plant-Based Pho Broth,4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth,23
+11,Ocean's Halo,Organic and Plant-Based Ramen Broth,4.99,2.79,2.51,pantry_essentials,0.441,0.497,0.056,40% to 50%,Broth,23
+23,Santa Cruz Organic,Organic Radiant Rose Sparkling Juice Mocktail,4.49,2.67,2.4,Beverages,0.405,0.465,0.06,40% to 50%,Seltzer,23
+180,Bare Bones,Organic Chicken Bone Broth,10.29,7.39,6.65,pantry_essentials,0.282,0.354,0.072,30% to 40%,Broth,23
+181,Bare Bones,Beef Bone Broth,10.29,7.39,6.65,pantry_essentials,0.282,0.354,0.072,30% to 40%,Broth,23
+213,Liquid Death,Sparkling Water,1.69,1.25,1.12,Beverages,0.26,0.337,0.077,30% to 40%,Seltzer,23
+282,Spindrift,Lemon Sparkling Water 8 Pack,6.69,4.99,4.49,Beverages,0.254,0.329,0.075,30% to 40%,Seltzer,23
+284,Spindrift,Raspberry Lime Sparkling Water 8 Pack,6.69,4.99,4.49,Beverages,0.254,0.329,0.075,30% to 40%,Seltzer,23
+285,Spindrift,Pineapple Sparkling Water 8pk,6.69,4.99,4.49,Beverages,0.254,0.329,0.075,30% to 40%,Seltzer,23
+286,Spindrift,Grapefruit Sparkling Water 8pk,6.69,4.99,4.49,Beverages,0.254,0.329,0.075,30% to 40%,Seltzer,23
+287,Spindrift,Half Tea Half Lemonade Sparkling Water,6.69,4.99,4.49,Beverages,0.254,0.329,0.075,30% to 40%,Seltzer,23
+318,Freak Flag Organics,Coconut Chicken Bone Broth,7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Broth,23
+336,Freak Flag Organics,Lemon Chicken Bone Broth,7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Broth,23
+395,Nixie Sparkling Water,Peach Black Tea Sparkling Water 8pk,6.49,4.99,4.49,Beverages,0.231,0.308,0.077,30% to 40%,Seltzer,23
+397,Nixie Sparkling Water,Watermelon Mint Sparkling Water 8pk,6.49,4.99,4.49,Beverages,0.231,0.308,0.077,30% to 40%,Seltzer,23
+400,Nixie Sparkling Water,Lime Ginger Sparkling Water 8pk,6.49,4.99,4.49,Beverages,0.231,0.308,0.077,30% to 40%,Seltzer,23
+491,Bonafide Provisions,Organic No Salt Added Vegetable Broth,4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Broth,23
+492,Bonafide Provisions,Organic Vegetable Broth,4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Broth,23
+493,Bonafide Provisions,Organic No Salt Added Chicken Broth,4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Broth,23
+494,Bonafide Provisions,Organic Chicken Broth,4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Broth,23
+499,Bonafide Provisions,Organic Lions Mane With Chicken Bone Broth Cup,4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Broth,23
+533,Bare Bones,Chicken Broth Pantry Pack,7.99,6.39,5.75,pantry_essentials,0.2,0.28,0.08,20% to 30%,Broth,23
+534,Bare Bones,Beef Broth Pantry Pack,7.99,6.39,5.75,pantry_essentials,0.2,0.28,0.08,20% to 30%,Broth,23
+640,Bonafide Provisions,Organic Turkey Bone Broth,9.79,7.99,7.19,frozen_foods,0.184,0.266,0.082,20% to 30%,Broth,23
+641,Bonafide Provisions,Organic Chicken Bone Broth,9.79,7.99,7.19,pantry_essentials,0.184,0.266,0.082,20% to 30%,Broth,23
+642,Bonafide Provisions,Organic Beef Bone Broth,9.79,7.99,7.19,pantry_essentials,0.184,0.266,0.082,20% to 30%,Broth,23
+675,Culture Pop Soda,Orange Mange Chili & Lime Sparkling Soda 4pk,7.29,5.99,5.39,Beverages,0.178,0.261,0.083,20% to 30%,Seltzer,23
+676,Culture Pop Soda,Ginger Lemon & Turmeric Sparkling Soda 4pk,7.29,5.99,5.39,Beverages,0.178,0.261,0.083,20% to 30%,Seltzer,23
+677,Culture Pop Soda,Watermelon Lime & Rosemary Sparkling Soda 4pk,7.29,5.99,5.39,Beverages,0.178,0.261,0.083,20% to 30%,Seltzer,23
+756,CLEAN CAUSE,Organic Sparkling Orange Ginger Yerba Mate,2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Seltzer,23
+760,CLEAN CAUSE,Organic Sparkling Cherry Lime Yerba Mate,2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Seltzer,23
+1016,Liquid Death,Sparkling Mountain Spring Water 12 Pack,14.99,12.99,11.69,Beverages,0.133,0.22,0.087,20% to 30%,Seltzer,23
+1094,DRY Botanical Bubbly,Sparkling Cranberry Soda,5.69,5.09,4.58,Beverages,0.105,0.195,0.09,10% to 20%,Seltzer,23
+1119,Nixie Sparkling Water,Watermelon Mint Sparkling Water,0.99,0.89,0.8,Beverages,0.101,0.192,0.091,10% to 20%,Seltzer,23
+1120,Nixie Sparkling Water,Lime Ginger Sparkling Water,0.99,0.89,0.8,Beverages,0.101,0.192,0.091,10% to 20%,Seltzer,23
+1186,Waterloo,Pineapple Sparkling Water,6.29,5.69,5.12,Beverages,0.095,0.186,0.091,10% to 20%,Seltzer,23
+1187,Waterloo,Watermelon Sparkling Water,6.29,5.69,5.12,Beverages,0.095,0.186,0.091,10% to 20%,Seltzer,23
+1191,DRY Botanical Bubbly,Dry Sparkling Blood Orange Soda,5.39,4.89,4.4,Beverages,0.093,0.184,0.091,10% to 20%,Seltzer,23
+1553,Freak Flag Organics,Chicken Tortilla Bone Broth,7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Broth,23
+2603,Bonafide Provisions,Organic Chicken Bone Broth With Lemon Turmeric,5.29,3.99,3.59,pantry_essentials,0.246,0.321,0.075,30% to 40%,Broth,23
+2880,Spindrift,Raspberry Lime Seltzer,1.19,0.99,0.89,Beverages,0.168,0.252,0.084,20% to 30%,Seltzer,23
+646,Health-Ade,Spicy Margarita Kombucha Cocktail Mixer,5.49,4.49,4.04,Beverages,0.182,0.264,0.082,20% to 30%,Kombucha,28
+649,Health-Ade,Moscow Mule Kombucha Cocktail Mixer,5.49,4.49,4.04,Beverages,0.182,0.264,0.082,20% to 30%,Kombucha,28
+650,Health-Ade,Organic Mint Mojito Kombucha Cocktail Mixer,5.49,4.49,4.04,Beverages,0.182,0.264,0.082,20% to 30%,Kombucha,28
+673,Wild Tonic,Organic Lavender Love Jun Kombucha,4.49,3.69,3.32,Beverages,0.178,0.261,0.083,20% to 30%,Kombucha,28
+945,GT's Synergy Kombucha,Organic Gingerade 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+946,GT's Synergy Kombucha,Pomegranate Power 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+947,GT's Synergy Kombucha,Organic Sacred Life 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+948,GT's Synergy Kombucha,Organic Tantric Turmeric 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+949,GT's Synergy Kombucha,Organic Guava Goddess 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+950,GT's Synergy Kombucha,Organic Mystic Mango 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+952,GT's Synergy Kombucha,Organic Multi-Green 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+953,GT's Synergy Kombucha,Organic Golden Pineapple 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+954,GT's Synergy Kombucha,Gingerberry 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+955,GT's Synergy Kombucha,Organic Original 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+956,GT's Synergy Kombucha,Organic Watermelon Wonder 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+957,GT's Synergy Kombucha,Organic Strawberry Serenity 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+961,GT's Synergy Kombucha,Seasonal 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+964,GT's Synergy Kombucha,Organic Lemon Berry 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+981,Yogi®,Green Tea Kombucha,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+985,GT's Synergy Kombucha,Organic Trilogy 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+991,GT's Synergy Kombucha,Organic California Citrus 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+1005,GT's Synergy Kombucha,Organic Hibiscus Ginger 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+1809,Health-Ade,Whiskey Sour Kombucha Cocktail Mix,5.49,4.49,4.04,Beverages,0.182,0.264,0.082,20% to 30%,Kombucha,28
+2628,Baba’s Bucha,Flower Power Kombucha Flower Power,4.79,3.69,3.32,Beverages,0.23,0.307,0.077,30% to 40%,Kombucha,28
+2629,Baba’s Bucha,Purple Rain Kombucha Blueberry,4.79,3.69,3.32,Beverages,0.23,0.307,0.077,30% to 40%,Kombucha,28
+2630,Baba’s Bucha,Ruby Sipper Kombucha Hibiscus,4.79,3.69,3.32,Beverages,0.23,0.307,0.077,30% to 40%,Kombucha,28
+2631,Baba’s Bucha,Believe Kombucha,4.79,3.69,3.32,Beverages,0.23,0.307,0.077,30% to 40%,Kombucha,28
+3152,GT's Synergy Kombucha,Organic Lavender Love 16oz,3.49,3,2.7,Beverages,0.14,0.226,0.086,20% to 30%,Kombucha,28
+429,Tom's of Maine,Silly Strawberry Children's Anticavity Toothpaste,5.49,4.29,3.86,body_care,0.219,0.297,0.078,20% to 30%,Toothpaste,29
+438,Hello,Hemp Seed & Coconut Oil Fluoride Free Toothpaste,6.99,5.49,4.94,body_care,0.215,0.293,0.078,20% to 30%,Toothpaste,29
+654,Tom's of Maine,Fresh Mint Toothpaste With Floride,3.29,2.69,2.42,body_care,0.182,0.264,0.082,20% to 30%,Toothpaste,29
+657,Tom's of Maine,Floride Free Fresh Mint Toothpaste,3.29,2.69,2.42,body_care,0.182,0.264,0.082,20% to 30%,Toothpaste,29
+860,Tom's of Maine,Antiplaque Whitening Spearmint Toothpaste,5.39,4.59,4.13,body_care,0.148,0.234,0.086,20% to 30%,Toothpaste,29
+861,Tom's of Maine,Peppermint Tartar Control Whitening Toothpaste,5.39,4.59,4.13,body_care,0.148,0.234,0.086,20% to 30%,Toothpaste,29
+862,Tom's of Maine,Fennel Whitening Anti Plaque Toothpaste,5.39,4.59,4.13,body_care,0.148,0.234,0.086,20% to 30%,Toothpaste,29
+866,Jason Natural Products,Powersmile Plus Coq10 Gel Toothpaste,4.99,4.25,3.82,body_care,0.148,0.234,0.086,20% to 30%,Toothpaste,29
+875,Tom's of Maine,Wintermint Whole Care Toothpaste,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste,29
+877,Tom's of Maine,Sweet Mint White Gel Toothpaste,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste,29
+880,Tom's of Maine,Mint Rapid Relief Sensitive Toothpaste,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste,29
+883,Tom's of Maine,Simply White Clean Mint Toothpaste,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste,29
+886,Tom's of Maine,Peppermint Whole Care Toothpaste,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste,29
+887,Tom's of Maine,Whole Care Anticavity Toothpaste with flouride,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste,29
+888,Tom's of Maine,Spearmint Anti Plaque Gel Toothpaste,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste,29
+966,Jason Natural Products,Powersmile Peppermint Toothpaste,4.99,4.29,3.86,body_care,0.14,0.226,0.086,20% to 30%,Toothpaste,29
+1615,KISS MY FACE,Cool Mint Gel Whitening Toothpaste,5.99,4.59,4.13,body_care,0.234,0.311,0.077,30% to 40%,Toothpaste,29
+1825,Hello,Kids Fluoride Free Watermelon Toothpaste,4.79,3.99,3.59,body_care,0.167,0.251,0.084,20% to 30%,Toothpaste,29
+2927,Tom's of Maine,Fennel Propolis Myrrh Toothpaste,5.99,4.99,4.49,body_care,0.167,0.25,0.083,20% to 30%,Toothpaste,29
+2935,Tom's of Maine,Cinnamint Propolis Myrrh Toothpaste,5.99,4.99,4.49,body_care,0.167,0.25,0.083,20% to 30%,Toothpaste,29
+3055,Jason Natural Products,Sea Fresh Plus Coq10 Gel Toothpaste,4.99,4.25,3.82,body_care,0.148,0.234,0.086,20% to 30%,Toothpaste,29
+3061,Tom's of Maine,Cinnamon Clove Whole Care Toothpaste,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste,29
+3068,Tom's of Maine,Tom's Clean Mint Luminous White Toothpaste,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste,29
+3071,Tom's of Maine,Peppermint Wicked Fresh Toothpaste,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste,29
+3079,Tom's of Maine,Spearmint Ice Wicked Fresh Toothpaste,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste,29
+3083,Tom's of Maine,Peppermint Botanically Bright Toothpaste,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Toothpaste,29
+3133,Tom's of Maine,Silly Strawberry Children's Fluoride Free Toothpaste,4.99,4.29,3.86,body_care,0.14,0.226,0.086,20% to 30%,Toothpaste,29
+3363,Tom's of Maine,Orange Mango Children's Anticavity Toothpaste,4.69,4.29,3.86,body_care,0.085,0.177,0.092,10% to 20%,Toothpaste,29
+3453,Tom's of Maine,Toddler Mild Fruit Training Toothpaste,3.49,3.39,3.05,body_care,0.029,0.126,0.097,10% to 20%,Toothpaste,29
+12,Barbara's Bakery,Original Puffins Cereal,5.29,2.99,2.69,pantry_essentials,0.435,0.491,0.056,40% to 50%,Cereal,32
+13,Barbara's Bakery,Peanut Butter Puffins Cereal,5.29,2.99,2.69,pantry_essentials,0.435,0.491,0.056,40% to 50%,Cereal,32
+14,Barbara's Bakery,Cinnamon Puffins Cereal,5.29,2.99,2.69,pantry_essentials,0.435,0.491,0.056,40% to 50%,Cereal,32
+16,California Olive Ranch,Extra Virgin Olive Oil Cold Pressed,20.99,12.19,10.97,pantry_essentials,0.419,0.477,0.058,40% to 50%,Oil,32
+46,California Olive Ranch,California Reserve Arbequina Extra Virgin Olive Oil (500ml / 16.9oz),17.99,11.19,10.07,pantry_essentials,0.378,0.44,0.062,40% to 50%,Oil,32
+64,Barbara's Bakery,Original Morning Oat Crunch Cereal,4.69,2.99,2.69,pantry_essentials,0.362,0.426,0.064,40% to 50%,Cereal,32
+72,Nature's Path Organic,Flax Plus Pumpkin Raisin Crunch Cereal,5.39,3.49,3.14,pantry_essentials,0.353,0.417,0.064,40% to 50%,Cereal,32
+73,Nature's Path Organic,Golden Turmeric Cereal,5.39,3.49,3.14,pantry_essentials,0.353,0.417,0.064,40% to 50%,Cereal,32
+74,Nature's Path Organic,Flax Plus Raisin Bran Cereal,5.39,3.49,3.14,pantry_essentials,0.353,0.417,0.064,40% to 50%,Cereal,32
+80,Nature's Path Organic,Smart Bran Cereal,5.29,3.49,3.14,pantry_essentials,0.34,0.406,0.066,40% to 50%,Cereal,32
+89,California Olive Ranch,100% California Extra Virgin Olive Oil (1L / 33.8oz),27.99,18.69,16.82,pantry_essentials,0.332,0.399,0.067,30% to 40%,Oil,32
+137,California Olive Ranch,Global Blend Extra Virgin Olive Oil (750ml / 25.4oz),14.99,10.49,9.44,pantry_essentials,0.3,0.37,0.07,30% to 40%,Oil,32
+154,Cascadian Farm,Organic No Added Sugar Vanilla Crisp Cereal,4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal,32
+161,Cascadian Farm,Organic Honey Vanilla Crunch Cereal,4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal,32
+162,Cascadian Farm,Organic Graham Crunch Cereal,4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal,32
+164,Cascadian Farm,Organic Cinnamon Crunch Cereal,4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal,32
+167,Cascadian Farm,Organic Fruitful O's Cereal,4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal,32
+168,Cascadian Farm,Organic Purely O's Cereal,4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal,32
+172,California Olive Ranch,Global Blend Extra Virgin Olive Oil (500ml / 16.9oz),10.49,7.49,6.74,pantry_essentials,0.286,0.357,0.071,30% to 40%,Oil,32
+230,Barlean's,Organic Lignan Rich Flax Oil,24.99,18.49,16.64,pantry_essentials,0.26,0.334,0.074,30% to 40%,Oil,32
+254,California Olive Ranch,Global Blend Extra Virgin Olive Oil (1L / 33.8oz),16.79,12.49,11.24,pantry_essentials,0.256,0.331,0.075,30% to 40%,Oil,32
+268,Nature's Path Organic,Sunrise Crunchy Vanilla Cereal,4.69,3.49,3.14,pantry_essentials,0.256,0.33,0.074,30% to 40%,Cereal,32
+270,Nature's Path Organic,Sunrise Crunchy Honey Cereal,4.69,3.49,3.14,pantry_essentials,0.256,0.33,0.074,30% to 40%,Cereal,32
+299,Cascadian Farm,Organic Hearty Morning Cereal,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Cereal,32
+301,Cascadian Farm,Organic Raisin Bran Cereal,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Cereal,32
+312,Cascadian Farm,Sprouted Frosted Flake Cereal,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Cereal,32
+328,California Olive Ranch,100% California Extra Virgin Olive Oil Spray,7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Oil,32
+421,Lucini,Premium Select Extra Virgin Olive Oil,19.29,14.99,13.49,pantry_essentials,0.223,0.301,0.078,30% to 40%,Oil,32
+424,Nature's Path Organic,Organic Cinnamon Toast Cereal,8.99,6.99,6.29,pantry_essentials,0.222,0.3,0.078,20% to 30%,Cereal,32
+519,ALBA BOTANICA,Kukui Nut Body Oil,10.99,8.79,7.91,body_care,0.2,0.28,0.08,20% to 30%,Oil,32
+581,Lucini,Select Extra Virgin Olive Oil,12.99,10.49,9.44,pantry_essentials,0.192,0.273,0.081,20% to 30%,Oil,32
+619,BONO,Extra Virgin Olive Oil Sicilian Pgi Organic,15.99,12.99,11.69,pantry_essentials,0.188,0.269,0.081,20% to 30%,Oil,32
+680,Bellucci,Organic Premium Extra Virgin Olive Oil,15.79,12.99,11.69,pantry_essentials,0.177,0.26,0.083,20% to 30%,Oil,32
+863,Jason Natural Products,Vitamin E Oil 5000 Iu,9.39,7.99,7.19,body_care,0.149,0.234,0.085,20% to 30%,Oil,32
+878,ALAFFIA,Unscented Whipped Shea Butter and Coconut Oil,13.79,11.79,10.61,body_care,0.145,0.231,0.086,20% to 30%,Oil,32
+891,ALAFFIA,Unrefined Neem Oil,8.99,7.69,6.92,body_care,0.145,0.23,0.085,20% to 30%,Oil,32
+915,California Olive Ranch,Avocado Oil And Extra Virgin Olive Oil Keto Blend,10.49,8.99,8.09,pantry_essentials,0.143,0.229,0.086,20% to 30%,Oil,32
+917,Montebello,Organic Extra Virgin Olive Oil,13.99,11.99,10.79,pantry_essentials,0.143,0.229,0.086,20% to 30%,Oil,32
+1050,Nature's Path Organic,Choco Chimps Cereal,3.99,3.49,3.14,pantry_essentials,0.125,0.213,0.088,20% to 30%,Cereal,32
+1053,Nature's Path Organic,Koala Crisp Cereal,3.99,3.49,3.14,pantry_essentials,0.125,0.213,0.088,20% to 30%,Cereal,32
+1055,Nature's Path Organic,Panda Puffs Cereal,3.99,3.49,3.14,pantry_essentials,0.125,0.213,0.088,20% to 30%,Cereal,32
+1083,Extra,Virgin Olive Oil,17.99,15.99,14.39,pantry_essentials,0.111,0.2,0.089,10% to 20%,Oil,32
+1090,Whole Foods Market,"Cereal, Protein & Fiber Crunch Honey Almond Flax",3.79,3.39,3.05,pantry_essentials,0.106,0.195,0.089,10% to 20%,Cereal,32
+1178,Sabatino Tartufi,Organic White Truffle Oil,19.99,17.99,16.19,pantry_essentials,0.1,0.19,0.09,10% to 20%,Oil,32
+1269,Cascadian Farm,Organic Climate Smart Kernza Grains Cereal,3.99,3.79,3.41,pantry_essentials,0.05,0.145,0.095,10% to 20%,Cereal,32
+1280,Bragg Live Food Products,Organic Extra Virgin Olive Oil,11.29,10.79,9.71,pantry_essentials,0.044,0.14,0.096,10% to 20%,Oil,32
+1298,Dr. Bronner's,Organic Virgin Coconut Oil,11.29,10.99,9.89,pantry_essentials,0.027,0.124,0.097,10% to 20%,Oil,32
+1321,Lucini,Premium Select Extra Virgin Olive Oil (750 Ml),29.99,17.99,16.19,pantry_essentials,0.4,0.46,0.06,40% to 50%,Oil,32
+1328,Nature's Path Organic,Honey'd Corn Flakes Cereal,5.69,3.49,3.14,pantry_essentials,0.387,0.448,0.061,40% to 50%,Cereal,32
+1331,California Olive Ranch,California Reserve Arbosana Extra Virgin Olive Oil (500ml / 16.9oz),17.99,11.19,10.07,pantry_essentials,0.378,0.44,0.062,40% to 50%,Oil,32
+1349,Nature's Path Organic,Flax Plus Red Berry Crunch Cereal,5.39,3.49,3.14,pantry_essentials,0.353,0.417,0.064,40% to 50%,Cereal,32
+1350,Nature's Path Organic,Flax Plus Maple Pecan Crunch Cereal,5.39,3.49,3.14,pantry_essentials,0.353,0.417,0.064,40% to 50%,Cereal,32
+1351,Nature's Path Organic,Flax Plus Multibran Flakes Cereal,5.39,3.49,3.14,pantry_essentials,0.353,0.417,0.064,40% to 50%,Cereal,32
+1423,Cascadian Farm,Organic Honey Nut O's,4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Cereal,32
+1633,Nature's Path Organic,Heritage Crunch Cereal,4.49,3.49,3.14,pantry_essentials,0.223,0.301,0.078,30% to 40%,Cereal,32
+1650,Napa Valley,Organic Extra Virgin Olive Oil,15.29,11.99,10.79,pantry_essentials,0.216,0.294,0.078,20% to 30%,Oil,32
+1708,Napa Valley Naturals,Grapeseed Oil 750ml,9.99,7.99,7.19,pantry_essentials,0.2,0.28,0.08,20% to 30%,Oil,32
+1815,Lucini,Everyday Extra Virgin Olive Oil,20.99,17.19,15.47,pantry_essentials,0.181,0.263,0.082,20% to 30%,Oil,32
+1944,Jason Natural Products,"Vitamin E Oil 32,000 Iu",9.99,8.49,7.64,body_care,0.15,0.235,0.085,20% to 30%,Oil,32
+2057,Dr. Bronner's,Organic Coconut Oil,19.99,17.49,15.74,pantry_essentials,0.125,0.213,0.088,20% to 30%,Oil,32
+2084,Bellucci,Toscano Pgi Organic Extra Virgin Olive Oil,17.49,15.49,13.94,pantry_essentials,0.114,0.203,0.089,20% to 30%,Oil,32
+2730,VITABELLA,Organic Strawberry Pillows Cereal,4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Cereal,32
+2861,O.Live & Co,O-Live Premium Extra Virgin Olive Oil,13.49,10.99,9.89,pantry_essentials,0.185,0.267,0.082,20% to 30%,Oil,32
+3449,Nunez De Prado,Organic Spanish Extra Virgin Olive Oil,13.99,13.49,12.14,pantry_essentials,0.036,0.132,0.096,10% to 20%,Oil,32
+94,Whole Foods Market,Shrimp & Andouille Sausage Gumbo Soup,9.99,0,6,prepared_foods,1,0.399,0,30% to 40%,Soup,35
+155,Annie's Homegrown,Organic Star Pasta & Chicken Soup,4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Soup,35
+156,Annie's Homegrown,Org Soup Bunny Pasta Chicken Broth,4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Soup,35
+157,Annie's Homegrown,Org Soup Creamy Tomato Bunny Pasta,4.19,2.99,2.69,pantry_essentials,0.286,0.358,0.072,30% to 40%,Soup,35
+215,SUN NOODLE,Miso Ramen Soup Mix,6.49,4.79,4.31,pantry_essentials,0.262,0.336,0.074,30% to 40%,Soup,35
+217,Rao's Homemade,Sausage & Potato Soup,4.99,3.69,3.32,prepared_foods,0.261,0.335,0.074,30% to 40%,Soup,35
+218,Rao's Homemade,Soup Chicken Noodle,4.99,3.69,3.32,pantry_essentials,0.261,0.335,0.074,30% to 40%,Soup,35
+219,Rao's Homemade,Soup Rte Pasta Fagioli,4.99,3.69,3.32,pantry_essentials,0.261,0.335,0.074,30% to 40%,Soup,35
+220,Rao's Homemade,Italian Wedding Soup With Meatballs,4.99,3.69,3.32,pantry_essentials,0.261,0.335,0.074,30% to 40%,Soup,35
+221,Rao's Homemade,Chicken And Gnocchi Italian Style Soup,4.99,3.69,3.32,pantry_essentials,0.261,0.335,0.074,30% to 40%,Soup,35
+222,Rao's Homemade,Vegetable Minestrone Soup,4.99,3.69,3.32,pantry_essentials,0.261,0.335,0.074,30% to 40%,Soup,35
+233,Whole Foods Market,Mom's Chicken Soup,8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Soup,35
+234,Whole Foods Market,Nana's Chicken Noodle Soup,8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Soup,35
+236,Whole Foods Market,Chicken Tortilla Soup,8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Soup,35
+239,Whole Foods Market,Chicken & Rice Soup,8.99,0,6,prepared_foods,1,0.333,0,30% to 40%,Soup,35
+716,Bonafide Provisions,Organic Chicken Vegetable Soup,5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Soup,35
+740,Whole Foods Market,Mushroom Barley Soup,7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup,35
+741,Whole Foods Market,Chicken Artichoke & Lemon Soup,7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup,35
+742,Whole Foods Market,Aromatic Butternut Squash Soup,7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup,35
+743,Whole Foods Market,Pumpkin Curry Soup,7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup,35
+744,Whole Foods Market,Minestrone Soup,7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup,35
+745,Whole Foods Market,Italian Wedding Soup,7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup,35
+746,Whole Foods Market,Double Cheddar Broccoli Soup,7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup,35
+747,Whole Foods Market,Old School Vegetable Soup,7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup,35
+748,Whole Foods Market,Red Lentil Dal With Spinach Soup,7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup,35
+749,Whole Foods Market,Tomato Parmesan Soup,7.99,0,6,prepared_foods,1,0.249,0,20% to 30%,Soup,35
+1062,Kikka,Hot & Sour Soup,8.49,7.49,6.74,prepared_foods,0.118,0.206,0.088,20% to 30%,Soup,35
+1215,Amy's Kitchen,Indian Golden Lentil Soup,3.49,3.19,2.87,pantry_essentials,0.086,0.178,0.092,10% to 20%,Soup,35
+1216,Amy's Kitchen,Organic Light In Sodium Minestrone Soup,3.49,3.19,2.87,pantry_essentials,0.086,0.178,0.092,10% to 20%,Soup,35
+1217,Amy's Kitchen,Organic Fire Roasted Southwestern Vegetable Soup,3.49,3.19,2.87,pantry_essentials,0.086,0.178,0.092,10% to 20%,Soup,35
+1220,Amy's Kitchen,"Organic Lentil Vegetable Soup, Light in Sodium",3.49,3.19,2.87,pantry_essentials,0.086,0.178,0.092,10% to 20%,Soup,35
+2481,Rao's Homemade,Tortellni & Vegetable Soup,4.99,3.69,3.32,prepared_foods,0.261,0.335,0.074,30% to 40%,Soup,35
+2538,Annie's Homegrown,Organic Vegetable Farm Shaped Pasta Soup,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Soup,35
+2544,Annie's Homegrown,Organic Chicken Noodle Soup,3.99,2.99,2.69,pantry_essentials,0.251,0.326,0.075,30% to 40%,Soup,35
+2899,Bonafide Provisions,Organic Roasted Butternut Squash Soup With Bone Broth,5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Soup,35
+118,Tillamook,Kosher Medium Cheddar Cheese,5.49,3.79,3.41,dairy_eggs,0.31,0.379,0.069,30% to 40%,Cheese,37
+119,Tillamook,Sharp Cheddar Cheese,5.49,3.79,3.41,dairy_eggs,0.31,0.379,0.069,30% to 40%,Cheese,37
+120,Tillamook,Extra Sharp Cheddar Cheese,5.49,3.79,3.41,dairy_eggs,0.31,0.379,0.069,30% to 40%,Cheese,37
+362,Dr. Bronner's,Organic Lavender Shaving Soap,10.49,7.89,7.1,body_care,0.248,0.323,0.075,30% to 40%,Soap,37
+382,NUBIAN HERITAGE,African Black Soap Bar,4.99,3.79,3.41,body_care,0.24,0.317,0.077,30% to 40%,Soap,37
+383,NUBIAN HERITAGE,Raw Shea Soap Bar,4.99,3.79,3.41,body_care,0.24,0.317,0.077,30% to 40%,Soap,37
+387,NUBIAN HERITAGE,Goats Milk & Chai Soap Bar,4.99,3.79,3.41,body_care,0.24,0.317,0.077,30% to 40%,Soap,37
+423,MYTHREESONS,Emmy's Original Pimento Cheese,8.99,6.99,6.29,dairy_eggs,0.222,0.3,0.078,20% to 30%,Cheese,37
+427,MYTHREESONS,Spicy White Cheddar Pimento Cheese,8.99,6.99,6.29,dairy_eggs,0.222,0.3,0.078,20% to 30%,Cheese,37
+441,A LA MAISON,Lilac Soap Bar,5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Soap,37
+444,A LA MAISON,Coconut Charcoal Bar Soap,5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Soap,37
+445,A LA MAISON,Coconut Creme Soap Bar,5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Soap,37
+446,A LA MAISON,Cherry.Blossom Hand & Body Soap,5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Soap,37
+448,A LA MAISON,Oat Milk Bar Soap,5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Soap,37
+450,A LA MAISON,Sea Salt Soap Bar,5.29,4.19,3.77,body_care,0.208,0.287,0.079,20% to 30%,Soap,37
+509,Pacha Soap Co.,Variety Pack Bar Soap Pacha Peaces,9.99,7.99,7.19,body_care,0.2,0.28,0.08,20% to 30%,Soap,37
+510,Pacha Soap Co.,CBD Bar Soap,9.99,7.99,7.19,body_care,0.2,0.28,0.08,20% to 30%,Soap,37
+562,A LA MAISON,Lavender Flowers Bar Soap,8.69,6.99,6.29,body_care,0.196,0.276,0.08,20% to 30%,Soap,37
+567,A LA MAISON,Unscented Bar Soap,8.69,6.99,6.29,body_care,0.196,0.276,0.08,20% to 30%,Soap,37
+588,Valid 2/2 - 3/1,PACHA SOAP,25.99,20.99,18.89,body_care,0.192,0.273,0.081,20% to 30%,Soap,37
+612,A LA MAISON,Sea Salt Liquid Hand Soap,8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Soap,37
+614,A LA MAISON,Lavender Aloe Liquid Soap,8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Soap,37
+615,A LA MAISON,Rosemary Mint Liquid Soap,8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Soap,37
+617,A LA MAISON,Honeysuckle Liquid Soap,8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Soap,37
+652,Good Culture,"Organic Double Cream Classic Cottage Cheese, 6% Milk Fat",5.49,4.49,4.04,dairy_eggs,0.182,0.264,0.082,20% to 30%,Cheese,37
+655,Good Culture,"Organic Whole Milk Classic Cottage Cheese, 4% Milk Fat",5.49,4.49,4.04,dairy_eggs,0.182,0.264,0.082,20% to 30%,Cheese,37
+667,Good Culture,"Organic Low-Fat Classic Cottage Cheese, 2% Milk Fat",5.49,4.49,4.04,dairy_eggs,0.182,0.264,0.082,20% to 30%,Cheese,37
+770,Good Culture,"Organic Blueberry Acai Chia Cottage Cheese, 4% Milk Fat",1.99,1.67,1.5,dairy_eggs,0.161,0.246,0.085,20% to 30%,Cheese,37
+772,Good Culture,"Organic Whole Milk Classic Cottage Cheese, 4% Milk Fat",1.99,1.67,1.5,dairy_eggs,0.161,0.246,0.085,20% to 30%,Cheese,37
+774,Good Culture,"Organic Low-Fat Classic Cottage Cheese, 2% Milk Fat",1.99,1.67,1.5,dairy_eggs,0.161,0.246,0.085,20% to 30%,Cheese,37
+779,Good Culture,"Organic 4% Milk Fat Strawberry Chia Cottage Cheese, 4% Milk Fat",1.99,1.67,1.5,dairy_eggs,0.161,0.246,0.085,20% to 30%,Cheese,37
+782,Good Culture,"Organic Double Cream Classic Cottage Cheese, 6% Milk Fat",1.99,1.67,1.5,dairy_eggs,0.161,0.246,0.085,20% to 30%,Cheese,37
+812,ALAFFIA,Authentic African Black Soap All-in-One Wild Lavender,15.99,13.49,12.14,body_care,0.156,0.241,0.085,20% to 30%,Soap,37
+838,Tom's of Maine,Lavender Tea Tree Bar Soap,5.29,4.49,4.04,body_care,0.151,0.236,0.085,20% to 30%,Soap,37
+859,Whole Foods Market,Jarlsberg Light Cheese,9.99,8.49,7.64,dairy_eggs,0.15,0.235,0.085,20% to 30%,Cheese,37
+882,ALAFFIA,Authentic African Black Soap Charcoal Reishi,5.49,4.69,4.22,body_care,0.146,0.231,0.085,20% to 30%,Soap,37
+935,Ca de Ambros,Taleggio,13.99,11.99,10.79,dairy_eggs,0.143,0.229,0.086,20% to 30%,Cheese,37
+1007,Hand In Hand Soap,Sea Salt Bar Soap,5.79,4.99,4.49,body_care,0.138,0.225,0.087,20% to 30%,Soap,37
+1009,Organic Valley,Raw Sharp Cheddar Cheese,7.29,6.29,5.66,dairy_eggs,0.137,0.224,0.087,20% to 30%,Cheese,37
+1073,Sweet Grass Dairy,Pimento Cheese,8.99,7.99,7.19,dairy_eggs,0.111,0.2,0.089,10% to 20%,Cheese,37
+1076,FROMAGER D AFFINOIS,Saint Angel,17.99,15.99,14.39,dairy_eggs,0.111,0.2,0.089,10% to 20%,Cheese,37
+1149,Kite Hill,Cracked Pepper Cheese Spread Plant Based,9.99,8.99,8.09,dairy_eggs,0.1,0.19,0.09,10% to 20%,Cheese,37
+1152,Kite Hill,Garlic And Herb Cheese Spread Plant Based,9.99,8.99,8.09,dairy_eggs,0.1,0.19,0.09,10% to 20%,Cheese,37
+1166,Green Valley Creamery,Organic Lactose Free Cottage Cheese,4.99,4.49,4.04,dairy_eggs,0.1,0.19,0.09,10% to 20%,Cheese,37
+1171,Mitica,The Drunken Goat Cheese,19.99,17.99,16.19,dairy_eggs,0.1,0.19,0.09,10% to 20%,Cheese,37
+1201,Whole Foods Market,Farmer Cheese,5.49,4.99,4.49,dairy_eggs,0.091,0.182,0.091,10% to 20%,Cheese,37
+1235,Organic Valley,Organic Shredded Parmesan Cheese,6.49,5.99,5.39,dairy_eggs,0.077,0.169,0.092,10% to 20%,Cheese,37
+1768,Rumiano Cheese,Sliced Sharp Cheddar Cheese,5.29,4.29,3.86,dairy_eggs,0.189,0.27,0.081,20% to 30%,Cheese,37
+1952,ALAFFIA,Eucalypt Tea Tree Black Soap,16.99,14.49,13.04,body_care,0.147,0.232,0.085,20% to 30%,Soap,37
+2192,Organic Valley,Organic Grated Parmesan Cheese,6.49,5.99,5.39,dairy_eggs,0.077,0.169,0.092,10% to 20%,Cheese,37
+2600,NUBIAN HERITAGE,Indian Hemp Vetiver Soap Bar,4.49,3.39,3.05,body_care,0.245,0.321,0.076,30% to 40%,Soap,37
+2605,NUBIAN HERITAGE,Coconut And Papaya Soap Bar,4.49,3.39,3.05,body_care,0.245,0.321,0.076,30% to 40%,Soap,37
+2744,Dr. Bronner's,Fairtrade Organic Rose M/w Oils Liquid Soap,16.99,13.59,12.23,body_care,0.2,0.28,0.08,20% to 30%,Soap,37
+2766,A LA MAISON,Rosemary Mint Bar Soap,7.49,5.99,5.39,body_care,0.2,0.28,0.08,20% to 30%,Soap,37
+2768,A LA MAISON,Unscented Olive Oil Soaps,7.99,6.39,5.75,body_care,0.2,0.28,0.08,20% to 30%,Soap,37
+2780,Dr. Bronner's,Organic Castile Almond Liquid Soap,16.99,13.59,12.23,body_care,0.2,0.28,0.08,20% to 30%,Soap,37
+2823,A LA MAISON,Coconut Liquid Hand Soap,8.29,6.69,6.02,body_care,0.193,0.274,0.081,20% to 30%,Soap,37
+2828,A LA MAISON,Sweet Almond Bar Soap,4.69,3.79,3.41,body_care,0.192,0.273,0.081,20% to 30%,Soap,37
+2835,A LA MAISON,Lavender Flower Bar Soap,4.69,3.79,3.41,body_care,0.192,0.273,0.081,20% to 30%,Soap,37
+2855,A LA MAISON,Oat Milk 4 Pack Soap,6.99,5.69,5.12,body_care,0.186,0.268,0.082,20% to 30%,Soap,37
+2875,A LA MAISON,Unscented Olive Oil Soap,4.49,3.69,3.32,body_care,0.178,0.261,0.083,20% to 30%,Soap,37
+2884,Whole Foods Market,Part-skim Mozzarella Cheese,2.99,2.49,2.24,dairy_eggs,0.167,0.251,0.084,20% to 30%,Cheese,37
+2887,Whole Foods Market,Medium Cheddar Cheese,2.99,2.49,2.24,dairy_eggs,0.167,0.251,0.084,20% to 30%,Cheese,37
+2892,Whole Foods Market,Colby Jack Cheese,2.99,2.49,2.24,dairy_eggs,0.167,0.251,0.084,20% to 30%,Cheese,37
+2894,Whole Foods Market,Monterey Jack Cheese,2.99,2.49,2.24,dairy_eggs,0.167,0.251,0.084,20% to 30%,Cheese,37
+2907,Hand In Hand Soap,Fragrance Free Bar Soap,5.99,4.99,4.49,body_care,0.167,0.25,0.083,20% to 30%,Soap,37
+3063,ALAFFIA,Unscented African Black Soap,15.79,13.49,12.14,body_care,0.146,0.231,0.085,20% to 30%,Soap,37
+3102,Organic Valley,Organic Mozzarella Cheese,6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Cheese,37
+3118,Organic Valley,Organic Raw Mild Cheddar Cheese,6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Cheese,37
+3202,Cabot Creamery,Vermont Extra Sharp Cheddar Cheese,3.99,3.49,3.14,dairy_eggs,0.125,0.213,0.088,20% to 30%,Cheese,37
+3203,Cabot Creamery,Habanero Cheddar Cheese,3.99,3.49,3.14,dairy_eggs,0.125,0.213,0.088,20% to 30%,Cheese,37
+3204,Ca de Ambros,Taleggio,15.99,13.99,12.59,dairy_eggs,0.125,0.213,0.088,20% to 30%,Cheese,37
+3205,Cabot Creamery,Seriously Sharp Cheddar Cheese,3.99,3.49,3.14,dairy_eggs,0.125,0.213,0.088,20% to 30%,Cheese,37
+3213,Manini's,Raviolo Four Cheese,7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Cheese,37
+453,AURA CACIA,Clary Sage Essential Oil,14.49,11.49,10.34,body_care,0.207,0.286,0.079,20% to 30%,Essential Oil,41
+461,AURA CACIA,Jojoba Skin Care Oil,14.79,11.79,10.61,body_care,0.203,0.283,0.08,20% to 30%,Essential Oil,41
+466,AURA CACIA,Ylang Ylang Essential Oil,16.29,12.99,11.69,body_care,0.203,0.282,0.079,20% to 30%,Essential Oil,41
+507,AURA CACIA,Organic Eucalyptus Essential Oil,10.99,8.79,7.91,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil,41
+517,AURA CACIA,Rosemary Essential Oil,7.49,5.99,5.39,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil,41
+518,AURA CACIA,Organic Peppermint Essential Oil,9.99,7.99,7.19,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil,41
+532,AURA CACIA,Organic Blood Orange Essential Oil,7.99,6.39,5.75,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil,41
+540,AURA CACIA,Organic Lemongrass Essential Oil,5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil,41
+546,AURA CACIA,Neroli In Jojoba Oil,20.99,16.79,15.11,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil,41
+564,AURA CACIA,Organic Bergamot Essential Oil,12.79,10.29,9.26,body_care,0.195,0.276,0.081,20% to 30%,Essential Oil,41
+565,AURA CACIA,Lavender Essential Oil,12.79,10.29,9.26,body_care,0.195,0.276,0.081,20% to 30%,Essential Oil,41
+566,AURA CACIA,Frankincense In Jojoba Oil,14.29,11.49,10.34,body_care,0.196,0.276,0.08,20% to 30%,Essential Oil,41
+568,AURA CACIA,Juniper Berry Essential Oil,22.99,18.49,16.64,body_care,0.196,0.276,0.08,20% to 30%,Essential Oil,41
+569,AURA CACIA,Organic Jojoba Skin Care Oil,17.99,14.49,13.04,body_care,0.195,0.275,0.08,20% to 30%,Essential Oil,41
+570,AURA CACIA,Sweet Almond Oil,6.69,5.39,4.85,body_care,0.194,0.275,0.081,20% to 30%,Essential Oil,41
+572,AURA CACIA,Blue Tansy Essential Oil in Jojoba Oil,16.49,13.29,11.96,body_care,0.194,0.275,0.081,20% to 30%,Essential Oil,41
+573,AURA CACIA,Organic Lavender Essential Oil,16.49,13.29,11.96,body_care,0.194,0.275,0.081,20% to 30%,Essential Oil,41
+579,AURA CACIA,Love Potion Essential Oil,11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Essential Oil,41
+585,AURA CACIA,Essential Oil Pillow Potion,12.99,10.49,9.44,body_care,0.192,0.273,0.081,20% to 30%,Essential Oil,41
+591,AURA CACIA,Mind Guide Essential Oil Blend,12.99,10.49,9.44,body_care,0.192,0.273,0.081,20% to 30%,Essential Oil,41
+607,AURA CACIA,Organic Hemp Seed Oil,9.49,7.69,6.92,body_care,0.19,0.271,0.081,20% to 30%,Essential Oil,41
+611,AURA CACIA,Eucalyptus Essential Oil,7.39,5.99,5.39,body_care,0.189,0.271,0.082,20% to 30%,Essential Oil,41
+613,AURA CACIA,Organic Clove Bud Essential Oil,8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Essential Oil,41
+965,Yogi®,Mango Ginger,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+967,Yogi®,Relaxed Mind,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+968,Yogi®,Green Tea Super Antioxidant,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+969,Yogi®,Soothing Caramel Bedtime,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+970,Yogi®,Throat Comfort,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+971,Yogi®,Egyptian Licorice,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+972,Yogi®,Stomach Ease,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+973,Yogi®,Chai Rooibos,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+974,Yogi®,Breath Deep,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+975,Yogi®,DeTox,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+978,Yogi®,Honey Chai Turmeric Vitality,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+979,Yogi®,Green Tea Pure Green,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+980,Yogi®,Echinacea Immune Support,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+982,Yogi®,Green Tea Blueberry Slim Life,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+984,Yogi®,Egyptian Licorice Mint,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+986,Yogi®,Woman's Raspberry Leaf,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+987,Yogi®,Soothing Rose Hibiscus Skin DeTox,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+989,Yogi®,Kava Stress Relief,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+990,Yogi®,Bedtime,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+992,Yogi®,Lemon Ginger,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+993,Yogi®,Ginger,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+995,Yogi®,Comforting Chamomile,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+998,Yogi®,Honey Lavender Stress Relief,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+1001,Yogi®,Sweet Tangerine Positive Energy,4.99,4.29,3.86,Beverages,0.14,0.226,0.086,20% to 30%,Tea,41
+1085,Celestial Seasonings,Caffeine Free Extra Sleepytime Herbal Supplement Tea,3.69,3.29,2.96,Beverages,0.108,0.198,0.09,10% to 20%,Tea,41
+1265,Celestial Seasonings,Sleepytime Lavender Herbal Tea,3.49,3.29,2.96,Beverages,0.057,0.152,0.095,10% to 20%,Tea,41
+1296,Celestial Seasonings,Caffeine Free Classic Sleepytime Herbal Tea,3.39,3.29,2.96,Beverages,0.029,0.127,0.098,10% to 20%,Tea,41
+1356,Celestial Seasonings,Organic Teawell Matcha Green,5.99,3.99,3.59,Beverages,0.334,0.401,0.067,40% to 50%,Tea,41
+1358,Celestial Seasonings,Organic Teawell Ginger Mint,5.99,3.99,3.59,Beverages,0.334,0.401,0.067,40% to 50%,Tea,41
+1487,AURA CACIA,Oregano Essential Oil,15.49,11.49,10.34,body_care,0.258,0.332,0.074,30% to 40%,Essential Oil,41
+1640,AURA CACIA,Frankincense Essential Oil,31.99,24.99,22.49,body_care,0.219,0.297,0.078,20% to 30%,Essential Oil,41
+1672,AURA CACIA,Grapeseed Skin Care Oil,5.49,4.39,3.95,body_care,0.2,0.281,0.081,20% to 30%,Essential Oil,41
+1679,Celestial Seasonings,Teawell Sleep,4.99,3.99,3.59,Beverages,0.2,0.281,0.081,20% to 30%,Tea,41
+1680,Celestial Seasonings,Organic Teawell Laxative,4.99,3.99,3.59,Beverages,0.2,0.281,0.081,20% to 30%,Tea,41
+1725,AURA CACIA,Lavender Harvest Massage Oil,14.99,11.99,10.79,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil,41
+1727,AURA CACIA,Organic Rosehip Oil,15.99,12.79,11.51,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil,41
+1734,AURA CACIA,Organic Patchouli Essential Oil,17.79,14.29,12.86,body_care,0.197,0.277,0.08,20% to 30%,Essential Oil,41
+1742,AURA CACIA,Lavender Harvest Essential Oil,11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Essential Oil,41
+1873,AURA CACIA,Pine Essential Oil,7.99,6.69,6.02,body_care,0.163,0.247,0.084,20% to 30%,Essential Oil,41
+2137,AURA CACIA,Red Thyme Essential Oil,17.79,15.99,14.39,body_care,0.101,0.191,0.09,10% to 20%,Essential Oil,41
+2220,Celestial Seasonings,Vermont Maple Ginger Herbal Tea,3.49,3.29,2.96,Beverages,0.057,0.152,0.095,10% to 20%,Tea,41
+2221,Celestial Seasonings,Caffeine Free Country Peach Passion Herbal Tea,3.49,3.29,2.96,Beverages,0.057,0.152,0.095,10% to 20%,Tea,41
+2222,Celestial Seasonings,Caffeine Free Lemon Zinger Tea,3.49,3.29,2.96,Beverages,0.057,0.152,0.095,10% to 20%,Tea,41
+2223,Celestial Seasonings,Bengal Spice Tea,3.49,3.29,2.96,Beverages,0.057,0.152,0.095,10% to 20%,Tea,41
+2224,Celestial Seasonings,Peppermint Tea,3.49,3.29,2.96,Beverages,0.057,0.152,0.095,10% to 20%,Tea,41
+2243,Yogi®,Purely Peppermint,4.49,4.29,3.86,Beverages,0.045,0.14,0.095,10% to 20%,Tea,41
+2247,Yogi®,Peach DeTox,4.49,4.29,3.86,Beverages,0.045,0.14,0.095,10% to 20%,Tea,41
+2434,Celestial Seasonings,Organic Teawell Mood,5.49,3.99,3.59,Beverages,0.273,0.346,0.073,30% to 40%,Tea,41
+2435,Celestial Seasonings,Organic Teawell Turmeric Spice,5.49,3.99,3.59,Beverages,0.273,0.346,0.073,30% to 40%,Tea,41
+2712,AURA CACIA,Eucalyptus Essential Oil,19.49,15.49,13.94,body_care,0.205,0.285,0.08,20% to 30%,Essential Oil,41
+2717,AURA CACIA,Sweet Orange Essential Oil,13.79,10.99,9.89,body_care,0.203,0.283,0.08,20% to 30%,Essential Oil,41
+2771,AURA CACIA,Atlas Cedarwood Essential Oil,9.99,7.99,7.19,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil,41
+2776,AURA CACIA,Sweet Orange Certified Organic Essential Oil,5.99,4.79,4.31,body_care,0.2,0.28,0.08,20% to 30%,Essential Oil,41
+2809,AURA CACIA,Breezeway Essential Oil Blend,12.79,10.29,9.26,body_care,0.195,0.276,0.081,20% to 30%,Essential Oil,41
+2819,AURA CACIA,Black Seed Skin Care Oil,18.99,15.29,13.76,body_care,0.195,0.275,0.08,20% to 30%,Essential Oil,41
+2827,AURA CACIA,Grapeseed Skin Care Oil,12.99,10.49,9.44,body_care,0.192,0.273,0.081,20% to 30%,Essential Oil,41
+2849,AURA CACIA,Peppermint Essential Oil,8.99,7.29,6.56,body_care,0.189,0.27,0.081,20% to 30%,Essential Oil,41
+3228,AURA CACIA,Tea Tree Essential Oil,8.29,7.29,6.56,body_care,0.121,0.209,0.088,20% to 30%,Essential Oil,41
+3272,Celestial Seasonings,Echinacea Complete Care Tea Bag,3.69,3.29,2.96,Beverages,0.108,0.198,0.09,10% to 20%,Tea,41
+1,Whole Foods Market,Organic Dark Roast Steeped Coffee,11.99,5.99,5.39,Beverages,0.5,0.55,0.05,50% or more,Coffee,44
+39,Groundwork Coffee,Organic Cold Brew Coffee,4.99,3,2.7,Beverages,0.399,0.459,0.06,40% to 50%,Coffee,44
+51,Icelandic Provisions,Extra Creamy Cold Brew Coffee,1.99,1.25,1.12,frozen_foods,0.372,0.437,0.065,40% to 50%,Coffee,44
+115,GROUNDWORK COFFEE CO,Organic Classic Cold Brew Coffee,3.69,2.5,2.25,Beverages,0.322,0.39,0.068,30% to 40%,Coffee,44
+324,Lucky Jack,Cold Brew Coffee Concentrate - Black,11.99,8.99,8.09,Beverages,0.25,0.325,0.075,30% to 40%,Coffee,44
+326,Lucky Jack,Organic Mocha Cole Brew Coffee Concentrate,11.99,8.99,8.09,Beverages,0.25,0.325,0.075,30% to 40%,Coffee,44
+329,Lucky Jack,Organic Caramel Concentrate Cold Brew Coffee,11.99,8.99,8.09,Beverages,0.25,0.325,0.075,30% to 40%,Coffee,44
+347,Koia,Cold Brew Coffee,3.99,3,2.7,Beverages,0.248,0.323,0.075,30% to 40%,Coffee,44
+714,Peet's Coffee,Ground Cafe Domingo Blend Coffee,11.99,9.99,8.99,Beverages,0.167,0.25,0.083,20% to 30%,Coffee,44
+724,Peet's Coffee,House Blend Ground Coffee,11.99,9.99,8.99,Beverages,0.167,0.25,0.083,20% to 30%,Coffee,44
+739,Peet's Coffee,French Roast Ground Coffee,11.99,9.99,8.99,Beverages,0.167,0.25,0.083,20% to 30%,Coffee,44
+750,Lucky Jack,Cold Brew Coffee Old School,4.19,3.5,3.15,Beverages,0.165,0.248,0.083,20% to 30%,Coffee,44
+751,Lucky Jack,Cold Brew Coffee Triple Jack,4.19,3.5,3.15,Beverages,0.165,0.248,0.083,20% to 30%,Coffee,44
+752,Lucky Jack,Sweet Thing Nitro Cold Brew Coffee,4.19,3.5,3.15,Beverages,0.165,0.248,0.083,20% to 30%,Coffee,44
+821,Counter Culture Coffee,Gradient Whole Bean Coffee,12.99,10.99,9.89,Beverages,0.154,0.239,0.085,20% to 30%,Coffee,44
+827,Counter Culture Coffee,Fast Forward Coffee,12.99,10.99,9.89,Beverages,0.154,0.239,0.085,20% to 30%,Coffee,44
+1011,Copper Cow Coffee,Vietnamese Vanilla Pour Over Coffee Kit,10.99,9.49,8.54,Beverages,0.136,0.223,0.087,20% to 30%,Coffee,44
+1014,Copper Cow Coffee,Vietnamese Portable Pour Over Coffee,10.99,9.49,8.54,Beverages,0.136,0.223,0.087,20% to 30%,Coffee,44
+1015,Groundwork Coffee,Organic Black Gold Dark Roast Whole Bean Coffee,17.29,14.99,13.49,Beverages,0.133,0.22,0.087,20% to 30%,Coffee,44
+1018,Groundwork Coffee,Organic Cold Brew Coffee Concentrate,14.99,12.99,11.69,Beverages,0.133,0.22,0.087,20% to 30%,Coffee,44
+1020,Groundwork Coffee,Organic Brazil Light Roast Whole Bean Coffee,17.29,14.99,13.49,Beverages,0.133,0.22,0.087,20% to 30%,Coffee,44
+1021,Groundwork Coffee,Organic Angel City Light Roast Whole Bean Coffee,17.29,14.99,13.49,Beverages,0.133,0.22,0.087,20% to 30%,Coffee,44
+1022,Groundwork Coffee,Organic Sumatra Medium Roast Whole Bean Coffee,17.29,14.99,13.49,Beverages,0.133,0.22,0.087,20% to 30%,Coffee,44
+1023,Groundwork Coffee,Organic Big Easy Medium Roast Ground Coffee,17.29,14.99,13.49,Beverages,0.133,0.22,0.087,20% to 30%,Coffee,44
+1024,Groundwork Coffee,Organic Black Magic Medium Roast Whole Bean Coffee,17.29,14.99,13.49,Beverages,0.133,0.22,0.087,20% to 30%,Coffee,44
+1074,MODERN TIMES,Cold Brew Nitro Black House Single Coffee,4.49,3.99,3.59,Beverages,0.111,0.2,0.089,10% to 20%,Coffee,44
+1202,Peet's Coffee,Organic French Ground Coffee,10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Coffee,44
+1204,Peet's Coffee,Major Dickasons Blend Ground Coffee,10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Coffee,44
+1207,Teeccino,Vanilla Nut Chicory Herbal Coffee,10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Coffee,44
+1213,Teeccino,Hazelnut herbal coffee,10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,coffee,44
+1431,Later Days Coffee Co.,Cold Brew Coffee,3.49,2.5,2.25,Beverages,0.284,0.355,0.071,30% to 40%,Coffee,44
+1617,Peet's Coffee & Tea,Organic Alameda Morning Blend Medium Roast Coffee,12.99,9.99,8.99,Beverages,0.231,0.308,0.077,30% to 40%,Coffee,44
+1654,Peet's Coffee,Kcup Decaf Especial Medium Roast Coffee,10.99,8.69,7.82,Beverages,0.209,0.288,0.079,20% to 30%,Coffee,44
+1655,Peet's Coffee,Big Bang Medium Roast K-cup,10.99,8.69,7.82,Beverages,0.209,0.288,0.079,20% to 30%,Coffee,44
+2073,VERVE COFFEE ROASTERS,African Coffee,16.99,14.99,13.49,Beverages,0.118,0.206,0.088,20% to 30%,Coffee,44
+2075,VERVE COFFEE ROASTERS,Latin American Coffee,16.99,14.99,13.49,Beverages,0.118,0.206,0.088,20% to 30%,Coffee,44
+2104,VERVE COFFEE ROASTERS,Moka Java Blend Coffee,16.79,14.99,13.49,Beverages,0.107,0.197,0.09,10% to 20%,Coffee,44
+2105,VERVE COFFEE ROASTERS,House Blend Coffee,16.79,14.99,13.49,Beverages,0.107,0.197,0.09,10% to 20%,Coffee,44
+2164,Peet's Coffee,Organic Alma De La Tierra Gd Coffee,10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Coffee,44
+2272,Whole Foods Market,Organic Medium Roast Steeped Coffee,11.99,5.99,5.39,Beverages,0.5,0.55,0.05,50% or more,Coffee,44
+2905,Peet's Coffee,Single Origin Sumatra Dark Roast Coffee,11.99,9.99,8.99,Beverages,0.167,0.25,0.083,20% to 30%,Coffee,44
+2906,Counter Culture Coffee,Big Trouble Coffee,23.99,19.99,17.99,Beverages,0.167,0.25,0.083,20% to 30%,Coffee,44
+2913,Peet's Coffee,Organic Decaf Terrena Coffee,11.99,9.99,8.99,Beverages,0.167,0.25,0.083,20% to 30%,Coffee,44
+3400,Teeccino,Vanilla Nut Herbal Coffee,4.49,4.19,3.77,Beverages,0.067,0.16,0.093,10% to 20%,Coffee,44
+25,YumEarth,Organic Gummy Fruits Ye Valentine Organic Gummy Fruits,6.99,4.17,3.75,snacks_chips_salsas_dips,0.403,0.464,0.061,40% to 50%,Snack,48
+78,PIGOUT,Hella Hot Pigless Pork Rinds,3.79,2.5,2.25,snacks_chips_salsas_dips,0.34,0.406,0.066,40% to 50%,Snack,48
+79,PIGOUT,Texas Bbq Pigless Pork Rinds,3.79,2.5,2.25,snacks_chips_salsas_dips,0.34,0.406,0.066,40% to 50%,Snack,48
+86,Honey Mama's,Cocoa Truffle Bar Coffee Nib Crunch,5.99,4,3.6,snacks_chips_salsas_dips,0.332,0.399,0.067,30% to 40%,Snack,48
+97,Honey Mama's,Cocoa Truffle Bar Lavender Rose,5.99,4,3.6,snacks_chips_salsas_dips,0.332,0.399,0.067,30% to 40%,Snack,48
+98,Honey Mama's,Cocoa Truffle Bar Coconut,5.99,4,3.6,snacks_chips_salsas_dips,0.332,0.399,0.067,30% to 40%,Snack,48
+100,Honey Mama's,Cocoa Truffle Bar Original Dutch,2.99,2,1.8,snacks_chips_salsas_dips,0.331,0.398,0.067,30% to 40%,Snack,48
+103,Honey Mama's,Cocoa Truffle Bar Coconut,2.99,2,1.8,snacks_chips_salsas_dips,0.331,0.398,0.067,30% to 40%,Snack,48
+225,Dandies,Mini Vegan Marshmallows,5.39,3.99,3.59,snacks_chips_salsas_dips,0.26,0.334,0.074,30% to 40%,Snack,48
+295,SUN NOODLE,Spicy Sesame Ramen,5.99,4.49,4.04,snacks_chips_salsas_dips,0.25,0.326,0.076,30% to 40%,Snack,48
+351,Hippeas,Rockin Ranch Tortilla,3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Snack,48
+352,Hippeas,Sea Salt & Lime Tortilla,3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Snack,48
+556,Liquid IV,Strawberry Hydration Multiplier Electrolyte Drink Mix,19.99,15.99,14.39,Beverages,0.2,0.28,0.08,20% to 30%,Snack,48
+571,Manitoba Harvest,Hemp Hearts,18.99,15.29,13.76,snacks_chips_salsas_dips,0.195,0.275,0.08,20% to 30%,Snack,48
+580,Manitoba Harvest Hemp Foods,Raw Shelled Hemp Seeds,11.99,9.69,8.72,snacks_chips_salsas_dips,0.192,0.273,0.081,20% to 30%,Snack,48
+625,LOVE CORN,Smoked Bbq Crunchy Corn Snack,3.69,3,2.7,snacks_chips_salsas_dips,0.187,0.268,0.081,20% to 30%,Snack,48
+636,LOVE CORN,Sea Salt Crunchy Corn Snack,3.69,3,2.7,snacks_chips_salsas_dips,0.187,0.268,0.081,20% to 30%,Snack,48
+669,Chuao Chocolatier,Golden Goodness,5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Snack,48
+722,Divina,Pitted Greek Mix,5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Snack,48
+729,Lakanto,Cookie Mix,8.39,6.99,6.29,pantry_essentials,0.167,0.25,0.083,20% to 30%,Snack,48
+757,Milk Bar,Birthday Truffle Crumb Cakes,2.99,2.5,2.25,snacks_chips_salsas_dips,0.164,0.247,0.083,20% to 30%,Snack,48
+811,Lakanto,Blueberry Muffin Mix,8.29,6.99,6.29,pantry_essentials,0.157,0.241,0.084,20% to 30%,Snack,48
+849,BRAMI Beans,Garlic & Rosemary Italian Snacking Lupini Beans,4.69,3.99,3.59,snacks_chips_salsas_dips,0.149,0.235,0.086,20% to 30%,Snack,48
+854,BRAMI Beans,Sea Salt & Vinegar Italian Snacking Lupini Beans,4.69,3.99,3.59,snacks_chips_salsas_dips,0.149,0.235,0.086,20% to 30%,Snack,48
+1124,Farmer's Market Foods,Organic Pumpkin Pie Mix,2.99,2.69,2.42,pantry_essentials,0.1,0.191,0.091,10% to 20%,Snack,48
+1150,Aleia's Gluten Free Foods,Plain Stuffing Mix,5.99,5.39,4.85,pantry_essentials,0.1,0.19,0.09,10% to 20%,Snack,48
+1153,Aleia's Gluten Free Foods,Savory Stuffing Mix,5.99,5.39,4.85,pantry_essentials,0.1,0.19,0.09,10% to 20%,Snack,48
+1158,John Kelly Chocolates,Peanut Butter With Himalayan Pink Salt Truffle Fudge Bites,14.99,13.49,12.14,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack,48
+1160,ARTISAN TROPIC,Sea Salt Plantain Chips Multipack,6.99,6.29,5.66,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack,48
+1161,P.O.P. Candy Co,Pop Mix Fresh Butter Crunch,5.99,5.39,4.85,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack,48
+1163,P.O.P. Candy Co,Rum Y Vanilla Fresh Butter Crunch,5.99,5.39,4.85,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack,48
+1165,P.O.P. Candy Co,Pecan Butter Crunch Brittle,5.99,5.39,4.85,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack,48
+1170,Beanfields,Grain Free Fiery Hot Rings,3.99,3.59,3.23,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack,48
+1174,SmartSweets,Blue Raspberry Watermelon Lollipops Multipack,6.99,6.29,5.66,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack,48
+1189,Powell & Mahoney,Classic Bloody Mary Handcrafted Cocktail Mixer,9.49,8.59,7.73,Beverages,0.095,0.185,0.09,10% to 20%,Snack,48
+1193,Beanfields,Black Bean With Sea Salt Chips,4.29,3.89,3.5,snacks_chips_salsas_dips,0.093,0.184,0.091,10% to 20%,Snack,48
+1194,Beanfields,Beanfield's Nacho,4.29,3.89,3.5,snacks_chips_salsas_dips,0.093,0.184,0.091,10% to 20%,Snack,48
+1479,ZolliCandy,Zolli Pops,6.99,5.19,4.67,snacks_chips_salsas_dips,0.258,0.332,0.074,30% to 40%,Snack,48
+1759,Rawkin Raw,Organic Blonde Superfood Macaroon,3.69,2.99,2.69,snacks_chips_salsas_dips,0.19,0.271,0.081,20% to 30%,Snack,48
+2142,Chuao Chocolatier,Joy Filled Caramels Sweet & Salty,4.99,4.49,4.04,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack,48
+2143,Chuao Chocolatier,Ohh Ahh Almond Joy Filled Caramels,4.99,4.49,4.04,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Snack,48
+2322,Cava,Harissa,6.99,4.49,4.04,snacks_chips_salsas_dips,0.358,0.422,0.064,40% to 50%,Snack,48
+2455,CORE Foods,Organic Probiotic Oat Bar Peanut Butter,2.99,2.19,1.97,snacks_chips_salsas_dips,0.268,0.341,0.073,30% to 40%,Snack,48
+2456,CORE Foods,Organic Probiotic Oat Bar Blueberry Banana Almond,2.99,2.19,1.97,snacks_chips_salsas_dips,0.268,0.341,0.073,30% to 40%,Snack,48
+2524,Cava,Tzatziki,8.69,6.49,5.84,snacks_chips_salsas_dips,0.253,0.328,0.075,30% to 40%,Snack,48
+2877,Mitica,Toketti Di Pane Carasau,6.99,5.74,5.17,snacks_chips_salsas_dips,0.179,0.26,0.081,20% to 30%,Snack,48
+2883,Sesmark,Brown Rice Thins,2.99,2.49,2.24,snacks_chips_salsas_dips,0.167,0.251,0.084,20% to 30%,Snack,48
+3028,Hippeas,Jalapeno Tortilla,3.55,3,2.7,snacks_chips_salsas_dips,0.155,0.239,0.084,20% to 30%,Snack,48
+4,MAD HIPPIE,Antioxidant Facial Oil,25.99,14.49,13.04,beauty,0.442,0.498,0.056,40% to 50%,Wash,49
+313,NUBIAN HERITAGE,Patchouli & Buriti Body Wash,13.99,10.49,9.44,body_care,0.25,0.325,0.075,30% to 40%,Wash,49
+314,NUBIAN HERITAGE,African Black Body Wash,13.99,10.49,9.44,body_care,0.25,0.325,0.075,30% to 40%,Wash,49
+315,NUBIAN HERITAGE,Goat Milk Butter Body Wash,13.99,10.49,9.44,body_care,0.25,0.325,0.075,30% to 40%,Wash,49
+316,NUBIAN HERITAGE,Raw Shea Butter Body Wash,13.99,10.49,9.44,body_care,0.25,0.325,0.075,30% to 40%,Wash,49
+415,Tom's of Maine,Cool Mountain Mint Mouthwash,5.79,4.49,4.04,body_care,0.225,0.302,0.077,30% to 40%,Wash,49
+416,Tom's of Maine,Mint Sea Salt Mouthwash,5.79,4.49,4.04,body_care,0.225,0.302,0.077,30% to 40%,Wash,49
+452,ALBA BOTANICA,Cannabis Sativa Seed Oil Hempquility Bath Soak & Body Wash,14.49,11.49,10.34,body_care,0.207,0.286,0.079,20% to 30%,Wash,49
+469,EARTH THERAPEUTICS,4 Sided Filing Block,2.99,2.39,2.15,beauty,0.201,0.281,0.08,20% to 30%,Wash,49
+549,ALBA BOTANICA,Gardenia Hydrating Hair Wash,10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Wash,49
+550,ALBA BOTANICA,Hawaiian 3 In 1 Clean Towelettes,5.99,4.79,4.31,beauty,0.2,0.28,0.08,20% to 30%,Wash,49
+554,ALBA BOTANICA,Coconut Milk Rich Hair Wash,10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Wash,49
+586,Jason Natural Products,Lavender Body Wash,11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Wash,49
+587,Jason Natural Products,Glycerin Rosewater Body Wash,11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Wash,49
+590,Jason Natural Products,Smoothing Coconut Body Wash,11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Wash,49
+593,Jason Natural Products,Citrus Satin Body Wash,11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Wash,49
+594,Jason Natural Products,Aloe Vera Body Wash,11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Wash,49
+596,Jason Natural Products,Tea Tree Body Wash,11.99,9.69,8.72,body_care,0.192,0.273,0.081,20% to 30%,Wash,49
+813,AVALON ORGANICS,Radiant C Daily Gel Cream Moisturizer,28.99,24.49,22.04,beauty,0.155,0.24,0.085,20% to 30%,Wash,49
+828,MAD HIPPIE,Mad Hip Eye Cream,25.99,21.99,19.79,beauty,0.154,0.239,0.085,20% to 30%,Wash,49
+831,Jason Natural Products,Hi Shine Style Gel,9.79,8.29,7.46,beauty,0.153,0.238,0.085,20% to 30%,Wash,49
+841,MAD HIPPIE,Vitamin A Serum,32.99,27.99,25.19,beauty,0.152,0.236,0.084,20% to 30%,Wash,49
+846,MAD HIPPIE,Mad Hip Vitamin C Serum,36.49,30.99,27.89,beauty,0.151,0.236,0.085,20% to 30%,Wash,49
+867,MAD HIPPIE,Face Cream,26.99,22.99,20.69,beauty,0.148,0.233,0.085,20% to 30%,Wash,49
+874,ALAFFIA,Curl Activating Cream,13.79,11.79,10.61,beauty,0.145,0.231,0.086,20% to 30%,Wash,49
+876,ALAFFIA,Curl Activating Leave In Conditioner,13.79,11.79,10.61,beauty,0.145,0.231,0.086,20% to 30%,Wash,49
+879,ALAFFIA,Curl Defining Gel,13.79,11.79,10.61,beauty,0.145,0.231,0.086,20% to 30%,Wash,49
+885,Jason Natural Products,Kids Bubblegum Foaming Wash,14.49,12.39,11.15,body_care,0.145,0.231,0.086,20% to 30%,Wash,49
+889,Jason Natural Products,Tea Tree Nail Saver,8.99,7.69,6.92,beauty,0.145,0.23,0.085,20% to 30%,Wash,49
+894,ALAFFIA,Pure African Coconut Oil For Hair & Skin,13.99,11.99,10.79,beauty,0.143,0.229,0.086,20% to 30%,Wash,49
+895,PUREZERO,Moroccan Argan Oil Conditioner,6.99,5.99,5.39,beauty,0.143,0.229,0.086,20% to 30%,Wash,49
+904,PUREZERO,Coconut Milk Conditioner,6.99,5.99,5.39,beauty,0.143,0.229,0.086,20% to 30%,Wash,49
+924,PUREZERO,Biotin Conditioner,6.99,5.99,5.39,beauty,0.143,0.229,0.086,20% to 30%,Wash,49
+937,ALAFFIA,Vanilla Moisturizing Body Wash,11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Wash,49
+939,ALAFFIA,Unscented Moisturizing Body Wash,11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Wash,49
+941,ALAFFIA,Coconut Body Wash,11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Wash,49
+942,ALAFFIA,Lavender Moisturizing Body Wash,11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Wash,49
+944,ALAFFIA,Coconut Body Wash Coconut Lime,11.99,10.29,9.26,body_care,0.142,0.228,0.086,20% to 30%,Wash,49
+1682,EARTH THERAPEUTICS,Deluxe Nail Brush,3.99,3.19,2.87,beauty,0.201,0.281,0.08,20% to 30%,Wash,49
+1717,ALBA BOTANICA,Cannabis Sativa Seed Oil Smooth & Soothe Conditioner,10.99,8.79,7.91,beauty,0.2,0.28,0.08,20% to 30%,Wash,49
+2533,Tom's of Maine,Fresh Mint Whole Care Mouthwash,5.99,4.49,4.04,body_care,0.25,0.326,0.076,30% to 40%,Wash,49
+2635,EARTH THERAPEUTICS,Curling Hair Brush,8.69,6.69,6.02,beauty,0.23,0.307,0.077,30% to 40%,Wash,49
+2748,ALBA BOTANICA,Moisture Jasmine Vitamin E Cream,20.99,16.79,15.11,beauty,0.2,0.28,0.08,20% to 30%,Wash,49
+2775,Jason Natural Products,Body Wash Cannabis Sativa Seed Oil,9.99,7.99,7.19,body_care,0.2,0.28,0.08,20% to 30%,Wash,49
+2818,EARTH THERAPEUTICS,Natural Bamboo Hair Brush,10.79,8.69,7.82,beauty,0.195,0.275,0.08,20% to 30%,Wash,49
+3021,ALAFFIA,Moisturizing Conditioner Vanilla Mint,14.79,12.49,11.24,beauty,0.156,0.24,0.084,20% to 30%,Wash,49
+3049,MAD HIPPIE,Cleansing Oil,17.99,15.29,13.76,beauty,0.15,0.235,0.085,20% to 30%,Wash,49
+3078,ALAFFIA,Shea Passionfruit Body Wash,10.99,9.39,8.45,body_care,0.146,0.231,0.085,20% to 30%,Wash,49
+3166,ALAFFIA,Curl Enhancing Leave In Conditioner,10.79,9.29,8.36,beauty,0.139,0.225,0.086,20% to 30%,Wash,49
+19,Cucina Antica,La Vodka Sauce,7.99,4.69,4.22,pantry_essentials,0.413,0.472,0.059,40% to 50%,Sauce,56
+20,Cucina Antica,Garlic Marinara Sauce,7.99,4.69,4.22,pantry_essentials,0.413,0.472,0.059,40% to 50%,Sauce,56
+21,Cucina Antica,Tomato Basil Sauce,7.99,4.69,4.22,pantry_essentials,0.413,0.472,0.059,40% to 50%,Sauce,56
+30,Annie's Homegrown,Organic Vegan Shell Pasta & Creamy Sauce,4.19,2.5,2.25,pantry_essentials,0.403,0.463,0.06,40% to 50%,Sauce,56
+31,Annie's Homegrown,Organic Vegan Elbow Pasta & Creamy Sauce,4.19,2.5,2.25,pantry_essentials,0.403,0.463,0.06,40% to 50%,Sauce,56
+36,Ocean's Halo,Organic and Plant-Based Vegan Fish Sauce,4.49,2.69,2.42,pantry_essentials,0.401,0.461,0.06,40% to 50%,Sauce,56
+37,Ocean's Halo,Organic No Soy Soy-Free Sauce Less Sodium,4.49,2.69,2.42,pantry_essentials,0.401,0.461,0.06,40% to 50%,Sauce,56
+43,Ocean's Halo,Organic Soy-Free Teriyaki Sauce,5.99,3.69,3.32,pantry_essentials,0.384,0.446,0.062,40% to 50%,Sauce,56
+45,Ocean's Halo,Organic Soy-Free Stir-fry Sauce,5.99,3.69,3.32,pantry_essentials,0.384,0.446,0.062,40% to 50%,Sauce,56
+62,YO MAMAS FOODS,Radiant Rose Tomato Sauce,9.49,5.99,5.39,pantry_essentials,0.369,0.432,0.063,40% to 50%,Sauce,56
+63,YO MAMAS FOODS,Fresh Tomatoes Basil Pasta Sauce,9.49,5.99,5.39,pantry_essentials,0.369,0.432,0.063,40% to 50%,Sauce,56
+81,Cava,Tzatziki Sauce,5.99,3.99,3.59,snacks_chips_salsas_dips,0.334,0.401,0.067,40% to 50%,Sauce,56
+141,Monte Bene,Tomato Basil Pasta Sauce,4.99,3.5,3.15,pantry_essentials,0.299,0.369,0.07,30% to 40%,Sauce,56
+142,Monte Bene,Spicy Marinara Pasta Sauce,4.99,3.5,3.15,pantry_essentials,0.299,0.369,0.07,30% to 40%,Sauce,56
+163,Bragg Live Food Products,Liquid Aminos,6.29,4.49,4.04,pantry_essentials,0.286,0.358,0.072,30% to 40%,Sauce,56
+212,Rao's Homemade,Rao's Specialty Foods Pizza Sauce,5.69,4.19,3.77,pantry_essentials,0.264,0.337,0.073,30% to 40%,Sauce,56
+263,Rao's Homemade,Rao's Specialty Foods Tomato Basil Sauce,8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce,56
+264,Rao's Homemade,Tomato Herb Pasta Sauce,8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce,56
+266,Rao's Homemade,Rao's Specialty Foods Marinara Sauce (24 Oz),8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce,56
+267,Rao's Homemade,Arrabbiata Sauce,8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce,56
+271,Rao's Homemade,Roasted Garlic Sauce,8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce,56
+275,Rao's Homemade,Sensitive Formula Marinara Sauce,8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce,56
+276,Rao's Homemade,4 Cheese Sauce,8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce,56
+278,Rao's Homemade,Vodka Sauce,8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce,56
+280,Rao's Homemade,Bolognese Pasta Sauce,8.99,6.69,6.02,pantry_essentials,0.256,0.33,0.074,30% to 40%,Sauce,56
+281,RAOS,Meatballs & Sauce,12.99,9.69,8.72,frozen_foods,0.254,0.329,0.075,30% to 40%,Sauce,56
+321,Lucini,Organic Golden Tomato Pasta Sauce,7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Sauce,56
+323,Lucini,Rustic Tomato Basil Organic Sauce,7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Sauce,56
+327,Lucini,Tuscan Marinara Organic Sauce,7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Sauce,56
+330,Rao's Homemade,Alfredo Pasta Sauce,7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Sauce,56
+339,Rao's Homemade,Roasted Garlic Alfredo Pasta Sauce,7.99,5.99,5.39,pantry_essentials,0.25,0.325,0.075,30% to 40%,Sauce,56
+790,Rao's Homemade,Italian Sausage & Mushroom Sauce,7.95,6.69,6.02,pantry_essentials,0.158,0.243,0.085,20% to 30%,Sauce,56
+853,Lucky Foods,Organic Hoisin Sauce,8.69,7.39,6.65,pantry_essentials,0.15,0.235,0.085,20% to 30%,Sauce,56
+919,Organico Bello,Organic Marinara Pasta Sauce,6.99,5.99,5.39,pantry_essentials,0.143,0.229,0.086,20% to 30%,Sauce,56
+921,Organico Bello,Organic Tomato Basil Pasta Sauce,6.99,5.99,5.39,pantry_essentials,0.143,0.229,0.086,20% to 30%,Sauce,56
+922,Organico Bello,Delicate Recipe Pasta Sauce,6.99,5.99,5.39,pantry_essentials,0.143,0.229,0.086,20% to 30%,Sauce,56
+925,Organico Bello,Organic Pasta Sauce-spicy Marinara,6.99,5.99,5.39,pantry_essentials,0.143,0.229,0.086,20% to 30%,Sauce,56
+1141,SPICEMODE,Vindaloo Cooking Sauce,6.99,6.29,5.66,pantry_essentials,0.1,0.19,0.09,10% to 20%,Sauce,56
+1228,Rufus Teague,Touch O' Heat Bbq Sauce,5.99,5.49,4.94,pantry_essentials,0.083,0.175,0.092,10% to 20%,Sauce,56
+1229,Rufus Teague,Honey Sweet Bbq Sauce,5.99,5.49,4.94,pantry_essentials,0.083,0.175,0.092,10% to 20%,Sauce,56
+1288,Seoul,Korean Bbq Marinade Kalbi Sauce,5.39,5.19,4.67,pantry_essentials,0.037,0.134,0.097,10% to 20%,Sauce,56
+1290,Seoul,Spicy Kimchi Hot Sauce,5.39,5.19,4.67,pantry_essentials,0.037,0.134,0.097,10% to 20%,Sauce,56
+1291,Seoul,Korean Bbq Marinade Bulgogi Sauce,5.39,5.19,4.67,pantry_essentials,0.037,0.134,0.097,10% to 20%,Sauce,56
+1359,Cucina Antica,La Pizza Cooking Sauce,5.99,3.99,3.59,pantry_essentials,0.334,0.401,0.067,40% to 50%,Sauce,56
+1428,Freak Flag Organics,Organic Burger Joint Dipping Sauce,6.99,5,4.5,pantry_essentials,0.285,0.356,0.071,30% to 40%,Sauce,56
+2351,YO MAMAS FOODS,Orginal Fresh Tomatoes Marinara,8.79,5.99,5.39,pantry_essentials,0.319,0.387,0.068,30% to 40%,Sauce,56
+2404,Monte Bene,Garlic Marinara Pasta Sauce,4.99,3.5,3.15,pantry_essentials,0.299,0.369,0.07,30% to 40%,Sauce,56
+2520,Rao's Homemade,Rao's Specialty Foods Garden Vegetable Sauce,8.29,6.19,5.57,pantry_essentials,0.253,0.328,0.075,30% to 40%,Sauce,56
+2904,Organico Bello,Pizza Sauce Organic Pizza and Pasta Sauce,5.99,4.99,4.49,pantry_essentials,0.167,0.25,0.083,20% to 30%,Sauce,56
+3233,Cucina Antica,Garlic Marinara Sauce (32 Oz),8.49,7.49,6.74,pantry_essentials,0.118,0.206,0.088,20% to 30%,Sauce,56
+3236,Cucina Antica,Tomato Basil Sauce,8.49,7.49,6.74,pantry_essentials,0.118,0.206,0.088,20% to 30%,Sauce,56
+3259,The Meatball Shop,Shop Tomato Sauce,8.99,7.99,7.19,pantry_essentials,0.111,0.2,0.089,10% to 20%,Sauce,56
+3261,The Meatball Shop,Creamy Tomato Basil Pasta Sauce,8.99,7.99,7.19,pantry_essentials,0.111,0.2,0.089,10% to 20%,Sauce,56
+3373,Cucina Antica,Spicy Arrabbiata Sauce,6.49,5.99,5.39,pantry_essentials,0.077,0.169,0.092,10% to 20%,Sauce,56
+3374,Cucina Antica,Tuscany Pumpkin Sauce,6.49,5.99,5.39,pantry_essentials,0.077,0.169,0.092,10% to 20%,Sauce,56
+3382,Cucina Antica,Nonna's Recipe San Marzano Tomato Sauce,6.49,5.99,5.39,pantry_essentials,0.077,0.169,0.092,10% to 20%,Sauce,56
+75,Barlean's,Omega Swirl Strawberry Banana Flax Oil,30.49,19.99,17.99,supplements,0.344,0.41,0.066,40% to 50%,supplement,58
+82,Lakewood,PURE Whole Leaf Aloe Pure Organic,8.99,5.99,5.39,supplements,0.334,0.4,0.066,30% to 40%,supplement,58
+105,Liquid I.V.,Hydration Multiplier Passion Fruit Passion Fruit,2.99,2,1.8,supplements,0.331,0.398,0.067,30% to 40%,supplement,58
+106,Liquid IV,Hydration Sleeve,2.99,2,1.8,supplements,0.331,0.398,0.067,30% to 40%,supplement,58
+200,Enzymedica,Digest Gold,54.49,39.99,35.99,supplements,0.266,0.34,0.074,30% to 40%,supplement,58
+262,Wishgarden,"Herbs Kick-Ass Immune Activator - Organic Herbal Immune Booster, Promotes Healthy Immune System Response and Resistance",38.99,28.99,26.09,supplements,0.256,0.331,0.075,30% to 40%,supplement,58
+320,Wedderspoon,Organic Manuka Honey Drops Ginger,11.99,8.99,8.09,supplements,0.25,0.325,0.075,30% to 40%,supplement,58
+322,Wedderspoon,Organic Manuka Honey Drops Lemon,11.99,8.99,8.09,supplements,0.25,0.325,0.075,30% to 40%,supplement,58
+325,Wedderspoon,Organic Manuka Honey Drops Eucalyptus,11.99,8.99,8.09,supplements,0.25,0.325,0.075,30% to 40%,supplement,58
+436,Plant Fusion,Vanilla Complete Plant Protein,32.99,25.89,23.3,supplements,0.215,0.294,0.079,20% to 30%,supplement,58
+524,Vega,Sport Energizer Acai Berry Tub,39.99,31.99,28.79,supplements,0.2,0.28,0.08,20% to 30%,supplement,58
+525,Vega,Sport Energizer Strawberry Lemonade Tub,39.99,31.99,28.79,supplements,0.2,0.28,0.08,20% to 30%,supplement,58
+527,Nature's Way,Original Sambucus Standardized Elderberry Syrup,29.99,23.99,21.59,supplements,0.2,0.28,0.08,20% to 30%,supplement,58
+528,Nature's Way,Sambucus Immune Standardized Elderberry Syrup,18.99,15.19,13.67,supplements,0.2,0.28,0.08,20% to 30%,supplement,58
+536,Vega,Vanilla Flavor Sport Performance Protein,54.99,43.99,39.59,supplements,0.2,0.28,0.08,20% to 30%,supplement,58
+538,Nature's Way,Standardized Elderberry Sambucus Gummies,20.99,16.79,15.11,supplements,0.2,0.28,0.08,20% to 30%,supplement,58
+542,Vega,Sport Sugarfree Energizer Acai Berry Tub,39.99,31.99,28.79,supplements,0.2,0.28,0.08,20% to 30%,supplement,58
+561,Barlean's,Organic Flax Oil,22.99,18.49,16.64,supplements,0.196,0.276,0.08,20% to 30%,supplement,58
+575,Manitoba Harvest Hemp Foods,Organic Hemp Hearts,15.49,12.49,11.24,supplements,0.194,0.274,0.08,20% to 30%,supplement,58
+604,Manitoba Harvest Hemp Foods,Natural Hemp Hearts,9.49,7.69,6.92,supplements,0.19,0.271,0.081,20% to 30%,supplement,58
+807,New Chapter,Women's Daily Probiotic,34.99,29.49,26.54,supplements,0.157,0.241,0.084,20% to 30%,supplement,58
+810,New Chapter,Probiotic All-Flora,34.99,29.49,26.54,supplements,0.157,0.241,0.084,20% to 30%,supplement,58
+836,Olly,Kids Cherry Berry Mighty Immunity,16.49,13.99,12.59,supplements,0.152,0.237,0.085,20% to 30%,supplement,58
+845,Vital Proteins,Vanilla Collagen Creamer,32.99,27.99,25.19,supplements,0.152,0.236,0.084,20% to 30%,supplement,58
+850,Ancient Nutrition,Protein Multi Collagen Vanilla,49.99,42.49,38.24,supplements,0.15,0.235,0.085,20% to 30%,supplement,58
+852,Ancient Nutrition,Multi Collagen Protein,29.99,25.49,22.94,supplements,0.15,0.235,0.085,20% to 30%,supplement,58
+857,Ancient Nutrition,Vanilla Plant Protein,39.99,33.99,30.59,supplements,0.15,0.235,0.085,20% to 30%,supplement,58
+864,New Chapter,Zyflamend™,63.99,54.49,49.04,supplements,0.148,0.234,0.086,20% to 30%,supplement,58
+869,New Chapter,Bone Strength Take Care™,60.99,51.99,46.79,supplements,0.148,0.233,0.085,20% to 30%,supplement,58
+871,New Chapter,Bone Strength Take Care™,33.99,28.99,26.09,supplements,0.147,0.232,0.085,20% to 30%,supplement,58
+872,Olly,Prenatal Folic Acid + DHA Gummy,16.99,14.49,13.04,supplements,0.147,0.232,0.085,20% to 30%,supplement,58
+873,New Chapter,Zyflamend™,40.99,34.99,31.49,supplements,0.146,0.232,0.086,20% to 30%,supplement,58
+962,Olly,Blackberry Zen Restful Sleep Gummy,4.99,4.29,3.86,supplements,0.14,0.226,0.086,20% to 30%,supplement,58
+1004,Olly,Berry Verbana Goodbye Stress,4.99,4.29,3.86,supplements,0.14,0.226,0.086,20% to 30%,supplement,58
+1056,Vitamin Friends,Iron Strawberry Gummies,23.99,20.99,18.89,supplements,0.125,0.213,0.088,20% to 30%,supplement,58
+1075,Lakewood Organic,Fresh Pressed Pure Aloe Gel,8.99,7.99,7.19,supplements,0.111,0.2,0.089,10% to 20%,supplement,58
+1084,Source Naturals,Wellness Formula Tablets,27.49,24.49,22.04,supplements,0.109,0.198,0.089,10% to 20%,supplement,58
+1114,Arnica,re Tablets,11.49,10.29,9.26,supplements,0.104,0.194,0.09,10% to 20%,supplement,58
+1117,Source Naturals,Wellness Formula Tablets,14.49,12.99,11.69,supplements,0.104,0.193,0.089,10% to 20%,supplement,58
+1126,Source Naturals,Melatonin 3mg Tablets,19.79,17.79,16.01,supplements,0.101,0.191,0.09,10% to 20%,supplement,58
+1177,Arnica,"Montana Pellets, 30C",14.99,13.49,12.14,supplements,0.1,0.19,0.09,10% to 20%,supplement,58
+1183,Source Naturals,Wellness Formula Capsules,25.99,23.49,21.14,supplements,0.096,0.187,0.091,10% to 20%,supplement,58
+1203,Boiron,Chestal Honey Homeopathic Medicine,10.99,9.99,8.99,supplements,0.091,0.182,0.091,10% to 20%,supplement,58
+2125,Source Naturals,Wellness Formula Tablets,52.99,47.49,42.74,supplements,0.104,0.193,0.089,10% to 20%,supplement,58
+2159,Source Naturals,Wellness Formula Capsules,50.99,45.99,41.39,supplements,0.098,0.188,0.09,10% to 20%,supplement,58
+2185,New Chapter,Wholemega™ Fish Oil,24.99,22.99,20.69,supplements,0.08,0.172,0.092,10% to 20%,supplement,58
+2454,Barlean's,Citrus Sorbet Flavor Ultra High Potency Fish Oil,36.99,26.99,24.29,supplements,0.27,0.343,0.073,30% to 40%,supplement,58
+2594,Wishgarden,"Herbs Kick-Ass Immune Activator - Organic Herbal Immune Booster, Promotes Healthy Immune System Response and Resistance",14.99,11.29,10.16,supplements,0.247,0.322,0.075,30% to 40%,supplement,58
+2731,Himalaya®,Organic Ashwagandha 4 Count,1.99,1.59,1.43,supplements,0.201,0.281,0.08,20% to 30%,supplement,58
+2752,Nature's Way,Standardized Elderberry Kids Sambucus Syrup,22.99,18.39,16.55,supplements,0.2,0.28,0.08,20% to 30%,supplement,58
+2862,Urban Moonshine,Original Digestive BItters,17.79,14.49,13.04,supplements,0.185,0.267,0.082,20% to 30%,supplement,58
+2879,Vital Proteins,Mocha Collagen Creamer,28.99,23.99,21.59,supplements,0.172,0.255,0.083,20% to 30%,supplement,58
+3005,Irwin Naturals,Steel Libido For Women,24.99,20.99,18.89,supplements,0.16,0.244,0.084,20% to 30%,supplement,58
+3032,New Chapter,Turmeric Force™,32.49,27.49,24.74,supplements,0.154,0.239,0.085,20% to 30%,supplement,58
+3035,New Chapter,Turmeric Force™,55.99,47.49,42.74,supplements,0.152,0.237,0.085,20% to 30%,supplement,58
+3084,Plant Fusion,Vanilla Plant Protein,51.99,44.49,40.04,supplements,0.144,0.23,0.086,20% to 30%,supplement,58
+3300,Source Naturals,Melatonin 5 MG Orange Sublingual,14.49,12.99,11.69,supplements,0.104,0.193,0.089,10% to 20%,supplement,58
+3388,Source Naturals,"Melatonin Tablets, 5 Mg",13.49,12.49,11.24,supplements,0.074,0.167,0.093,10% to 20%,supplement,58
+48,Chobani,Mixed Berry Vanilla Greek Yogurt Shake,1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt,59
+49,Icelandic Provisions,Key Lime Skyr,1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt,59
+50,Icelandic Provisions,Extra Creamy Vanilla Bean,1.99,1.25,1.12,frozen_foods,0.372,0.437,0.065,40% to 50%,Yogurt,59
+52,Icelandic Provisions,"Peach, Apricot Skyr",1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt,59
+53,Icelandic Provisions,Blueberry Walnut Skyr,1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt,59
+54,Icelandic Provisions,Strawberry Almond Skyr,1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt,59
+55,Icelandic Provisions,Traditional Vanilla,1.99,1.25,1.12,frozen_foods,0.372,0.437,0.065,40% to 50%,Yogurt,59
+56,Icelandic Provisions,Peach Cloudberry Skyr,1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt,59
+57,Chobani,Strawberry Cream Greek Yogurt Shake,1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt,59
+58,Icelandic Provisions,Coconut Skyr,1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt,59
+59,Chobani,Vanilla Greek Yogurt Shake,1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt,59
+60,Icelandic Provisions,Strawberry Lingonberry Thick & Creamy Skyr,1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt,59
+367,So Delicious,Strawberry Coconutmilk Yogurt,1.99,1.5,1.35,dairy_eggs,0.246,0.322,0.076,30% to 40%,Yogurt,59
+369,So Delicious,Mixed Berry Coconutmilk Yogurt,1.99,1.5,1.35,dairy_eggs,0.246,0.322,0.076,30% to 40%,Yogurt,59
+370,So Delicious,Mango Coconutmilk Yogurt,1.99,1.5,1.35,dairy_eggs,0.246,0.322,0.076,30% to 40%,Yogurt,59
+557,siggi's,Vanilla Plant Based Yogurt,7.49,5.99,5.39,dairy_eggs,0.2,0.28,0.08,20% to 30%,Yogurt,59
+558,siggi's,Plain Plant Based Yogurt,7.49,5.99,5.39,dairy_eggs,0.2,0.28,0.08,20% to 30%,Yogurt,59
+627,Ellenos,Mango Greek Yogurt,2.69,2.19,1.97,dairy_eggs,0.186,0.268,0.082,20% to 30%,Yogurt,59
+670,siggi's,Strawberry Yogurt 4 Pack,5.49,4.5,4.05,dairy_eggs,0.18,0.262,0.082,20% to 30%,Yogurt,59
+671,siggi's,Vanilla Yogurt 4 Count,5.49,4.5,4.05,dairy_eggs,0.18,0.262,0.082,20% to 30%,Yogurt,59
+702,Straus Family Creamery,Organic Plain Greek Yogurt,8.99,7.49,6.74,dairy_eggs,0.167,0.25,0.083,20% to 30%,Yogurt,59
+725,Kite Hill,Vanilla Unsweetened Greek Syle Yogurt,5.39,4.49,4.04,dairy_eggs,0.167,0.25,0.083,20% to 30%,Yogurt,59
+736,Straus Family Creamery,Organic Plain Nonfat Greek Yogurt,8.99,7.49,6.74,dairy_eggs,0.167,0.25,0.083,20% to 30%,Yogurt,59
+771,So Delicious,"Dairy Free Coconut Milk Yogurt Alternative, Strawberry Banana, Vegan, Non-GMO Project Verified",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Yogurt,59
+773,So Delicious,"Dairy Free Coconut Milk Yogurt Alternative, Peach, Vegan, Non-GMO Project Verified",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Yogurt,59
+778,So Delicious,"Dairy Free Coconut Milk Yogurt Alternative, Strawberry, Vegan, Non-GMO Project Verified",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Yogurt,59
+780,So Delicious,"Dairy Free Coconut Milk Yogurt Alternative, Key Lime, Vegan, Non-GMO Project Verified",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Yogurt,59
+840,Oatly,Plain Plant Based Yogurt,1.99,1.69,1.52,dairy_eggs,0.151,0.236,0.085,20% to 30%,Yogurt,59
+842,Oatly,Strawberry Plant Based Yogurt,1.99,1.69,1.52,dairy_eggs,0.151,0.236,0.085,20% to 30%,Yogurt,59
+843,Oatly,Mixed Berry Plant Based Yogurt,1.99,1.69,1.52,dairy_eggs,0.151,0.236,0.085,20% to 30%,Yogurt,59
+898,Wallaby,Yogurt Greek Plain Organic,6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Yogurt,59
+902,Wallaby,"Organic Whole Milk Greek Yogurt, Blended Vanilla Bean",6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Yogurt,59
+912,Wallaby,"Organic Aussie Greek Whole Milk Yogurt, Strawberry, Organic",6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Yogurt,59
+930,Wallaby,Yogurt Greek Plain Low Fat Organic,6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Yogurt,59
+932,Wallaby,Yogurt Greek Plain Non Fat Organic,6.99,5.99,5.39,dairy_eggs,0.143,0.229,0.086,20% to 30%,Yogurt,59
+1058,Green Valley Creamery,Lactose Free Whole Milk Plain Yogurt,5.69,4.99,4.49,dairy_eggs,0.123,0.211,0.088,20% to 30%,Yogurt,59
+1059,Green Valley Creamery,Lactose Free Organic Plain Lowfat Yogurt,5.69,4.99,4.49,dairy_eggs,0.123,0.211,0.088,20% to 30%,Yogurt,59
+1082,Wallaby,"Organic Aussie Smooth Whole Milk Yogurt, Vanilla, USDA Organic",4.49,3.99,3.59,dairy_eggs,0.111,0.2,0.089,10% to 20%,Yogurt,59
+1098,Chobani,Flip Almond Coco Loco Greek Yogurt,1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt,59
+1099,Chobani,Strawberry Complete Yogurt,1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt,59
+1100,Chobani,Wild Blueberry Greek Yogurt,1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt,59
+1107,Chobani,Mixed Berry Complete Yogurt,1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt,59
+1108,Chobani,Peach Complete Yogurt,1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt,59
+1110,Chobani,Vanilla Complete Yogurt,1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt,59
+1112,Chobani,Madagascar Vanilla And Cinnamon Greek Yogurt,1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt,59
+1113,Chobani,Monterey Strawberry Less Sugar Greek Yogurt,1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt,59
+1116,Chobani,Flip S'more S'mores Greek Yogurt,1.39,1.25,1.12,dairy_eggs,0.101,0.194,0.093,10% to 20%,Yogurt,59
+1231,Stonyfield,Organic Strawberry Kidstoppers Yogurt,5.99,5.49,4.94,dairy_eggs,0.083,0.175,0.092,10% to 20%,Yogurt,59
+1251,Stonyfield,Organic Organic Vanilla Whole Milk Yogurt,1.49,1.39,1.25,dairy_eggs,0.067,0.161,0.094,10% to 20%,Yogurt,59
+1341,Kite Hill,Vanilla Unsweetened Greek Syle Yogurt,1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt,59
+1386,Wallaby,"Organic Aussie Greek Honey Low Fat Yogurt, Sweetened with Honey, Organic",1.79,1.25,1.12,dairy_eggs,0.302,0.374,0.072,30% to 40%,Yogurt,59
+2313,Icelandic Provisions,Blueberry Bilberry Skyr,1.99,1.25,1.12,dairy_eggs,0.372,0.437,0.065,40% to 50%,Yogurt,59
+2363,Wallaby,"Organic Aussie Greek Peach Low Fat Yogurt, Sweetened with Honey, 5.3 oz",1.79,1.25,1.12,dairy_eggs,0.302,0.374,0.072,30% to 40%,Yogurt,59
+2364,Wallaby,"Organic Aussie Greek Mixed Berry Low Fat Yogurt, Sweetened with Honey, Organic",1.79,1.25,1.12,dairy_eggs,0.302,0.374,0.072,30% to 40%,Yogurt,59
+2470,Chobani,Blueberry Pomegranate Oat Yogurt,1.69,1.25,1.12,dairy_eggs,0.26,0.337,0.077,30% to 40%,Yogurt,59
+2804,NOUNOS CREAMERY,Peach Passion Fruit Greek Lowfat Yogurt,2.49,2,1.8,dairy_eggs,0.197,0.277,0.08,20% to 30%,Yogurt,59
+3196,NOUNOS CREAMERY,Mixed Berry Greek Yogurt,2.29,2,1.8,dairy_eggs,0.127,0.214,0.087,20% to 30%,Yogurt,59
+3199,NOUNOS CREAMERY,Vanilla Bean Greek Yogurt,2.29,2,1.8,dairy_eggs,0.127,0.214,0.087,20% to 30%,Yogurt,59
+3200,NOUNOS CREAMERY,Coconut Mango Greek Yogurt,2.29,2,1.8,dairy_eggs,0.127,0.214,0.087,20% to 30%,Yogurt,59
+77,Annie's Homegrown,Gluten Free Rice Shells & Creamy White Cheddar Macaroni & Cheese,3.79,2.5,2.25,pantry_essentials,0.34,0.406,0.066,40% to 50%,Pasta,60
+129,Banza,Chickpea Pasta Mac & Cheese Shells & White Cheddar,4.29,2.99,2.69,pantry_essentials,0.303,0.373,0.07,30% to 40%,Pasta,60
+202,Banza,Chickpea Shells Pasta,3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta,60
+203,Banza,Chickpea Penne Pasta,3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta,60
+204,Banza,Chickpea Rotini Pasta,3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta,60
+207,Banza,Chickpea Spaghetti Pasta,3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta,60
+208,Banza,Cavatappi made from Chickpeas,3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta,60
+209,Banza,Chickpea Linguine Pasta,3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta,60
+210,Banza,Chickpea Elbow Pasta,3.79,2.79,2.51,pantry_essentials,0.264,0.338,0.074,30% to 40%,Pasta,60
+216,Banza,Deluxe Elbows & Cheddar Mac & Cheese,4.99,3.69,3.32,pantry_essentials,0.261,0.335,0.074,30% to 40%,Pasta,60
+247,Rao's Homemade,Penne Alla Vodka,6.99,5.19,4.67,frozen_foods,0.258,0.332,0.074,30% to 40%,Pasta,60
+251,Banza,Chickpea Pasta Mac And Cheese,4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Pasta,60
+252,Jovial,100% Organic Whole Grain Capellin Brown Rice Pasta,4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Pasta,60
+253,Banza,Chickpea Elbow Mac & White Cheddar Cheese,4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Pasta,60
+255,Jovial,Organic Gluten Free Brown Rice Penne Rigate,4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Pasta,60
+257,Jovial,Fusilli,4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Pasta,60
+259,Jovial,Organic Gluten Free Brown Rice Spaghetti,4.29,3.19,2.87,pantry_essentials,0.256,0.331,0.075,30% to 40%,Pasta,60
+389,Annie's Homegrown,Organic Classic Mild Cheddar Macaroni & Cheese (Grass Fed),3.29,2.5,2.25,pantry_essentials,0.24,0.316,0.076,30% to 40%,Pasta,60
+390,Annie's Homegrown,Organic Grass Fed Shells & White Cheddar Macaroni & Cheese,3.29,2.5,2.25,pantry_essentials,0.24,0.316,0.076,30% to 40%,Pasta,60
+391,Jovial,Organic Grain Free Cassava Spaghetti,4.19,3.19,2.87,pantry_essentials,0.239,0.315,0.076,30% to 40%,Pasta,60
+393,Jovial,Organic Gluten Free Traditional Egg Tagliatelle,5.49,4.19,3.77,pantry_essentials,0.237,0.313,0.076,30% to 40%,Pasta,60
+431,Annie's Homegrown,Organic Macaroni & Cheese,3.19,2.5,2.25,pantry_essentials,0.216,0.295,0.079,20% to 30%,Pasta,60
+435,Annie's Homegrown,Organic Shells & Real Aged Cheddar Macaroni & Cheese,3.19,2.5,2.25,pantry_essentials,0.216,0.295,0.079,20% to 30%,Pasta,60
+504,Banza,Plant Based Mac With Chickpea Pasta,3.99,3.19,2.87,pantry_essentials,0.201,0.281,0.08,20% to 30%,Pasta,60
+582,Andean Dream,Organic Quinoa Fusilli,4.69,3.79,3.41,pantry_essentials,0.192,0.273,0.081,20% to 30%,Pasta,60
+584,Andean Dream,Organic Quinoa Spaghetti,4.69,3.79,3.41,pantry_essentials,0.192,0.273,0.081,20% to 30%,Pasta,60
+592,Andean Dream,Organic Quinoa Macaroni,4.69,3.79,3.41,pantry_essentials,0.192,0.273,0.081,20% to 30%,Pasta,60
+597,Andean Dream,Organic Turmeric Quinoa Penne Pasta,4.69,3.79,3.41,pantry_essentials,0.192,0.273,0.081,20% to 30%,Pasta,60
+817,Taste Republic,Fettuccine Pasta,6.49,5.49,4.94,pantry_essentials,0.154,0.239,0.085,20% to 30%,Pasta,60
+818,Taste Republic,Gluten-free Cauliflower Linguini Pasta,6.49,5.49,4.94,pantry_essentials,0.154,0.239,0.085,20% to 30%,Pasta,60
+820,Taste Republic,Gluten-free Linguini Pasta,6.49,5.49,4.94,pantry_essentials,0.154,0.239,0.085,20% to 30%,Pasta,60
+823,Taste Republic,Gluten-free Fusilli Pasta,6.49,5.49,4.94,pantry_essentials,0.154,0.239,0.085,20% to 30%,Pasta,60
+931,Manini's,Gluten-free Lemon Thyme Linguini Pasta,6.99,5.99,5.39,pantry_essentials,0.143,0.229,0.086,20% to 30%,Pasta,60
+959,Montebello,Organic Tagliatelle,3.49,3,2.7,pantry_essentials,0.14,0.226,0.086,20% to 30%,Pasta,60
+963,Montebello,Organic Penne Rigate Pasta,3.49,3,2.7,pantry_essentials,0.14,0.226,0.086,20% to 30%,Pasta,60
+1002,Montebello,Organic Fusilli,3.49,3,2.7,pantry_essentials,0.14,0.226,0.086,20% to 30%,Pasta,60
+1049,Taste Republic,Gluten-free 4-cheese Tortellini Pasta,7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Pasta,60
+1054,Manini's,Gluten Free Ravioli Spinach & Cheese Made With Ancient Grain,7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Pasta,60
+1134,Cappello's,Lasagna Sheets Almond Flour Pasta,9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Pasta,60
+1137,Cappello's,Spaghetti Almond Flour Pasta,9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Pasta,60
+1138,Cappello's,Gnocchi Almond Flour Pasta,9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Pasta,60
+1139,Cappello's,Spinach & Cheese Ravioli,9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Pasta,60
+1142,Cappello's,Butternut Squash Ravioli,9.99,8.99,8.09,bread_rolls_bakery,0.1,0.19,0.09,10% to 20%,Pasta,60
+1148,Cappello's,Fettuccine Almond Flour Pasta,9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Pasta,60
+1159,Cappello's,Sweet Potata Gnocchi Almond Flour Pasta,9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Pasta,60
+1167,Cappello's,Five Cheese Ravioli Almond Flour Pasta,9.99,8.99,8.09,frozen_foods,0.1,0.19,0.09,10% to 20%,Pasta,60
+1393,Annie's Homegrown,Deluxe Shells & White Cheddar,4.29,3,2.7,pantry_essentials,0.301,0.371,0.07,30% to 40%,Pasta,60
+1395,Annie's Homegrown,Creamy Deluxe Shells & Real Aged Cheddar Sauce Macaroni Dinner,4.29,3,2.7,pantry_essentials,0.301,0.371,0.07,30% to 40%,Pasta,60
+1642,Annie's Homegrown,Organic Mac & Cheese 20% More Protein,3.19,2.5,2.25,pantry_essentials,0.216,0.295,0.079,20% to 30%,Pasta,60
+1644,Annie's Homegrown,Organic Mac & Bees,3.19,2.5,2.25,pantry_essentials,0.216,0.295,0.079,20% to 30%,Pasta,60
+2174,Montebello,Organic Farfalle Pasta,3.29,3,2.7,pantry_essentials,0.088,0.179,0.091,10% to 20%,Pasta,60
+2348,Freak Flag Organics,Organic Southwestern Cheddar Mac & Freak,2.99,2,1.8,pantry_essentials,0.331,0.398,0.067,30% to 40%,Pasta,60
+2349,Freak Flag Organics,Organic Four Cheese Mac & Freak,2.99,2,1.8,dairy_eggs,0.331,0.398,0.067,30% to 40%,Pasta,60
+2350,Freak Flag Organics,Organic Kale Cheddar Mac & Freak,2.99,2,1.8,pantry_essentials,0.331,0.398,0.067,30% to 40%,Pasta,60
+2659,Annie's Homegrown,Organic Whole Wheat Shells & White Cheddar Macaroni & Cheese,3.19,2.5,2.25,pantry_essentials,0.216,0.295,0.079,20% to 30%,Pasta,60
+2660,Annie's Homegrown,Organic Peace Pasta & Parmesan Macaroni & Cheese,3.19,2.5,2.25,pantry_essentials,0.216,0.295,0.079,20% to 30%,Pasta,60
+3135,Montebello,Organic Spaghetti,3.49,3,2.7,pantry_essentials,0.14,0.226,0.086,20% to 30%,Pasta,60
+3208,Bertagni,Porcini Mushroom And Truffle Ravioli,7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Pasta,60
+3219,Bertagni,Organic Ricotta And Spinach Girasoli,7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Pasta,60
+3224,Bertagni,Buffalo Mozzarella Ravioli,7.99,6.99,6.29,pantry_essentials,0.125,0.213,0.088,20% to 30%,Pasta,60
+147,GoodBelly,Strawberry Plusshot Probiotic Juice Drink,4.49,3.19,2.87,Beverages,0.29,0.361,0.071,30% to 40%,Juice,61
+149,GoodBelly,Blueberry Acai Plusshot Probiotic Juice Drink,4.49,3.19,2.87,supplements,0.29,0.361,0.071,30% to 40%,Juice,61
+186,Evolution Fresh,Cold Pressed Organic Carrot Citrus Radiance,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+187,Evolution Fresh,Cold Pressed Organic Essential Greens®,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+188,Evolution Fresh,Cold Pressed Organic Green Devotion,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+189,Evolution Fresh,Cold Pressed Organic Super Fruit Greens,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+190,Evolution Fresh,Cold Pressed Organic Greens & Ginger,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+191,Evolution Fresh,Cold Pressed Organic Defense Up®,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+192,Evolution Fresh,Cold Pressed Mighty Watermelon,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+193,Evolution Fresh,Organic Tropical Passion,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+194,Evolution Fresh,Cold Pressed Organic Cucumber Glow,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+195,Evolution Fresh,Cold Pressed Organic Ruby Roots™,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+196,Evolution Fresh,Cold Pressed Organic Vital Berry,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+197,Evolution Fresh,Cold Pressed Organic Celery Glow™,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+198,Evolution Fresh,Organic Raspberry Renewal,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+199,Evolution Fresh,Organic Citrus Ginger Zest,5.49,4,3.6,Beverages,0.271,0.344,0.073,30% to 40%,Juice,61
+374,GoodBelly,Mango Plusshot Probiotic Juice Drink,4.49,3.39,3.05,Beverages,0.245,0.321,0.076,30% to 40%,Juice,61
+639,Evolution Fresh,Cold Pressed Organic Green Devotion,9.79,7.99,7.19,Beverages,0.184,0.266,0.082,20% to 30%,Juice,61
+674,R.W. Knudsen Family,Pineapple Coconut Juice,4.49,3.69,3.32,Beverages,0.178,0.261,0.083,20% to 30%,Juice,61
+683,R.W. Knudsen Family,Organic Pear Juice,5.69,4.69,4.22,Beverages,0.176,0.258,0.082,20% to 30%,Juice,61
+686,R.W. Knudsen Family,Organic Tomato Juice (32 Fl Oz),4.19,3.49,3.14,Beverages,0.167,0.251,0.084,20% to 30%,Juice,61
+734,WTRMLN WTR,Hydration/OG 1L,8.99,7.49,6.74,Beverages,0.167,0.25,0.083,20% to 30%,Juice,61
+753,Evolution Fresh,Cold Pressed Organic Strawberry Lemonade,4.19,3.5,3.15,Beverages,0.165,0.248,0.083,20% to 30%,Juice,61
+754,Evolution Fresh,Cold Pressed Organic Pure Orange,4.19,3.5,3.15,Beverages,0.165,0.248,0.083,20% to 30%,Juice,61
+785,R.W. Knudsen Family,Organic Blueberry Pomegranate Juice,4.99,4.19,3.77,Beverages,0.16,0.244,0.084,20% to 30%,Juice,61
+787,R.W. Knudsen Family,Organic Grape Concord Juice,4.99,4.19,3.77,Beverages,0.16,0.244,0.084,20% to 30%,Juice,61
+789,Kor Shots,Immune +,3.79,3.19,2.87,Beverages,0.158,0.243,0.085,20% to 30%,Juice,61
+791,Kor Shots,Focus Fuel,3.79,3.19,2.87,Beverages,0.158,0.243,0.085,20% to 30%,Juice,61
+792,Kor Shots,VITALITY,3.79,3.19,2.87,supplements,0.158,0.243,0.085,20% to 30%,Juice,61
+793,Kor Shots,Potent-C,3.79,3.19,2.87,Beverages,0.158,0.243,0.085,20% to 30%,Juice,61
+794,Kor Shots,Gut Check Apple Cider Vinegar,3.79,3.19,2.87,supplements,0.158,0.243,0.085,20% to 30%,Juice,61
+797,Kor Shots,WELLNESS,3.79,3.19,2.87,Beverages,0.158,0.243,0.085,20% to 30%,Juice,61
+851,R.W. Knudsen Family,Organic Apple Juice,4.69,3.99,3.59,Beverages,0.149,0.235,0.086,20% to 30%,Juice,61
+855,Evolution Fresh,Cold Pressed Organic Apple,9.99,8.49,7.64,Beverages,0.15,0.235,0.085,20% to 30%,Juice,61
+1065,R.W. Knudsen Family,Rw Knudsen Organic Grapefruit Juice,5.99,5.29,4.76,Beverages,0.117,0.205,0.088,20% to 30%,Juice,61
+1067,R.W. Knudsen Family,Just Black Cherry Juice,5.99,5.29,4.76,Beverages,0.117,0.205,0.088,20% to 30%,Juice,61
+1068,R.W. Knudsen Family,Organic Pineapple Juice,5.99,5.29,4.76,Beverages,0.117,0.205,0.088,20% to 30%,Juice,61
+1078,R.W. Knudsen Family,Organic Very Veggie Juice,4.49,3.99,3.59,Beverages,0.111,0.2,0.089,10% to 20%,Juice,61
+1127,ALO Drink,Allure Aloe Vera Juice Drink,1.99,1.79,1.61,Beverages,0.101,0.191,0.09,10% to 20%,Juice,61
+1136,Evolution Fresh,Cold Pressed Tangerine,9.99,8.99,8.09,Beverages,0.1,0.19,0.09,10% to 20%,Juice,61
+1169,Lakewood,Organic Pure Pomegrante Biodynamic Juice,11.99,10.79,9.71,Beverages,0.1,0.19,0.09,10% to 20%,Juice,61
+1212,R.W. Knudsen Family,Rw Knudsen Organic Just Cranberry Juice,10.99,9.99,8.99,Beverages,0.091,0.182,0.091,10% to 20%,Juice,61
+1266,Evolution Fresh,Cold Pressed Organic Grapefruit,9.49,8.99,8.09,Beverages,0.053,0.148,0.095,10% to 20%,Juice,61
+1289,Evolution Fresh,Cold Pressed Organic Defense Up®,7.99,7.69,6.92,Beverages,0.038,0.134,0.096,10% to 20%,Juice,61
+1297,R.W. Knudsen Family,Organic Apple Juice,10.29,9.99,8.99,Beverages,0.029,0.126,0.097,10% to 20%,Juice,61
+1900,R.W. Knudsen Family,Organic Cranberry Pomegranate Juice,4.99,4.19,3.77,Beverages,0.16,0.244,0.084,20% to 30%,Juice,61
+2108,R.W. Knudsen Family,Organic Celery Pear Ginger Juice,7.49,6.69,6.02,Beverages,0.107,0.196,0.089,10% to 20%,Juice,61
+2171,R.W. Knudsen Family,Organic Just Tart Cherry Juice,7.99,7.29,6.56,Beverages,0.088,0.179,0.091,10% to 20%,Juice,61
+2176,R.W. Knudsen Family,Organic Just Prune Juice,7.99,7.29,6.56,Beverages,0.088,0.179,0.091,10% to 20%,Juice,61
+2177,R.W. Knudsen Family,Organic Just Concord Grape Juice,5.79,5.29,4.76,Beverages,0.086,0.178,0.092,10% to 20%,Juice,61
+2808,Kor Shots,Turmeric,22.99,18.49,16.64,Beverages,0.196,0.276,0.08,20% to 30%,Juice,61
+3127,Garden of Flavor,Green Harmony Organic Cold-Pressed Juice with Probiotics,6.99,6,5.4,Beverages,0.142,0.227,0.085,20% to 30%,Juice,61
+3128,Garden of Flavor,Shoots & Sprouts Organic Cold-Pressed Juice,6.99,6,5.4,Beverages,0.142,0.227,0.085,20% to 30%,Juice,61
+3129,Garden of Flavor,Mean Greens Organic Cold-Pressed Juice,6.99,6,5.4,Beverages,0.142,0.227,0.085,20% to 30%,Juice,61
+3130,Garden of Flavor,Grasshopper Organic Cold-Pressed Juice,6.99,6,5.4,Beverages,0.142,0.227,0.085,20% to 30%,Juice,61
+3131,Garden of Flavor,Turmeric Tonic Organic Cold-Pressed Juice with Probiotics,6.99,6,5.4,Beverages,0.142,0.227,0.085,20% to 30%,Juice,61
+3132,Garden of Flavor,Appleade Organic Cold-Pressed Juice with Probiotics,6.99,6,5.4,Beverages,0.142,0.227,0.085,20% to 30%,Juice,61
+3184,R.W. Knudsen Family,Simply Nutritious Mega Antioxidant Juice,3.79,3.29,2.96,Beverages,0.132,0.219,0.087,20% to 30%,Juice,61
+3227,Garden of Flavor,1-Day Organic Cold-Pressed Juice Cleanse,40.99,35.99,32.39,Beverages,0.122,0.21,0.088,20% to 30%,Juice,61
+3352,R.W. Knudsen Family,Organic Just Tart Cherry Juice (32 Fl Oz),7.99,7.29,6.56,Beverages,0.088,0.179,0.091,10% to 20%,Juice,61
+3393,R.W. Knudsen Family,Low Sodium Very Veggie Juice,4.29,3.99,3.59,Beverages,0.07,0.163,0.093,10% to 20%,Juice,61
+17,Lifeway,Chocolate Kefir,4.59,2.67,2.4,dairy_eggs,0.418,0.477,0.059,40% to 50%,Chocolate,124
+22,Theo Chocolate,Organic Raspberry Cocoa Nib Dark Chocolate Bar,3.99,2.37,2.13,snacks_chips_salsas_dips,0.406,0.466,0.06,40% to 50%,Chocolate,124
+26,Larabar,Mini Chocolate Cherry Truffle Bar,6.99,4.17,3.75,snacks_chips_salsas_dips,0.403,0.464,0.061,40% to 50%,Chocolate,124
+27,LesserEvil,White Chocolate Strawberry Sweetheart Popcorn 8ct,5.99,3.57,3.21,snacks_chips_salsas_dips,0.404,0.464,0.06,40% to 50%,Chocolate,124
+28,Three Wishes Cereal,Chocolate Strawberry Grain Free Cereal,6.99,4.17,3.75,snacks_chips_salsas_dips,0.403,0.464,0.061,40% to 50%,Chocolate,124
+33,Lake Champlain Chocolates,Organic Dark Chocolate Hearts Gibag,13.49,8.07,7.26,snacks_chips_salsas_dips,0.402,0.462,0.06,40% to 50%,Chocolate,124
+34,Lake Champlain Chocolates,Organic Aflutter Chocolate Hearts Collection,14.99,8.97,8.07,snacks_chips_salsas_dips,0.402,0.462,0.06,40% to 50%,Chocolate,124
+35,Lake Champlain Chocolates,Organic Milk Chocolate Hearts Gift Bag,13.49,8.07,7.26,snacks_chips_salsas_dips,0.402,0.462,0.06,40% to 50%,Chocolate,124
+92,Koia,Chocolate Brownie Keto Beverage,4.49,3,2.7,dairy_eggs,0.332,0.399,0.067,30% to 40%,Chocolate,124
+130,Greyston Bakery,Chocolate Fudge Brownie,2.39,1.67,1.5,snacks_chips_salsas_dips,0.301,0.372,0.071,30% to 40%,Chocolate,124
+158,Cascadian Farm,Organic Chocolate Chip Chewy Granola Bars,4.19,2.99,2.69,snacks_chips_salsas_dips,0.286,0.358,0.072,30% to 40%,Chocolate,124
+244,KIND Snacks,Dark Chocolate Cherry Cashew + Antioxidants Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate,124
+245,KIND Snacks,Peanut Butter Dark Chocolate Protein Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate,124
+246,KIND Snacks,Dark Chocolate Nuts & Sea Salt Nuts Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate,124
+249,KIND Snacks,Dark Chocolate Mocha Almond Nut & Spices Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate,124
+269,KIND Snacks,Dark Chocolate Cherry Cashew + Antioxidants Bar,1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate,124
+274,KIND Snacks,Peanut Butter Dark Chocolate Protein Bar,1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate,124
+277,KIND Snacks,Nuts & Spices Dark Chocolate Nuts & Sea Salt Bar,1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate,124
+279,KIND Snacks,Dark Chocolate Mocha Almond Nuts & Spices Bar,1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate,124
+349,Lenny & Larry's,The Complete Crunchy Chocolate Chip Cookies,3.99,3,2.7,bread_rolls_bakery,0.248,0.323,0.075,30% to 40%,Chocolate,124
+355,Koia,Chocolate Banana Plant Protein Drink,3.99,3,2.7,dairy_eggs,0.248,0.323,0.075,30% to 40%,Chocolate,124
+358,Lenny & Larry's,The Complete Crunchy Double Chocolate Cookies,3.99,3,2.7,snacks_chips_salsas_dips,0.248,0.323,0.075,30% to 40%,Chocolate,124
+359,Koia,Chocolate Peanut Butter Beverage,3.99,3,2.7,Beverages,0.248,0.323,0.075,30% to 40%,Chocolate,124
+385,GoodPop,Chocolate Fudge 4-Pack,4.99,3.79,3.41,frozen_foods,0.24,0.317,0.077,30% to 40%,Chocolate,124
+394,Lakanto,Suntella Chocolate Sunflower Spread,9.79,7.49,6.74,pantry_essentials,0.235,0.312,0.077,30% to 40%,Chocolate,124
+417,Taza Chocolate,Salted Almond Chocolate Disc,4.49,3.49,3.14,snacks_chips_salsas_dips,0.223,0.301,0.078,30% to 40%,Chocolate,124
+418,Taza Chocolate,Organic Chocolate Coffee Mexicano Disc,4.49,3.49,3.14,Beverages,0.223,0.301,0.078,30% to 40%,Chocolate,124
+420,Taza Chocolate,Organic Dark Chocolate Vanilla Discs,4.49,3.49,3.14,snacks_chips_salsas_dips,0.223,0.301,0.078,30% to 40%,Chocolate,124
+422,Taza Chocolate,Super Dark Chocolate Disc,4.49,3.49,3.14,snacks_chips_salsas_dips,0.223,0.301,0.078,30% to 40%,Chocolate,124
+425,Nature's Path Organic,Organic Dark Chocolate Cereal,8.99,6.99,6.29,pantry_essentials,0.222,0.3,0.078,20% to 30%,Chocolate,124
+460,Raaka,Mini Oat Milk Chocolate Bar,0.99,0.79,0.71,snacks_chips_salsas_dips,0.202,0.283,0.081,20% to 30%,Chocolate,124
+462,Raaka Chocolate,Chocolate Bar Mini Mini Pink Sea Salt,0.99,0.79,0.71,snacks_chips_salsas_dips,0.202,0.283,0.081,20% to 30%,Chocolate,124
+463,Raaka Chocolate,Mini Chocolate Bar Mini Coconut Milk,0.99,0.79,0.71,snacks_chips_salsas_dips,0.202,0.283,0.081,20% to 30%,Chocolate,124
+464,Raaka,100% Cacao Mini Chocolate Bar,0.99,0.79,0.71,snacks_chips_salsas_dips,0.202,0.283,0.081,20% to 30%,Chocolate,124
+467,Ripple Foods,Chocolate Non-dairy Beverage,4.99,3.99,3.59,Beverages,0.2,0.281,0.081,20% to 30%,Chocolate,124
+522,Vega,Sport Protein Chocolate Tub,54.99,43.99,39.59,supplements,0.2,0.28,0.08,20% to 30%,Chocolate,124
+523,Vega,Rest & Repair Chocolate Strawberry,39.99,31.99,28.79,supplements,0.2,0.28,0.08,20% to 30%,Chocolate,124
+658,Chuao Chocolatier,Sprinkle Dreams Chocolate Bar,5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate,124
+659,Chuao Chocolatier,Salted Chocolate Crunch Chocolate,5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate,124
+660,Chuao Chocolatier,Ravishing Rocky Road Chocolate,5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate,124
+697,Tate's Bake Shop,Chocolate Chip Walnut Cookies,5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Chocolate,124
+698,Tate's Bake Shop,Gluten Free Chocolate Chip Cookies,5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Chocolate,124
+705,Tate's Bake Shop,Chocolate Chip Cookies (7 oz),5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Chocolate,124
+713,Tate's Bake Shop,White Chocolate Macadamia Nut Cookies,5.99,4.99,4.49,bread_rolls_bakery,0.167,0.25,0.083,20% to 30%,Chocolate,124
+719,Milk Bar,Peanut Butter Chocolate Cookie Crush Ice Cream,5.99,4.99,4.49,frozen_foods,0.167,0.25,0.083,20% to 30%,Chocolate,124
+721,Milk Bar,Cornflake Chocolate Chip Marshmallow Ice Cream,5.99,4.99,4.49,frozen_foods,0.167,0.25,0.083,20% to 30%,Chocolate,124
+726,Raaka Chocolate,Organic Cacao Chocolate Bar,5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Chocolate,124
+727,Raaka,Maple & Nibs Virgin Chocolate,5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Chocolate,124
+728,Raaka,Pink Sea Salt Virgin Chocolate,5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Chocolate,124
+730,Raaka Chocolate,Chocolate Bar 58% Oat Milk Chocolate Bar,5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Chocolate,124
+731,Raaka,Bar Chocolate Bananas Foster,5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Chocolate,124
+737,Tate's Bake Shop,Double Chocolate Chip Cookies,5.99,4.99,4.49,snacks_chips_salsas_dips,0.167,0.25,0.083,20% to 30%,Chocolate,124
+758,Milk Bar,Chocolate Birthday Truffle Crumb Cakes,2.99,2.5,2.25,snacks_chips_salsas_dips,0.164,0.247,0.083,20% to 30%,Chocolate,124
+761,Orgain,Creamy Chocolate Fudge Protein Shake,2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Chocolate,124
+763,Milk Bar,Chocolate Pretzel Truffle Crumb Cake,2.99,2.5,2.25,snacks_chips_salsas_dips,0.164,0.247,0.083,20% to 30%,Chocolate,124
+776,So Delicious,"Dairy Free Coconut Milk Yogurt Alternative, Chocolate, Vegan, Non-GMO Project Verified",1.79,1.5,1.35,dairy_eggs,0.162,0.246,0.084,20% to 30%,Chocolate,124
+786,Orgain,Creamy Chocolate Fudge Organic Nutritional Shake,11.89,9.99,8.99,Beverages,0.16,0.244,0.084,20% to 30%,Chocolate,124
+802,Lakanto,Sugar Free Chocolate Chips,9.49,7.99,7.19,pantry_essentials,0.158,0.242,0.084,20% to 30%,Chocolate,124
+837,Plant Fusion,Chocolate Complete Plant Protein,32.99,27.99,25.19,supplements,0.152,0.236,0.084,20% to 30%,Chocolate,124
+848,Enjoy Life Foods,Soft Baked Chocolate Chip Cookies,4.69,3.99,3.59,snacks_chips_salsas_dips,0.149,0.235,0.086,20% to 30%,Chocolate,124
+856,Ancient Nutrition,Chocolate Plant Protein,39.99,33.99,30.59,supplements,0.15,0.235,0.085,20% to 30%,Chocolate,124
+911,Dolcezza,Swiss Chocolate Gelato,6.99,5.99,5.39,frozen_foods,0.143,0.229,0.086,20% to 30%,Chocolate,124
+929,Green & Black's,Organic 85% Dark Chocolate Bar,3.49,2.99,2.69,snacks_chips_salsas_dips,0.143,0.229,0.086,20% to 30%,Chocolate,124
+1032,Blue Diamond,Unsweetened Chocolate Almond Breeze Almondmilk,2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Chocolate,124
+1036,Blue Diamond,Chocolate Almond Breeze Almondmilk (32 Fl Oz),2.29,1.99,1.79,dairy_eggs,0.131,0.218,0.087,20% to 30%,Chocolate,124
+1041,Lenny & Larry's,The Complete Peanut Butter Chocolate Chip Cookie,2.29,2,1.8,snacks_chips_salsas_dips,0.127,0.214,0.087,20% to 30%,Chocolate,124
+1042,Lenny & Larry's,The Complete Chocolate Chip Cookie,2.29,2,1.8,snacks_chips_salsas_dips,0.127,0.214,0.087,20% to 30%,Chocolate,124
+1043,Lenny & Larry's,White Chocolate Macadamia Cookies,2.29,2,1.8,snacks_chips_salsas_dips,0.127,0.214,0.087,20% to 30%,Chocolate,124
+1071,Beyond Good,Organic Chocolate Disc Melts 70%,8.99,7.99,7.19,pantry_essentials,0.111,0.2,0.089,10% to 20%,Chocolate,124
+1080,Beyond Good,Organic Chocolate Disc Melts 92%,8.99,7.99,7.19,pantry_essentials,0.111,0.2,0.089,10% to 20%,Chocolate,124
+1089,Van Leeuwen,Chocolate Chip Cookie Dough Non Dairy Frozen Dessert,7.49,6.69,6.02,frozen_foods,0.107,0.196,0.089,10% to 20%,Chocolate,124
+1135,John Kelly Chocolates,Dark Chocolate Bourbon Truffle Fudge Bars Box 6pc,24.99,22.49,20.24,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Chocolate,124
+1164,Simple Mills,Soft-baked Chocolate Chip Cookies,4.99,4.49,4.04,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Chocolate,124
+1179,RXBAR,Chocolate Sea Salt and PB Chocolate Mini Bars,9.99,8.99,8.09,snacks_chips_salsas_dips,0.1,0.19,0.09,10% to 20%,Chocolate,124
+1181,John Kelly Chocolates,Dark Chocolate Sea Salt 4 Pack,16.29,14.69,13.22,snacks_chips_salsas_dips,0.098,0.188,0.09,10% to 20%,Chocolate,124
+1182,John Kelly Chocolates,Caramel Sea Salt Chocolate 4 Pack,16.29,14.69,13.22,snacks_chips_salsas_dips,0.098,0.188,0.09,10% to 20%,Chocolate,124
+1185,Whole Foods Market,Organic Hot Cocoa Rich Chocolate Mix,4.19,3.79,3.41,Beverages,0.095,0.186,0.091,10% to 20%,Chocolate,124
+1188,Chocolove,Hazelnuts In Milk Chocolate Bar,3.19,2.89,2.6,snacks_chips_salsas_dips,0.094,0.185,0.091,10% to 20%,Chocolate,124
+1190,Lily's,Sea Salt 70% Dark Chocolate,4.29,3.89,3.5,snacks_chips_salsas_dips,0.093,0.184,0.091,10% to 20%,Chocolate,124
+1192,Lily's,White Chocolate Style Bar,4.29,3.89,3.5,snacks_chips_salsas_dips,0.093,0.184,0.091,10% to 20%,Chocolate,124
+1218,Lenny & Larry's,Keto Chocolate Chip Cookie,2.19,2,1.8,snacks_chips_salsas_dips,0.087,0.178,0.091,10% to 20%,Chocolate,124
+1240,Orgain,Organic Chocolate Plant Based Shake,11.89,10.99,9.89,Beverages,0.076,0.168,0.092,10% to 20%,Chocolate,124
+1281,Van Leeuwen,Chocolate Chip Cookie Dough Ice Cream,6.99,6.69,6.02,frozen_foods,0.043,0.139,0.096,10% to 20%,Chocolate,124
+1480,KIND Snacks,Extra Dark Chocolate Bar 12 Count,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate,124
+1481,KIND Snacks,Dark Chocolate Almond & Coconut Fruit & Nut Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate,124
+1498,KIND Snacks,Extra Dark Chocolate Bar,1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate,124
+1500,KIND Snacks,Dark Chocolate Almond & Coconut Fruit & Nut Bar,1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate,124
+1630,Taza Chocolate,Guajillo Chili Dark Chocolate,4.49,3.49,3.14,snacks_chips_salsas_dips,0.223,0.301,0.078,30% to 40%,Chocolate,124
+1632,Taza Chocolate,Stone Ground Cinnamon Chocolate,4.49,3.49,3.14,snacks_chips_salsas_dips,0.223,0.301,0.078,30% to 40%,Chocolate,124
+1667,Foodstirs,Organic Chocolate Lovers Brownie Mix,6.29,4.99,4.49,pantry_essentials,0.207,0.286,0.079,20% to 30%,Chocolate,124
+1750,Rawkin Raw,Organic Raw Vegan White Chocolate Truffle,6.79,5.49,4.94,snacks_chips_salsas_dips,0.191,0.272,0.081,20% to 30%,Chocolate,124
+1751,Rawkin Raw,Organic Chocolate Mocha Truffle,6.79,5.49,4.94,snacks_chips_salsas_dips,0.191,0.272,0.081,20% to 30%,Chocolate,124
+1752,Rawkin Raw,Organic White Chocolate Latte Truffle,6.79,5.49,4.94,snacks_chips_salsas_dips,0.191,0.272,0.081,20% to 30%,Chocolate,124
+1753,Rawkin Raw,Organic Cool Chlorella Mint Chocolate Truffle,6.79,5.49,4.94,snacks_chips_salsas_dips,0.191,0.272,0.081,20% to 30%,Chocolate,124
+1760,Rawkin Raw,Chocolate Superfood Macaroon,3.69,2.99,2.69,snacks_chips_salsas_dips,0.19,0.271,0.081,20% to 30%,Chocolate,124
+1798,Chuao Chocolatier,Chuao Oh My Smores! Chocolate,5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate,124
+1802,Chuao Chocolatier,Cheeky Cheeky Churro Chocolate Bar,5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate,124
+1803,Chuao Chocolatier,Firecracker Chocolate,5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate,124
+1805,Chuao Chocolatier,Potato Chip Chocolate,5.49,4.49,4.04,snacks_chips_salsas_dips,0.182,0.264,0.082,20% to 30%,Chocolate,124
+2018,Andean Dream,Quinoa Chocolate Chip Cookies,5.79,4.99,4.49,snacks_chips_salsas_dips,0.138,0.225,0.087,20% to 30%,Chocolate,124
+2077,Green & Black's,Organic Dark Chocolate Bar 70%,3.39,2.99,2.69,snacks_chips_salsas_dips,0.118,0.206,0.088,20% to 30%,Chocolate,124
+2132,Chuao Chocolatier,Mini Salted Crunch Chocolate Bar,0.99,0.89,0.8,snacks_chips_salsas_dips,0.101,0.192,0.091,10% to 20%,Chocolate,124
+2134,Chuao Chocolatier,Honeycomb Mini Chocolate Bar,0.99,0.89,0.8,snacks_chips_salsas_dips,0.101,0.192,0.091,10% to 20%,Chocolate,124
+2186,KIND Snacks,Salted Caramel & Dark Chocolate Nut Bar,1.45,1.33,1.2,snacks_chips_salsas_dips,0.083,0.172,0.089,10% to 20%,Chocolate,124
+2288,Kate's Real Food,Organic Dark Chocolate Cherry & Almond Handle Bar,2.79,1.67,1.5,snacks_chips_salsas_dips,0.401,0.462,0.061,40% to 50%,Chocolate,124
+2289,Kate's Real Food,Organic Peanut Butter Milk Chocolate Tram Bar,2.79,1.67,1.5,snacks_chips_salsas_dips,0.401,0.462,0.061,40% to 50%,Chocolate,124
+2290,Kate's Real Food,Organic Peanut Butter Dark Chocolate Grizzly Bar,2.79,1.67,1.5,snacks_chips_salsas_dips,0.401,0.462,0.061,40% to 50%,Chocolate,124
+2396,PARTAKE FOODS,Crunchy Double Chocolate Chip Cookies,4.99,3.5,3.15,snacks_chips_salsas_dips,0.299,0.369,0.07,30% to 40%,Chocolate,124
+2399,PARTAKE FOODS,Crunchy Chocolate Chip Cookies,4.99,3.5,3.15,snacks_chips_salsas_dips,0.299,0.369,0.07,30% to 40%,Chocolate,124
+2489,KIND Snacks,Dark Chocolate Cherry Cashew + Antioxidants Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate,124
+2492,KIND Snacks,Peanut Butter Dark Chocolate Protein Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate,124
+2493,KIND Snacks,Dark Chocolate Almond & Coconut Fruit & Nut Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate,124
+2496,KIND Snacks,Dark Chocolate Nuts & Sea Salt Nuts Bars,21.49,15.96,14.36,snacks_chips_salsas_dips,0.257,0.332,0.075,30% to 40%,Chocolate,124
+2505,KIND Snacks,Dark Chocolate Almond & Coconut Fruit & Nut Bar,1.79,1.33,1.2,snacks_chips_salsas_dips,0.257,0.33,0.073,30% to 40%,Chocolate,124
+2734,VITABELLA,Organic Chocolate Hazelnut Pillows Cereal,4.99,3.99,3.59,pantry_essentials,0.2,0.281,0.081,20% to 30%,Chocolate,124
+2965,Orgain,Creamy Chocolate Fudge Nutritional Protein Shake,2.99,2.5,2.25,Beverages,0.164,0.247,0.083,20% to 30%,Chocolate,124
+3209,MOMPOPS,Mini Chocolate Sea Salt,3.99,3.49,3.14,frozen_foods,0.125,0.213,0.088,20% to 30%,Chocolate,124
+3269,VITABELLA,Organic Traditional Chocolate Crispies,4.49,3.99,3.59,pantry_essentials,0.111,0.2,0.089,10% to 20%,Chocolate,124
+3302,Whole Foods Market,Chocolate Filled Crepes 6 Pack,4.99,4.49,4.04,desserts,0.1,0.19,0.09,10% to 20%,Chocolate,124
+3345,Valrhona,70% Guanaja Chocolate Discs,21.99,19.99,17.99,snacks_chips_salsas_dips,0.091,0.182,0.091,10% to 20%,Chocolate,124
+3406,Orgain,Organic Creamy Chocolate Protein Shake,3.39,3.19,2.87,Beverages,0.059,0.153,0.094,10% to 20%,Chocolate,124
+3434,Enjoy Life Foods,Mini Chocolate Chip Soft Cookies 6 Pack,4.19,3.99,3.59,bread_rolls_bakery,0.048,0.143,0.095,10% to 20%,Chocolate,124
+3440,Van Leeuwen,Chocolate Non Dairy Frozen Dessert,7.29,6.99,6.29,frozen_foods,0.041,0.137,0.096,10% to 20%,Chocolate,124
+3441,Van Leeuwen,Chocolate Ice Cream,7.29,6.99,6.29,frozen_foods,0.041,0.137,0.096,10% to 20%,Chocolate,124
