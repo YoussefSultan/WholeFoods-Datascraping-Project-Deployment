@@ -10,7 +10,6 @@ import plotly.graph_objects as go
 from dash_bootstrap_templates import load_figure_template
 import platform
 from datetime import date
-import spacy
 ################################
 if platform.system()=='Windows':
   pass
