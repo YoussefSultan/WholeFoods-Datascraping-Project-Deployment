@@ -31,7 +31,7 @@ templates = [
 ]
 load_figure_template(templates)
 #-----------Title/Header---------------------------------------------------------------#
-st.set_page_config(page_title = "Whole Foods 'On-Sale' Product Insights", page_icon = 'https://youssefsultan.github.io/images/LOGOW.png', layout="wide") 
+st.set_page_config(page_title = "Whole Foods 'On-Sale' Product Insights and Product Recommendation", page_icon = 'https://youssefsultan.github.io/images/LOGOW.png', layout="wide") 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 st.title("Live Whole Foods 'On-Sale' Product Insights") 
 st.markdown("""
@@ -43,7 +43,7 @@ st.markdown("""
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link disabled" href="#">Whole Foods 'On Sale' Insights<span class="sr-only">(current)</span></a>
+        <a class="nav-link disabled" href="#">Whole Foods 'On Sale' Insights and Product Recommendation<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://github.com/YoussefSultan" target="_blank">GitHub</a>
@@ -56,14 +56,14 @@ st.markdown("""
 </nav>
 """, unsafe_allow_html=True)
 st.caption("""
-This is an app that gives Whole Foods shoppers and Amazon Prime Members the ability to make the most out of their spending and Prime membership when shopping by understanding what is 'on-sale' at their 
+This is an app that gives Whole Foods shoppers and Amazon Prime Members the ability to make the most out of their spending and Prime membership when shopping by understanding what is 'on-sale/discounted' at their 
 local Whole Foods.  Click 'About this app' to learn more.
 """)
 with st.expander('About this app'):
   st.caption("""
-This app scrapes unstructured data from each category on the Whole Foods website pertaining to the user's zipcode and structures all of the data in a 
+This app scrapes unstructured 'on-sale/discounted' product data from each category on the Whole Foods website pertaining to the user's zipcode/store and structures all of the data in a 
 DataFrame (similar to an Excel spreadsheet) with added features (columns) such as discounts for normal shoppers, prime members, the difference between the prime discounts and sale discounts
-as well as bins (i.e. items in the 40% off to 50% off range).
+as well as bins (i.e. items in the 40% off to 50% off range). This helps the user understand the types of products on a discount at their local store.
 
 Current app features:
 - Query a structured dataset of your Local Whole Foods
@@ -77,10 +77,8 @@ Current app features:
     - Randomize shopping cart simply based on user input
 - Search 'on-sale' data of selected dataset based on keyword (i.e. 'Avocado, Pasta')
 - Download structured dataset(s) as CSV
-
-Features in progress:
-- Recommendation system using machine learning
-    - Recommends products in your generated shopping cart based on other customers purchases and associations
+- Recommendation system using collaborative filtering
+    - Recommends other discounted products in your generated shopping cart based on what other customers purchased together with their items
 """)
 ###################################################################
 
