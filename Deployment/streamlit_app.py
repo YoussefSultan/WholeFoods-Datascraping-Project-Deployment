@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import numpy as np
 import pathlib
 import subprocess
 import os, random, sys, time 
@@ -10,6 +11,7 @@ import plotly.graph_objects as go
 from dash_bootstrap_templates import load_figure_template
 import platform
 from datetime import date
+from Spacy_Parser import SpacyParser
 ################################
 if platform.system()=='Windows':
   pass
@@ -250,9 +252,29 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
           st.write("Your total cart as a normal shopper: $" + str(shopping_cart.sale.sum().round(2)))
         else: 
           st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum().round(2)))
+      col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
+      with col1:
+        st.button('Generate')
+      with col2:
+        recommend = st.button('Recommend')
+      if recommend:
+        rules = pd.read_csv('rules.csv')
+        SpacyParser = SpacyParser()                                  # instantiate class object with parameter set to false
+        original_df['parsed_product'] = SpacyParser.transform(df)
+        shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
+        cart_category_list = list(shopping_cart.parsed_product)
+        recommendation_cart = pd.DataFrame(columns=original_df.columns)
+        for item in cart_category_list:
+            # initiate search of parsed product from first row of generated shopping cart
+            # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
+            index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
+            itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
+            recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)])        
         st.write(shopping_cart)
-        st.button('Search')
-
+        st.markdown('You may also be interested in...')
+        st.write(recommendation_cart)
+      else:
+        st.write(shopping_cart)
     else:
       # if highest discount optimizer is off
       input = st.text_input('Enter items as ("item1, item2") format')
@@ -275,8 +297,30 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
           st.write("Your total cart as a normal shopper: $" + str(shopping_cart.sale.sum().round(2)))
         else: 
           st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum().round(2)))
+      col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
+      with col1:
+        st.button('Generate')
+      with col2:
+        recommend = st.button('Recommend')
+      if recommend:
+        rules = pd.read_csv('rules.csv')
+        SpacyParser = SpacyParser()                                  # instantiate class object with parameter set to false
+        original_df['parsed_product'] = SpacyParser.transform(df)
+        shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
+        cart_category_list = list(shopping_cart.parsed_product)
+        recommendation_cart = pd.DataFrame(columns=original_df.columns)
+        for item in cart_category_list:
+            # initiate search of parsed product from first row of generated shopping cart
+            # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
+            index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
+            itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
+            recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)])        
         st.write(shopping_cart)
-        st.button('Search')
+        st.markdown('You may also be interested in...')
+        st.write(recommendation_cart)
+      else:
+        st.write(shopping_cart)
+
 # RANDOMIZED CART  
   else:
     # use randomized cart feature
@@ -300,8 +344,31 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
         st.write("Your total cart as a normal shopper: $" + str(shopping_cart.sale.sum().round(2)))
       else: 
         st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum().round(2)))
-      st.write(shopping_cart)
-      randomize = st.button('Randomize')
+      col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
+      with col1:
+        st.button('Generate Randomized')
+      with col2:
+        recommend = st.button('Recommend')
+      
+      if recommend:
+        rules = pd.read_csv('rules.csv')
+        SpacyParser = SpacyParser()                                  # instantiate class object with parameter set to false
+        original_df['parsed_product'] = SpacyParser.transform(df)
+        shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
+        cart_category_list = list(shopping_cart.parsed_product)
+        recommendation_cart = pd.DataFrame(columns=original_df.columns)
+        for item in cart_category_list:
+            # initiate search of parsed product from first row of generated shopping cart
+            # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
+            index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
+            itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
+            recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)])        
+        st.write(shopping_cart)
+        st.markdown('You may also be interested in...')
+        st.write(recommendation_cart)
+      else:
+        st.write(shopping_cart)
+
 ########################################################################################################
 
 
