@@ -17,6 +17,7 @@ if platform.system()=='Windows':
   pass
 else:
   os.system('sbase install chromedriver')
+  os.system('python -m spacy download en_core_web_lg')
   os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromedriver')
 #----------------------
 templates = [
