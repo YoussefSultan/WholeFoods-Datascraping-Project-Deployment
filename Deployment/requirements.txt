@@ -21,4 +21,5 @@ plotly==5.3.1
 spacy==3.2.3
 selenium==4.1.0
 #seleniumbase==2.4.13
+scikit-learn==1.0.2
 webdriver-manager==3.5.2
