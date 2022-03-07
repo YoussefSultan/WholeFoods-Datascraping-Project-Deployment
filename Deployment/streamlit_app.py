@@ -226,10 +226,11 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
 # cart generation by lowest price     
   if price_optimizer:
     highest_discount_optimizer = st.checkbox('Optimize for highest discount')
-
+# -----------------------------------------------------------------------------
     if highest_discount_optimizer:
       # if highest discount optimizer is on
       st.markdown('***Note: highest discount items may not always be the lowest priced due to the type of product...***')
+      st.markdown('***Note: cart selections will be randomized if no optimization is selected...***')
       input = st.text_input('Enter items as ("item1, item2") format')
       
       if input:
@@ -263,18 +264,21 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
         shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
         cart_category_list = list(shopping_cart.parsed_product)
         recommendation_cart = pd.DataFrame(columns=original_df.columns)
-        for item in cart_category_list:
-            # initiate search of parsed product from first row of generated shopping cart
-            # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
-            index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
-            itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
-            recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)])        
+        try:
+          for item in cart_category_list:
+              # initiate search of parsed product from first row of generated shopping cart
+              # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
+              index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
+              itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
+              recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)]) 
+        except Exception as e:
+          print(e)        
         st.write(shopping_cart)
         st.markdown('You may also be interested in...')
         st.write(recommendation_cart)
       else:
         st.write(shopping_cart)
-    else:
+    else: # -----------------------------------------------------------------------------
       # if highest discount optimizer is off
       input = st.text_input('Enter items as ("item1, item2") format')
       if input:
@@ -308,19 +312,21 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
         shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
         cart_category_list = list(shopping_cart.parsed_product)
         recommendation_cart = pd.DataFrame(columns=original_df.columns)
-        for item in cart_category_list:
-            # initiate search of parsed product from first row of generated shopping cart
-            # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
-            index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
-            itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
-            recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)])        
+        try:
+          for item in cart_category_list:
+              # initiate search of parsed product from first row of generated shopping cart
+              # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
+              index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
+              itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
+              recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)]) 
+        except Exception as e:
+          print(e)         
         st.write(shopping_cart)
         st.markdown('You may also be interested in...')
         st.write(recommendation_cart)
       else:
         st.write(shopping_cart)
-
-# RANDOMIZED CART  
+# RANDOMIZED CART  # -----------------------------------------------------------------------------
   else:
     # use randomized cart feature
     input = st.text_input('Enter items as ("item1, item2") format')
@@ -348,7 +354,6 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
         st.button('Generate Randomized')
       with col2:
         recommend = st.button('Recommend')
-      
       if recommend:
         rules = pd.read_csv('rules.csv')
         SpacyParser = SpacyParser()                                  # instantiate class object with parameter set to false
@@ -356,20 +361,21 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
         shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
         cart_category_list = list(shopping_cart.parsed_product)
         recommendation_cart = pd.DataFrame(columns=original_df.columns)
-        for item in cart_category_list:
-            # initiate search of parsed product from first row of generated shopping cart
-            # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
-            index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
-            itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
-            recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)])        
+        try:
+          for item in cart_category_list:
+              # initiate search of parsed product from first row of generated shopping cart
+              # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
+              index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
+              itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
+              recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)]) 
+        except Exception as e:
+          print(e)       
         st.write(shopping_cart)
         st.markdown('You may also be interested in...')
         st.write(recommendation_cart)
       else:
         st.write(shopping_cart)
-
 ########################################################################################################
-
 
 ########################################################################################################
 with st.expander("Search 'on-sale' data at " + str(location) + " or from a previous query"):
