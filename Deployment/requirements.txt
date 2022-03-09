@@ -24,3 +24,4 @@ selenium==4.0.0
 seleniumbase==2.0.2
 scikit-learn==1.0.2
 webdriver-manager==3.5.2
+en_core_web_lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.2.0/en_core_web_lg-3.2.0.tar.gz

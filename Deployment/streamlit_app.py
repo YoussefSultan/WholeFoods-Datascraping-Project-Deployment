@@ -16,13 +16,12 @@ from Spacy_Parser import SpacyParser
 if platform.system()=='Windows':
   pass
 else: # if deployed on streamlit 'Debian/Linux'
-  os.system('sbase install chromedriver')
-  os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromedriver')
   @st.cache
-  def load_spacy_model():
-    os.system('python -m spacy download en_core_web_lg')
-  load_spacy_model()
-#----------------------
+  def chromedriver_download():
+    os.system('sbase install chromedriver')
+    os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromedriver')
+  chromedriver_download()
+################################
 templates = [
     "bootstrap",
     "minty",
