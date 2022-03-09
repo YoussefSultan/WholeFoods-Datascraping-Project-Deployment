@@ -221,7 +221,7 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
 ########################################################################################################
 
 ################## Shopping cart Generator #############################################################
-with st.expander("Click here to generate a shopping cart from " + str(location) + " or a previous query"):
+with st.expander("Click here to generate a shopping cart from " + str(location)):
   price_optimizer = st.checkbox('Optimize for price')
 # cart generation by lowest price     
   if price_optimizer:
@@ -387,7 +387,7 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
 ########################################################################################################
 
 ########################################################################################################
-with st.expander("Search 'on-sale' data at " + str(location) + " or from a previous query"):
+with st.expander("Search 'on-sale' data at " + str(location)):
   search_input = st.text_input('Enter items as ("Pasta, Chocolate") format', key=2)
   if search_input:
     original_df = df.copy()
