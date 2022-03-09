@@ -257,7 +257,7 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
       with col2:
         recommend = st.button('Recommend')
       if recommend:
-        rules = pd.read_csv('rules.csv')
+        rules = pd.read_csv(pathlib.Path('Deployment/rules.csv')).drop(columns='Unnamed: 0') # load association rules
         SpacyParser = SpacyParser()                                  # instantiate class object with parameter set to false
         original_df['parsed_product'] = SpacyParser.transform(df)
         shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
@@ -305,7 +305,7 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
       with col2:
         recommend = st.button('Recommend')
       if recommend:
-        rules = pd.read_csv('rules.csv')
+        rules = pd.read_csv(pathlib.Path('Deployment/rules.csv')).drop(columns='Unnamed: 0')
         SpacyParser = SpacyParser()                                  # instantiate class object with parameter set to false
         original_df['parsed_product'] = SpacyParser.transform(df)
         shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
@@ -354,7 +354,7 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
       with col2:
         recommend = st.button('Recommend')
       if recommend:
-        rules = pd.read_csv('rules.csv')
+        rules = pd.read_csv(pathlib.Path('Deployment/rules.csv')).drop(columns='Unnamed: 0')
         SpacyParser = SpacyParser()                                  # instantiate class object with parameter set to false
         original_df['parsed_product'] = SpacyParser.transform(df)
         shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
