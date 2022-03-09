@@ -277,7 +277,10 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
         st.markdown('You may also be interested in...')
         st.write(recommendation_cart)
       else:
-        st.write(shopping_cart)
+        try:
+          st.write(shopping_cart)
+        except Exception as e:
+          st.warning('Make sure to type an input!')
     else: # -----------------------------------------------------------------------------
       # if highest discount optimizer is off
       input = st.text_input('Enter items as ("Pasta, Chocolate") format')
@@ -325,7 +328,10 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
         st.markdown('You may also be interested in...')
         st.write(recommendation_cart)
       else:
-        st.write(shopping_cart)
+        try:
+          st.write(shopping_cart)
+        except Exception as e:
+          st.warning('Make sure to type an input!')
 # RANDOMIZED CART  # -----------------------------------------------------------------------------
   else:
     # use randomized cart feature
@@ -374,7 +380,10 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
         st.markdown('You may also be interested in...')
         st.write(recommendation_cart)
       else:
-        st.write(shopping_cart)
+        try:
+          st.write(shopping_cart)
+        except Exception as e:
+          st.warning('Make sure to type an input!')
 ########################################################################################################
 
 ########################################################################################################
