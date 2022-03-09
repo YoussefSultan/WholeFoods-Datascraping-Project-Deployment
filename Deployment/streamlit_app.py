@@ -12,27 +12,6 @@ from dash_bootstrap_templates import load_figure_template
 import platform
 from datetime import date
 from Spacy_Parser import SpacyParser
-################################
-if platform.system()=='Windows':
-  pass
-else: # if deployed on streamlit 'Debian/Linux'
-  @st.cache
-  def chromedriver_download():
-    os.system('sbase install chromedriver')
-    os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromedriver')
-  chromedriver_download()
-################################
-templates = [
-    "bootstrap",
-    "minty",
-    "pulse",
-    "flatly",
-    "quartz",
-    "cyborg",
-    "darkly",
-    "vapor",
-]
-load_figure_template(templates)
 #-----------Title/Header---------------------------------------------------------------#
 st.set_page_config(page_title = "Whole Foods 'On-Sale' Product Insights and Product Recommendation", page_icon = 'https://youssefsultan.github.io/images/LOGOW.png', layout="wide") 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
@@ -84,7 +63,26 @@ Current app features:
     - Recommends other discounted products in your generated shopping cart based on what other customers purchased together with their items
 """)
 ###################################################################
-
+if platform.system()=='Windows':
+  pass
+else: # if deployed on streamlit 'Debian/Linux'
+  @st.cache
+  def chromedriver_download():
+    os.system('sbase install chromedriver')
+    os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromedriver')
+  chromedriver_download()
+################################
+templates = [
+    "bootstrap",
+    "minty",
+    "pulse",
+    "flatly",
+    "quartz",
+    "cyborg",
+    "darkly",
+    "vapor",
+]
+load_figure_template(templates)
 #########Click to receive insights of your Whole Foods#############
 cwd = os.getcwd()
 scraper_dir = cwd + '\wholefoods_scraper.py' # local deployment path
