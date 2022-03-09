@@ -1,4 +1,4 @@
-setuptools==58
+setuptools==57.5.0
 cufflinks==0.17.3
 dash==2.0.0
 dash-bootstrap-components==1.0.2
