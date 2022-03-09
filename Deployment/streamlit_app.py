@@ -231,7 +231,7 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
       # if highest discount optimizer is on
       st.markdown('***Note: highest discount items may not always be the lowest priced due to the type of product...***')
       st.markdown('***Note: cart selections will be randomized if no optimization is selected...***')
-      input = st.text_input('Enter items as ("item1, item2") format')
+      input = st.text_input('Enter items as ("Pasta, Chocolate") format')
       
       if input:
         input_items = (input.split(', '))
@@ -280,7 +280,7 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
         st.write(shopping_cart)
     else: # -----------------------------------------------------------------------------
       # if highest discount optimizer is off
-      input = st.text_input('Enter items as ("item1, item2") format')
+      input = st.text_input('Enter items as ("Pasta, Chocolate") format')
       if input:
         input_items = (input.split(', '))
         original_df = df.copy()
@@ -329,7 +329,7 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
 # RANDOMIZED CART  # -----------------------------------------------------------------------------
   else:
     # use randomized cart feature
-    input = st.text_input('Enter items as ("item1, item2") format')
+    input = st.text_input('Enter items as ("Pasta, Chocolate") format')
     if input:
       input_items = (input.split(', '))
       original_df = df.copy()
@@ -379,7 +379,7 @@ with st.expander("Click here to generate a shopping cart from " + str(location) 
 
 ########################################################################################################
 with st.expander("Search 'on-sale' data at " + str(location) + " or from a previous query"):
-  search_input = st.text_input('Enter items as ("item1, item2") format', key=2)
+  search_input = st.text_input('Enter items as ("Pasta, Chocolate") format', key=2)
   if search_input:
     original_df = df.copy()
     search_input.split(', ')
