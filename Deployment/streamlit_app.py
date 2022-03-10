@@ -31,6 +31,9 @@ st.markdown("""
         <a class="nav-link" href="https://github.com/YoussefSultan" target="_blank">GitHub</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="https://youssefsultan.github.io/posts/wholefoods-data-scraper/" target="_blank">Blog Post</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="https://www.linkedin.com/in/youssefsultan/" target="_blank">LinkedIn</a>
       </li>
     </ul>
