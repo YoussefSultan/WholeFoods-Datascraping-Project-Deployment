@@ -61,8 +61,8 @@ discount_bins             object [discount bins I.E. 0% Off to 10% off] *
 
 - Recommendations are based on a random selection of a category within the top 10 confidence values (measure of the percentage of times that item B is purchased, given that item A was purchased.) this reduces bias by mitigating a selection of a category solely by the highest confidence. 
 
-![image](https://user-images.githubusercontent.com/89711840/157573260-1ba0970f-8185-4b8d-84d4-650877915982.png)
-***if a user were to have chocolate in their shopping cart, there is an equal chance a product in the category of item_B gets selected for the top 10 confidence values***
+![image](https://user-images.githubusercontent.com/89711840/157573260-1ba0970f-8185-4b8d-84d4-650877915982.png) </br>
+****if a user were to have chocolate in their shopping cart, there is an equal chance that a product within the top 10 confidence values in each category of item_B is recommended***
 
 
 This [project](https://share.streamlit.io/youssefsultan/wholefoods-datascraping-project-deployment/main/Deployment/streamlit_app.py) is deployed via Streamlit which uses a debian based linux image on their cloud, a big thanks to them for allowing many to use their platform with ease for data scientists like myself.
