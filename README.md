@@ -56,10 +56,13 @@ discount_bins             object [discount bins I.E. 0% Off to 10% off] *
 - Instacarts public dataset(s) of 3M customer orders is used and built to match taxonomy design (99 categories)
 - Apriori algorithm is applied to the designed dataset
 - Recommendations on the app are provided to the user based on association rules of Instacart customer data
-![](https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/wf_cf_visual.png)
-- Recommendations are based on a random sample of one of the top 10 confidence values so thresholds may vary and this reduces bias in selection of solely the highest confidence (measure of the percentage of times that item B is purchased, given that item A was purchased. 
-![image](https://user-images.githubusercontent.com/89711840/157573260-1ba0970f-8185-4b8d-84d4-650877915982.png)
 
+![](https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/wf_cf_visual.png)
+
+- Recommendations are based on a random selection of a category within the top 10 confidence values (measure of the percentage of times that item B is purchased, given that item A was purchased.) this reduces bias by mitigating a selection of a category solely by the highest confidence. 
+
+![image](https://user-images.githubusercontent.com/89711840/157573260-1ba0970f-8185-4b8d-84d4-650877915982.png)
+***if a user were to have chocolate in their shopping cart, there is an equal chance a product in the category of item_B gets selected for the top 10 confidence values***
 
 
 This [project](https://share.streamlit.io/youssefsultan/wholefoods-datascraping-project-deployment/main/Deployment/streamlit_app.py) is deployed via Streamlit which uses a debian based linux image on their cloud, a big thanks to them for allowing many to use their platform with ease for data scientists like myself.
