@@ -225,6 +225,7 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
 
 ################## Shopping cart Generator #############################################################
 with st.expander("Click here to generate a shopping cart from " + str(location)):
+  st.markdown('*if optimization parameter is not selected, cart will automatically generate randomly')
   price_optimizer = st.checkbox('Optimize for price')
 # cart generation by lowest price     
   if price_optimizer:
