@@ -68,9 +68,10 @@ Current app features:
     - Recommends other discounted products in your generated shopping cart based on what other customers purchased together with their items
 """)
 #----------App startup settings---------------------------------------------------#
-if platform.system()=='Windows':                                                  # if system is windows (local env) do nothing
-  pass
+if platform.system()=='Windows':                                                  # if system is windows (local env)
+  rules = pd.read_csv(str(pathlib.Path(os.getcwd())) + '/rules.csv').drop(columns='Unnamed: 0') # pull association rules from local path
 else:                                                                             # if system is streamlit(linux) (local env)
+  rules = pd.read_csv(pathlib.Path('Deployment/rules.csv')).drop(columns='Unnamed: 0') 
   @st.cache                                                                       # load streamlit cache
   def chromedriver_download():                                                    # download seleniumbase chromedriver
     os.system('sbase install chromedriver')
@@ -224,7 +225,7 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
     st.write('Debug Mode') 
 #---Shopping cart generator-------------------------------------------------------#  
 with st.expander("Click here to generate a shopping cart from " + str(location)):
-  st.markdown('*if optimization parameter is not selected, cart will automatically generate randomly')
+  st.markdown('*if an optimization parameter is not selected, clicking recommend will randomize your cart again as well.')
   price_optimizer = st.checkbox('Optimize for price')
 # cart generation by lowest price     
   if price_optimizer:                                                             # price optimizer checkbox
@@ -235,136 +236,148 @@ with st.expander("Click here to generate a shopping cart from " + str(location))
       st.markdown('***Note: highest discount items may not always be the lowest priced due to the type of product...***')
       st.markdown('***Note: cart selections will be randomized if no optimization is selected...***')
       input = st.text_input('Enter items as ("Pasta, Chocolate") format')
-      
-      if input:
-        input_items = (input.split(', '))
-        original_df = df.copy()
-        # Optimized Cart Generator with default sorted values (prime_discount Descending)
-        shopping_cart = pd.DataFrame(columns=original_df.columns)
-        for i in range(len(input_items)):
-            try:        
-                try:
-                    shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i],case=False)].head(1)], join='inner')
-                except Exception as e:
-                    print(e)
-                    shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i].replace(' ','-'),case=False)].head(1)], join='inner')
-            except Exception as p:
-                print(p)
-        not_prime = st.checkbox('Not a prime member')
-        if not_prime:
-          st.write("Your total cart as a normal shopper: $" + str(shopping_cart.sale.sum().round(2)))
-        else: 
-          st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum().round(2)))
+      try:
+        if input:
+          input_items = (input.split(', '))
+          original_df = df.copy()
+          # Optimized Cart Generator with default sorted values (prime_discount Descending)
+          shopping_cart = pd.DataFrame(columns=original_df.columns)
+          for i in range(len(input_items)):
+              try:        
+                  try:
+                      shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i],case=False)].head(1)], join='inner')
+                  except Exception as e:
+                      print(e)
+                      shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i].replace(' ','-'),case=False)].head(1)], join='inner')
+              except Exception as p:
+                  print(p)
+          not_prime = st.checkbox('Not a prime member')
+          if not_prime:
+            st.write("Your total cart as a normal shopper: $" + str(shopping_cart.sale.sum().round(2)))
+          else: 
+            st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum().round(2)))
+      except Exception as e:
+        st.warning(input + ' is not on sale or the search format is incorrect')
       col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
       with col1:
         st.button('Generate')
       with col2:
         recommend = st.button('Recommend')
       if recommend:
-        rules = pd.read_csv(pathlib.Path('Deployment/rules.csv')).drop(columns='Unnamed: 0') # load association rules
-        SpacyParser = SpacyParser()                                  # instantiate class object with parameter set to false
-        original_df['parsed_product'] = SpacyParser.transform(df)
-        shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
-        cart_category_list = list(shopping_cart.parsed_product)
-        recommendation_cart = pd.DataFrame(columns=original_df.columns)
         try:
-          for item in cart_category_list:
-              # initiate search of parsed product from first row of generated shopping cart
-              # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
-              index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
-              itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
-              recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)]) 
-        except Exception as e:
-          print(e)        
-        st.write(shopping_cart)
-        st.markdown('You may also be interested in...')
-        st.write(recommendation_cart)
+          SpacyParser = SpacyParser()                                  # instantiate class object with parameter set to false
+          original_df['parsed_product'] = SpacyParser.transform(df)
+          shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
+          cart_category_list = list(shopping_cart.parsed_product)
+          recommendation_cart = pd.DataFrame(columns=original_df.columns)
+          try:
+            for item in cart_category_list:
+                # initiate search of parsed product from first row of generated shopping cart
+                # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
+                index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
+                itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
+                recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)]) 
+          except Exception as e:
+            print(e)        
+          st.write(shopping_cart)
+          st.markdown('You may also be interested in...')
+          st.write(recommendation_cart)
+        except:
+          st.warning('generate a shopping cart to create a recommendation')
       else:
         try:
           st.write(shopping_cart)
-        except Exception as e:
-          st.warning('Make sure to type an input!')
+        except Exception:
+          pass
     else: # ----------------------------------------------------------------------# second cart parameter
       # if highest discount optimizer is off
       input = st.text_input('Enter items as ("Pasta, Chocolate") format')
-      if input:
-        input_items = (input.split(', '))
-        original_df = df.copy()
-        # Optimized Cart Generator with sort_values 
-        shopping_cart = pd.DataFrame(columns=original_df.columns)
-        for i in range(len(input_items)):
-            try:        
-                try:
-                    shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i],case=False)].sort_values(['prime', 'prime_discount'], ascending = ('True', 'False')).head(1)], join='inner')
-                except Exception as e:
-                    print(e)
-                    shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i].replace(' ','-'),case=False)].sort_values(['prime', 'prime_discount'], ascending = ('True', 'False')).head(1)], join='inner')
-            except Exception as p:
-                print(p)
-        not_prime = st.checkbox('Not a prime member')
-        if not_prime:
-          st.write("Your total cart as a normal shopper: $" + str(shopping_cart.sale.sum().round(2)))
-        else: 
-          st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum().round(2)))
+      try:  
+        if input:
+          input_items = (input.split(', '))
+          original_df = df.copy()
+          # Optimized Cart Generator with sort_values 
+          shopping_cart = pd.DataFrame(columns=original_df.columns)
+          for i in range(len(input_items)):
+              try:        
+                  try:
+                      shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i],case=False)].sort_values(['prime', 'prime_discount'], ascending = ('True', 'False')).head(1)], join='inner')
+                  except Exception as e:
+                      print(e)
+                      shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i].replace(' ','-'),case=False)].sort_values(['prime', 'prime_discount'], ascending = ('True', 'False')).head(1)], join='inner')
+              except Exception as p:
+                  print(p)
+          not_prime = st.checkbox('Not a prime member')
+          if not_prime:
+            st.write("Your total cart as a normal shopper: $" + str(shopping_cart.sale.sum().round(2)))
+          else: 
+            st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum().round(2)))
+      except Exception as e:
+        st.warning(input + ' is not on sale or the search format is incorrect')
       col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
       with col1:
         st.button('Generate')
       with col2:
         recommend = st.button('Recommend')
       if recommend:
-        rules = pd.read_csv(pathlib.Path('Deployment/rules.csv')).drop(columns='Unnamed: 0')
-        SpacyParser = SpacyParser()                                  # instantiate class object with parameter set to false
-        original_df['parsed_product'] = SpacyParser.transform(df)
-        shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
-        cart_category_list = list(shopping_cart.parsed_product)
-        recommendation_cart = pd.DataFrame(columns=original_df.columns)
         try:
-          for item in cart_category_list:
-              # initiate search of parsed product from first row of generated shopping cart
-              # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
-              index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
-              itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
-              recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)]) 
-        except Exception as e:
-          print(e)         
-        st.write(shopping_cart)
-        st.markdown('You may also be interested in...')
-        st.write(recommendation_cart)
+          SpacyParser = SpacyParser()                                  # instantiate class object with parameter set to false
+          original_df['parsed_product'] = SpacyParser.transform(df)
+          shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
+          cart_category_list = list(shopping_cart.parsed_product)
+          recommendation_cart = pd.DataFrame(columns=original_df.columns)
+          try:
+            for item in cart_category_list:
+                # initiate search of parsed product from first row of generated shopping cart
+                # rules[rules.item_A.str.contains(item, case=False)] # dataframe of rules containing the parsed_product of the generated shopping cart
+                index = rules[rules.item_A.str.contains(item, case=False)].index # index of rules containing parsed_product of the generated shopping cart
+                itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
+                recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)]) 
+          except Exception as e:
+            print(e)         
+          st.write(shopping_cart)
+          st.markdown('You may also be interested in...')
+          st.write(recommendation_cart)
+        except:
+          st.warning('generate a shopping cart to create a recommendation')
       else:
         try:
           st.write(shopping_cart)
-        except Exception as e:
-          st.warning('Make sure to type an input!')
+        except Exception:
+          pass
 # RANDOMIZED CART  # -------------------------------------------------------------# third cart parameter
   else:
     # use randomized cart feature
     input = st.text_input('Enter items as ("Pasta, Chocolate") format')
-    if input:
-      input_items = (input.split(', '))
-      original_df = df.copy()
-      # Random Cart Generator
-      shopping_cart = pd.DataFrame(columns=original_df.columns) # shopping cart dataframe
-      for i in range(len(input_items)):
-          try:        
-              try:
-                  shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i],case=False)].sample(1)], join='inner')
-              except Exception as e:
-                  print(e)
-                  shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i].replace(' ','-'),case=False)].sample(1)], join='inner')
-          except Exception as p:
-              print(p)
-      not_prime = st.checkbox('Not a prime member')
-      if not_prime:
-        st.write("Your total cart as a normal shopper: $" + str(shopping_cart.sale.sum().round(2)))
-      else: 
-        st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum().round(2)))
-      col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
-      with col1:
-        st.button('Generate Randomized')
-      with col2:
-        recommend = st.button('Recommend')
-      if recommend:
-        rules = pd.read_csv(pathlib.Path('Deployment/rules.csv')).drop(columns='Unnamed: 0')
+    try:  
+      if input:
+        input_items = (input.split(', '))
+        original_df = df.copy()
+        # Random Cart Generator
+        shopping_cart = pd.DataFrame(columns=original_df.columns) # shopping cart dataframe
+        for i in range(len(input_items)):
+            try:        
+                try:
+                    shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i],case=False)].sample(1)], join='inner')
+                except Exception as e:
+                    print(e)
+                    shopping_cart = pd.concat([shopping_cart,original_df.loc[original_df['product'].str.contains(input_items[i].replace(' ','-'),case=False)].sample(1)], join='inner')
+            except Exception as p:
+                print(p)
+        not_prime = st.checkbox('Not a prime member')
+        if not_prime:
+          st.write("Your total cart as a normal shopper: $" + str(shopping_cart.sale.sum().round(2)))
+        else: 
+          st.write("Your total cart as a prime member: $" + str(shopping_cart.prime.sum().round(2)))
+    except Exception as e:
+      st.warning(input + ' is not on sale or the search format is incorrect')
+    col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
+    with col1:
+      st.button('Generate Randomized')
+    with col2:
+      recommend = st.button('Recommend')
+    if recommend:
+      try:    
         SpacyParser = SpacyParser()                                  # instantiate class object with parameter set to false
         original_df['parsed_product'] = SpacyParser.transform(df)
         shopping_cart['parsed_product'] = SpacyParser.transform(shopping_cart)  
@@ -378,15 +391,18 @@ with st.expander("Click here to generate a shopping cart from " + str(location))
               itemb = list(rules.loc[index, 'item_B'])[int(np.random.randint(9, size=1))] # picks randomly from the top 5 associations of confidence
               recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)]) 
         except Exception as e:
-          print(e)       
+          print(e)
+          st.warning('generate a shopping cart to create a recommendation')       
         st.write(shopping_cart)
         st.markdown('You may also be interested in...')
         st.write(recommendation_cart)
-      else:
-        try:
-          st.write(shopping_cart)
-        except Exception as e:
-          st.warning('Make sure to type an input!')
+      except:
+        st.warning('Generate a shopping cart to make recommendations')
+    else:
+      try:
+        st.write(shopping_cart)
+      except Exception:
+        pass
 # Dataset search feature----------------------------------------------------------#
 with st.expander("Search 'on-sale' data at " + str(location)):
   search_input = st.text_input('Enter items as ("Pasta, Chocolate") format', key=2)
