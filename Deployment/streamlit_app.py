@@ -12,7 +12,7 @@ from dash_bootstrap_templates import load_figure_template
 import platform
 from datetime import date
 from Spacy_Parser import SpacyParser
-#-----------Title/Header---------------------------------------------------------------#
+#-----------Title/Header----------------------------------------------------------#
 st.set_page_config(page_title = "Whole Foods 'On-Sale' Product Insights and Product Recommendation", page_icon = 'https://youssefsultan.github.io/images/LOGOW.png', layout="wide") 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 st.title("Live Whole Foods 'On-Sale' Product Insights") 
@@ -40,10 +40,12 @@ st.markdown("""
   </div>
 </nav>
 """, unsafe_allow_html=True)
+#-----------Caption---------------------------------------------------------------#
 st.caption("""
 This is an app that gives Whole Foods shoppers and Amazon Prime Members the ability to make the most out of their spending and Prime membership when shopping by understanding what is 'on-sale/discounted' at their 
 local Whole Foods.  Click 'About this app' to learn more.
 """)
+#-----------About this app--------------------------------------------------------#
 with st.expander('About this app'):
   st.caption("""
 This app scrapes unstructured 'on-sale/discounted' product data from each category on the Whole Foods website pertaining to the user's zipcode/store and structures all of the data in a 
@@ -65,16 +67,16 @@ Current app features:
 - Recommendation system using collaborative filtering
     - Recommends other discounted products in your generated shopping cart based on what other customers purchased together with their items
 """)
-###################################################################
-if platform.system()=='Windows':
+#----------App startup settings---------------------------------------------------#
+if platform.system()=='Windows':                                                  # if system is windows (local env) do nothing
   pass
-else: # if deployed on streamlit 'Debian/Linux'
-  @st.cache
-  def chromedriver_download():
+else:                                                                             # if system is streamlit(linux) (local env)
+  @st.cache                                                                       # load streamlit cache
+  def chromedriver_download():                                                    # download seleniumbase chromedriver
     os.system('sbase install chromedriver')
     os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/chromedriver')
   chromedriver_download()
-################################
+#----------Load graph templates---------------------------------------------------#
 templates = [
     "bootstrap",
     "minty",
@@ -86,10 +88,13 @@ templates = [
     "vapor",
 ]
 load_figure_template(templates)
-#########Click to receive insights of your Whole Foods#############
-cwd = os.getcwd()
-scraper_dir = cwd + '\wholefoods_scraper.py' # local deployment path
-scraper_dir_deployment = cwd + '/Deployment/wholefoods_scraper.py' # streamlit path
+#-------------|Click to receive insights of your Whole Foods|---------------------#
+#                                                                                 #
+#-------------Pull local path / streamlit path of wholefoods scraper--------------#
+cwd = os.getcwd()                                                                 # gets path
+scraper_dir = cwd + '\wholefoods_scraper.py' # local deployment path              # gets local path
+scraper_dir_deployment = cwd + '/Deployment/wholefoods_scraper.py'                # gets streamlit path
+#------------------Input zipcode/scraper subprocess-------------------------------#
 if __name__=='__main__':
   with st.expander("Click to receive insights of your Whole Foods"):
       zipcode = st.text_input('Enter your zipcode:', max_chars=5) 
@@ -104,59 +109,55 @@ if __name__=='__main__':
           scrape()
       else:
         pass
-#----------Path for most recent scraped dataset (.pkl) on local path by date time-----------------------
+#----Path for most recent scraped dataset (.pkl) on local path by date time-------# This way we have each scraped .pkl in order to pull from
   path = sorted([f for f in pathlib.Path('scraped products dump').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True) # sorted path of scraped dataframes
   locpath = sorted([f for f in pathlib.Path('scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_mtime, reverse=True) # sorted path of of scraped dataframes' locations
-#----------Path for most recent scraped dataset (.pkl) on deployment path by date time------------------
+#----Path for most recent scraped dataset (.pkl) on deployment path by date time--#
   path_deployment = sorted([f for f in pathlib.Path('Deployment/scraped products dump').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True) # path adjusted for streamlit cloud deployment
   locpath_deployment = sorted([f for f in pathlib.Path('Deployment/scraped products dump/location').glob("*.pkl")], key=lambda f: f.stat().st_ctime, reverse=True) # path adjusted for streamlit cloud deployment
-#-------------------------------------------------------------------------------------------------------
-# Load latest most recent dataframe and its location              
-try:  
-  with open(str(path_deployment[0]), 'rb') as handle:             # Tries to open most recent df using streamlit path
-    df = pickle.load(handle)
-  with open(str(locpath_deployment[0]), 'rb') as handle2:         # Tries to open location of most recent df
+#----Load latest most recent dataframe and its location---------------------------# [The following is done so the app can be worked on in a local environment & streamlit cloud environment]               
+try:                                                                              #
+  with open(str(path_deployment[0]), 'rb') as handle:                             # Tries to open most recent df using streamlit path
+    df = pickle.load(handle)                 
+  with open(str(locpath_deployment[0]), 'rb') as handle2:                         # Tries to open location of most recent df
+    location = pickle.load(handle2)                
+except:                                                                           # If exception error due to not being on streamlit path  
+  with open(str(path[0]), 'rb') as handle:                                        # Opens most recent df using local path
+    df = pickle.load(handle)                 
+  with open(str(locpath[0]), 'rb') as handle2:                                    # Tries to open location of most recent df
     location = pickle.load(handle2)
-except:                                                           # If exception error due to not being on streamlit path  
-  with open(str(path[0]), 'rb') as handle:                        # Opens most recent df using local path
-    df = pickle.load(handle)
-  with open(str(locpath[0]), 'rb') as handle2:                    # Tries to open location of most recent df
-    location = pickle.load(handle2)
-########################################################################################################      
-
-######  Click to show insights of the last user's query in #############################################
+#---Show last user's query--------------------------------------------------------#                 
 with st.expander("Click to show insights of the last user's query in " + str(location) + " or select a previous query."):
-  if len(locpath_deployment) == 0:                                # if streamlit's deployment path is empty that means were on local path 
+  if len(locpath_deployment) == 0:                                                # if streamlit's deployment path is empty that means were on local path 
     selections = []                                 
-    for x in locpath:                                             # iterate through local path of scraped data and append each item path to a list
-      selections.append(str(x)[31:]) # indexed to hide path from app                                        
-    queryselection = st.selectbox('Select a previous query', tuple(selections))      # create our streamlit selectbox with each selection being a tuple of our 'selections' list
-  else:                                                           # if streamlit's deployment path is not 0, that means were on streamlit path
-    selections = []
+    for x in locpath:                                                             # iterate through local path of scraped data (.pkl) and append each item path to a list
+      selections.append(str(x)[31:])                                              # indexed to hide path from app and only show location                                        
+    queryselection = st.selectbox('Select a previous query', tuple(selections))   # create our streamlit selectbox with each selection being a tuple of our 'selections' list
+  else:                                                                           # if streamlit's deployment path is not 0, that means were on streamlit path
+    selections = []                                                               # repeat lines 131-135
     for x in locpath_deployment:                              
       selections.append(str(x)[42:])
     queryselection = st.selectbox('Select a previous query', tuple(selections))
-###################################################################
-#  
-  if queryselection:
-    if len(locpath_deployment) == 0:                              # if a selection from the select box is selected
-      try:                                                        # try opening dataframe and location using the selected path
+#---Query selection---------------------------------------------------------------#  
+  if queryselection:                                                              # if a query selection from the select box is selected
+    if len(locpath_deployment) == 0:                                              # if the streamlit path of datasets' sum is 0 then we're in a local environment                              
+      try:                                                                        
         with open(str(pathlib.Path('scraped products dump\\'+queryselection)), 'rb') as handle:             
-          df = pickle.load(handle)
+          df = pickle.load(handle)                                                # load the query selection from local path
         with open(str('scraped products dump\\location\\'+queryselection), 'rb') as handle2:         
           location = pickle.load(handle2)
       except Exception as e:
         st.write(e)
-    else:
-      try:
+    else:                                                                         # if the streamlit path of datasets' sum is not 0 then were in streamlit's environment
+      try:                                                                        # repeat lines 144-150
         with open(str(pathlib.Path('Deployment/scraped products dump/'+queryselection)), 'rb') as handle:             
           df = pickle.load(handle)
         with open(str('Deployment/scraped products dump/location/'+queryselection), 'rb') as handle2:         
           location = pickle.load(handle2)
       except Exception as e:
         st.write(e)
-  else:                                                           # if no selection has been picked
-    try:                                                          # re run our code from lines 81-90
+  else:                                                                           # if no query selection has been picked
+    try:                                                                          # repeat from lines 119-128
       with open(str(path_deployment[0]), 'rb') as handle:         
         df = pickle.load(handle)
       with open(str(locpath_deployment[0]), 'rb') as handle2:     
@@ -166,7 +167,7 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
         df = pickle.load(handle)
       with open(str(locpath[0]), 'rb') as handle2:                    
         location = pickle.load(handle2)
-  # initiate graphs
+#---Insights/Visualizations/Graphs------------------------------------------------#  
   
   try:
     st.markdown('There are ' + str(len(df)) + ' items "on-sale" in ' + str(location) + '. ***For a larger view hover over the dataset and click the full screen icon at the top right to filter by feature.***')   
@@ -221,16 +222,14 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
     fig4()
   except:
     st.write('Debug Mode') 
-########################################################################################################
-
-################## Shopping cart Generator #############################################################
+#---Shopping cart generator-------------------------------------------------------#  
 with st.expander("Click here to generate a shopping cart from " + str(location)):
   st.markdown('*if optimization parameter is not selected, cart will automatically generate randomly')
   price_optimizer = st.checkbox('Optimize for price')
 # cart generation by lowest price     
-  if price_optimizer:
-    highest_discount_optimizer = st.checkbox('Optimize for highest discount')
-# -----------------------------------------------------------------------------
+  if price_optimizer:                                                             # price optimizer checkbox
+    highest_discount_optimizer = st.checkbox('Optimize for highest discount')     # discount optimizer checkbox
+# --------------------------------------------------------------------------------# 1st cart parameter
     if highest_discount_optimizer:
       # if highest discount optimizer is on
       st.markdown('***Note: highest discount items may not always be the lowest priced due to the type of product...***')
@@ -285,7 +284,7 @@ with st.expander("Click here to generate a shopping cart from " + str(location))
           st.write(shopping_cart)
         except Exception as e:
           st.warning('Make sure to type an input!')
-    else: # -----------------------------------------------------------------------------
+    else: # ----------------------------------------------------------------------# second cart parameter
       # if highest discount optimizer is off
       input = st.text_input('Enter items as ("Pasta, Chocolate") format')
       if input:
@@ -336,7 +335,7 @@ with st.expander("Click here to generate a shopping cart from " + str(location))
           st.write(shopping_cart)
         except Exception as e:
           st.warning('Make sure to type an input!')
-# RANDOMIZED CART  # -----------------------------------------------------------------------------
+# RANDOMIZED CART  # -------------------------------------------------------------# third cart parameter
   else:
     # use randomized cart feature
     input = st.text_input('Enter items as ("Pasta, Chocolate") format')
@@ -388,9 +387,7 @@ with st.expander("Click here to generate a shopping cart from " + str(location))
           st.write(shopping_cart)
         except Exception as e:
           st.warning('Make sure to type an input!')
-########################################################################################################
-
-########################################################################################################
+# Dataset search feature----------------------------------------------------------#
 with st.expander("Search 'on-sale' data at " + str(location)):
   search_input = st.text_input('Enter items as ("Pasta, Chocolate") format', key=2)
   if search_input:
@@ -399,7 +396,7 @@ with st.expander("Search 'on-sale' data at " + str(location)):
     r = search_input.replace(', ','|')
     st.write(original_df.loc[original_df['product'].str.contains(r,case=False)])
     st.button('Search', key=3)
-########################################################################################################
+# Dataset download feature--------------------------------------------------------#
 with st.expander("Download 'on-sale' data at " + str(location) + " as a CSV File/Excel Spreadsheet"):
     
   #### Download Parsed Data Frame Button 
@@ -426,4 +423,4 @@ with st.expander("Download 'on-sale' data at " + str(location) + " as a CSV File
     "text/csv",
     key='download-csv'
   )
-########################################################################################################
+###################################################################################
