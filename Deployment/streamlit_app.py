@@ -10,6 +10,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from dash_bootstrap_templates import load_figure_template
 import platform
+import seaborn as sns
 from datetime import date
 from Spacy_Parser import SpacyParser
 #-----------Title/Header----------------------------------------------------------#
@@ -89,6 +90,7 @@ templates = [
     "vapor",
 ]
 load_figure_template(templates)
+cm = sns.light_palette("#FFE5B4", as_cmap=True)
 #-------------|Click to receive insights of your Whole Foods|---------------------#
 #                                                                                 #
 #-------------Pull local path / streamlit path of wholefoods scraper--------------#
@@ -278,14 +280,14 @@ with st.expander("Click here to generate a shopping cart from " + str(location))
                 recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)]) 
           except Exception as e:
             print(e)        
-          st.write(shopping_cart)
+          st.write(shopping_cart.style.background_gradient(cmap=cm).set_precision(2))
           st.markdown('You may also be interested in...')
-          st.write(recommendation_cart)
+          st.write(recommendation_cart.style.background_gradient(cmap=cm).set_precision(2))
         except:
           st.warning('generate a shopping cart to create a recommendation')
       else:
         try:
-          st.write(shopping_cart)
+          st.write(shopping_cart.style.background_gradient(cmap=cm).set_precision(2))
         except Exception:
           pass
     else: # ----------------------------------------------------------------------# second cart parameter
@@ -334,14 +336,14 @@ with st.expander("Click here to generate a shopping cart from " + str(location))
                 recommendation_cart = pd.concat([recommendation_cart,original_df[original_df['parsed_product'] == itemb].sample(1)]) 
           except Exception as e:
             print(e)         
-          st.write(shopping_cart)
+          st.write(shopping_cart.style.background_gradient(cmap=cm).set_precision(2))
           st.markdown('You may also be interested in...')
-          st.write(recommendation_cart)
+          st.write(recommendation_cart.style.background_gradient(cmap=cm).set_precision(2))
         except:
           st.warning('generate a shopping cart to create a recommendation')
       else:
         try:
-          st.write(shopping_cart)
+          st.write(shopping_cart.style.background_gradient(cmap=cm).set_precision(2))
         except Exception:
           pass
 # RANDOMIZED CART  # -------------------------------------------------------------# third cart parameter
@@ -392,14 +394,14 @@ with st.expander("Click here to generate a shopping cart from " + str(location))
         except Exception as e:
           print(e)
           st.warning('generate a shopping cart to create a recommendation')       
-        st.write(shopping_cart)
+        st.write(shopping_cart.style.background_gradient(cmap=cm).set_precision(2))
         st.markdown('You may also be interested in...')
-        st.write(recommendation_cart)
+        st.write(recommendation_cart.style.background_gradient(cmap=cm).set_precision(2))
       except:
         st.warning('Generate a shopping cart to make recommendations')
     else:
       try:
-        st.write(shopping_cart)
+        st.write(shopping_cart.style.background_gradient(cmap=cm).set_precision(2))
       except Exception:
         pass
 # Dataset search feature----------------------------------------------------------#
@@ -409,7 +411,7 @@ with st.expander("Search 'on-sale' data at " + str(location)):
     original_df = df.copy()
     search_input.split(', ')
     r = search_input.replace(', ','|')
-    st.write(original_df.loc[original_df['product'].str.contains(r,case=False)])
+    st.write(original_df.loc[original_df['product'].str.contains(r,case=False)].style.background_gradient(cmap=cm).set_precision(2))
     st.button('Search', key=3)
 # Dataset download feature--------------------------------------------------------#
 with st.expander("Download 'on-sale' data at " + str(location) + " as a CSV File/Excel Spreadsheet"):
