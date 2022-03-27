@@ -212,8 +212,7 @@ with st.expander("Click to show insights of the last user's query in " + str(loc
         "prime_discount": "Prime Discount by Percent (%)"
       }, template='darkly')
       st.plotly_chart(fig, use_container_width=True)
-
-    st.write(df)
+    st.write(df.style.background_gradient().set_precision(2))
     st.markdown('**Each graph is interactive, view details by hovering over the graph.**') 
     fig1()
     st.markdown('**You can also filter specific items out by clicking on them on the right, double click to filter all items out but the one selected.**')
