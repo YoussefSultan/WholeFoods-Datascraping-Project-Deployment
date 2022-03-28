@@ -20,7 +20,7 @@
 ![](https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/generate_cart.gif)
 
 - It recommends products to the user based on Instacart customer data using a collaborative filtering approach and the users generated shopping cart
-- For more information on the intuition behind the recommendation system click here or view the blog post
+- For more information on the intuition behind the recommendation system click [here](https://github.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/blob/main/README.md#recommendation-system-using-collaborative-filtering) or view the [blog post](https://youssefsultan.github.io/posts/wholefoods-data-scraper/)
 
 ![](https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/recommend.gif)
 
