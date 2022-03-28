@@ -53,13 +53,13 @@ discount_bins             object [discount bins I.E. 0% Off to 10% off] *
   - designing the taxonomy (categories) from scratch to have a unique signature (1400 avg items per data set --> 99 categories)
   - all of which is automated and preprocessed using a transformer with the help of sci-kit learn's [BaseEstimator](http://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.html) & [TransformerMixin](https://scikit-learn.org/stable/modules/generated/sklearn.base.TransformerMixin.html) 
  
-- Instacarts public dataset(s) of 3M customer orders is used and built to match taxonomy design (99 categories)
+- Instacart's public datasets of 3M customer orders and other tables are joined collectively, used and built to match the taxonomy design of the signature above (99 categories)
 - Apriori algorithm is applied to the designed dataset
-- Recommendations on the app are provided to the user based on association rules of Instacart customer data
+- Recommendations on the app are provided to the user based on association rules of Instacart customer data as well as the input of the user
 
 ![](https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/wf_cf_visual.png)
 
-- Recommendations are based on a random selection of a category within the top 10 confidence values (measure of the percentage of times that item B is purchased, given that item A was purchased.) this reduces bias by mitigating a selection of a category solely by the highest confidence. 
+- Recommendations are based on a random selection of a category within the top 10 confidence values (measure of the percentage of times that item in category B is purchased, given that item in category A was purchased.) this reduces bias by mitigating a selection of a category solely by the highest confidence. 
 
 ![image](https://user-images.githubusercontent.com/89711840/157573260-1ba0970f-8185-4b8d-84d4-650877915982.png) </br>
 ****if a user were to have chocolate in their shopping cart, there is an equal chance that a product within the top 10 confidence values in each category of item_B is recommended***
