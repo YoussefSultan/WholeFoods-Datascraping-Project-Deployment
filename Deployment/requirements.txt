@@ -27,3 +27,4 @@ webdriver-manager==3.5.2
 en_core_web_lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.2.0/en_core_web_lg-3.2.0.tar.gz
 seaborn==0.11.1
 click == 7.1.2
+Werkzeug==2.0.3
