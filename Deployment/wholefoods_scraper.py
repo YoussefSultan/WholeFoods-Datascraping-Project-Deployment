@@ -399,8 +399,8 @@ if df['product'].str.contains('Whole Foods Market').any():                  #---
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@# ------------------------------------------------------------------------|
 # Try fix column positioning using solution 1 if the product title exists in position [-3] of the list of the dictionary of each item in each category 
 try:                                                                            # ------------------------------------------------------------------------|
-    if df['regular'].str.contains('a|e|i|o|u', regex=True).any():               # Furthermore, this means that the other columns containing pricing have shifted values of information
-        ix = df[df['regular'].str.contains('a|e|i|o|u', regex=True)].index      # To apply proper values to each column we iterate where 'Prime member deal' exists at position [n][0]
+    if df['regular'].str.contains('[a-zA-Z]', regex=True).any():               # Furthermore, this means that the other columns containing pricing have shifted values of information
+        ix = df[df['regular'].str.contains('[a-zA-Z]', regex=True)].index      # To apply proper values to each column we iterate where 'Prime member deal' exists at position [n][0]
         for i in range(len(ix)):                                                # globals() is used to iterate through our list of categories which points to the actual objects containing the scraped data
             ct = globals()[df.loc[ix[i], 'category']]                           # -----------------------------------------------------------------------|
             df.loc[ix[i], 'company'] = [ct[n] for n in range(len(ct)) if 'Prime Member Deal' in ct[n][0] if df.loc[ix[i], 'regular'] in ct[n][-3]][0][-4]
@@ -513,8 +513,8 @@ except Exception as e:                                                          
 df = pd.DataFrame.from_dict(d)                                                                #     Dict ---> Dataframe   #
 #---------------------------------------------------------------------------------------------# # # # # # # # # # # # # # #    
 #-------------------------------------------------------------------------------------------------# # # # # # # # # # # # # # # # # #     
-if df['regular'].str.contains('a|e|i|o|u', regex=True).any():                                     # Drop columns that fail to parse #
-    ix = df[df['regular'].str.contains('a|e|i|o|u', regex=True)].index                            # # # # # # # # # # # # # # # # # #
+if df['regular'].str.contains('[a-zA-Z]', regex=True).any():                                     # Drop columns that fail to parse #
+    ix = df[df['regular'].str.contains('[a-zA-Z]', regex=True)].index                            # # # # # # # # # # # # # # # # # #
     df.drop(ix, inplace=True)                                                                     #              
     print('Dropping ' + str(len(ix)) + ' rows that failed to parse')                              #
 #-------------------------------------------------------------------------------------------------#  
