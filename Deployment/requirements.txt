@@ -7,7 +7,6 @@ dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-table==5.0.0
 dataclasses==0.6
-iplot==0.0.0
 ipython-genutils==0.2.0
 isort==5.6.4
 itsdangerous==2.0.1
